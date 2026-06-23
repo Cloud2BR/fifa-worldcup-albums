@@ -5,6 +5,8 @@ import teamImagesData from '../data/teamImages.json'
 import playerImagesData from '../data/playerImages.json'
 import entityImagesData from '../data/entityImages.json'
 
+const BASE_URL = import.meta.env.BASE_URL || '/'
+
 const STADIUM_MAP = stadiumImagesData.images || {}
 const TEAM_IMAGE_MAP = teamImagesData.images || {}
 const PLAYER_IMAGE_MAP = playerImagesData.images || {}
@@ -32,15 +34,15 @@ const SONG_BY_YEAR = {
 }
 
 const LOCAL_SONG_PREVIEWS = {
-  2022: '/audio/songs/2022-preview.wav',
-  2018: '/audio/songs/2018-preview.wav',
-  2014: '/audio/songs/2014-preview.wav',
-  2010: '/audio/songs/2010-preview.wav',
-  2006: '/audio/songs/2006-preview.wav',
-  2002: '/audio/songs/2002-preview.wav',
-  1998: '/audio/songs/1998-preview.wav',
-  1994: '/audio/songs/1994-preview.wav',
-  1990: '/audio/songs/1990-preview.wav',
+  2022: `${BASE_URL}audio/songs/2022-preview.wav`,
+  2018: `${BASE_URL}audio/songs/2018-preview.wav`,
+  2014: `${BASE_URL}audio/songs/2014-preview.wav`,
+  2010: `${BASE_URL}audio/songs/2010-preview.wav`,
+  2006: `${BASE_URL}audio/songs/2006-preview.wav`,
+  2002: `${BASE_URL}audio/songs/2002-preview.wav`,
+  1998: `${BASE_URL}audio/songs/1998-preview.wav`,
+  1994: `${BASE_URL}audio/songs/1994-preview.wav`,
+  1990: `${BASE_URL}audio/songs/1990-preview.wav`,
 }
 
 function LocalPreviewCard({ title, src, srcFallback, fallbackLabel, imageClassName = 'object-cover' }) {
@@ -150,7 +152,7 @@ function getEntityEntry(sticker) {
 
 function getEntityImageSources(entry) {
   const out = []
-  if (entry?.file) out.push(`/images/entities/${entry.file}`)
+  if (entry?.file) out.push(`${BASE_URL}images/entities/${entry.file}`)
   if (entry?.thumbUrl) out.push(entry.thumbUrl)
   return out.filter((value, index, arr) => value && arr.indexOf(value) === index)
 }
@@ -170,11 +172,11 @@ function StadiumSticker({ label }) {
   // Include thumbUrl (Wikimedia) in the fallback chain so real stadium photos show
   // when local files are not downloaded.
   const sources = [
-    `/images/stadiums/${fileName}`,
-    `/images/stadiums/${slug}.jpg`,
-    `/images/stadiums/${slug}.png`,
-    `/images/stadiums/${slug}.webp`,
-    `/images/stadiums/${slug}.svg`,
+    `${BASE_URL}images/stadiums/${fileName}`,
+    `${BASE_URL}images/stadiums/${slug}.jpg`,
+    `${BASE_URL}images/stadiums/${slug}.png`,
+    `${BASE_URL}images/stadiums/${slug}.webp`,
+    `${BASE_URL}images/stadiums/${slug}.svg`,
     entry?.thumbUrl || null,
   ].filter((value, index, arr) => value && arr.indexOf(value) === index)
   const [sourceIndex, setSourceIndex] = useState(0)
@@ -226,7 +228,7 @@ function PlayerStickerImage({ sticker }) {
   // Skip SVG files — they are placeholder silhouettes, not real photos.
   // Only use a local file if it's a real image format (jpg/jpeg/png/webp).
   const localFile = entry?.file && /\.(jpe?g|png|webp)$/i.test(entry.file)
-    ? `/images/players/${entry.file}`
+    ? `${BASE_URL}images/players/${entry.file}`
     : null
   const sources = [
     localFile,
@@ -285,7 +287,7 @@ function TeamImage({ teamCode, alt }) {
 
   return (
     <img
-      src={`/images/teams/${file}`}
+      src={`${BASE_URL}images/teams/${file}`}
       alt={alt}
       loading="lazy"
       className="h-8 w-8 shrink-0 rounded border border-amber-900/40 bg-white/90 object-cover"
@@ -454,14 +456,14 @@ function AlbumPage({ album, page, pageNumber, side }) {
 }
 
 function CoverSpread({ album }) {
-  const coverSrc = album.coverImage ? album.coverImage.replace(/^\.\//, '/') : null
-  const logoSrc = '/images/logos/fifa-logo.svg'
+  const coverSrc = album.coverImage ? album.coverImage.replace(/^\.\//, BASE_URL) : null
+  const logoSrc = `${BASE_URL}images/logos/fifa-logo.svg`
   const firstStadium = (album.stadiums || [])[0]
   const firstStadiumEntry = firstStadium ? STADIUM_MAP[firstStadium] : null
   const firstStadiumFile = firstStadium
     ? (firstStadiumEntry?.file || `${slugifyAssetName(firstStadium)}.jpg`)
     : null
-  const firstStadiumSrc = firstStadiumFile ? `/images/stadiums/${firstStadiumFile}` : null
+  const firstStadiumSrc = firstStadiumFile ? `${BASE_URL}images/stadiums/${firstStadiumFile}` : null
   const firstStadiumFallbackSrc = firstStadiumEntry?.thumbUrl || null
   const [coverStadiumSrc, setCoverStadiumSrc] = useState(firstStadiumSrc || firstStadiumFallbackSrc || null)
   const ballEntry = ENTITY_IMAGE_MAP[`${album.year}:ball`] || null
@@ -469,13 +471,13 @@ function CoverSpread({ album }) {
   const emblemEntry = ENTITY_IMAGE_MAP[`${album.year}:emblem`] || null
   const trophyEntry = ENTITY_IMAGE_MAP['global:trophy'] || null
   // For each entity: prefer local file, fall back to thumbUrl
-  const ballSrc = ballEntry?.file ? `/images/entities/${ballEntry.file}` : null
+  const ballSrc = ballEntry?.file ? `${BASE_URL}images/entities/${ballEntry.file}` : null
   const ballFallback = ballEntry?.thumbUrl || null
-  const mascotSrc = mascotEntry?.file ? `/images/entities/${mascotEntry.file}` : null
+  const mascotSrc = mascotEntry?.file ? `${BASE_URL}images/entities/${mascotEntry.file}` : null
   const mascotFallback = mascotEntry?.thumbUrl || null
-  const emblemSrc = emblemEntry?.file ? `/images/entities/${emblemEntry.file}` : null
+  const emblemSrc = emblemEntry?.file ? `${BASE_URL}images/entities/${emblemEntry.file}` : null
   const emblemFallback = emblemEntry?.thumbUrl || logoSrc
-  const trophySrc = trophyEntry?.file ? `/images/entities/${trophyEntry.file}` : null
+  const trophySrc = trophyEntry?.file ? `${BASE_URL}images/entities/${trophyEntry.file}` : null
   const trophyFallback = trophyEntry?.thumbUrl || null
 
   useEffect(() => {

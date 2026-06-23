@@ -1,4 +1,7 @@
+const BASE_URL = import.meta.env.BASE_URL || '/'
+
 function AlbumCard({ album, onOpen }) {
+  const coverSrc = album.coverImage ? album.coverImage.replace(/^\.\//, BASE_URL) : null
   return (
     <button
       type="button"
@@ -7,7 +10,7 @@ function AlbumCard({ album, onOpen }) {
     >
       <div className="relative overflow-hidden rounded-md">
         <img
-          src={album.coverImage}
+          src={coverSrc}
           alt={`${album.year} album cover (${album.publisher})`}
           className="h-44 w-full rounded-md object-cover transition duration-300 group-hover:scale-105"
         />
