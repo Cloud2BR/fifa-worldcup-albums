@@ -1,5 +1,36 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { buildAlbumPages, getTeam } from '../utils/stickers'
+import stadiumImagesData from '../data/stadiumImages.json'
+
+const STADIUM_IMAGES = stadiumImagesData.images || {}
+
+function StadiumPhoto({ label }) {
+  const entry = STADIUM_IMAGES[label]
+  const [failed, setFailed] = useState(false)
+  const showImage = entry && !failed
+
+  if (!showImage) {
+    return (
+      <svg viewBox="0 0 60 40" className="h-3/4 w-3/4 opacity-45" aria-hidden="true">
+        <ellipse cx="30" cy="30" rx="26" ry="8" fill="none" stroke="#fff" strokeWidth="1.5" />
+        <ellipse cx="30" cy="26" rx="22" ry="6" fill="none" stroke="#fff" strokeWidth="1" />
+        <path d="M4,30 Q30,10 56,30" fill="none" stroke="#fff" strokeWidth="1.5" />
+      </svg>
+    )
+  }
+
+  const src = `./images/stadiums/${entry.file}`
+  return (
+    <img
+      src={src}
+      alt={entry.caption || label}
+      title={`${label} — © ${entry.author} (${entry.license})`}
+      loading="lazy"
+      onError={() => setFailed(true)}
+      className="absolute inset-0 h-full w-full object-cover"
+    />
+  )
+}
 
 function Sticker({ sticker }) {
   const team = sticker.team ? getTeam(sticker.team) : null
@@ -56,13 +87,7 @@ function Sticker({ sticker }) {
             <text x="20" y="26" textAnchor="middle" fontSize="9" fontWeight="900" fill="#000">{sticker.team}</text>
           </svg>
         ) : null}
-        {sticker.kind === 'stadium' ? (
-          <svg viewBox="0 0 60 40" className="h-3/4 w-3/4 opacity-45" aria-hidden="true">
-            <ellipse cx="30" cy="30" rx="26" ry="8" fill="none" stroke="#fff" strokeWidth="1.5" />
-            <ellipse cx="30" cy="26" rx="22" ry="6" fill="none" stroke="#fff" strokeWidth="1" />
-            <path d="M4,30 Q30,10 56,30" fill="none" stroke="#fff" strokeWidth="1.5" />
-          </svg>
-        ) : null}
+        {sticker.kind === 'stadium' ? <StadiumPhoto label={sticker.label} /> : null}
         {sticker.kind === 'mascot' ? (
           <span className="pb-2 text-3xl" aria-hidden="true">🦊</span>
         ) : null}

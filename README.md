@@ -12,7 +12,12 @@ A React + Vite web application that presents FIFA World Cup tournament results a
 ## Features
 
 - Historical World Cup results table across all tournaments.
-- Interactive charts for titles, goals, and tournament trends.
+- Interactive charts for titles, goals, and tournament trends — including a
+  stacked **goals-by-phase** breakdown (group → R16 → QF → SF → 3rd → Final)
+  for World Cups with knockout data available.
+- **Knockout bracket diagrams** — pick any tournament with seeded data
+  (currently 2010, 2014, 2018, 2022) and follow the phase-by-phase flow
+  with the champion path highlighted.
 - Scrollable timeline combining tournament results and album visuals.
 - Album gallery covering every World Cup from **1930 to 2022**, grouped by era
   (Pre-Panini, Classic Panini, Modern Panini).
@@ -48,10 +53,45 @@ A React + Vite web application that presents FIFA World Cup tournament results a
 - `winner` (string)
 - `runnerUp` (string)
 - `finalScore` (string)
-- `goals` (number)
+- `goals` (number) — total goals scored in the tournament
 - `teams` (number)
 - `matches` (number)
 - `topScorer` (string)
+- `goalsPerMatch` (number) — pre-computed average (`goals / matches`, 2 dp)
+- `goalsByPhase` (object | null) — per-phase breakdown when known, with
+  keys `group`, `r16`, `qf`, `sf`, `thirdPlace`, `final`. The values sum
+  to `goals`. Currently populated for 2010, 2014, 2018, 2022; `null` for
+  earlier tournaments and can be backfilled following the same schema.
+
+### `matches.json`
+Knockout-stage matches per tournament. One entry per match under the
+`matches` array, with fields:
+- `year` (number)
+- `phase` (`"R16" | "QF" | "SF" | "3rd" | "Final"`)
+- `date` (`YYYY-MM-DD`)
+- `home`, `away` (string) — full team names matching `worldcups.json`
+- `score` (string, `"h-a"`) — regulation score (or score at end of AET)
+- `extraTime` (boolean) — `true` if extra time was played
+- `penalties` (string | null) — penalty shoot-out score `"h-a"` if any
+- `winner` (string) — name of the side that advanced (or the trophy
+  winner for the Final / 3rd-place match)
+
+Seeded for 2010, 2014, 2018, 2022. Older tournaments can be backfilled
+by appending entries to the same `matches` array — no schema change
+required.
+
+### `stadiumImages.json`
+Optional curated mapping from stadium name (as it appears in
+`albums.json` `stadiums[]`) to a free-license image entry:
+- `file` (string) — filename under `public/images/stadiums/`
+- `author` (string)
+- `license` (string) — must be PD / CC0 / CC-BY / CC-BY-SA
+- `sourceUrl` (string) — link to the Wikimedia Commons file page
+- `caption` (string)
+
+Until the binary file is committed, the `VirtualAlbum` component falls
+back to its built-in SVG silhouette automatically. Every entry must
+also be listed in [`CREDITS.md`](./CREDITS.md).
 
 ### `albums.json`
 - `year` (number)
@@ -97,6 +137,14 @@ and the players. **No copyrighted sticker images are bundled in this
 repository.** The virtual album renders styled placeholder slots (sticker
 number, team colours, position, shiny/foil flag) that mirror the structure of
 a real album so collectors can later drop in their own scans.
+
+Stadium photographs may be optionally bundled under `public/images/stadiums/`
+provided they are released under a permissive free-culture license
+(public-domain, CC0, CC-BY, or CC-BY-SA). Every bundled image must be
+listed in [`CREDITS.md`](./CREDITS.md) with its author, license, and
+source URL, and the same metadata must be present in
+`src/data/stadiumImages.json`. When no image file is present, the
+virtual album falls back to a styled SVG silhouette automatically.
 
 ## Local Setup
 

@@ -1,6 +1,8 @@
 import { useMemo, useState } from 'react'
 import ResultsChart from '../components/ResultsChart'
+import BracketDiagram from '../components/BracketDiagram'
 import worldCups from '../data/worldcups.json'
+import matchesData from '../data/matches.json'
 import { filterWorldCups } from '../utils/filters'
 
 function WorldCups() {
@@ -12,6 +14,21 @@ function WorldCups() {
   )
 
   const filtered = useMemo(() => filterWorldCups(worldCups, { winner }), [winner])
+
+  // Tournaments with bracket data available
+  const bracketYears = useMemo(
+    () => Array.from(new Set(matchesData.matches.map((m) => m.year))).sort((a, b) => b - a),
+    [],
+  )
+  const [bracketYear, setBracketYear] = useState(bracketYears[0] ?? null)
+  const bracketMatches = useMemo(
+    () => matchesData.matches.filter((m) => m.year === bracketYear),
+    [bracketYear],
+  )
+  const bracketCup = useMemo(
+    () => worldCups.find((c) => c.year === bracketYear) ?? null,
+    [bracketYear],
+  )
 
   return (
     <div className="space-y-6">
@@ -34,6 +51,37 @@ function WorldCups() {
       </div>
 
       <ResultsChart worldCups={worldCups} />
+
+      <section className="space-y-3">
+        <div className="flex flex-wrap items-center justify-between gap-3">
+          <h3 className="text-xl font-semibold">Knockout Bracket</h3>
+          <label className="flex items-center gap-2 text-sm">
+            Tournament
+            <select
+              value={bracketYear ?? ''}
+              onChange={(event) => setBracketYear(Number(event.target.value))}
+              className="rounded-md border border-slate-700 bg-slate-900 px-2 py-1"
+            >
+              {bracketYears.map((year) => {
+                const cup = worldCups.find((c) => c.year === year)
+                return (
+                  <option key={year} value={year}>
+                    {year} {cup ? `— ${cup.host}` : ''}
+                  </option>
+                )
+              })}
+            </select>
+          </label>
+        </div>
+        {bracketCup ? (
+          <p className="text-xs text-slate-400">
+            Champion: <span className="font-semibold text-amber-300">🏆 {bracketCup.winner}</span>
+            {' · '}Runner-up: <span className="text-slate-200">{bracketCup.runnerUp}</span>
+            {' · '}Final: <span className="font-mono text-slate-200">{bracketCup.finalScore}</span>
+          </p>
+        ) : null}
+        <BracketDiagram matches={bracketMatches} champion={bracketCup?.winner} />
+      </section>
 
       <div className="overflow-x-auto rounded-xl border border-slate-800">
         <table className="min-w-full divide-y divide-slate-800 text-sm">
