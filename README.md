@@ -1,5 +1,14 @@
 # FIFA World Cup History Albums
 
+Atlanta, USA
+
+[![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/)
+[Cloud2BR OSS - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)
+
+Last updated: 2026-06-23
+
+----------
+
 A React + Vite web application that presents FIFA World Cup tournament results and a visual gallery of official sticker albums.
 
 ## Screenshots
@@ -173,3 +182,10 @@ This repository is dual-licensed:
 - Open-source license: **AGPL-3.0** (`LICENSE`)
 - Commercial proprietary license: see `LICENSE-COMMERCIAL.md`
 - Licensing summary: `NOTICE`
+
+<!-- START BADGE -->
+<div align="center">
+  <img src="https://img.shields.io/badge/Total%20views-0-limegreen" alt="Total views">
+  <p>Refresh Date: 2026-06-23</p>
+</div>
+<!-- END BADGE -->
