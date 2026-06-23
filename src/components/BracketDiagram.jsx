@@ -26,7 +26,7 @@ function MatchCard({ match, champion }) {
   const teamRow = (team, won, isChampionTeam) => (
     <div
       className={[
-        'flex items-center justify-between gap-2 px-2 py-1 text-xs sm:text-sm',
+        'flex items-center justify-between gap-2 px-2 py-1.5 text-xs sm:text-sm',
         won ? 'font-semibold text-white' : 'text-slate-400',
         isChampionTeam && won ? 'text-amber-300' : '',
       ].join(' ')}
@@ -39,7 +39,7 @@ function MatchCard({ match, champion }) {
   return (
     <article
       className={[
-        'overflow-hidden rounded-lg border bg-slate-900 shadow-sm transition',
+        'overflow-hidden rounded-lg border bg-slate-900/95 shadow-sm transition duration-200 hover:-translate-y-0.5 hover:border-sky-400/50',
         isChampionMatch && match.winner === champion
           ? 'border-amber-400/70 ring-1 ring-amber-400/40'
           : 'border-slate-700',
@@ -49,7 +49,7 @@ function MatchCard({ match, champion }) {
       {teamRow(match.home, homeWon, homeIsChampion)}
       <div className="border-t border-slate-800" />
       {teamRow(match.away, awayWon, awayIsChampion)}
-      <div className="border-t border-slate-800 bg-slate-950/60 px-2 py-1 text-center font-mono text-[10px] text-slate-400">
+      <div className="border-t border-slate-800 bg-slate-950/80 px-2 py-1 text-center font-mono text-[10px] text-slate-300">
         {formatResult(match)}
       </div>
     </article>
@@ -78,7 +78,7 @@ function BracketDiagram({ matches, champion }) {
   }
 
   return (
-    <div className="overflow-x-auto rounded-xl border border-slate-800 bg-slate-950/40 p-3 sm:p-4">
+    <div className="overflow-x-auto rounded-xl border border-slate-800 bg-gradient-to-b from-slate-950/70 to-slate-950/30 p-3 sm:p-4">
       <div className="flex min-w-[760px] items-start gap-3 sm:gap-4">
         {PHASES.map((phase) => {
           const phaseMatches = byPhase[phase]
@@ -89,9 +89,12 @@ function BracketDiagram({ matches, champion }) {
               className="flex flex-1 min-w-[140px] flex-col"
               aria-label={PHASE_LABELS[phase]}
             >
-              <h4 className="mb-2 text-center text-[10px] font-bold uppercase tracking-widest text-sky-400">
+              <h4 className="mb-1 text-center text-[10px] font-bold uppercase tracking-widest text-sky-300">
                 {PHASE_LABELS[phase]}
               </h4>
+              <p className="mb-2 text-center text-[10px] uppercase tracking-wider text-slate-500">
+                {phaseMatches.length} {phaseMatches.length === 1 ? 'match' : 'matches'}
+              </p>
               <div
                 className={[
                   'flex flex-1 flex-col gap-2',

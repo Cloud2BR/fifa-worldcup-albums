@@ -15,16 +15,18 @@ function WorldCups() {
 
   const filtered = useMemo(() => filterWorldCups(worldCups, { winner }), [winner])
 
-  // Tournaments with bracket data available
-  const bracketYears = useMemo(
-    () => Array.from(new Set(matchesData.matches.map((m) => m.year))).sort((a, b) => b - a),
+  // Show every tournament year in the selector, even when detailed bracket matches are missing.
+  const allTournamentYears = useMemo(
+    () => worldCups.map((cup) => cup.year).sort((a, b) => b - a),
     [],
   )
-  const [bracketYear, setBracketYear] = useState(bracketYears[0] ?? null)
+  const bracketYearSet = useMemo(() => new Set(matchesData.matches.map((m) => m.year)), [])
+  const [bracketYear, setBracketYear] = useState(allTournamentYears[0] ?? null)
   const bracketMatches = useMemo(
     () => matchesData.matches.filter((m) => m.year === bracketYear),
     [bracketYear],
   )
+  const hasBracketData = bracketYear != null && bracketYearSet.has(bracketYear)
   const bracketCup = useMemo(
     () => worldCups.find((c) => c.year === bracketYear) ?? null,
     [bracketYear],
@@ -59,14 +61,17 @@ function WorldCups() {
             Tournament
             <select
               value={bracketYear ?? ''}
-              onChange={(event) => setBracketYear(Number(event.target.value))}
+              onChange={(event) =>
+                setBracketYear(event.target.value ? Number(event.target.value) : null)
+              }
               className="rounded-md border border-slate-700 bg-slate-900 px-2 py-1"
             >
-              {bracketYears.map((year) => {
+              {allTournamentYears.map((year) => {
                 const cup = worldCups.find((c) => c.year === year)
+                const hasData = bracketYearSet.has(year)
                 return (
                   <option key={year} value={year}>
-                    {year} {cup ? `— ${cup.host}` : ''}
+                    {year} {cup ? `— ${cup.host}` : ''} {hasData ? '' : '· summary only'}
                   </option>
                 )
               })}
@@ -78,6 +83,11 @@ function WorldCups() {
             Champion: <span className="font-semibold text-amber-300">🏆 {bracketCup.winner}</span>
             {' · '}Runner-up: <span className="text-slate-200">{bracketCup.runnerUp}</span>
             {' · '}Final: <span className="font-mono text-slate-200">{bracketCup.finalScore}</span>
+          </p>
+        ) : null}
+        {!hasBracketData ? (
+          <p className="text-xs text-slate-500">
+            Detailed knockout match data is not available for this year yet.
           </p>
         ) : null}
         <BracketDiagram matches={bracketMatches} champion={bracketCup?.winner} />
