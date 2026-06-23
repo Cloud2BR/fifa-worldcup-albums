@@ -8,14 +8,13 @@ import {
   PointElement,
   Tooltip,
 } from 'chart.js'
-import { Bar, Chart, Line } from 'react-chartjs-2'
+import { Bar, Line } from 'react-chartjs-2'
 import {
-  buildGoalsByPhaseData,
+  buildContinentalRivalryData,
+  buildCumulativeTitlesData,
+  buildFinalMarginsData,
+  buildFinalsAppearancesData,
   buildGoalsPerMatchData,
-  buildGoalsTrendData,
-  buildMatchesAndFinalScoreData,
-  buildTeamsMatchesData,
-  buildWinnerTitlesData,
 } from '../utils/stats'
 
 ChartJS.register(CategoryScale, LinearScale, BarElement, LineElement, PointElement, Tooltip, Legend)
@@ -44,143 +43,215 @@ const tooltipTheme = {
   padding: 10,
 }
 
-const options = {
-  responsive: true,
-  maintainAspectRatio: false,
-  interaction: { mode: 'index', intersect: false },
-  plugins: {
-    legend: legendTheme,
-    tooltip: tooltipTheme,
+const baseScales = {
+  x: {
+    ticks: { color: axisColor, maxRotation: 0, autoSkip: true, maxTicksLimit: 14 },
+    grid: { color: gridColor },
   },
-  scales: {
-    x: {
-      ticks: { color: axisColor, maxRotation: 0, autoSkip: true, maxTicksLimit: 12 },
-      grid: { color: gridColor },
-    },
-    y: {
-      ticks: { color: axisColor },
-      grid: { color: gridColor },
-      beginAtZero: true,
-    },
-  },
-  elements: {
-    line: { borderWidth: 3, tension: 0.25 },
-    point: { radius: 2, hoverRadius: 5, hitRadius: 8 },
+  y: {
+    ticks: { color: axisColor },
+    grid: { color: gridColor },
+    beginAtZero: true,
   },
 }
 
-const matchesScoreOptions = {
+// ── Chart option presets ────────────────────────────────────────────────────
+
+const cumulativeOptions = {
   responsive: true,
   maintainAspectRatio: false,
   interaction: { mode: 'index', intersect: false },
   plugins: {
-    legend: legendTheme,
+    legend: { ...legendTheme, position: 'right' },
     tooltip: tooltipTheme,
   },
   scales: {
     x: {
-      ticks: { color: axisColor, maxRotation: 0, autoSkip: true, maxTicksLimit: 12 },
-      grid: { color: gridColor },
+      ...baseScales.x,
+      ticks: { ...baseScales.x.ticks, maxRotation: 45, minRotation: 45, maxTicksLimit: 22 },
     },
     y: {
-      position: 'left',
-      title: { display: true, text: 'Matches', color: axisColor },
-      ticks: { color: axisColor },
-      grid: { color: gridColor },
-      beginAtZero: true,
-      suggestedMax: 70,
-    },
-    yScore: {
-      position: 'right',
-      title: { display: true, text: 'Final score (goals)', color: axisColor },
-      ticks: { color: axisColor, stepSize: 1 },
-      grid: { drawOnChartArea: false },
-      beginAtZero: true,
+      ...baseScales.y,
+      ticks: { ...baseScales.y.ticks, stepSize: 1 },
+      title: { display: true, text: 'Cumulative titles', color: axisColor },
       max: 6,
     },
   },
   elements: {
-    line: { borderWidth: 3, tension: 0.25 },
-    point: { radius: 3, hoverRadius: 5, hitRadius: 8 },
+    line: { borderWidth: 2.5, tension: 0 },
+    point: { radius: 3, hoverRadius: 7, hitRadius: 8 },
   },
 }
 
-const stackedOptions = {
+const horizontalBarOptions = {
+  responsive: true,
+  maintainAspectRatio: false,
+  indexAxis: 'y',
+  interaction: { mode: 'index', intersect: false },
+  plugins: { legend: legendTheme, tooltip: tooltipTheme },
+  scales: {
+    x: {
+      stacked: true,
+      ticks: { color: axisColor, stepSize: 1 },
+      grid: { color: gridColor },
+      beginAtZero: true,
+    },
+    y: {
+      stacked: true,
+      ticks: { color: axisColor, font: { size: 11 } },
+      grid: { color: gridColor },
+    },
+  },
+}
+
+const finalMarginsOptions = {
   responsive: true,
   maintainAspectRatio: false,
   interaction: { mode: 'index', intersect: false },
   plugins: {
-    legend: legendTheme,
-    tooltip: tooltipTheme,
+    legend: { display: false },
+    tooltip: {
+      ...tooltipTheme,
+      callbacks: {
+        title: ([ctx]) => `${ctx.label} Final`,
+        label: (ctx) =>
+          ctx.raw === 0
+            ? 'Decided by penalty shootout'
+            : `Goal difference: ${ctx.raw}`,
+      },
+    },
   },
   scales: {
     x: {
-      stacked: true,
-      ticks: { color: axisColor, maxRotation: 0, autoSkip: true, maxTicksLimit: 12 },
-      grid: { color: gridColor },
+      ...baseScales.x,
+      ticks: { ...baseScales.x.ticks, maxRotation: 45, minRotation: 45 },
     },
     y: {
-      stacked: true,
-      title: { display: true, text: 'Goals', color: axisColor },
-      ticks: { color: axisColor },
-      grid: { color: gridColor },
-      beginAtZero: true,
+      ...baseScales.y,
+      ticks: { ...baseScales.y.ticks, stepSize: 1 },
+      title: { display: true, text: 'Goal diff', color: axisColor },
+      max: 5,
     },
   },
 }
 
+const goalsPerMatchOptions = {
+  responsive: true,
+  maintainAspectRatio: false,
+  interaction: { mode: 'index', intersect: false },
+  plugins: { legend: legendTheme, tooltip: tooltipTheme },
+  scales: {
+    x: {
+      ...baseScales.x,
+      ticks: { ...baseScales.x.ticks, maxRotation: 45, minRotation: 45 },
+    },
+    y: {
+      ...baseScales.y,
+      ticks: { ...baseScales.y.ticks },
+      title: { display: true, text: 'Goals / match', color: axisColor },
+      suggestedMax: 6,
+    },
+  },
+  elements: {
+    line: { borderWidth: 2.5, tension: 0.3 },
+    point: { radius: 3, hoverRadius: 6, hitRadius: 8 },
+  },
+}
+
+const groupedBarOptions = {
+  responsive: true,
+  maintainAspectRatio: false,
+  interaction: { mode: 'index', intersect: false },
+  plugins: { legend: legendTheme, tooltip: tooltipTheme },
+  scales: {
+    ...baseScales,
+    y: { ...baseScales.y, ticks: { ...baseScales.y.ticks, stepSize: 1 } },
+  },
+}
+
+// ── Legend chip component ───────────────────────────────────────────────────
+
+function LegendChip({ color, label }) {
+  return (
+    <span className="flex items-center gap-1.5 text-[11px]">
+      <span className="inline-block h-2.5 w-2.5 rounded-sm" style={{ background: color }} />
+      <span className="text-slate-300">{label}</span>
+    </span>
+  )
+}
+
+// ── Main component ──────────────────────────────────────────────────────────
+
 function ResultsChart({ worldCups }) {
   return (
     <div className="space-y-6">
-      <article className="rounded-xl border border-slate-800 bg-slate-900 p-4">
-        <h3 className="mb-3 text-sm font-semibold text-slate-200">
-          Matches Played & Final Score by Year
-        </h3>
-        <div className="h-[420px]">
-          <Chart type="bar" data={buildMatchesAndFinalScoreData(worldCups)} options={matchesScoreOptions} />
-        </div>
-      </article>
 
+      {/* 1 ─ Title Race Through History */}
       <article className="rounded-xl border border-slate-800 bg-slate-900 p-4">
-        <h3 className="mb-1 text-sm font-semibold text-slate-200">
-          Goals by Tournament Phase
-        </h3>
-        <p className="mb-3 text-xs text-slate-400">
-          Stacked breakdown — group stage vs each knockout round. Currently seeded for 2010–2022; older tournaments will appear once their per-phase data is added.
+        <h3 className="text-sm font-semibold text-slate-200">Title Race Through History</h3>
+        <p className="mt-0.5 mb-4 text-xs text-slate-400">
+          Cumulative World Cup titles per nation at each tournament — trace which country led at any point in time.
         </p>
-        <div className="h-[320px]">
-          <Bar data={buildGoalsByPhaseData(worldCups)} options={stackedOptions} />
+        <div className="h-[360px]">
+          <Line data={buildCumulativeTitlesData(worldCups)} options={cumulativeOptions} />
         </div>
       </article>
 
-      <div className="grid gap-6 lg:grid-cols-3">
+      {/* 2 ─ Finals Appearances + Final Margins */}
+      <div className="grid gap-6 lg:grid-cols-2">
         <article className="rounded-xl border border-slate-800 bg-slate-900 p-4">
-          <h3 className="mb-3 text-sm font-semibold text-slate-200">Titles by Winner</h3>
-          <div className="h-[300px]">
-            <Bar data={buildWinnerTitlesData(worldCups)} options={options} />
-          </div>
-        </article>
-        <article className="rounded-xl border border-slate-800 bg-slate-900 p-4">
-          <h3 className="mb-3 text-sm font-semibold text-slate-200">Goals per Tournament</h3>
-          <div className="h-[300px]">
-            <Line data={buildGoalsTrendData(worldCups)} options={options} />
-          </div>
-        </article>
-        <article className="rounded-xl border border-slate-800 bg-slate-900 p-4">
-          <h3 className="mb-3 text-sm font-semibold text-slate-200">Goals per Match (avg)</h3>
-          <div className="h-[300px]">
-            <Line data={buildGoalsPerMatchData(worldCups)} options={options} />
-          </div>
-        </article>
-        <article className="rounded-xl border border-slate-800 bg-slate-900 p-4 lg:col-span-3">
-          <h3 className="mb-3 text-sm font-semibold text-slate-200">Teams and Matches Trend</h3>
+          <h3 className="text-sm font-semibold text-slate-200">Finals Appearances by Nation</h3>
+          <p className="mt-0.5 mb-4 text-xs text-slate-400">
+            Total World Cup final appearances — champions (gold) vs runners-up (grey). West Germany and Germany merged.
+          </p>
           <div className="h-[360px]">
-            <Line data={buildTeamsMatchesData(worldCups)} options={options} />
+            <Bar data={buildFinalsAppearancesData(worldCups)} options={horizontalBarOptions} />
+          </div>
+        </article>
+
+        <article className="rounded-xl border border-slate-800 bg-slate-900 p-4">
+          <h3 className="text-sm font-semibold text-slate-200">Final Match Drama by Year</h3>
+          <p className="mt-0.5 mb-3 text-xs text-slate-400">
+            Goal difference in each final — how decisive was the match?
+          </p>
+          <div className="mb-3 flex flex-wrap gap-3">
+            <LegendChip color="rgba(34,197,94,0.85)" label="Dominant win (2+ goals)" />
+            <LegendChip color="rgba(56,189,248,0.85)" label="Close (1 goal)" />
+            <LegendChip color="rgba(251,191,36,0.85)" label="Penalty shootout" />
+          </div>
+          <div className="h-[310px]">
+            <Bar data={buildFinalMarginsData(worldCups)} options={finalMarginsOptions} />
           </div>
         </article>
       </div>
+
+      {/* 3 ─ Goals/Match Trend + Continental Rivalry */}
+      <div className="grid gap-6 lg:grid-cols-2">
+        <article className="rounded-xl border border-slate-800 bg-slate-900 p-4">
+          <h3 className="text-sm font-semibold text-slate-200">Scoring Trend — Goals per Match</h3>
+          <p className="mt-0.5 mb-4 text-xs text-slate-400">
+            Average goals per game across all matches — the 1950s high-scoring era vs modern tactical football.
+          </p>
+          <div className="h-[280px]">
+            <Line data={buildGoalsPerMatchData(worldCups)} options={goalsPerMatchOptions} />
+          </div>
+        </article>
+
+        <article className="rounded-xl border border-slate-800 bg-slate-900 p-4">
+          <h3 className="text-sm font-semibold text-slate-200">UEFA vs CONMEBOL — Dominance by Decade</h3>
+          <p className="mt-0.5 mb-4 text-xs text-slate-400">
+            World Cup wins per decade, split by confederation — Europe vs South America's historic rivalry.
+          </p>
+          <div className="h-[280px]">
+            <Bar data={buildContinentalRivalryData(worldCups)} options={groupedBarOptions} />
+          </div>
+        </article>
+      </div>
+
     </div>
   )
 }
 
 export default ResultsChart
+
+
