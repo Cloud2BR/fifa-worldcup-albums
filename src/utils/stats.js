@@ -1,8 +1,12 @@
 export function buildQuickStats(worldCups, albums) {
+  const totalMatches = worldCups.reduce((sum, cup) => sum + (cup.matches || 0), 0)
+  const totalGoals = worldCups.reduce((sum, cup) => sum + (cup.goals || 0), 0)
   return {
     tournaments: worldCups.length,
     uniqueWinners: new Set(worldCups.map((cup) => cup.winner)).size,
-    totalGoals: worldCups.reduce((sum, cup) => sum + cup.goals, 0),
+    totalGoals,
+    totalMatches,
+    goalsPerMatch: totalMatches > 0 ? Math.round((totalGoals / totalMatches) * 100) / 100 : 0,
     albums: albums.length,
   }
 }
@@ -101,6 +105,72 @@ export function buildMatchesAndFinalScoreData(worldCups) {
         yAxisID: 'yScore',
         tension: 0.3,
         order: 1,
+      },
+    ],
+  }
+}
+
+export function buildGoalsByPhaseData(worldCups) {
+  const withPhase = worldCups.filter((cup) => cup.goalsByPhase)
+  return {
+    labels: withPhase.map((cup) => cup.year),
+    datasets: [
+      {
+        label: 'Group',
+        data: withPhase.map((cup) => cup.goalsByPhase.group),
+        backgroundColor: '#0ea5e9',
+        stack: 'goals',
+      },
+      {
+        label: 'R16',
+        data: withPhase.map((cup) => cup.goalsByPhase.r16),
+        backgroundColor: '#22c55e',
+        stack: 'goals',
+      },
+      {
+        label: 'QF',
+        data: withPhase.map((cup) => cup.goalsByPhase.qf),
+        backgroundColor: '#f97316',
+        stack: 'goals',
+      },
+      {
+        label: 'SF',
+        data: withPhase.map((cup) => cup.goalsByPhase.sf),
+        backgroundColor: '#a855f7',
+        stack: 'goals',
+      },
+      {
+        label: '3rd place',
+        data: withPhase.map((cup) => cup.goalsByPhase.thirdPlace),
+        backgroundColor: '#94a3b8',
+        stack: 'goals',
+      },
+      {
+        label: 'Final',
+        data: withPhase.map((cup) => cup.goalsByPhase.final),
+        backgroundColor: '#facc15',
+        stack: 'goals',
+      },
+    ],
+  }
+}
+
+export function buildGoalsPerMatchData(worldCups) {
+  return {
+    labels: worldCups.map((cup) => cup.year),
+    datasets: [
+      {
+        label: 'Goals per match',
+        data: worldCups.map((cup) =>
+          cup.goalsPerMatch != null
+            ? cup.goalsPerMatch
+            : cup.matches
+              ? Math.round((cup.goals / cup.matches) * 100) / 100
+              : null,
+        ),
+        borderColor: '#facc15',
+        backgroundColor: 'rgba(250, 204, 21, 0.3)',
+        tension: 0.3,
       },
     ],
   }

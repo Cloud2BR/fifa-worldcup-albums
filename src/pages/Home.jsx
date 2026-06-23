@@ -38,10 +38,11 @@ function Home() {
         </div>
       </section>
 
-      <section className="grid gap-4 md:grid-cols-4">
+      <section className="grid gap-4 md:grid-cols-2 lg:grid-cols-5">
         <StatCard label="Tournaments" value={stats.tournaments} />
         <StatCard label="Unique Winners" value={stats.uniqueWinners} />
         <StatCard label="Total Goals" value={stats.totalGoals.toLocaleString()} />
+        <StatCard label="Goals / Match" value={stats.goalsPerMatch} helper={`across ${stats.totalMatches} matches`} />
         <StatCard label="Albums Catalogued" value={stats.albums} />
       </section>
 
