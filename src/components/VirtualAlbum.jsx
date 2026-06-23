@@ -43,17 +43,40 @@ const LOCAL_SONG_PREVIEWS = {
   1990: '/audio/songs/1990-preview.wav',
 }
 
-function LocalPreviewCard({ title, src, fallbackLabel, imageClassName = 'object-cover' }) {
+function LocalPreviewCard({ title, src, srcFallback, fallbackLabel, imageClassName = 'object-cover' }) {
+  // Support a primary src with optional fallback URL before showing text
+  const sources = [src, srcFallback].filter(Boolean)
+  const [sourceIndex, setSourceIndex] = useState(0)
+
+  // Reset when src changes (different album year)
+  useEffect(() => { setSourceIndex(0) }, [src])
+
+  const activeSrc = sources[sourceIndex]
   return (
     <div className="overflow-hidden rounded-lg border border-amber-900/35 bg-[#efe6d0]">
       <div className="border-b border-amber-900/25 bg-[#e8dcc0] px-2 py-1">
         <p className="text-[10px] font-bold uppercase tracking-wider text-slate-700">{title}</p>
       </div>
       <div className="relative h-32 w-full bg-[#d9ccb1]">
-        {src ? (
-          <img src={src} alt={title} loading="lazy" className={`h-full w-full object-center ${imageClassName}`} />
+        {activeSrc ? (
+          <img
+            src={activeSrc}
+            alt={title}
+            loading="lazy"
+            className={`h-full w-full object-center ${imageClassName}`}
+            onError={() => {
+              if (sourceIndex < sources.length - 1) {
+                setSourceIndex((i) => i + 1)
+              } else {
+                // hide broken img
+                const el = document.querySelector(`[data-preview-title="${CSS.escape(title)}"] img`)
+                if (el) el.style.display = 'none'
+              }
+            }}
+          />
         ) : (
           <div className="flex h-full flex-col items-center justify-center gap-1 px-2 text-center">
+            <span className="text-2xl">🖼️</span>
             <span className="text-xs font-semibold text-slate-600">{fallbackLabel}</span>
           </div>
         )}
@@ -444,10 +467,15 @@ function CoverSpread({ album }) {
   const mascotEntry = ENTITY_IMAGE_MAP[`${album.year}:mascot`] || null
   const emblemEntry = ENTITY_IMAGE_MAP[`${album.year}:emblem`] || null
   const trophyEntry = ENTITY_IMAGE_MAP['global:trophy'] || null
-  const ballSrc = ballEntry?.file ? `/images/entities/${ballEntry.file}` : ballEntry?.thumbUrl || null
-  const mascotSrc = mascotEntry?.file ? `/images/entities/${mascotEntry.file}` : mascotEntry?.thumbUrl || null
-  const emblemSrc = emblemEntry?.file ? `/images/entities/${emblemEntry.file}` : emblemEntry?.thumbUrl || logoSrc
-  const trophySrc = trophyEntry?.file ? `/images/entities/${trophyEntry.file}` : trophyEntry?.thumbUrl || null
+  // For each entity: prefer local file, fall back to thumbUrl
+  const ballSrc = ballEntry?.file ? `/images/entities/${ballEntry.file}` : null
+  const ballFallback = ballEntry?.thumbUrl || null
+  const mascotSrc = mascotEntry?.file ? `/images/entities/${mascotEntry.file}` : null
+  const mascotFallback = mascotEntry?.thumbUrl || null
+  const emblemSrc = emblemEntry?.file ? `/images/entities/${emblemEntry.file}` : null
+  const emblemFallback = emblemEntry?.thumbUrl || logoSrc
+  const trophySrc = trophyEntry?.file ? `/images/entities/${trophyEntry.file}` : null
+  const trophyFallback = trophyEntry?.thumbUrl || null
 
   useEffect(() => {
     setCoverStadiumSrc(firstStadiumSrc || firstStadiumFallbackSrc || null)
@@ -540,23 +568,30 @@ function CoverSpread({ album }) {
             <LocalPreviewCard
               title="Tournament Logo"
               src={emblemSrc}
-              fallbackLabel="Local logo preview"
+              srcFallback={emblemFallback}
+              fallbackLabel="No emblem available"
               imageClassName="object-contain"
             />
             <LocalPreviewCard
               title="Official Ball"
               src={ballSrc}
+              srcFallback={ballFallback}
               fallbackLabel={album.ball || 'Ball name unavailable'}
+              imageClassName="object-contain"
             />
             <LocalPreviewCard
               title="Mascot"
               src={mascotSrc}
-              fallbackLabel={album.mascot || 'Mascot unavailable'}
+              srcFallback={mascotFallback}
+              fallbackLabel={album.mascot || 'No mascot'}
+              imageClassName="object-contain"
             />
             <LocalPreviewCard
               title="Trophy"
               src={trophySrc}
+              srcFallback={trophyFallback}
               fallbackLabel="FIFA World Cup Trophy"
+              imageClassName="object-contain"
             />
           </div>
 

@@ -15,7 +15,7 @@ function Albums() {
     <div className="space-y-6">
       <section className="rounded-xl border border-amber-300/25 bg-gradient-to-br from-amber-950/30 via-slate-900 to-slate-950 p-6">
         <p className="text-xs font-semibold uppercase tracking-widest text-sky-400">
-          1930 - 2022 | Reference mode
+          1930 - 2026 | Reference mode
         </p>
         <h2 className="mt-1 text-2xl font-bold text-white">World Cup Album Book Layout</h2>
         <p className="mt-2 text-slate-400">
