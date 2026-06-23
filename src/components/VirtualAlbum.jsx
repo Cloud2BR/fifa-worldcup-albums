@@ -1,11 +1,45 @@
-import { useMemo } from 'react'
+import { useMemo, useState } from 'react'
 import { buildAlbumPages, getTeam } from '../utils/stickers'
+import stadiumImagesData from '../data/stadiumImages.json'
+
+const STADIUM_MAP = stadiumImagesData.images || {}
+
+function StadiumSticker({ label }) {
+  const entry = STADIUM_MAP[label]
+  const [failed, setFailed] = useState(false)
+  const url = entry?.thumbUrl
+
+  if (url && !failed) {
+    return (
+      <img
+        src={url}
+        alt={entry.caption || label}
+        title={`${label} — © ${entry.author} (${entry.license})`}
+        loading="lazy"
+        onError={() => setFailed(true)}
+        className="absolute inset-0 h-full w-full object-cover"
+      />
+    )
+  }
+  return (
+    <svg viewBox="0 0 60 40" className="h-3/4 w-3/4 opacity-40" aria-hidden="true">
+      <ellipse cx="30" cy="30" rx="26" ry="8" fill="none" stroke="#fff" strokeWidth="1.5" />
+      <ellipse cx="30" cy="26" rx="22" ry="6" fill="none" stroke="#fff" strokeWidth="1" />
+      <path d="M4,30 Q30,10 56,30" fill="none" stroke="#fff" strokeWidth="1.5" />
+    </svg>
+  )
+}
 
 function StickerSlot({ sticker }) {
   const team = sticker.team ? getTeam(sticker.team) : null
   const isShiny = Boolean(sticker.isShiny)
+  const isStadium = sticker.kind === 'stadium'
+  const isBadge = sticker.kind === 'badge'
+  const isPlayer = sticker.kind === 'player'
 
-  const style = team
+  const bgStyle = isStadium
+    ? { background: '#0f172a' }
+    : team
     ? {
         background: isShiny
           ? `linear-gradient(145deg, ${team.primary} 0%, ${team.accent} 42%, ${team.secondary} 100%)`
@@ -19,34 +53,63 @@ function StickerSlot({ sticker }) {
 
   return (
     <div className="relative aspect-[3/4] overflow-hidden rounded-[8px] border border-amber-900/40 bg-slate-800 shadow-sm">
-      <div className="absolute inset-[3px] rounded-[6px] border border-amber-50/40" style={style} />
-      {isShiny ? (
+      <div className="absolute inset-[3px] rounded-[6px]" style={bgStyle} />
+
+      {isShiny && !isStadium ? (
         <div
           aria-hidden="true"
           className="pointer-events-none absolute inset-[3px] rounded-[6px] opacity-50"
           style={{
             background:
-              'linear-gradient(112deg, transparent 28%, rgba(255, 255, 255, 0.65) 45%, transparent 62%)',
+              'linear-gradient(112deg, transparent 28%, rgba(255,255,255,0.65) 45%, transparent 62%)',
           }}
         />
+      ) : null}
+
+      {/* Stadium real image */}
+      {isStadium ? (
+        <div className="absolute inset-[3px] flex items-center justify-center overflow-hidden rounded-[6px]">
+          <StadiumSticker label={sticker.label} />
+        </div>
+      ) : null}
+
+      {/* Player silhouette */}
+      {isPlayer ? (
+        <div className="absolute inset-0 flex items-end justify-center" aria-hidden="true">
+          <svg viewBox="0 0 40 56" className="h-3/4 w-1/2 opacity-25">
+            <circle cx="20" cy="11" r="8" fill="currentColor" />
+            <path d="M4,56 Q2,34 10,30 L20,28 L30,30 Q38,34 36,56 Z" fill="currentColor" />
+            <path d="M10,30 L6,46 M30,30 L34,46" stroke="currentColor" strokeWidth="4" strokeLinecap="round" />
+          </svg>
+        </div>
+      ) : null}
+
+      {/* Badge shield */}
+      {isBadge && team ? (
+        <div className="absolute inset-0 flex items-center justify-center" aria-hidden="true">
+          <svg viewBox="0 0 44 54" className="h-3/5 w-3/5">
+            <path d="M22,2 L42,10 L42,30 Q42,46 22,52 Q2,46 2,30 L2,10 Z"
+              fill={team.accent || team.secondary} stroke="rgba(0,0,0,0.35)" strokeWidth="1.5" />
+            <text x="22" y="32" textAnchor="middle" fontSize="11" fontWeight="900"
+              fill={team.primary} fontFamily="sans-serif">{sticker.team}</text>
+          </svg>
+        </div>
       ) : null}
 
       <span className="absolute left-1 top-1 rounded bg-black/70 px-1 py-0.5 font-mono text-[9px] font-bold text-amber-100">
         {String(sticker.number).padStart(3, '0')}
       </span>
 
-      <div className="absolute inset-x-2 bottom-2 rounded bg-black/55 px-1.5 py-1">
-        <p className="truncate text-[10px] font-semibold text-white" title={sticker.label}>
+      {isPlayer && sticker.position ? (
+        <span className="absolute right-1 top-1 rounded bg-white/80 px-1 py-0.5 font-mono text-[8px] font-bold text-slate-900">
+          {sticker.position}
+        </span>
+      ) : null}
+
+      <div className="absolute inset-x-0 bottom-0 rounded-b-[6px] bg-black/60 px-1.5 py-1">
+        <p className="truncate text-[10px] font-semibold leading-tight text-white" title={sticker.label}>
           {sticker.label}
         </p>
-      </div>
-
-      <div className="absolute inset-0 flex items-center justify-center text-2xl opacity-40" aria-hidden="true">
-        {sticker.kind === 'player' ? 'O' : null}
-        {sticker.kind === 'badge' ? '[]' : null}
-        {sticker.kind === 'stadium' ? '[]' : null}
-        {sticker.kind === 'history' ? '*' : null}
-        {sticker.kind === 'mascot' ? '@' : null}
       </div>
     </div>
   )

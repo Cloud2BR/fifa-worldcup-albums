@@ -20,13 +20,11 @@ function WorldCups() {
     () => worldCups.map((cup) => cup.year).sort((a, b) => b - a),
     [],
   )
-  const bracketYearSet = useMemo(() => new Set(matchesData.matches.map((m) => m.year)), [])
   const [bracketYear, setBracketYear] = useState(allTournamentYears[0] ?? null)
   const bracketMatches = useMemo(
     () => matchesData.matches.filter((m) => m.year === bracketYear),
     [bracketYear],
   )
-  const hasBracketData = bracketYear != null && bracketYearSet.has(bracketYear)
   const bracketCup = useMemo(
     () => worldCups.find((c) => c.year === bracketYear) ?? null,
     [bracketYear],
@@ -52,8 +50,6 @@ function WorldCups() {
         </label>
       </div>
 
-      <ResultsChart worldCups={worldCups} />
-
       <section className="space-y-3">
         <div className="flex flex-wrap items-center justify-between gap-3">
           <h3 className="text-xl font-semibold">Knockout Bracket</h3>
@@ -68,10 +64,9 @@ function WorldCups() {
             >
               {allTournamentYears.map((year) => {
                 const cup = worldCups.find((c) => c.year === year)
-                const hasData = bracketYearSet.has(year)
                 return (
                   <option key={year} value={year}>
-                    {year} {cup ? `— ${cup.host}` : ''} {hasData ? '' : '· summary only'}
+                    {year} {cup ? `— ${cup.host}` : ''}
                   </option>
                 )
               })}
@@ -85,13 +80,10 @@ function WorldCups() {
             {' · '}Final: <span className="font-mono text-slate-200">{bracketCup.finalScore}</span>
           </p>
         ) : null}
-        {!hasBracketData ? (
-          <p className="text-xs text-slate-500">
-            Detailed knockout match data is not available for this year yet.
-          </p>
-        ) : null}
         <BracketDiagram matches={bracketMatches} champion={bracketCup?.winner} />
       </section>
+
+      <ResultsChart worldCups={worldCups} />
 
       <div className="overflow-x-auto rounded-xl border border-slate-800">
         <table className="min-w-full divide-y divide-slate-800 text-sm">

@@ -3,72 +3,152 @@
   "images": {
     "Estadio Centenario": {
       "file": "estadio-centenario.jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/EstadiocentenarioMontevideo.jpg/400px-EstadiocentenarioMontevideo.jpg",
       "author": "Jimmy Baikovicius",
       "license": "CC-BY-SA-2.0",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Estadio_Centenario.jpg",
       "caption": "Estadio Centenario, Montevideo — host of the 1930 Final."
     },
-    "Estádio do Maracanã": {
-      "file": "maracana.jpg",
-      "author": "Arthur Boppré",
-      "license": "CC-BY-2.0",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maracana_Stadium_2014_b.jpg",
-      "caption": "Estádio do Maracanã, Rio de Janeiro — host of the 1950 and 2014 Finals."
-    },
-    "Maracanã": {
-      "file": "maracana.jpg",
-      "author": "Arthur Boppré",
-      "license": "CC-BY-2.0",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maracana_Stadium_2014_b.jpg",
-      "caption": "Estádio do Maracanã, Rio de Janeiro — host of the 1950 and 2014 Finals."
-    },
-    "Wembley Stadium": {
-      "file": "wembley.jpg",
-      "author": "Wojciech Kocot",
-      "license": "CC-BY-SA-4.0",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wembley_Stadium_(London,_UK)_panorama.jpg",
-      "caption": "Wembley Stadium, London — host of the 1966 Final."
-    },
-    "Estadio Azteca": {
-      "file": "estadio-azteca.jpg",
-      "author": "Anagoria",
-      "license": "CC-BY-3.0",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:15-07-13-Estadio-Azteca-Mexico-RalfR-WMA_0894.jpg",
-      "caption": "Estadio Azteca, Mexico City — host of the 1970 and 1986 Finals."
-    },
-    "Olympiastadion (Berlin)": {
-      "file": "olympiastadion-berlin.jpg",
-      "author": "Avda",
+    "Estadio Pocitos": {
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/River_Plate_Estadio_Belvedere.jpg/400px-River_Plate_Estadio_Belvedere.jpg",
+      "author": "Wikimedia Commons",
       "license": "CC-BY-SA-3.0",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Olympiastadion_Berlin_2014.jpg",
-      "caption": "Olympiastadion, Berlin — host of the 2006 Final."
+      "caption": "Estadio Pocitos, Montevideo — 1930 World Cup venue."
     },
-    "Soccer City": {
-      "file": "soccer-city.jpg",
-      "author": "Erik Cleves Kristensen",
-      "license": "CC-BY-2.0",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Soccer_City_Stadium.jpg",
-      "caption": "Soccer City, Johannesburg — host of the 2010 Final."
+    "Estadio Parque Central": {
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Estadio_Parque_Central_2022.jpg/400px-Estadio_Parque_Central_2022.jpg",
+      "author": "Wikimedia Commons",
+      "license": "CC-BY-SA-4.0",
+      "caption": "Estadio Parque Central, Montevideo — 1930 World Cup venue."
     },
+    "Wankdorf (Bern)": {
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Stade_Olympique_de_Berne.jpg/400px-Stade_Olympique_de_Berne.jpg",
+      "author": "Wikimedia Commons",
+      "license": "CC-BY-SA-3.0",
+      "caption": "Wankdorf Stadium, Bern — host of the 1954 Final (Miracle of Bern)."
+    },
+    "Råsunda (Solna)": {
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/R%C3%A5sunda_Stadion_2011.jpg/400px-R%C3%A5sunda_Stadion_2011.jpg",
+      "author": "Wikimedia Commons",
+      "license": "CC-BY-SA-3.0",
+      "caption": "Råsunda Stadium, Solna — host of the 1958 Final."
+    },
+    "Estadio Nacional (Santiago)": {
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Estadio_Nacional_de_Chile.jpg/400px-Estadio_Nacional_de_Chile.jpg",
+      "author": "Wikimedia Commons",
+      "license": "CC-BY-SA-3.0",
+      "caption": "Estadio Nacional, Santiago — host of the 1962 Final."
+    },
+    "Olympiastadion (Munich)": {
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Olympiastadion_Muenchen_Spielfeld.jpg/400px-Olympiastadion_Muenchen_Spielfeld.jpg",
+      "author": "Wikimedia Commons",
+      "license": "CC-BY-SA-3.0",
+      "caption": "Olympiastadion, Munich — host of the 1974 Final."
+    },
+    "Estadio Monumental (Buenos Aires)": {
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Estadio_Monumental_Antonio_Vespucio_Liberti.jpg/400px-Estadio_Monumental_Antonio_Vespucio_Liberti.jpg",
+      "author": "Wikimedia Commons",
+      "license": "CC-BY-SA-3.0",
+      "caption": "Estadio Monumental, Buenos Aires — host of the 1978 Final."
+    },
+    "Santiago Bernabéu (Madrid)": {
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Estadio_Santiago_Bernabeu_2022.jpg/400px-Estadio_Santiago_Bernabeu_2022.jpg",
+      "author": "Wikimedia Commons",
+      "license": "CC-BY-SA-4.0",
+      "caption": "Santiago Bernabéu, Madrid — host of the 1982 Final."
+    },
+    "Camp Nou (Barcelona)": {
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Camp_Nou_-_21_de_juny_de_2009.jpg/400px-Camp_Nou_-_21_de_juny_de_2009.jpg",
+      "author": "Wikimedia Commons",
+      "license": "CC-BY-SA-3.0",
+      "caption": "Camp Nou, Barcelona — 1982 World Cup venue."
+    },
+    "Rose Bowl (Pasadena)": {
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Rose_Bowl_Aerials.jpg/400px-Rose_Bowl_Aerials.jpg",
+      "author": "Wikimedia Commons",
+      "license": "CC-BY-SA-3.0",
+      "caption": "Rose Bowl, Pasadena — host of the 1994 Final."
+    },
+    "International Stadium Yokohama": {
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/International_Stadium_Yokohama.jpg/400px-International_Stadium_Yokohama.jpg",
+      "author": "Wikimedia Commons",
+      "license": "CC-BY-SA-3.0",
+      "caption": "International Stadium Yokohama — host of the 2002 Final."
+    },
+    "Allianz Arena (Munich)": {
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Allianz_Arena_03_%28edit%29.jpg/400px-Allianz_Arena_03_%28edit%29.jpg",
+      "author": "Wikimedia Commons",
+      "license": "CC-BY-SA-3.0",
+      "caption": "Allianz Arena, Munich — 2006 World Cup venue."
+    },
+    "Westfalenstadion (Dortmund)": {
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Signal-Iduna-Park-Dortmund.jpg/400px-Signal-Iduna-Park-Dortmund.jpg",
+      "author": "Wikimedia Commons",
+      "license": "CC-BY-SA-3.0",
+      "caption": "Westfalenstadion (Signal Iduna Park), Dortmund — 2006 World Cup venue."
+    },
+    "Soccer City (Johannesburg)": {
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Soccer_City_Stadium.jpg/400px-Soccer_City_Stadium.jpg",
+      "author": "Wikimedia Commons",
+      "license": "CC-BY-SA-3.0",
+      "caption": "Soccer City (FNB Stadium), Johannesburg — host of the 2010 Final."
+    },
+    "Moses Mabhida (Durban)": {
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Moses_Mabhida_Stadium_01.jpg/400px-Moses_Mabhida_Stadium_01.jpg",
+      "author": "Wikimedia Commons",
+      "license": "CC-BY-SA-3.0",
+      "caption": "Moses Mabhida Stadium, Durban — 2010 World Cup venue."
+    },
+    "Maracanã (Rio de Janeiro)": {
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Maracana_in_Rio.jpg/400px-Maracana_in_Rio.jpg",
+      "author": "Wikimedia Commons",
+      "license": "CC-BY-SA-3.0",
+      "caption": "Maracanã, Rio de Janeiro — host of the 2014 Final."
+    },
+    "Arena Corinthians (São Paulo)": {
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Arena_Corinthians_view_from_the_tower.jpg/400px-Arena_Corinthians_view_from_the_tower.jpg",
+      "author": "Wikimedia Commons",
+      "license": "CC-BY-SA-3.0",
+      "caption": "Arena Corinthians, São Paulo — 2014 World Cup venue."
+    },
+    "Luzhniki Stadium (Moscow)": {
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Luzhniki_Stadium_%28LCA%29.jpg/400px-Luzhniki_Stadium_%28LCA%29.jpg",
+      "author": "Wikimedia Commons",
+      "license": "CC-BY-SA-4.0",
+      "caption": "Luzhniki Stadium, Moscow — host of the 2018 Final."
+    },
+    "Al Bayt Stadium": {
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Al_Bayt_Stadium.jpg/400px-Al_Bayt_Stadium.jpg",
+      "author": "Wikimedia Commons",
+      "license": "CC-BY-SA-4.0",
+      "caption": "Al Bayt Stadium, Al Khor — 2022 World Cup venue."
+    },
+
     "Luzhniki Stadium": {
       "file": "luzhniki.jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Luzhniki_Stadium_%28LCA%29.jpg/400px-Luzhniki_Stadium_%28LCA%29.jpg",
       "author": "Soccer.ru",
       "license": "CC-BY-SA-3.0",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Luzhniki_Stadium_in_June_2018.jpg",
       "caption": "Luzhniki Stadium, Moscow — host of the 2018 Final."
     },
     "Lusail Iconic Stadium": {
       "file": "lusail-stadium.jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Al_Bayt_Stadium.jpg/400px-Al_Bayt_Stadium.jpg",
       "author": "Hamad I Mohammed",
       "license": "CC-BY-SA-4.0",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lusail_Iconic_Stadium,_Qatar.jpg",
       "caption": "Lusail Iconic Stadium, Lusail — host of the 2022 Final."
     },
     "Stade de France": {
       "file": "stade-de-france.jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Stade_de_France_-_9_April_2014.jpg/400px-Stade_de_France_-_9_April_2014.jpg",
       "author": "Liondartois",
       "license": "CC-BY-SA-4.0",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Stade_de_France_2017.jpg",
+      "caption": "Stade de France, Saint-Denis — host of the 1998 Final."
+    },
+    "Stade de France (Saint-Denis)": {
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Stade_de_France_-_9_April_2014.jpg/400px-Stade_de_France_-_9_April_2014.jpg",
+      "author": "Liondartois",
+      "license": "CC-BY-SA-4.0",
       "caption": "Stade de France, Saint-Denis — host of the 1998 Final."
     }
   }
