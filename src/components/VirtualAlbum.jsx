@@ -423,12 +423,6 @@ function VirtualAlbum({ album }) {
           })}
         </div>
 
-        <div className="mt-3 flex flex-wrap gap-3 text-[11px] text-slate-300">
-          <span className="rounded bg-slate-800 px-2 py-1">🏟 Stadium sticker: real image when available</span>
-          <span className="rounded bg-slate-800 px-2 py-1">👤 Player sticker: real player name + photo if public</span>
-          <span className="rounded bg-slate-800 px-2 py-1">🛡 Team badge sticker</span>
-          <span className="rounded bg-slate-800 px-2 py-1">✨ Shiny special sticker</span>
-        </div>
       </section>
 
       {activeSpread ? (
@@ -439,6 +433,26 @@ function VirtualAlbum({ album }) {
             flipDirection === 'next' ? 'animate-[pulse_220ms_ease-out]' : 'animate-[pulse_220ms_ease-out]',
           ].join(' ')}
         >
+          <button
+            type="button"
+            onClick={goPrev}
+            disabled={spreadIndex === 0}
+            aria-label="Previous spread"
+            className="absolute left-2 top-1/2 z-20 -translate-y-1/2 rounded-full border border-amber-900/40 bg-[#f3ecd9]/95 px-2 py-1 text-lg font-bold text-slate-700 shadow disabled:cursor-not-allowed disabled:opacity-40"
+          >
+            ←
+          </button>
+
+          <button
+            type="button"
+            onClick={goNext}
+            disabled={spreadIndex === maxIndex}
+            aria-label="Next spread"
+            className="absolute right-2 top-1/2 z-20 -translate-y-1/2 rounded-full border border-amber-900/40 bg-[#f3ecd9]/95 px-2 py-1 text-lg font-bold text-slate-700 shadow disabled:cursor-not-allowed disabled:opacity-40"
+          >
+            →
+          </button>
+
           <div className="pointer-events-none absolute bottom-2 left-1/2 top-2 hidden w-px -translate-x-1/2 bg-amber-900/30 md:block" />
 
           <div className="grid gap-2 md:grid-cols-2 md:gap-0">
