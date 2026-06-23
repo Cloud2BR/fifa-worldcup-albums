@@ -1,19 +1,7 @@
 import { useMemo, useState } from 'react'
-import { buildAlbumStickers, getTeam } from '../utils/stickers'
+import winnerSquadsData from '../data/winnerSquads.json'
 
-function normalize(text) {
-  return String(text ?? '')
-    .toLowerCase()
-    .replace(/[^a-z0-9]/g, '')
-}
-
-function getWinnerTeamCode(item) {
-  const winnerKey = normalize(item.winner)
-  for (const code of item.teams ?? []) {
-    if (normalize(getTeam(code).name) === winnerKey) return code
-  }
-  return null
-}
+const POSITION_ORDER = { GK: 0, DF: 1, MF: 2, FW: 3 }
 
 function Timeline({ items }) {
   const [selectedYear, setSelectedYear] = useState(null)
@@ -23,18 +11,20 @@ function Timeline({ items }) {
     [items, selectedYear],
   )
 
-  const winnerPlayers = useMemo(() => {
-    if (!selectedItem) return []
-    const winnerCode = getWinnerTeamCode(selectedItem)
-    if (!winnerCode) return []
-
-    return buildAlbumStickers(selectedItem)
-      .filter((sticker) => sticker.kind === 'player' && sticker.team === winnerCode)
-      .sort((a, b) => (a.shirtNumber ?? 999) - (b.shirtNumber ?? 999))
+  const squadData = useMemo(() => {
+    if (!selectedItem) return null
+    return winnerSquadsData[String(selectedItem.year)] ?? null
   }, [selectedItem])
 
-  const winnerCode = selectedItem ? getWinnerTeamCode(selectedItem) : null
-  const winnerTeamName = winnerCode ? getTeam(winnerCode).name : selectedItem?.winner
+  const winnerPlayers = useMemo(() => {
+    if (!squadData) return []
+    return [...squadData.players].sort(
+      (a, b) =>
+        (POSITION_ORDER[a.position] ?? 9) - (POSITION_ORDER[b.position] ?? 9),
+    )
+  }, [squadData])
+
+  const winnerTeamName = squadData?.winner ?? selectedItem?.winner
 
   return (
     <>
@@ -97,15 +87,26 @@ function Timeline({ items }) {
           </div>
           {winnerPlayers.length > 0 ? (
             <ul className="mt-3 grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
-              {winnerPlayers.map((player) => (
+              {winnerPlayers.map((player, idx) => (
                 <li
-                  key={`${selectedItem.year}-${player.number}`}
-                  className="rounded-md border border-slate-800 bg-slate-950/60 px-3 py-2"
+                  key={`${selectedItem.year}-${idx}`}
+                  className="flex items-center gap-2 rounded-md border border-slate-800 bg-slate-950/60 px-3 py-2"
                 >
-                  <p className="text-xs font-semibold text-slate-100">{player.label}</p>
-                  <p className="text-[11px] text-slate-400">
-                    #{player.shirtNumber ?? '-'} {player.position ? `- ${player.position}` : ''}
-                  </p>
+                  <span className={[
+                    'inline-block w-8 shrink-0 rounded px-1 py-0.5 text-center text-[10px] font-bold',
+                    player.position === 'GK' ? 'bg-amber-700/60 text-amber-200' :
+                    player.position === 'DF' ? 'bg-sky-800/60 text-sky-200' :
+                    player.position === 'MF' ? 'bg-emerald-800/60 text-emerald-200' :
+                    'bg-rose-800/60 text-rose-200',
+                  ].join(' ')}>
+                    {player.position}
+                  </span>
+                  <div className="min-w-0">
+                    <p className="truncate text-xs font-semibold text-slate-100">
+                      {player.name}
+                      {player.captain ? ' ©' : ''}
+                    </p>
+                  </div>
                 </li>
               ))}
             </ul>
