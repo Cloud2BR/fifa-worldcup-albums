@@ -69,7 +69,7 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Štěpán Chaloupek (Czech Republic)",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/7/76/Czech_Republic_national_football_team_logo.svg/330px-Czech_Republic_national_football_team_logo.svg.png",
+      "thumbUrl": "",
       "sourceUrl": "https://en.wikipedia.org/wiki/Czech_Republic_national_football_team",
       "file": "2026/CZE/stepan-chaloupek.png"
     },
@@ -142,7 +142,7 @@
       "license": "See source page",
       "caption": "Lukáš Červ (Czech Republic)",
       "file": "2026/CZE/lukas-cerv.jpg",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Druga_slovnicka_citanka_za_katolicke_pucke_ucione_.._%28IA_drugaslovnickaci00aust%29.pdf/page1-500px-Druga_slovnicka_citanka_za_katolicke_pucke_ucione_.._%28IA_drugaslovnickaci00aust%29.pdf.jpg",
+      "thumbUrl": "",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:Druga%20slovnicka%20citanka%20za%20katolicke%20pucke%20ucione%20..%20(IA%20drugaslovnickaci00aust).pdf"
     },
     "2026:CZE:mojmir-chytil": {
@@ -154,7 +154,7 @@
       "license": "See source page",
       "caption": "Mojmír Chytil (Czech Republic)",
       "file": "2026/CZE/mojmir-chytil.png",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/7/76/Czech_Republic_national_football_team_logo.svg/330px-Czech_Republic_national_football_team_logo.svg.png",
+      "thumbUrl": "",
       "sourceUrl": "https://en.wikipedia.org/wiki/Czech_Republic_national_football_team"
     },
     "2026:CZE:david-jurasek": {
@@ -202,7 +202,7 @@
       "license": "See source page",
       "caption": "Lukáš Provod (Czech Republic)",
       "file": "2026/CZE/lukas-provod.jpg",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/OJ_C_202403549_of_2024_-_PL_Polish.pdf/page1-960px-OJ_C_202403549_of_2024_-_PL_Polish.pdf.jpg",
+      "thumbUrl": "",
       "sourceUrl": "https://commons.wikimedia.org/wiki/File:OJ%20C%20202403549%20of%202024%20-%20PL%20Polish.pdf"
     },
     "2026:CZE:michal-sadilek": {
@@ -274,7 +274,7 @@
       "license": "See source page",
       "caption": "Lukáš Horníček (Czech Republic)",
       "file": "2026/CZE/lukas-hornicek.png",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/7/79/S.C._Braga_logo.svg/330px-S.C._Braga_logo.svg.png",
+      "thumbUrl": "",
       "sourceUrl": "https://en.wikipedia.org/wiki/S.C._Braga"
     },
     "2026:CZE:alexandr-sojka": {
@@ -345,7 +345,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Edson Álvarez (Mexico)",
-      "file": "2026/MEX/edson-alvarez.svg"
+      "file": "2026/MEX/edson-alvarez.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Edson_%C3%81lvarez.png/330px-Edson_%C3%81lvarez.png"
     },
     "2026:MEX:johan-vasquez": {
       "year": 2026,
@@ -355,7 +356,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Johan Vásquez (Mexico)",
-      "file": "2026/MEX/johan-vasquez.svg"
+      "file": "2026/MEX/johan-vasquez.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Johan_V%C3%A1squez.png/330px-Johan_V%C3%A1squez.png"
     },
     "2026:MEX:erik-lira": {
       "year": 2026,
@@ -365,7 +367,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Érik Lira (Mexico)",
-      "file": "2026/MEX/erik-lira.svg"
+      "file": "2026/MEX/erik-lira.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Erik_Lira_2.png/330px-Erik_Lira_2.png"
     },
     "2026:MEX:luis-romo": {
       "year": 2026,
@@ -375,7 +378,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Luis Romo (Mexico)",
-      "file": "2026/MEX/luis-romo.svg"
+      "file": "2026/MEX/luis-romo.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Luis_Romo.png/330px-Luis_Romo.png"
     },
     "2026:MEX:alvaro-fidalgo": {
       "year": 2026,
@@ -385,7 +389,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Álvaro Fidalgo (Mexico)",
-      "file": "2026/MEX/alvaro-fidalgo.svg"
+      "file": "2026/MEX/alvaro-fidalgo.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/%C3%81lvaro_Fidalgo.png/330px-%C3%81lvaro_Fidalgo.png"
     },
     "2026:MEX:raul-jimenez": {
       "year": 2026,
@@ -395,7 +400,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Raúl Jiménez (Mexico)",
-      "file": "2026/MEX/raul-jimenez.svg"
+      "file": "2026/MEX/raul-jimenez.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Ra%C3%BAl_Jim%C3%A9nez_04032026_%281%29.jpg/330px-Ra%C3%BAl_Jim%C3%A9nez_04032026_%281%29.jpg"
     },
     "2026:MEX:alexis-vega": {
       "year": 2026,
@@ -631,7 +637,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Aubrey Modiba (South Africa)",
-      "file": "2026/RSA/aubrey-modiba.svg"
+      "file": "2026/RSA/aubrey-modiba.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Aubrey_Modiba_%28cropped%29.jpg/330px-Aubrey_Modiba_%28cropped%29.jpg"
     },
     "2026:RSA:oswin-appollis": {
       "year": 2026,
@@ -661,7 +668,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Lyle Foster (South Africa)",
-      "file": "2026/RSA/lyle-foster.svg"
+      "file": "2026/RSA/lyle-foster.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Lyle_Foster_29112025_%286%29.jpg/330px-Lyle_Foster_29112025_%286%29.jpg"
     },
     "2026:RSA:relebohile-mofokeng": {
       "year": 2026,
@@ -811,7 +819,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Olwethu Makhanya (South Africa)",
-      "file": "2026/RSA/olwethu-makhanya.svg"
+      "file": "2026/RSA/olwethu-makhanya.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Olwethu_Makhanya_Philadelphia_Union_New_York_City_FC_Nov_23_2025-027_%28cropped%29.jpg/330px-Olwethu_Makhanya_Philadelphia_Union_New_York_City_FC_Nov_23_2025-027_%28cropped%29.jpg"
     },
     "2026:RSA:kamogelo-sebelebele": {
       "year": 2026,
@@ -905,7 +914,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Son Heung-min (South Korea)",
-      "file": "2026/KOR/son-heung-min.svg"
+      "file": "2026/KOR/son-heung-min.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Son_Heung-min_2022.jpg/330px-Son_Heung-min_2022.jpg"
     },
     "2026:KOR:paik-seung-ho": {
       "year": 2026,
@@ -1357,7 +1367,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Jovo Lukić (Bosnia & Herzegovina)",
-      "file": "2026/BIH/jovo-lukic.svg"
+      "file": "2026/BIH/jovo-lukic.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Jovo_Luki%C4%87_97_%28cropped%29.jpg/330px-Jovo_Luki%C4%87_97_%28cropped%29.jpg"
     },
     "2026:BIH:ermin-mahmic": {
       "year": 2026,
@@ -1397,7 +1408,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Alfie Jones (Canada)",
-      "file": "2026/CAN/alfie-jones.svg"
+      "file": "2026/CAN/alfie-jones.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Alfie_Jones_16082025_%281%29.jpg/330px-Alfie_Jones_16082025_%281%29.jpg"
     },
     "2026:CAN:luc-de-fougerolles": {
       "year": 2026,
@@ -1447,7 +1459,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Ismaël Koné (Canada)",
-      "file": "2026/CAN/ismael-kone.svg"
+      "file": "2026/CAN/ismael-kone.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Kone_asse_om_2425.png/330px-Kone_asse_om_2425.png"
     },
     "2026:CAN:cyle-larin": {
       "year": 2026,
@@ -1457,7 +1470,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Cyle Larin (Canada)",
-      "file": "2026/CAN/cyle-larin.svg"
+      "file": "2026/CAN/cyle-larin.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Cyle_Larin_%282021-22_S%C3%BCper_Lig%29_-_Resim1_%28cropped%29.png/330px-Cyle_Larin_%282021-22_S%C3%BCper_Lig%29_-_Resim1_%28cropped%29.png"
     },
     "2026:CAN:jonathan-david": {
       "year": 2026,
@@ -1467,7 +1481,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Jonathan David (Canada)",
-      "file": "2026/CAN/jonathan-david.svg"
+      "file": "2026/CAN/jonathan-david.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Jonathan_David_2022.jpg/330px-Jonathan_David_2022.jpg"
     },
     "2026:CAN:liam-millar": {
       "year": 2026,
@@ -1477,7 +1492,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Liam Millar (Canada)",
-      "file": "2026/CAN/liam-millar.svg"
+      "file": "2026/CAN/liam-millar.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Liam_Millar.jpeg/330px-Liam_Millar.jpeg"
     },
     "2026:CAN:tani-oluwaseyi": {
       "year": 2026,
@@ -1487,7 +1503,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Tani Oluwaseyi (Canada)",
-      "file": "2026/CAN/tani-oluwaseyi.svg"
+      "file": "2026/CAN/tani-oluwaseyi.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Tani_O_%28cropped%29.jpg"
     },
     "2026:CAN:derek-cornelius": {
       "year": 2026,
@@ -1497,7 +1514,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Derek Cornelius (Canada)",
-      "file": "2026/CAN/derek-cornelius.svg"
+      "file": "2026/CAN/derek-cornelius.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Cornelius_asse_om_2425.png/330px-Cornelius_asse_om_2425.png"
     },
     "2026:CAN:jacob-shaffelburg": {
       "year": 2026,
@@ -1507,7 +1525,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Jacob Shaffelburg (Canada)",
-      "file": "2026/CAN/jacob-shaffelburg.svg"
+      "file": "2026/CAN/jacob-shaffelburg.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Jacob_Shaffleburg_cropped.png/330px-Jacob_Shaffleburg_cropped.png"
     },
     "2026:CAN:moise-bombito": {
       "year": 2026,
@@ -1517,7 +1536,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Moïse Bombito (Canada)",
-      "file": "2026/CAN/moise-bombito.svg"
+      "file": "2026/CAN/moise-bombito.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Bombito_asse_ogcn_2425.png/330px-Bombito_asse_ogcn_2425.png"
     },
     "2026:CAN:maxime-crepeau": {
       "year": 2026,
@@ -1527,7 +1547,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Maxime Crépeau (Canada)",
-      "file": "2026/CAN/maxime-crepeau.svg"
+      "file": "2026/CAN/maxime-crepeau.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Maxime_Cr%C3%A9peau_and_James_Pantemis_Portland_Timbers_2024_%28cropped%29.jpg/330px-Maxime_Cr%C3%A9peau_and_James_Pantemis_Portland_Timbers_2024_%28cropped%29.jpg"
     },
     "2026:CAN:tajon-buchanan": {
       "year": 2026,
@@ -1537,7 +1558,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Tajon Buchanan (Canada)",
-      "file": "2026/CAN/tajon-buchanan.svg"
+      "file": "2026/CAN/tajon-buchanan.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Tajon_Buchanan_WC2022.jpg/330px-Tajon_Buchanan_WC2022.jpg"
     },
     "2026:CAN:owen-goodman": {
       "year": 2026,
@@ -1547,7 +1569,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Owen Goodman (Canada)",
-      "file": "2026/CAN/owen-goodman.svg"
+      "file": "2026/CAN/owen-goodman.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Owen_Goodman_15022025_%281%29_%28cropped%29.jpg/330px-Owen_Goodman_15022025_%281%29_%28cropped%29.jpg"
     },
     "2026:CAN:alphonso-davies": {
       "year": 2026,
@@ -1557,7 +1580,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Alphonso Davies (Canada)",
-      "file": "2026/CAN/alphonso-davies.svg"
+      "file": "2026/CAN/alphonso-davies.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Alphonso_Davies_2022.jpg/330px-Alphonso_Davies_2022.jpg"
     },
     "2026:CAN:ali-ahmed": {
       "year": 2026,
@@ -1613,7 +1637,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Promise David (Canada)",
-      "file": "2026/CAN/promise-david.svg"
+      "file": "2026/CAN/promise-david.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Promise_David_Union_Saint-Gilloise_2025.jpg/330px-Promise_David_Union_Saint-Gilloise_2025.jpg"
     },
     "2026:CAN:nathan-saliba": {
       "year": 2026,
@@ -1687,7 +1712,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Jassem Gaber (Qatar)",
-      "file": "2026/QAT/jassem-gaber.svg"
+      "file": "2026/QAT/jassem-gaber.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Asian_Nations_Cup_Iran_-_Qatar_%285%29_%28cropped%29.jpg"
     },
     "2026:QAT:abdulaziz-hatem": {
       "year": 2026,
@@ -1707,7 +1733,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Ahmed Alaaeldin (Qatar)",
-      "file": "2026/QAT/ahmed-alaaeldin.svg"
+      "file": "2026/QAT/ahmed-alaaeldin.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Qatar_v_Japan_%E2%80%93_AFC_Asian_Cup_2019_final_04_%28cropped%29.jpg/330px-Qatar_v_Japan_%E2%80%93_AFC_Asian_Cup_2019_final_04_%28cropped%29.jpg"
     },
     "2026:QAT:edmilson-junior": {
       "year": 2026,
@@ -1717,7 +1744,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Edmilson Junior (Qatar)",
-      "file": "2026/QAT/edmilson-junior.svg"
+      "file": "2026/QAT/edmilson-junior.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Edmilson_Junior_2018.jpg"
     },
     "2026:QAT:mohammed-muntari": {
       "year": 2026,
@@ -1727,7 +1755,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Mohammed Muntari (Qatar)",
-      "file": "2026/QAT/mohammed-muntari.svg"
+      "file": "2026/QAT/mohammed-muntari.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Esteghlal_FC_vs_Al-Gharafa_FC%2C_16_September_2024_-_02.jpg/330px-Esteghlal_FC_vs_Al-Gharafa_FC%2C_16_September_2024_-_02.jpg"
     },
     "2026:QAT:hassan-al-haydos": {
       "year": 2026,
@@ -1747,7 +1776,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Akram Afif (Qatar)",
-      "file": "2026/QAT/akram-afif.svg"
+      "file": "2026/QAT/akram-afif.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Qatar_v_Lebanon_%2837%29_%28cropped%29.jpg"
     },
     "2026:QAT:karim-boudiaf": {
       "year": 2026,
@@ -1777,7 +1807,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Homam Ahmed (Qatar)",
-      "file": "2026/QAT/homam-ahmed.svg"
+      "file": "2026/QAT/homam-ahmed.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Asian_Nations_Cup_Iran_-_Qatar_%288%29_%28cropped%29.jpg"
     },
     "2026:QAT:yusuf-abdurisag": {
       "year": 2026,
@@ -1817,7 +1848,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Sultan Al-Brake (Qatar)",
-      "file": "2026/QAT/sultan-al-brake.svg"
+      "file": "2026/QAT/sultan-al-brake.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/3/36/Sultan_Al_Brake_in_2018.jpg"
     },
     "2026:QAT:almoez-ali": {
       "year": 2026,
@@ -1827,7 +1859,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Almoez Ali (Qatar)",
-      "file": "2026/QAT/almoez-ali.svg"
+      "file": "2026/QAT/almoez-ali.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/8/80/Moez_Ali_at_Qatar_v_Japan_%E2%80%93_AFC_Asian_Cup_2019_final_32_%282%29.jpg"
     },
     "2026:QAT:ahmed-fathy": {
       "year": 2026,
@@ -1837,7 +1870,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Ahmed Fathy (Qatar)",
-      "file": "2026/QAT/ahmed-fathy.svg"
+      "file": "2026/QAT/ahmed-fathy.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Ahmed_Fathy_in_FIFA_world_cup.jpg/330px-Ahmed_Fathy_in_FIFA_world_cup.jpg"
     },
     "2026:QAT:salah-zakaria": {
       "year": 2026,
@@ -1867,7 +1901,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Assim Madibo (Qatar)",
-      "file": "2026/QAT/assim-madibo.svg"
+      "file": "2026/QAT/assim-madibo.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/0/03/Qatar_-_Japan%2C_AFC_Asian_Cup_2019_58_-_Assim_Madibo.jpg"
     },
     "2026:QAT:tahsin-jamshid": {
       "year": 2026,
@@ -1907,7 +1942,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Gregor Kobel (Switzerland)",
-      "file": "2026/SUI/gregor-kobel.svg"
+      "file": "2026/SUI/gregor-kobel.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/2023-08-12_TSV_Schott_Mainz_gegen_Borussia_Dortmund_%28DFB-Pokal_2023-24%29_by_Sandro_Halank%E2%80%93090.jpg/330px-2023-08-12_TSV_Schott_Mainz_gegen_Borussia_Dortmund_%28DFB-Pokal_2023-24%29_by_Sandro_Halank%E2%80%93090.jpg"
     },
     "2026:SUI:miro-muheim": {
       "year": 2026,
@@ -1917,7 +1953,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Miro Muheim (Switzerland)",
-      "file": "2026/SUI/miro-muheim.svg"
+      "file": "2026/SUI/miro-muheim.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/2025-05-16_Hamburger_SV_Miro_Muheim_%28cropped%29.jpg/330px-2025-05-16_Hamburger_SV_Miro_Muheim_%28cropped%29.jpg"
     },
     "2026:SUI:silvan-widmer": {
       "year": 2026,
@@ -1927,7 +1964,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Silvan Widmer (Switzerland)",
-      "file": "2026/SUI/silvan-widmer.svg"
+      "file": "2026/SUI/silvan-widmer.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/AUT_vs._SUI_2015-11-17_%28173%29_Silvan_Widmer.jpg/330px-AUT_vs._SUI_2015-11-17_%28173%29_Silvan_Widmer.jpg"
     },
     "2026:SUI:nico-elvedi": {
       "year": 2026,
@@ -1937,7 +1975,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Nico Elvedi (Switzerland)",
-      "file": "2026/SUI/nico-elvedi.svg"
+      "file": "2026/SUI/nico-elvedi.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Wales-Switzerland_match_at_Euro_2020_in_Baku_%28cropped%29.jpg"
     },
     "2026:SUI:manuel-akanji": {
       "year": 2026,
@@ -1957,7 +1996,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Denis Zakaria (Switzerland)",
-      "file": "2026/SUI/denis-zakaria.svg"
+      "file": "2026/SUI/denis-zakaria.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Zakaria_asse_asm_2425_%28cropped%29.png/330px-Zakaria_asse_asm_2425_%28cropped%29.png"
     },
     "2026:SUI:breel-embolo": {
       "year": 2026,
@@ -1977,7 +2017,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Remo Freuler (Switzerland)",
-      "file": "2026/SUI/remo-freuler.svg"
+      "file": "2026/SUI/remo-freuler.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c6/RemoFreuler.jpg"
     },
     "2026:SUI:johan-manzambi": {
       "year": 2026,
@@ -2007,7 +2048,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Dan Ndoye (Switzerland)",
-      "file": "2026/SUI/dan-ndoye.svg"
+      "file": "2026/SUI/dan-ndoye.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Lens_-_Nice_%2823-01-2021%29_52.jpg/330px-Lens_-_Nice_%2823-01-2021%29_52.jpg"
     },
     "2026:SUI:yvon-mvogo": {
       "year": 2026,
@@ -2017,7 +2059,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Yvon Mvogo (Switzerland)",
-      "file": "2026/SUI/yvon-mvogo.svg"
+      "file": "2026/SUI/yvon-mvogo.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Yvon_Mvogo.jpg/330px-Yvon_Mvogo.jpg"
     },
     "2026:SUI:ricardo-rodriguez": {
       "year": 2026,
@@ -2037,7 +2080,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Ardon Jashari (Switzerland)",
-      "file": "2026/SUI/ardon-jashari.svg"
+      "file": "2026/SUI/ardon-jashari.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Ali_Maamar_RSCA_2025.jpg/330px-Ali_Maamar_RSCA_2025.jpg"
     },
     "2026:SUI:djibril-sow": {
       "year": 2026,
@@ -2169,7 +2213,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Alisson (Brazil)",
-      "file": "2026/BRA/alisson.svg"
+      "file": "2026/BRA/alisson.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Alisson_Becker_2022.jpg/330px-Alisson_Becker_2022.jpg"
     },
     "2026:BRA:ederson-silva": {
       "year": 2026,
@@ -2199,7 +2244,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Marquinhos (Brazil)",
-      "file": "2026/BRA/marquinhos.svg"
+      "file": "2026/BRA/marquinhos.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Marquinhos_2022.jpg/330px-Marquinhos_2022.jpg"
     },
     "2026:BRA:casemiro": {
       "year": 2026,
@@ -2209,7 +2255,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Casemiro (Brazil)",
-      "file": "2026/BRA/casemiro.svg"
+      "file": "2026/BRA/casemiro.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Casemiro_Brazil_V_Morocco_13_June_2026-76_%28cropped%29.jpg/330px-Casemiro_Brazil_V_Morocco_13_June_2026-76_%28cropped%29.jpg"
     },
     "2026:BRA:alex-sandro": {
       "year": 2026,
@@ -2229,7 +2276,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Vinícius Júnior (Brazil)",
-      "file": "2026/BRA/vinicius-junior.svg"
+      "file": "2026/BRA/vinicius-junior.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Vinicius_Jr_2022.jpg/330px-Vinicius_Jr_2022.jpg"
     },
     "2026:BRA:bruno-guimaraes": {
       "year": 2026,
@@ -2249,7 +2297,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Matheus Cunha (Brazil)",
-      "file": "2026/BRA/matheus-cunha.svg"
+      "file": "2026/BRA/matheus-cunha.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Matheus_Cunha_Brazil_V_Morocco_13_June_2026-178_%28cropped%29.jpg/330px-Matheus_Cunha_Brazil_V_Morocco_13_June_2026-178_%28cropped%29.jpg"
     },
     "2026:BRA:neymar": {
       "year": 2026,
@@ -2259,7 +2308,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Neymar (Brazil)",
-      "file": "2026/BRA/neymar.svg"
+      "file": "2026/BRA/neymar.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Neymar_2022.jpg/330px-Neymar_2022.jpg"
     },
     "2026:BRA:raphinha": {
       "year": 2026,
@@ -2269,7 +2319,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Raphinha (Brazil)",
-      "file": "2026/BRA/raphinha.svg"
+      "file": "2026/BRA/raphinha.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Raphinha_2022.jpg/330px-Raphinha_2022.jpg"
     },
     "2026:BRA:weverton": {
       "year": 2026,
@@ -2359,7 +2410,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Lucas Paquetá (Brazil)",
-      "file": "2026/BRA/lucas-paqueta.svg"
+      "file": "2026/BRA/lucas-paqueta.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Lucas_Paquet%C3%A1_2022.jpg/330px-Lucas_Paquet%C3%A1_2022.jpg"
     },
     "2026:BRA:luiz-henrique": {
       "year": 2026,
@@ -2379,7 +2431,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Gabriel Martinelli (Brazil)",
-      "file": "2026/BRA/gabriel-martinelli.svg"
+      "file": "2026/BRA/gabriel-martinelli.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Gabriel_Martinelli_Brazil_V_Morocco_13_June_2026-144.jpg/330px-Gabriel_Martinelli_Brazil_V_Morocco_13_June_2026-144.jpg"
     },
     "2026:BRA:ederson-moraes": {
       "year": 2026,
@@ -2409,7 +2462,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Igor Thiago (Brazil)",
-      "file": "2026/BRA/igor-thiago.svg"
+      "file": "2026/BRA/igor-thiago.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Thiago_Motta_Brazil_V_Morocco_13_June_2026-120_%28cropped%29.jpg/330px-Thiago_Motta_Brazil_V_Morocco_13_June_2026-120_%28cropped%29.jpg"
     },
     "2026:BRA:rayan": {
       "year": 2026,
@@ -2439,7 +2493,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Carlens Arcus (Haiti)",
-      "file": "2026/HAI/carlens-arcus.svg"
+      "file": "2026/HAI/carlens-arcus.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/RC_Lens_-_AJ_Auxerre_%2809-03-2019%29_96.jpg/330px-RC_Lens_-_AJ_Auxerre_%2809-03-2019%29_96.jpg"
     },
     "2026:HAI:keeto-thermoncy": {
       "year": 2026,
@@ -2509,7 +2564,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Duckens Nazon (Haiti)",
-      "file": "2026/HAI/duckens-nazon.svg"
+      "file": "2026/HAI/duckens-nazon.svg",
+      "thumbUrl": ""
     },
     "2026:HAI:jean-ricner-bellegarde": {
       "year": 2026,
@@ -2589,7 +2645,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Danley Jean Jacques (Haiti)",
-      "file": "2026/HAI/danley-jean-jacques.svg"
+      "file": "2026/HAI/danley-jean-jacques.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Danley_Jean_Jacques_Philadelphia_Union_New_York_City_FC_Nov_23_2025-062_%28cropped%29.jpg/330px-Danley_Jean_Jacques_Philadelphia_Union_New_York_City_FC_Nov_23_2025-062_%28cropped%29.jpg"
     },
     "2026:HAI:wilson-isidor": {
       "year": 2026,
@@ -2699,7 +2756,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Achraf Hakimi (Morocco)",
-      "file": "2026/MAR/achraf-hakimi.svg"
+      "file": "2026/MAR/achraf-hakimi.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Achraf_Hakimi_2022.jpg/330px-Achraf_Hakimi_2022.jpg"
     },
     "2026:MAR:noussair-mazraoui": {
       "year": 2026,
@@ -2739,7 +2797,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Ayyoub Bouaddi (Morocco)",
-      "file": "2026/MAR/ayyoub-bouaddi.svg"
+      "file": "2026/MAR/ayyoub-bouaddi.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Ayyoub_Bouaddi_Morocco_v_Norway_7_June_2026-71.jpg/330px-Ayyoub_Bouaddi_Morocco_v_Norway_7_June_2026-71.jpg"
     },
     "2026:MAR:chemsdine-talbi": {
       "year": 2026,
@@ -2749,7 +2808,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Chemsdine Talbi (Morocco)",
-      "file": "2026/MAR/chemsdine-talbi.svg"
+      "file": "2026/MAR/chemsdine-talbi.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Chemsdine_Talbi_Brazil_V_Morocco_13_June_2026-203.jpg/330px-Chemsdine_Talbi_Brazil_V_Morocco_13_June_2026-203.jpg"
     },
     "2026:MAR:azzedine-ounahi": {
       "year": 2026,
@@ -2759,7 +2819,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Azzedine Ounahi (Morocco)",
-      "file": "2026/MAR/azzedine-ounahi.svg"
+      "file": "2026/MAR/azzedine-ounahi.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Azzedine_Ounahi_Brazil_V_Morocco_13_June_2026-159_%28cropped%29.jpg/330px-Azzedine_Ounahi_Brazil_V_Morocco_13_June_2026-159_%28cropped%29.jpg"
     },
     "2026:MAR:soufiane-rahimi": {
       "year": 2026,
@@ -2769,7 +2830,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Soufiane Rahimi (Morocco)",
-      "file": "2026/MAR/soufiane-rahimi.svg"
+      "file": "2026/MAR/soufiane-rahimi.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Soufiane_Rahimi_against_Paraguay_%28cropped%29.jpg/330px-Soufiane_Rahimi_against_Paraguay_%28cropped%29.jpg"
     },
     "2026:MAR:brahim-diaz": {
       "year": 2026,
@@ -2779,7 +2841,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Brahim Díaz (Morocco)",
-      "file": "2026/MAR/brahim-diaz.svg"
+      "file": "2026/MAR/brahim-diaz.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Brahim_Diaz_Morocco_v_Norway_7_June_2026-36_%28cropped%29.jpg/330px-Brahim_Diaz_Morocco_v_Norway_7_June_2026-36_%28cropped%29.jpg"
     },
     "2026:MAR:ismael-saibari": {
       "year": 2026,
@@ -2789,7 +2852,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Ismael Saibari (Morocco)",
-      "file": "2026/MAR/ismael-saibari.svg"
+      "file": "2026/MAR/ismael-saibari.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Ismael_Saibari_Brazil_V_Morocco_13_June_2026-152.jpg/330px-Ismael_Saibari_Brazil_V_Morocco_13_June_2026-152.jpg"
     },
     "2026:MAR:munir-mohamedi": {
       "year": 2026,
@@ -2799,7 +2863,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Munir Mohamedi (Morocco)",
-      "file": "2026/MAR/munir-mohamedi.svg"
+      "file": "2026/MAR/munir-mohamedi.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Munir_El_Kajoui_Morocco_v_Norway_7_June_2026-10_%28cropped%29.jpg/330px-Munir_El_Kajoui_Morocco_v_Norway_7_June_2026-10_%28cropped%29.jpg"
     },
     "2026:MAR:zakaria-el-ouahdi": {
       "year": 2026,
@@ -2809,7 +2874,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Zakaria El Ouahdi (Morocco)",
-      "file": "2026/MAR/zakaria-el-ouahdi.svg"
+      "file": "2026/MAR/zakaria-el-ouahdi.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Zakaria_El_Ouahdi_at_the_Olympic_Games_2024_%28cropped%29.jpg/330px-Zakaria_El_Ouahdi_at_the_Olympic_Games_2024_%28cropped%29.jpg"
     },
     "2026:MAR:issa-diop": {
       "year": 2026,
@@ -2819,7 +2885,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Issa Diop (Morocco)",
-      "file": "2026/MAR/issa-diop.svg"
+      "file": "2026/MAR/issa-diop.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Issa_Diop_Morocco_v_Norway_7_June_2026-161_%28cropped%29.jpg/330px-Issa_Diop_Morocco_v_Norway_7_June_2026-161_%28cropped%29.jpg"
     },
     "2026:MAR:samir-el-mourabet": {
       "year": 2026,
@@ -2829,7 +2896,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Samir El Mourabet (Morocco)",
-      "file": "2026/MAR/samir-el-mourabet.svg"
+      "file": "2026/MAR/samir-el-mourabet.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Samir_El_Mourabet_vs_Paraguay_%28cropped%29.jpg/330px-Samir_El_Mourabet_vs_Paraguay_%28cropped%29.jpg"
     },
     "2026:MAR:gessime-yassine": {
       "year": 2026,
@@ -2839,7 +2907,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Gessime Yassine (Morocco)",
-      "file": "2026/MAR/gessime-yassine.svg"
+      "file": "2026/MAR/gessime-yassine.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Gessime_Yassine_against_Paraguay_2_%28cropped%29.jpg/330px-Gessime_Yassine_against_Paraguay_2_%28cropped%29.jpg"
     },
     "2026:MAR:amine-sbai": {
       "year": 2026,
@@ -2849,7 +2918,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Amine Sbaï (Morocco)",
-      "file": "2026/MAR/amine-sbai.svg"
+      "file": "2026/MAR/amine-sbai.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Amine_Sbai_Brazil_V_Morocco_13_June_2026-64.jpg/330px-Amine_Sbai_Brazil_V_Morocco_13_June_2026-64.jpg"
     },
     "2026:MAR:chadi-riad": {
       "year": 2026,
@@ -2859,7 +2929,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Chadi Riad (Morocco)",
-      "file": "2026/MAR/chadi-riad.svg"
+      "file": "2026/MAR/chadi-riad.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Chadi_Riad_Brazil_V_Morocco_13_June_2026-162.jpg/330px-Chadi_Riad_Brazil_V_Morocco_13_June_2026-162.jpg"
     },
     "2026:MAR:youssef-belammari": {
       "year": 2026,
@@ -2869,7 +2940,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Youssef Belammari (Morocco)",
-      "file": "2026/MAR/youssef-belammari.svg"
+      "file": "2026/MAR/youssef-belammari.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Youssef_Belammari_vs_Niger_%28cropped%29.jpg/330px-Youssef_Belammari_vs_Niger_%28cropped%29.jpg"
     },
     "2026:MAR:ayoub-el-kaabi": {
       "year": 2026,
@@ -2879,7 +2951,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Ayoub El Kaabi (Morocco)",
-      "file": "2026/MAR/ayoub-el-kaabi.svg"
+      "file": "2026/MAR/ayoub-el-kaabi.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Ayoub_El_Kaabi_vs_Niger_%28cropped%29.jpg/330px-Ayoub_El_Kaabi_vs_Niger_%28cropped%29.jpg"
     },
     "2026:MAR:ayoube-amaimouni": {
       "year": 2026,
@@ -2911,7 +2984,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Bilal El Khannouss (Morocco)",
-      "file": "2026/MAR/bilal-el-khannouss.svg"
+      "file": "2026/MAR/bilal-el-khannouss.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Bilal_El_Khannouss_Brazil_V_Morocco_13_June_2026-91.jpg/330px-Bilal_El_Khannouss_Brazil_V_Morocco_13_June_2026-91.jpg"
     },
     "2026:MAR:neil-el-aynaoui": {
       "year": 2026,
@@ -2921,7 +2995,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Neil El Aynaoui (Morocco)",
-      "file": "2026/MAR/neil-el-aynaoui.svg"
+      "file": "2026/MAR/neil-el-aynaoui.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Neil_El_Aynaoui_Neil_El_Aynaoui_Morocco_v_Norway_7_June_2026-13_%28cropped%29.jpg/330px-Neil_El_Aynaoui_Neil_El_Aynaoui_Morocco_v_Norway_7_June_2026-13_%28cropped%29.jpg"
     },
     "2026:MAR:redouane-halhal": {
       "year": 2026,
@@ -2931,7 +3006,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Redouane Halhal (Morocco)",
-      "file": "2026/MAR/redouane-halhal.svg"
+      "file": "2026/MAR/redouane-halhal.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Redouane_Halhal_vs_Paraguay_%28cropped%29.jpg/330px-Redouane_Halhal_vs_Paraguay_%28cropped%29.jpg"
     },
     "2026:MAR:anass-salah-eddine": {
       "year": 2026,
@@ -2951,7 +3027,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Angus Gunn (Scotland)",
-      "file": "2026/SCO/angus-gunn.svg"
+      "file": "2026/SCO/angus-gunn.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Angus_Gunn_Scotland_v_Bolivia_6_June_2026-42.jpg/330px-Angus_Gunn_Scotland_v_Bolivia_6_June_2026-42.jpg"
     },
     "2026:SCO:aaron-hickey": {
       "year": 2026,
@@ -2961,7 +3038,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Aaron Hickey (Scotland)",
-      "file": "2026/SCO/aaron-hickey.svg"
+      "file": "2026/SCO/aaron-hickey.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Aaron_Hickey_Scotland_v_Bolivia_6_June_2026-87_%28cropped%29.jpg/330px-Aaron_Hickey_Scotland_v_Bolivia_6_June_2026-87_%28cropped%29.jpg"
     },
     "2026:SCO:andy-robertson": {
       "year": 2026,
@@ -2991,7 +3069,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Grant Hanley (Scotland)",
-      "file": "2026/SCO/grant-hanley.svg"
+      "file": "2026/SCO/grant-hanley.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Grant_Hanley_Scotland_v_Bolivia_6_June_2026-39_%28cropped%29.jpg/330px-Grant_Hanley_Scotland_v_Bolivia_6_June_2026-39_%28cropped%29.jpg"
     },
     "2026:SCO:kieran-tierney": {
       "year": 2026,
@@ -3001,7 +3080,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Kieran Tierney (Scotland)",
-      "file": "2026/SCO/kieran-tierney.svg"
+      "file": "2026/SCO/kieran-tierney.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Kieran_Tierney_Scotland_v_Bolivia_6_June_2026-6.jpg/330px-Kieran_Tierney_Scotland_v_Bolivia_6_June_2026-6.jpg"
     },
     "2026:SCO:john-mcginn": {
       "year": 2026,
@@ -3021,7 +3101,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Tyler Fletcher (Scotland)",
-      "file": "2026/SCO/tyler-fletcher.svg"
+      "file": "2026/SCO/tyler-fletcher.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Tyler_Fletcher_Scotland_v_Bolivia_6_June_2026-4.jpg/330px-Tyler_Fletcher_Scotland_v_Bolivia_6_June_2026-4.jpg"
     },
     "2026:SCO:lyndon-dykes": {
       "year": 2026,
@@ -3031,7 +3112,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Lyndon Dykes (Scotland)",
-      "file": "2026/SCO/lyndon-dykes.svg"
+      "file": "2026/SCO/lyndon-dykes.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Lyndon_Dykes_Scotland_v_Bolivia_6_June_2026-65.jpg/330px-Lyndon_Dykes_Scotland_v_Bolivia_6_June_2026-65.jpg"
     },
     "2026:SCO:che-adams": {
       "year": 2026,
@@ -3051,7 +3133,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Ryan Christie (Scotland)",
-      "file": "2026/SCO/ryan-christie.svg"
+      "file": "2026/SCO/ryan-christie.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Ryan_Christie_Bournemouth_%28cropped%29.png/330px-Ryan_Christie_Bournemouth_%28cropped%29.png"
     },
     "2026:SCO:liam-kelly": {
       "year": 2026,
@@ -3101,7 +3184,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Dominic Hyam (Scotland)",
-      "file": "2026/SCO/dominic-hyam.svg"
+      "file": "2026/SCO/dominic-hyam.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Dominic_Hyam_Scotland_v_Bolivia_6_June_2026-59.jpg/330px-Dominic_Hyam_Scotland_v_Bolivia_6_June_2026-59.jpg"
     },
     "2026:SCO:ben-gannon-doak": {
       "year": 2026,
@@ -3121,7 +3205,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "George Hirst (Scotland)",
-      "file": "2026/SCO/george-hirst.svg"
+      "file": "2026/SCO/george-hirst.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Hirst_grip.jpg/330px-Hirst_grip.jpg"
     },
     "2026:SCO:lewis-ferguson": {
       "year": 2026,
@@ -3131,7 +3216,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Lewis Ferguson (Scotland)",
-      "file": "2026/SCO/lewis-ferguson.svg"
+      "file": "2026/SCO/lewis-ferguson.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Lewis_Ferguson_Scotland_v_Bolivia_6_June_2026-52.jpg/330px-Lewis_Ferguson_Scotland_v_Bolivia_6_June_2026-52.jpg"
     },
     "2026:SCO:lawrence-shankland": {
       "year": 2026,
@@ -3141,7 +3227,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Lawrence Shankland (Scotland)",
-      "file": "2026/SCO/lawrence-shankland.svg"
+      "file": "2026/SCO/lawrence-shankland.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Lawrence_Shankland_Scotland_v_Bolivia_6_June_2026-66.jpg/330px-Lawrence_Shankland_Scotland_v_Bolivia_6_June_2026-66.jpg"
     },
     "2026:SCO:craig-gordon": {
       "year": 2026,
@@ -3151,7 +3238,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Craig Gordon (Scotland)",
-      "file": "2026/SCO/craig-gordon.svg"
+      "file": "2026/SCO/craig-gordon.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Craig_Gordon_Scotland_v_Bolivia_6_June_2026-19.jpg/330px-Craig_Gordon_Scotland_v_Bolivia_6_June_2026-19.jpg"
     },
     "2026:SCO:nathan-patterson": {
       "year": 2026,
@@ -3161,7 +3249,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Nathan Patterson (Scotland)",
-      "file": "2026/SCO/nathan-patterson.svg"
+      "file": "2026/SCO/nathan-patterson.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Nathan_Patterson_Scotland_v_Bolivia_6_June_2026-58.jpg/330px-Nathan_Patterson_Scotland_v_Bolivia_6_June_2026-58.jpg"
     },
     "2026:SCO:kenny-mclean": {
       "year": 2026,
@@ -3171,7 +3260,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Kenny McLean (Scotland)",
-      "file": "2026/SCO/kenny-mclean.svg"
+      "file": "2026/SCO/kenny-mclean.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Kenny_McLean_Scotland_v_Bolivia_6_June_2026-177_%28cropped%29.jpg/330px-Kenny_McLean_Scotland_v_Bolivia_6_June_2026-177_%28cropped%29.jpg"
     },
     "2026:SCO:anthony-ralston": {
       "year": 2026,
@@ -3181,7 +3271,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Anthony Ralston (Scotland)",
-      "file": "2026/SCO/anthony-ralston.svg"
+      "file": "2026/SCO/anthony-ralston.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Anthony_Ralston_Scotland_v_Bolivia_6_June_2026-9_%28cropped%29.jpg/330px-Anthony_Ralston_Scotland_v_Bolivia_6_June_2026-9_%28cropped%29.jpg"
     },
     "2026:SCO:findlay-curtis": {
       "year": 2026,
@@ -3191,7 +3282,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Findlay Curtis (Scotland)",
-      "file": "2026/SCO/findlay-curtis.svg"
+      "file": "2026/SCO/findlay-curtis.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Findlay_Curtis_Scotland_v_Bolivia_6_June_2026-56.jpg/330px-Findlay_Curtis_Scotland_v_Bolivia_6_June_2026-56.jpg"
     },
     "2026:SCO:scott-mckenna": {
       "year": 2026,
@@ -3201,7 +3293,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Scott McKenna (Scotland)",
-      "file": "2026/SCO/scott-mckenna.svg"
+      "file": "2026/SCO/scott-mckenna.svg",
+      "thumbUrl": ""
     },
     "2026:AUS:mathew-ryan": {
       "year": 2026,
@@ -3211,7 +3304,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Mathew Ryan (Australia)",
-      "file": "2026/AUS/mathew-ryan.svg"
+      "file": "2026/AUS/mathew-ryan.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Ryan_rcl_asse_2425.png/330px-Ryan_rcl_asse_2425.png"
     },
     "2026:AUS:milos-degenek": {
       "year": 2026,
@@ -3221,7 +3315,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Miloš Degenek (Australia)",
-      "file": "2026/AUS/milos-degenek.svg"
+      "file": "2026/AUS/milos-degenek.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Cameroon-Australia_%2820%29_%28cropped%29.jpg/330px-Cameroon-Australia_%2820%29_%28cropped%29.jpg"
     },
     "2026:AUS:alessandro-circati": {
       "year": 2026,
@@ -3315,7 +3410,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Awer Mabil (Australia)",
-      "file": "2026/AUS/awer-mabil.svg"
+      "file": "2026/AUS/awer-mabil.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Awer_Mabil.jpg"
     },
     "2026:AUS:paul-izzo": {
       "year": 2026,
@@ -3325,7 +3421,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Paul Izzo (Australia)",
-      "file": "2026/AUS/paul-izzo.svg"
+      "file": "2026/AUS/paul-izzo.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Paul_Izzo_training_for_Melbourne_Victory_December_2022_%28cropped%29.jpg/330px-Paul_Izzo_training_for_Melbourne_Victory_December_2022_%28cropped%29.jpg"
     },
     "2026:AUS:aiden-o-neill": {
       "year": 2026,
@@ -3345,7 +3442,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Cammy Devlin (Australia)",
-      "file": "2026/AUS/cammy-devlin.svg"
+      "file": "2026/AUS/cammy-devlin.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Cameron_Devlin_2021.png/330px-Cameron_Devlin_2021.png"
     },
     "2026:AUS:kai-trewin": {
       "year": 2026,
@@ -3355,7 +3453,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Kai Trewin (Australia)",
-      "file": "2026/AUS/kai-trewin.svg"
+      "file": "2026/AUS/kai-trewin.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Kai_Trewin_NYCFC_v_Colorado_Mar_14_2026-25_%28cropped%29.jpg/330px-Kai_Trewin_NYCFC_v_Colorado_Mar_14_2026-25_%28cropped%29.jpg"
     },
     "2026:AUS:aziz-behich": {
       "year": 2026,
@@ -3375,7 +3474,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Nestory Irankunda (Australia)",
-      "file": "2026/AUS/nestory-irankunda.svg"
+      "file": "2026/AUS/nestory-irankunda.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Nestory_Irankunda_and_Kwadwo_Baah_09082025_%281%29_%28cropped%29.jpg/330px-Nestory_Irankunda_and_Kwadwo_Baah_09082025_%281%29_%28cropped%29.jpg"
     },
     "2026:AUS:patrick-beach": {
       "year": 2026,
@@ -3385,7 +3485,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Patrick Beach (Australia)",
-      "file": "2026/AUS/patrick-beach.svg"
+      "file": "2026/AUS/patrick-beach.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/2/21/PatrickBeachvWSW_%28cropped%29.jpg"
     },
     "2026:AUS:harry-souttar": {
       "year": 2026,
@@ -3395,7 +3496,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Harry Souttar (Australia)",
-      "file": "2026/AUS/harry-souttar.svg"
+      "file": "2026/AUS/harry-souttar.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/4822293_AE7I6590_%28cropped%29.jpg/330px-4822293_AE7I6590_%28cropped%29.jpg"
     },
     "2026:AUS:cristian-volpato": {
       "year": 2026,
@@ -3415,7 +3517,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Cameron Burgess (Australia)",
-      "file": "2026/AUS/cameron-burgess.svg"
+      "file": "2026/AUS/cameron-burgess.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Cameron_Burgess_%28cropped%29.jpg"
     },
     "2026:AUS:jackson-irvine": {
       "year": 2026,
@@ -3435,7 +3538,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Nishan Velupillay (Australia)",
-      "file": "2026/AUS/nishan-velupillay.svg"
+      "file": "2026/AUS/nishan-velupillay.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Nishan_Velupillay_training_for_Melbourne_Victory_January_2023_%28cropped%29.jpg/330px-Nishan_Velupillay_training_for_Melbourne_Victory_January_2023_%28cropped%29.jpg"
     },
     "2026:AUS:paul-okon-engstler": {
       "year": 2026,
@@ -3455,7 +3559,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Lucas Herrington (Australia)",
-      "file": "2026/AUS/lucas-herrington.svg"
+      "file": "2026/AUS/lucas-herrington.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Lucas_Herrington_NYCFC_v_Colorado_Mar_14_2026-29_%28cropped%29.jpg/330px-Lucas_Herrington_NYCFC_v_Colorado_Mar_14_2026-29_%28cropped%29.jpg"
     },
     "2026:AUS:tete-yengi": {
       "year": 2026,
@@ -3465,7 +3570,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Tete Yengi (Australia)",
-      "file": "2026/AUS/tete-yengi.svg"
+      "file": "2026/AUS/tete-yengi.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Tete_Yengi_-_Kelty_Hearts_-_July_2024.jpg/330px-Tete_Yengi_-_Kelty_Hearts_-_July_2024.jpg"
     },
     "2026:PAR:gatito-fernandez": {
       "year": 2026,
@@ -3495,7 +3601,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Omar Alderete (Paraguay)",
-      "file": "2026/PAR/omar-alderete.svg"
+      "file": "2026/PAR/omar-alderete.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Omar_Alderete_2019_%28cropped%29.jpg/330px-Omar_Alderete_2019_%28cropped%29.jpg"
     },
     "2026:PAR:juan-jose-caceres": {
       "year": 2026,
@@ -3555,7 +3662,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Antonio Sanabria (Paraguay)",
-      "file": "2026/PAR/antonio-sanabria.svg"
+      "file": "2026/PAR/antonio-sanabria.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Antonio_Sanabria%2C_2025_%28cropped%29.jpg/330px-Antonio_Sanabria%2C_2025_%28cropped%29.jpg"
     },
     "2026:PAR:miguel-almiron": {
       "year": 2026,
@@ -3665,7 +3773,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Braian Ojeda (Paraguay)",
-      "file": "2026/PAR/braian-ojeda.svg"
+      "file": "2026/PAR/braian-ojeda.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Dynamo_vs_Real_Salt_Lake_%28Mar_2025%29_16_%28cropped%29.jpg/330px-Dynamo_vs_Real_Salt_Lake_%28Mar_2025%29_16_%28cropped%29.jpg"
     },
     "2026:PAR:gabriel-avalos": {
       "year": 2026,
@@ -3715,7 +3824,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Isidro Pitta (Paraguay)",
-      "file": "2026/PAR/isidro-pitta.svg"
+      "file": "2026/PAR/isidro-pitta.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Isidro-Pitta-Juventude-Corinthians-jun-2022.jpg/330px-Isidro-Pitta-Juventude-Corinthians-jun-2022.jpg"
     },
     "2026:PAR:alexandro-maidana": {
       "year": 2026,
@@ -3787,7 +3897,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Orkun Kökçü (Turkey)",
-      "file": "2026/TUR/orkun-kokcu.svg"
+      "file": "2026/TUR/orkun-kokcu.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Orkun_K%C3%B6kc%C3%BC_2022.jpg/330px-Orkun_K%C3%B6kc%C3%BC_2022.jpg"
     },
     "2026:TUR:kerem-akturkoglu": {
       "year": 2026,
@@ -3807,7 +3918,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Arda Güler (Turkey)",
-      "file": "2026/TUR/arda-guler.svg"
+      "file": "2026/TUR/arda-guler.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Arda_G%C3%BCler_2023.jpg/330px-Arda_G%C3%BCler_2023.jpg"
     },
     "2026:TUR:deniz-gul": {
       "year": 2026,
@@ -3827,7 +3939,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Hakan Çalhanoğlu (Turkey)",
-      "file": "2026/TUR/hakan-calhanoglu.svg"
+      "file": "2026/TUR/hakan-calhanoglu.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Hakan_%C3%87alhanoglu_2022.jpg/330px-Hakan_%C3%87alhanoglu_2022.jpg"
     },
     "2026:TUR:kenan-y-ld-z": {
       "year": 2026,
@@ -3837,7 +3950,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Kenan Yıldız (Turkey)",
-      "file": "2026/TUR/kenan-y-ld-z.svg"
+      "file": "2026/TUR/kenan-y-ld-z.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Kenan_Y%C4%B1ld%C4%B1z_2023.jpg/330px-Kenan_Y%C4%B1ld%C4%B1z_2023.jpg"
     },
     "2026:TUR:altay-bay-nd-r": {
       "year": 2026,
@@ -3847,7 +3961,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Altay Bayındır (Turkey)",
-      "file": "2026/TUR/altay-bay-nd-r.svg"
+      "file": "2026/TUR/altay-bay-nd-r.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Altay_Bay%C4%B1nd%C4%B1r_2022.jpg/330px-Altay_Bay%C4%B1nd%C4%B1r_2022.jpg"
     },
     "2026:TUR:eren-elmal": {
       "year": 2026,
@@ -3877,7 +3992,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Ozan Kabak (Turkey)",
-      "file": "2026/TUR/ozan-kabak.svg"
+      "file": "2026/TUR/ozan-kabak.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Ozan_kabak.jpg/330px-Ozan_kabak.jpg"
     },
     "2026:TUR:ismail-yuksek": {
       "year": 2026,
@@ -3927,7 +4043,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Ferdi Kadıoğlu (Turkey)",
-      "file": "2026/TUR/ferdi-kad-oglu.svg"
+      "file": "2026/TUR/ferdi-kad-oglu.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Ferdi_Kad%C4%B1o%C4%9Flu_2023.jpg/330px-Ferdi_Kad%C4%B1o%C4%9Flu_2023.jpg"
     },
     "2026:TUR:bar-s-alper-y-lmaz": {
       "year": 2026,
@@ -3937,7 +4054,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Barış Alper Yılmaz (Turkey)",
-      "file": "2026/TUR/bar-s-alper-y-lmaz.svg"
+      "file": "2026/TUR/bar-s-alper-y-lmaz.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Bar%C4%B1%C5%9F_Alper_Y%C4%B1lmaz_2023.jpg/330px-Bar%C4%B1%C5%9F_Alper_Y%C4%B1lmaz_2023.jpg"
     },
     "2026:TUR:kaan-ayhan": {
       "year": 2026,
@@ -3977,7 +4095,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Samet Akaydin (Turkey)",
-      "file": "2026/TUR/samet-akaydin.svg"
+      "file": "2026/TUR/samet-akaydin.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/SAMETAKAYD%C4%B0N_4.jpg/330px-SAMETAKAYD%C4%B0N_4.jpg"
     },
     "2026:TUR:can-uzun": {
       "year": 2026,
@@ -4037,7 +4156,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Antonee Robinson (United States)",
-      "file": "2026/USA/antonee-robinson.svg"
+      "file": "2026/USA/antonee-robinson.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Antonee_Robinson_USMNT_v_Portugal_Mar_31_2026-173_%28cropped%29.jpg/330px-Antonee_Robinson_USMNT_v_Portugal_Mar_31_2026-173_%28cropped%29.jpg"
     },
     "2026:USA:auston-trusty": {
       "year": 2026,
@@ -4057,7 +4177,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Giovanni Reyna (United States)",
-      "file": "2026/USA/giovanni-reyna.svg"
+      "file": "2026/USA/giovanni-reyna.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Gio_Reyna_USMNT_v_Belgium_Mar_28_2026-60_%28cropped%29.jpg/330px-Gio_Reyna_USMNT_v_Belgium_Mar_28_2026-60_%28cropped%29.jpg"
     },
     "2026:USA:weston-mckennie": {
       "year": 2026,
@@ -4087,7 +4208,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Christian Pulisic (United States)",
-      "file": "2026/USA/christian-pulisic.svg"
+      "file": "2026/USA/christian-pulisic.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Christian_Pulisic_2022.jpg/330px-Christian_Pulisic_2022.jpg"
     },
     "2026:USA:brenden-aaronson": {
       "year": 2026,
@@ -4157,7 +4279,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Malik Tillman (United States)",
-      "file": "2026/USA/malik-tillman.svg"
+      "file": "2026/USA/malik-tillman.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Malik_Tillman_USMNT_v_Belgium_Mar_28_2026-70_%28cropped%29.jpg/330px-Malik_Tillman_USMNT_v_Belgium_Mar_28_2026-70_%28cropped%29.jpg"
     },
     "2026:USA:max-arfsten": {
       "year": 2026,
@@ -4187,7 +4310,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Folarin Balogun (United States)",
-      "file": "2026/USA/folarin-balogun.svg"
+      "file": "2026/USA/folarin-balogun.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Folarin_Balogun_USMNT_v_Belgium_Mar_28_2026-69_%28cropped%29.jpg/330px-Folarin_Balogun_USMNT_v_Belgium_Mar_28_2026-69_%28cropped%29.jpg"
     },
     "2026:USA:timothy-weah": {
       "year": 2026,
@@ -4217,7 +4341,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Joe Scally (United States)",
-      "file": "2026/USA/joe-scally.svg"
+      "file": "2026/USA/joe-scally.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Joe_Scally_USMNT_v_Belgium_Mar_28_2026-51_%28cropped%29.jpg/330px-Joe_Scally_USMNT_v_Belgium_Mar_28_2026-51_%28cropped%29.jpg"
     },
     "2026:USA:matt-freese": {
       "year": 2026,
@@ -4261,7 +4386,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Eloy Room (Curaçao)",
-      "file": "2026/CUW/eloy-room.svg"
+      "file": "2026/CUW/eloy-room.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Room_Eloy_Columbus_Crew_SC_Meet_the_Team_2019.jpg/330px-Room_Eloy_Columbus_Crew_SC_Meet_the_Team_2019.jpg"
     },
     "2026:CUW:shurandy-sambo": {
       "year": 2026,
@@ -4301,7 +4427,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Sherel Floranus (Curaçao)",
-      "file": "2026/CUW/sherel-floranus.svg"
+      "file": "2026/CUW/sherel-floranus.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Sherel_Floranus_at_Antalyaspor_vs_Fatih_Karag%C3%BCmr%C3%BCk_SK_20220213.jpg/330px-Sherel_Floranus_at_Antalyaspor_vs_Fatih_Karag%C3%BCmr%C3%BCk_SK_20220213.jpg"
     },
     "2026:CUW:godfried-roemeratoe": {
       "year": 2026,
@@ -4311,7 +4438,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Godfried Roemeratoe (Curaçao)",
-      "file": "2026/CUW/godfried-roemeratoe.svg"
+      "file": "2026/CUW/godfried-roemeratoe.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Godfried_Roemeratoe.JPG/330px-Godfried_Roemeratoe.JPG"
     },
     "2026:CUW:juninho-bacuna": {
       "year": 2026,
@@ -4321,7 +4449,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Juninho Bacuna (Curaçao)",
-      "file": "2026/CUW/juninho-bacuna.svg"
+      "file": "2026/CUW/juninho-bacuna.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Juninho_bacuna-1531777726.jpeg/330px-Juninho_bacuna-1531777726.jpeg"
     },
     "2026:CUW:livano-comenencia": {
       "year": 2026,
@@ -4331,7 +4460,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Livano Comenencia (Curaçao)",
-      "file": "2026/CUW/livano-comenencia.svg"
+      "file": "2026/CUW/livano-comenencia.svg",
+      "thumbUrl": ""
     },
     "2026:CUW:jurgen-locadia": {
       "year": 2026,
@@ -4341,7 +4471,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Jürgen Locadia (Curaçao)",
-      "file": "2026/CUW/jurgen-locadia.svg"
+      "file": "2026/CUW/jurgen-locadia.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/J%C3%BCrgen_Locadia%2C_Persepolis_v_Havadar%2C_5_September_2022.jpg/330px-J%C3%BCrgen_Locadia%2C_Persepolis_v_Havadar%2C_5_September_2022.jpg"
     },
     "2026:CUW:leandro-bacuna": {
       "year": 2026,
@@ -4351,7 +4482,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Leandro Bacuna (Curaçao)",
-      "file": "2026/CUW/leandro-bacuna.svg"
+      "file": "2026/CUW/leandro-bacuna.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Leandro_Bacuna.jpg/330px-Leandro_Bacuna.jpg"
     },
     "2026:CUW:jeremy-antonisse": {
       "year": 2026,
@@ -4371,7 +4503,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Sontje Hansen (Curaçao)",
-      "file": "2026/CUW/sontje-hansen.svg"
+      "file": "2026/CUW/sontje-hansen.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Sontje_Hansen_16082025_%281%29.jpg/330px-Sontje_Hansen_16082025_%281%29.jpg"
     },
     "2026:CUW:tyrese-noslin": {
       "year": 2026,
@@ -4381,7 +4514,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Tyrese Noslin (Curaçao)",
-      "file": "2026/CUW/tyrese-noslin.svg"
+      "file": "2026/CUW/tyrese-noslin.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Tyrese_Noslin.jpg/330px-Tyrese_Noslin.jpg"
     },
     "2026:CUW:kenji-gorre": {
       "year": 2026,
@@ -4391,7 +4525,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Kenji Gorré (Curaçao)",
-      "file": "2026/CUW/kenji-gorre.svg"
+      "file": "2026/CUW/kenji-gorre.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Kenji_Gorr%C3%A9_%282015%29.jpg/330px-Kenji_Gorr%C3%A9_%282015%29.jpg"
     },
     "2026:CUW:ar-jany-martha": {
       "year": 2026,
@@ -4421,7 +4556,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Brandley Kuwas (Curaçao)",
-      "file": "2026/CUW/brandley-kuwas.svg"
+      "file": "2026/CUW/brandley-kuwas.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Brandley_Kuwas_%28cropped%29.png/330px-Brandley_Kuwas_%28cropped%29.png"
     },
     "2026:CUW:armando-obispo": {
       "year": 2026,
@@ -4431,7 +4567,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Armando Obispo (Curaçao)",
-      "file": "2026/CUW/armando-obispo.svg"
+      "file": "2026/CUW/armando-obispo.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Austria_U-18_vs._Netherlands_U-18_2017-03-23_%28060%29.jpg/330px-Austria_U-18_vs._Netherlands_U-18_2017-03-23_%28060%29.jpg"
     },
     "2026:CUW:gervane-kastaneer": {
       "year": 2026,
@@ -4461,7 +4598,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Tahith Chong (Curaçao)",
-      "file": "2026/CUW/tahith-chong.svg"
+      "file": "2026/CUW/tahith-chong.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Tahith_Chong_%2838487929362%29.jpg/330px-Tahith_Chong_%2838487929362%29.jpg"
     },
     "2026:CUW:kevin-felida": {
       "year": 2026,
@@ -4471,7 +4609,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Kevin Felida (Curaçao)",
-      "file": "2026/CUW/kevin-felida.svg"
+      "file": "2026/CUW/kevin-felida.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Kevin_felida-1571753982.jpg/330px-Kevin_felida-1571753982.jpg"
     },
     "2026:CUW:riechedly-bazoer": {
       "year": 2026,
@@ -4481,7 +4620,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Riechedly Bazoer (Curaçao)",
-      "file": "2026/CUW/riechedly-bazoer.svg"
+      "file": "2026/CUW/riechedly-bazoer.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Go_Ahead_Eagles_-_AZ_-_53170906955_%28Riechedly_Bazoer%29.jpg"
     },
     "2026:CUW:deveron-fonville": {
       "year": 2026,
@@ -4511,7 +4651,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Trevor Doornbusch (Curaçao)",
-      "file": "2026/CUW/trevor-doornbusch.svg"
+      "file": "2026/CUW/trevor-doornbusch.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Austria_U-18_vs._Netherlands_U-18_2017-03-23_%28095%29_%28cropped%29.jpg/330px-Austria_U-18_vs._Netherlands_U-18_2017-03-23_%28095%29_%28cropped%29.jpg"
     },
     "2026:ECU:hernan-galindez": {
       "year": 2026,
@@ -4571,7 +4712,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Willian Pacho (Ecuador)",
-      "file": "2026/ECU/willian-pacho.svg"
+      "file": "2026/ECU/willian-pacho.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Pacho_asse_psg_2425.png/330px-Pacho_asse_psg_2425.png"
     },
     "2026:ECU:pervis-estupinan": {
       "year": 2026,
@@ -4661,7 +4803,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Pedro Vite (Ecuador)",
-      "file": "2026/ECU/pedro-vite.svg"
+      "file": "2026/ECU/pedro-vite.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/3/39/Inter_Miami_CF_3-1_UNAM_%286_August_2025%29_04_%28cropped%29.jpg"
     },
     "2026:ECU:jordy-caicedo": {
       "year": 2026,
@@ -4671,7 +4814,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Jordy Caicedo (Ecuador)",
-      "file": "2026/ECU/jordy-caicedo.svg"
+      "file": "2026/ECU/jordy-caicedo.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/J._Kaisedo.jpg/330px-J._Kaisedo.jpg"
     },
     "2026:ECU:angelo-preciado": {
       "year": 2026,
@@ -4783,7 +4927,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Manuel Neuer (Germany)",
-      "file": "2026/GER/manuel-neuer.svg"
+      "file": "2026/GER/manuel-neuer.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Manuel_Neuer_2022.jpg/330px-Manuel_Neuer_2022.jpg"
     },
     "2026:GER:antonio-rudiger": {
       "year": 2026,
@@ -4793,7 +4938,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Antonio Rüdiger (Germany)",
-      "file": "2026/GER/antonio-rudiger.svg"
+      "file": "2026/GER/antonio-rudiger.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Antonio_Rudiger_2022.jpg/330px-Antonio_Rudiger_2022.jpg"
     },
     "2026:GER:waldemar-anton": {
       "year": 2026,
@@ -4803,7 +4949,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Waldemar Anton (Germany)",
-      "file": "2026/GER/waldemar-anton.svg"
+      "file": "2026/GER/waldemar-anton.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Waldemar_Anton_%282025%29.jpg/330px-Waldemar_Anton_%282025%29.jpg"
     },
     "2026:GER:jonathan-tah": {
       "year": 2026,
@@ -4833,7 +4980,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Joshua Kimmich (Germany)",
-      "file": "2026/GER/joshua-kimmich.svg"
+      "file": "2026/GER/joshua-kimmich.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Joshua_Kimmich_2022.jpg/330px-Joshua_Kimmich_2022.jpg"
     },
     "2026:GER:kai-havertz": {
       "year": 2026,
@@ -4843,7 +4991,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Kai Havertz (Germany)",
-      "file": "2026/GER/kai-havertz.svg"
+      "file": "2026/GER/kai-havertz.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Kai_Havertz_2022.jpg/330px-Kai_Havertz_2022.jpg"
     },
     "2026:GER:leon-goretzka": {
       "year": 2026,
@@ -4853,7 +5002,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Leon Goretzka (Germany)",
-      "file": "2026/GER/leon-goretzka.svg"
+      "file": "2026/GER/leon-goretzka.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/2019-06-11_Fu%C3%9Fball%2C_M%C3%A4nner%2C_L%C3%A4nderspiel%2C_Deutschland-Estland_StP_2074_LR10_by_Stepro_%28cropped%29.jpg/330px-2019-06-11_Fu%C3%9Fball%2C_M%C3%A4nner%2C_L%C3%A4nderspiel%2C_Deutschland-Estland_StP_2074_LR10_by_Stepro_%28cropped%29.jpg"
     },
     "2026:GER:jamie-leweling": {
       "year": 2026,
@@ -4863,7 +5013,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Jamie Leweling (Germany)",
-      "file": "2026/GER/jamie-leweling.svg"
+      "file": "2026/GER/jamie-leweling.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Jamie_leweling.jpg/330px-Jamie_leweling.jpg"
     },
     "2026:GER:jamal-musiala": {
       "year": 2026,
@@ -4873,7 +5024,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Jamal Musiala (Germany)",
-      "file": "2026/GER/jamal-musiala.svg"
+      "file": "2026/GER/jamal-musiala.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Jamal_Musiala_2022.jpg/330px-Jamal_Musiala_2022.jpg"
     },
     "2026:GER:nick-woltemade": {
       "year": 2026,
@@ -4883,7 +5035,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Nick Woltemade (Germany)",
-      "file": "2026/GER/nick-woltemade.svg"
+      "file": "2026/GER/nick-woltemade.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Nick_Woltemade_24052026_%285%29.jpg/330px-Nick_Woltemade_24052026_%285%29.jpg"
     },
     "2026:GER:oliver-baumann": {
       "year": 2026,
@@ -4913,7 +5066,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Maximilian Beier (Germany)",
-      "file": "2026/GER/maximilian-beier.svg"
+      "file": "2026/GER/maximilian-beier.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Maximilian_Beier_training_with_Borussia_Dortmund_%282026%29.jpg/330px-Maximilian_Beier_training_with_Borussia_Dortmund_%282026%29.jpg"
     },
     "2026:GER:nico-schlotterbeck": {
       "year": 2026,
@@ -4923,7 +5077,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Nico Schlotterbeck (Germany)",
-      "file": "2026/GER/nico-schlotterbeck.svg"
+      "file": "2026/GER/nico-schlotterbeck.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/2023-08-12_TSV_Schott_Mainz_gegen_Borussia_Dortmund_%28DFB-Pokal_2023-24%29_by_Sandro_Halank%E2%80%93069.jpg/330px-2023-08-12_TSV_Schott_Mainz_gegen_Borussia_Dortmund_%28DFB-Pokal_2023-24%29_by_Sandro_Halank%E2%80%93069.jpg"
     },
     "2026:GER:angelo-stiller": {
       "year": 2026,
@@ -4933,7 +5088,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Angelo Stiller (Germany)",
-      "file": "2026/GER/angelo-stiller.svg"
+      "file": "2026/GER/angelo-stiller.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Angelo_Stiller_2023.jpg/330px-Angelo_Stiller_2023.jpg"
     },
     "2026:GER:florian-wirtz": {
       "year": 2026,
@@ -4943,7 +5099,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Florian Wirtz (Germany)",
-      "file": "2026/GER/florian-wirtz.svg"
+      "file": "2026/GER/florian-wirtz.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Florian_Wirtz_2022.jpg/330px-Florian_Wirtz_2022.jpg"
     },
     "2026:GER:nathaniel-brown": {
       "year": 2026,
@@ -4963,7 +5120,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Leroy Sané (Germany)",
-      "file": "2026/GER/leroy-sane.svg"
+      "file": "2026/GER/leroy-sane.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Leroy_San%C3%A9_2022.jpg/330px-Leroy_San%C3%A9_2022.jpg"
     },
     "2026:GER:nadiem-amiri": {
       "year": 2026,
@@ -4973,7 +5131,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Nadiem Amiri (Germany)",
-      "file": "2026/GER/nadiem-amiri.svg"
+      "file": "2026/GER/nadiem-amiri.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/20161011_U21_AUT_GER_9328_%28cropped%29.jpg/330px-20161011_U21_AUT_GER_9328_%28cropped%29.jpg"
     },
     "2026:GER:alexander-nubel": {
       "year": 2026,
@@ -4993,7 +5152,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "David Raum (Germany)",
-      "file": "2026/GER/david-raum.svg"
+      "file": "2026/GER/david-raum.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/2023-10-04_Fu%C3%9Fball%2C_M%C3%A4nner%2C_UEFA_Champions_League%2C_RB_Leipzig_-_Manchester_City_FC_1DX_2658_%28cropped%29.jpg/330px-2023-10-04_Fu%C3%9Fball%2C_M%C3%A4nner%2C_UEFA_Champions_League%2C_RB_Leipzig_-_Manchester_City_FC_1DX_2658_%28cropped%29.jpg"
     },
     "2026:GER:felix-nmecha": {
       "year": 2026,
@@ -5003,7 +5163,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Felix Nmecha (Germany)",
-      "file": "2026/GER/felix-nmecha.svg"
+      "file": "2026/GER/felix-nmecha.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Felix_Nmecha_2021.jpg/330px-Felix_Nmecha_2021.jpg"
     },
     "2026:GER:malick-thiaw": {
       "year": 2026,
@@ -5013,7 +5174,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Malick Thiaw (Germany)",
-      "file": "2026/GER/malick-thiaw.svg"
+      "file": "2026/GER/malick-thiaw.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Malick_Thiaw_24052026_%284%29.jpg/330px-Malick_Thiaw_24052026_%284%29.jpg"
     },
     "2026:GER:assan-ouedraogo": {
       "year": 2026,
@@ -5043,7 +5205,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Yahia Fofana (Côte d'Ivoire)",
-      "file": "2026/CIV/yahia-fofana.svg"
+      "file": "2026/CIV/yahia-fofana.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Fofana_asse_sco_2425.png/330px-Fofana_asse_sco_2425.png"
     },
     "2026:CIV:ousmane-diomande": {
       "year": 2026,
@@ -5063,7 +5226,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Ghislain Konan (Côte d'Ivoire)",
-      "file": "2026/CIV/ghislain-konan.svg"
+      "file": "2026/CIV/ghislain-konan.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Joueur_ivoirien_02.jpg/330px-Joueur_ivoirien_02.jpg"
     },
     "2026:CIV:jean-michael-seri": {
       "year": 2026,
@@ -5083,7 +5247,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Wilfried Singo (Côte d'Ivoire)",
-      "file": "2026/CIV/wilfried-singo.svg"
+      "file": "2026/CIV/wilfried-singo.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Singo_asse_asm_2425.png/330px-Singo_asse_asm_2425.png"
     },
     "2026:CIV:seko-fofana": {
       "year": 2026,
@@ -5103,7 +5268,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Odilon Kossounou (Côte d'Ivoire)",
-      "file": "2026/CIV/odilon-kossounou.svg"
+      "file": "2026/CIV/odilon-kossounou.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Odilon_Kossounou%2C_2022-07-31%2C_Saisoner%C3%B6ffnung_Bayer_04%2C_Leverkusen_%281%29.jpg/330px-Odilon_Kossounou%2C_2022-07-31%2C_Saisoner%C3%B6ffnung_Bayer_04%2C_Leverkusen_%281%29.jpg"
     },
     "2026:CIV:franck-kessie": {
       "year": 2026,
@@ -5133,7 +5299,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Simon Adingra (Côte d'Ivoire)",
-      "file": "2026/CIV/simon-adingra.svg"
+      "file": "2026/CIV/simon-adingra.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Simon_Adingra_USG_2023.jpg/330px-Simon_Adingra_USG_2023.jpg"
     },
     "2026:CIV:yan-diomande": {
       "year": 2026,
@@ -5143,7 +5310,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Yan Diomande (Côte d'Ivoire)",
-      "file": "2026/CIV/yan-diomande.svg"
+      "file": "2026/CIV/yan-diomande.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/%28Yan_Diomande%29_2026_FIFA_World_Cup%2C_Germany_v_Ivory_Coast_players_%28cropped%29.jpg/330px-%28Yan_Diomande%29_2026_FIFA_World_Cup%2C_Germany_v_Ivory_Coast_players_%28cropped%29.jpg"
     },
     "2026:CIV:elye-wahi": {
       "year": 2026,
@@ -5153,7 +5321,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Elye Wahi (Côte d'Ivoire)",
-      "file": "2026/CIV/elye-wahi.svg"
+      "file": "2026/CIV/elye-wahi.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Elye_Wahi_2022.jpg/330px-Elye_Wahi_2022.jpg"
     },
     "2026:CIV:christopher-operi": {
       "year": 2026,
@@ -5183,7 +5352,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Amad Diallo (Côte d'Ivoire)",
-      "file": "2026/CIV/amad-diallo.svg"
+      "file": "2026/CIV/amad-diallo.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Manchester_United_v_BSC_Young_Boys%2C_8_December_2021_%2817%29_%28cropped%29.jpg/330px-Manchester_United_v_BSC_Young_Boys%2C_8_December_2021_%2817%29_%28cropped%29.jpg"
     },
     "2026:CIV:mohamed-kone": {
       "year": 2026,
@@ -5233,7 +5403,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Emmanuel Agbadou (Côte d'Ivoire)",
-      "file": "2026/CIV/emmanuel-agbadou.svg"
+      "file": "2026/CIV/emmanuel-agbadou.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Emmanuel_Agbadou.jpg/330px-Emmanuel_Agbadou.jpg"
     },
     "2026:CIV:evan-ndicka": {
       "year": 2026,
@@ -5243,7 +5414,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Evan Ndicka (Côte d'Ivoire)",
-      "file": "2026/CIV/evan-ndicka.svg"
+      "file": "2026/CIV/evan-ndicka.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/2022128151247_2022-05-08_Fussball_Eintracht_Frankfurt_vs_Borussia_M%C3%B6nchengladbach_-_Sven_-_1D_X_MK_II_-_0370_-_B70I6481_%28Evan_N%E2%80%99Dicka_cropped%29.jpg/330px-2022128151247_2022-05-08_Fussball_Eintracht_Frankfurt_vs_Borussia_M%C3%B6nchengladbach_-_Sven_-_1D_X_MK_II_-_0370_-_B70I6481_%28Evan_N%E2%80%99Dicka_cropped%29.jpg"
     },
     "2026:CIV:evann-guessand": {
       "year": 2026,
@@ -5253,7 +5425,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Evann Guessand (Côte d'Ivoire)",
-      "file": "2026/CIV/evann-guessand.svg"
+      "file": "2026/CIV/evann-guessand.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Guessand_asse_ogcn_2425.png/330px-Guessand_asse_ogcn_2425.png"
     },
     "2026:CIV:alban-lafont": {
       "year": 2026,
@@ -5263,7 +5436,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Alban Lafont (Côte d'Ivoire)",
-      "file": "2026/CIV/alban-lafont.svg"
+      "file": "2026/CIV/alban-lafont.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Alban_Lafont_%282018-04-21%29_1.jpg/330px-Alban_Lafont_%282018-04-21%29_1.jpg"
     },
     "2026:CIV:bazoumana-toure": {
       "year": 2026,
@@ -5283,7 +5457,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Parfait Guiagon (Côte d'Ivoire)",
-      "file": "2026/CIV/parfait-guiagon.svg"
+      "file": "2026/CIV/parfait-guiagon.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/%D7%A4%D7%90%D7%A8%D7%A4%D7%94_%D7%92%D7%95%D7%99%D7%90%D7%92%D7%95%D7%9F_-_Parfait_Guiagon.jpg/330px-%D7%A4%D7%90%D7%A8%D7%A4%D7%94_%D7%92%D7%95%D7%99%D7%90%D7%92%D7%95%D7%9F_-_Parfait_Guiagon.jpg"
     },
     "2026:CIV:christ-inao-oulai": {
       "year": 2026,
@@ -5303,7 +5478,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Zion Suzuki (Japan)",
-      "file": "2026/JPN/zion-suzuki.svg"
+      "file": "2026/JPN/zion-suzuki.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/ZION_SUZUKI_-_JPN_vs_THA_-_Friendly_Match_-_2024.01.01.jpg/330px-ZION_SUZUKI_-_JPN_vs_THA_-_Friendly_Match_-_2024.01.01.jpg"
     },
     "2026:JPN:yukinari-sugawara": {
       "year": 2026,
@@ -5313,7 +5489,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Yukinari Sugawara (Japan)",
-      "file": "2026/JPN/yukinari-sugawara.svg"
+      "file": "2026/JPN/yukinari-sugawara.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/4822940_AE7I9740_-_Yukinari_Sugawara.jpg/330px-4822940_AE7I9740_-_Yukinari_Sugawara.jpg"
     },
     "2026:JPN:shogo-taniguchi": {
       "year": 2026,
@@ -5333,7 +5510,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Kō Itakura (Japan)",
-      "file": "2026/JPN/ko-itakura.svg"
+      "file": "2026/JPN/ko-itakura.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Ko_Itakura_%28cropped%29.jpg/330px-Ko_Itakura_%28cropped%29.jpg"
     },
     "2026:JPN:yuto-nagatomo": {
       "year": 2026,
@@ -5363,7 +5541,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Ao Tanaka (Japan)",
-      "file": "2026/JPN/ao-tanaka.svg"
+      "file": "2026/JPN/ao-tanaka.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Ao_Tanaka_13092025_%281%29_%28cropped%29.jpg/330px-Ao_Tanaka_13092025_%281%29_%28cropped%29.jpg"
     },
     "2026:JPN:takefusa-kubo": {
       "year": 2026,
@@ -5373,7 +5552,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Takefusa Kubo (Japan)",
-      "file": "2026/JPN/takefusa-kubo.svg"
+      "file": "2026/JPN/takefusa-kubo.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Takefusa_Kubo_2019.png/330px-Takefusa_Kubo_2019.png"
     },
     "2026:JPN:keisuke-goto": {
       "year": 2026,
@@ -5403,7 +5583,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Daizen Maeda (Japan)",
-      "file": "2026/JPN/daizen-maeda.svg"
+      "file": "2026/JPN/daizen-maeda.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Celtic-20240722-018_%28cropped%29.jpg/330px-Celtic-20240722-018_%28cropped%29.jpg"
     },
     "2026:JPN:keisuke-osako": {
       "year": 2026,
@@ -5413,7 +5594,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Keisuke Ōsako (Japan)",
-      "file": "2026/JPN/keisuke-osako.svg"
+      "file": "2026/JPN/keisuke-osako.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Sanfrecce_Hiroshima_-1_Keisuke_OSAKO.jpg/330px-Sanfrecce_Hiroshima_-1_Keisuke_OSAKO.jpg"
     },
     "2026:JPN:keito-nakamura": {
       "year": 2026,
@@ -5423,7 +5605,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Keito Nakamura (Japan)",
-      "file": "2026/JPN/keito-nakamura.svg"
+      "file": "2026/JPN/keito-nakamura.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Nakamura_asse_sr_2425.png/330px-Nakamura_asse_sr_2425.png"
     },
     "2026:JPN:junya-ito": {
       "year": 2026,
@@ -5433,7 +5616,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Junya Itō (Japan)",
-      "file": "2026/JPN/junya-ito.svg"
+      "file": "2026/JPN/junya-ito.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Ito_asse_sr_2425.png/330px-Ito_asse_sr_2425.png"
     },
     "2026:JPN:daichi-kamada": {
       "year": 2026,
@@ -5443,7 +5627,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Daichi Kamada (Japan)",
-      "file": "2026/JPN/daichi-kamada.svg"
+      "file": "2026/JPN/daichi-kamada.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/2022128173756_2022-05-08_Fussball_Eintracht_Frankfurt_vs_Borussia_M%C3%B6nchengladbach_-_Sven_-_1D_X_MK_II_-_0725_-_AK8I7460_%28Daichi_Kamada_cropped%29.jpg/330px-2022128173756_2022-05-08_Fussball_Eintracht_Frankfurt_vs_Borussia_M%C3%B6nchengladbach_-_Sven_-_1D_X_MK_II_-_0725_-_AK8I7460_%28Daichi_Kamada_cropped%29.jpg"
     },
     "2026:JPN:tsuyoshi-watanabe": {
       "year": 2026,
@@ -5453,7 +5638,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Tsuyoshi Watanabe (Japan)",
-      "file": "2026/JPN/tsuyoshi-watanabe.svg"
+      "file": "2026/JPN/tsuyoshi-watanabe.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Inukai_Tsuyoshi.jpg/330px-Inukai_Tsuyoshi.jpg"
     },
     "2026:JPN:yuito-suzuki": {
       "year": 2026,
@@ -5463,7 +5649,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Yuito Suzuki (Japan)",
-      "file": "2026/JPN/yuito-suzuki.svg"
+      "file": "2026/JPN/yuito-suzuki.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Suzuki_%282023%29.png/330px-Suzuki_%282023%29.png"
     },
     "2026:JPN:ayase-ueda": {
       "year": 2026,
@@ -5473,7 +5660,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Ayase Ueda (Japan)",
-      "file": "2026/JPN/ayase-ueda.svg"
+      "file": "2026/JPN/ayase-ueda.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Go_Ahead_Eagles_-_Feyenoord_-_53679351240_%28Ayase_Ueda%29.jpg/330px-Go_Ahead_Eagles_-_Feyenoord_-_53679351240_%28Ayase_Ueda%29.jpg"
     },
     "2026:JPN:koki-ogawa": {
       "year": 2026,
@@ -5483,7 +5671,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Kōki Ogawa (Japan)",
-      "file": "2026/JPN/koki-ogawa.svg"
+      "file": "2026/JPN/koki-ogawa.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/GAE_-_NEC_-_53493888105_%28Koki_Ogawa%29.jpg/330px-GAE_-_NEC_-_53493888105_%28Koki_Ogawa%29.jpg"
     },
     "2026:JPN:ayumu-seko": {
       "year": 2026,
@@ -5513,7 +5702,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Takehiro Tomiyasu (Japan)",
-      "file": "2026/JPN/takehiro-tomiyasu.svg"
+      "file": "2026/JPN/takehiro-tomiyasu.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Takehiro_Tomiyasu_2022.jpg/330px-Takehiro_Tomiyasu_2022.jpg"
     },
     "2026:JPN:tomoki-hayakawa": {
       "year": 2026,
@@ -5593,7 +5783,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Virgil van Dijk (Netherlands)",
-      "file": "2026/NED/virgil-van-dijk.svg"
+      "file": "2026/NED/virgil-van-dijk.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Virgil_van_Dijk_2022.jpg/330px-Virgil_van_Dijk_2022.jpg"
     },
     "2026:NED:nathan-ake": {
       "year": 2026,
@@ -5763,7 +5954,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Frenkie de Jong (Netherlands)",
-      "file": "2026/NED/frenkie-de-jong.svg"
+      "file": "2026/NED/frenkie-de-jong.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Frenkie_de_Jong_2022.jpg/330px-Frenkie_de_Jong_2022.jpg"
     },
     "2026:NED:denzel-dumfries": {
       "year": 2026,
@@ -6343,7 +6535,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Thibaut Courtois (Belgium)",
-      "file": "2026/BEL/thibaut-courtois.svg"
+      "file": "2026/BEL/thibaut-courtois.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Thibaut_Courtois_2022.jpg/330px-Thibaut_Courtois_2022.jpg"
     },
     "2026:BEL:zeno-debast": {
       "year": 2026,
@@ -6403,7 +6596,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Kevin De Bruyne (Belgium)",
-      "file": "2026/BEL/kevin-de-bruyne.svg"
+      "file": "2026/BEL/kevin-de-bruyne.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Kevin_De_Bruyne_2022.jpg/330px-Kevin_De_Bruyne_2022.jpg"
     },
     "2026:BEL:youri-tielemans": {
       "year": 2026,
@@ -6423,7 +6617,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Romelu Lukaku (Belgium)",
-      "file": "2026/BEL/romelu-lukaku.svg"
+      "file": "2026/BEL/romelu-lukaku.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Romelu_Lukaku_2022.jpg/330px-Romelu_Lukaku_2022.jpg"
     },
     "2026:BEL:leandro-trossard": {
       "year": 2026,
@@ -7999,7 +8194,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Dani Olmo (Spain)",
-      "file": "2026/ESP/dani-olmo.svg"
+      "file": "2026/ESP/dani-olmo.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Dani_Olmo_2022.jpg/330px-Dani_Olmo_2022.jpg"
     },
     "2026:ESP:yeremy-pino": {
       "year": 2026,
@@ -8061,7 +8257,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Rodri (Spain)",
-      "file": "2026/ESP/rodri.svg"
+      "file": "2026/ESP/rodri.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Rodri_2022.jpg/330px-Rodri_2022.jpg"
     },
     "2026:ESP:nico-williams": {
       "year": 2026,
@@ -8071,7 +8268,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Nico Williams (Spain)",
-      "file": "2026/ESP/nico-williams.svg"
+      "file": "2026/ESP/nico-williams.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Nico_Williams_2024.jpg/330px-Nico_Williams_2024.jpg"
     },
     "2026:ESP:martin-zubimendi": {
       "year": 2026,
@@ -8091,7 +8289,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Lamine Yamal (Spain)",
-      "file": "2026/ESP/lamine-yamal.svg"
+      "file": "2026/ESP/lamine-yamal.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Lamine_Yamal_2024.jpg/330px-Lamine_Yamal_2024.jpg"
     },
     "2026:ESP:pedri": {
       "year": 2026,
@@ -8101,7 +8300,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Pedri (Spain)",
-      "file": "2026/ESP/pedri.svg"
+      "file": "2026/ESP/pedri.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Pedri_2022.jpg/330px-Pedri_2022.jpg"
     },
     "2026:ESP:mikel-oyarzabal": {
       "year": 2026,
@@ -8111,7 +8311,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Mikel Oyarzabal (Spain)",
-      "file": "2026/ESP/mikel-oyarzabal.svg"
+      "file": "2026/ESP/mikel-oyarzabal.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Mikel_Oyarzabal_2022.jpg/330px-Mikel_Oyarzabal_2022.jpg"
     },
     "2026:ESP:pau-cubarsi": {
       "year": 2026,
@@ -8241,7 +8442,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Federico Valverde (Uruguay)",
-      "file": "2026/URU/federico-valverde.svg"
+      "file": "2026/URU/federico-valverde.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Federico_Valverde_2022.jpg/330px-Federico_Valverde_2022.jpg"
     },
     "2026:URU:darwin-nunez": {
       "year": 2026,
@@ -8251,7 +8453,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Darwin Núñez (Uruguay)",
-      "file": "2026/URU/darwin-nunez.svg"
+      "file": "2026/URU/darwin-nunez.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Darwin_N%C3%BA%C3%B1ez_2022.jpg/330px-Darwin_N%C3%BA%C3%B1ez_2022.jpg"
     },
     "2026:URU:giorgian-de-arrascaeta": {
       "year": 2026,
@@ -8431,7 +8634,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Brice Samba (France)",
-      "file": "2026/FRA/brice-samba.svg"
+      "file": "2026/FRA/brice-samba.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Brice_Samba_France_v_Senegal_16_June_2026-280_%28cropped%29.jpg/330px-Brice_Samba_France_v_Senegal_16_June_2026-280_%28cropped%29.jpg"
     },
     "2026:FRA:malo-gusto": {
       "year": 2026,
@@ -8441,7 +8645,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Malo Gusto (France)",
-      "file": "2026/FRA/malo-gusto.svg"
+      "file": "2026/FRA/malo-gusto.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Malo_Gusto_France_v_Senegal_16_June_2026-399.jpg/330px-Malo_Gusto_France_v_Senegal_16_June_2026-399.jpg"
     },
     "2026:FRA:lucas-digne": {
       "year": 2026,
@@ -8451,7 +8656,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Lucas Digne (France)",
-      "file": "2026/FRA/lucas-digne.svg"
+      "file": "2026/FRA/lucas-digne.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Lucas_Digne_2019.jpg/330px-Lucas_Digne_2019.jpg"
     },
     "2026:FRA:dayot-upamecano": {
       "year": 2026,
@@ -8461,7 +8667,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Dayot Upamecano (France)",
-      "file": "2026/FRA/dayot-upamecano.svg"
+      "file": "2026/FRA/dayot-upamecano.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Dayot_Upamecano_France_v_Senegal_16_June_2026-402_%28cropped%29.jpg/330px-Dayot_Upamecano_France_v_Senegal_16_June_2026-402_%28cropped%29.jpg"
     },
     "2026:FRA:jules-kounde": {
       "year": 2026,
@@ -8471,7 +8678,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Jules Koundé (France)",
-      "file": "2026/FRA/jules-kounde.svg"
+      "file": "2026/FRA/jules-kounde.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Jules_Kound%C3%A9_2022.jpg/330px-Jules_Kound%C3%A9_2022.jpg"
     },
     "2026:FRA:manu-kone": {
       "year": 2026,
@@ -8481,7 +8689,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Manu Koné (France)",
-      "file": "2026/FRA/manu-kone.svg"
+      "file": "2026/FRA/manu-kone.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Manu_Kon%C3%A9_2023.jpg/330px-Manu_Kon%C3%A9_2023.jpg"
     },
     "2026:FRA:ousmane-dembele": {
       "year": 2026,
@@ -8491,7 +8700,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Ousmane Dembélé (France)",
-      "file": "2026/FRA/ousmane-dembele.svg"
+      "file": "2026/FRA/ousmane-dembele.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Ousmane_Demb%C3%A9l%C3%A9_2018.jpg/330px-Ousmane_Demb%C3%A9l%C3%A9_2018.jpg"
     },
     "2026:FRA:aurelien-tchouameni": {
       "year": 2026,
@@ -8501,7 +8711,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Aurélien Tchouaméni (France)",
-      "file": "2026/FRA/aurelien-tchouameni.svg"
+      "file": "2026/FRA/aurelien-tchouameni.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Aur%C3%A9lien_Tchouam%C3%A9ni_2022.jpg/330px-Aur%C3%A9lien_Tchouam%C3%A9ni_2022.jpg"
     },
     "2026:FRA:marcus-thuram": {
       "year": 2026,
@@ -8511,7 +8722,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Marcus Thuram (France)",
-      "file": "2026/FRA/marcus-thuram.svg"
+      "file": "2026/FRA/marcus-thuram.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Marcus_Thuram_2022.jpg/330px-Marcus_Thuram_2022.jpg"
     },
     "2026:FRA:kylian-mbappe": {
       "year": 2026,
@@ -8521,7 +8733,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Kylian Mbappé (France)",
-      "file": "2026/FRA/kylian-mbappe.svg"
+      "file": "2026/FRA/kylian-mbappe.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/2019129095541_2019-05-09_Fussball_Champions_League_Finale_Liverpool_-_Tottenham_-_Sven_Simon.jpg/330px-2019129095541_2019-05-09_Fussball_Champions_League_Finale_Liverpool_-_Tottenham_-_Sven_Simon.jpg"
     },
     "2026:FRA:michael-olise": {
       "year": 2026,
@@ -8531,7 +8744,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Michael Olise (France)",
-      "file": "2026/FRA/michael-olise.svg"
+      "file": "2026/FRA/michael-olise.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Michael_Olise_France_v_Senegal_16_June_2026-307_%28cropped%29.jpg/330px-Michael_Olise_France_v_Senegal_16_June_2026-307_%28cropped%29.jpg"
     },
     "2026:FRA:bradley-barcola": {
       "year": 2026,
@@ -8541,7 +8755,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Bradley Barcola (France)",
-      "file": "2026/FRA/bradley-barcola.svg"
+      "file": "2026/FRA/bradley-barcola.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Bradley_Barcola_2023.jpg/330px-Bradley_Barcola_2023.jpg"
     },
     "2026:FRA:n-golo-kante": {
       "year": 2026,
@@ -8551,7 +8766,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "N'Golo Kanté (France)",
-      "file": "2026/FRA/n-golo-kante.svg"
+      "file": "2026/FRA/n-golo-kante.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/N%27Golo_Kant%C3%A9_2022.jpg/330px-N%27Golo_Kant%C3%A9_2022.jpg"
     },
     "2026:FRA:adrien-rabiot": {
       "year": 2026,
@@ -8561,7 +8777,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Adrien Rabiot (France)",
-      "file": "2026/FRA/adrien-rabiot.svg"
+      "file": "2026/FRA/adrien-rabiot.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Adrien_Rabiot_2022.jpg/330px-Adrien_Rabiot_2022.jpg"
     },
     "2026:FRA:ibrahima-konate": {
       "year": 2026,
@@ -8571,7 +8788,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Ibrahima Konaté (France)",
-      "file": "2026/FRA/ibrahima-konate.svg"
+      "file": "2026/FRA/ibrahima-konate.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Ibrahima_Konate_2022.jpg/330px-Ibrahima_Konate_2022.jpg"
     },
     "2026:FRA:mike-maignan": {
       "year": 2026,
@@ -8581,7 +8799,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Mike Maignan (France)",
-      "file": "2026/FRA/mike-maignan.svg"
+      "file": "2026/FRA/mike-maignan.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Mike_Maignan_France_v_Senegal_16_June_2026-210.jpg/330px-Mike_Maignan_France_v_Senegal_16_June_2026-210.jpg"
     },
     "2026:FRA:william-saliba": {
       "year": 2026,
@@ -8591,7 +8810,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "William Saliba (France)",
-      "file": "2026/FRA/william-saliba.svg"
+      "file": "2026/FRA/william-saliba.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/William_Saliba_France_v_Senegal_16_June_2026-336_%28cropped%29.jpg/330px-William_Saliba_France_v_Senegal_16_June_2026-336_%28cropped%29.jpg"
     },
     "2026:FRA:warren-zaire-emery": {
       "year": 2026,
@@ -8601,7 +8821,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Warren Zaïre-Emery (France)",
-      "file": "2026/FRA/warren-zaire-emery.svg"
+      "file": "2026/FRA/warren-zaire-emery.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Warren_Za%C3%AFre-Emery_2023.jpg/330px-Warren_Za%C3%AFre-Emery_2023.jpg"
     },
     "2026:FRA:theo-hernandez": {
       "year": 2026,
@@ -8611,7 +8832,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Théo Hernandez (France)",
-      "file": "2026/FRA/theo-hernandez.svg"
+      "file": "2026/FRA/theo-hernandez.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Theo_Hernandez_2022.jpg/330px-Theo_Hernandez_2022.jpg"
     },
     "2026:FRA:desire-doue": {
       "year": 2026,
@@ -8621,7 +8843,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Désiré Doué (France)",
-      "file": "2026/FRA/desire-doue.svg"
+      "file": "2026/FRA/desire-doue.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/D%C3%A9sir%C3%A9_Doue_2023.jpg/330px-D%C3%A9sir%C3%A9_Doue_2023.jpg"
     },
     "2026:FRA:lucas-hernandez": {
       "year": 2026,
@@ -8631,7 +8854,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Lucas Hernandez (France)",
-      "file": "2026/FRA/lucas-hernandez.svg"
+      "file": "2026/FRA/lucas-hernandez.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Lucas_Hernandez_2022.jpg/330px-Lucas_Hernandez_2022.jpg"
     },
     "2026:FRA:jean-philippe-mateta": {
       "year": 2026,
@@ -8641,7 +8865,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Jean-Philippe Mateta (France)",
-      "file": "2026/FRA/jean-philippe-mateta.svg"
+      "file": "2026/FRA/jean-philippe-mateta.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Jean-Philippe_Mateta_2023.jpg/330px-Jean-Philippe_Mateta_2023.jpg"
     },
     "2026:FRA:robin-risser": {
       "year": 2026,
@@ -8651,7 +8876,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Robin Risser (France)",
-      "file": "2026/FRA/robin-risser.svg"
+      "file": "2026/FRA/robin-risser.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Robin_Risser_France_v_Senegal_16_June_2026-403_%28cropped%29.jpg/330px-Robin_Risser_France_v_Senegal_16_June_2026-403_%28cropped%29.jpg"
     },
     "2026:FRA:rayan-cherki": {
       "year": 2026,
@@ -8661,7 +8887,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Rayan Cherki (France)",
-      "file": "2026/FRA/rayan-cherki.svg"
+      "file": "2026/FRA/rayan-cherki.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Rayan_Cherki_2023.jpg/330px-Rayan_Cherki_2023.jpg"
     },
     "2026:FRA:maghnes-akliouche": {
       "year": 2026,
@@ -8671,7 +8898,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Maghnes Akliouche (France)",
-      "file": "2026/FRA/maghnes-akliouche.svg"
+      "file": "2026/FRA/maghnes-akliouche.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Maghnes_Akliouche_2024.jpg/330px-Maghnes_Akliouche_2024.jpg"
     },
     "2026:FRA:maxence-lacroix": {
       "year": 2026,
@@ -8681,7 +8909,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Maxence Lacroix (France)",
-      "file": "2026/FRA/maxence-lacroix.svg"
+      "file": "2026/FRA/maxence-lacroix.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Maxence_Lacroix_France_v_Senegal_16_June_2026-282.jpg/330px-Maxence_Lacroix_France_v_Senegal_16_June_2026-282.jpg"
     },
     "2026:IRQ:fahad-talib": {
       "year": 2026,
@@ -9305,7 +9534,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Sadio Mané (Senegal)",
-      "file": "2026/SEN/sadio-mane.svg"
+      "file": "2026/SEN/sadio-mane.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Sadio_Mane_2022.jpg/330px-Sadio_Mane_2022.jpg"
     },
     "2026:SEN:nicolas-jackson": {
       "year": 2026,
@@ -9737,7 +9967,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Juan Musso (Argentina)",
-      "file": "2026/ARG/juan-musso.svg"
+      "file": "2026/ARG/juan-musso.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Musso_Udinese.png/330px-Musso_Udinese.png"
     },
     "2026:ARG:marcos-senesi": {
       "year": 2026,
@@ -9747,7 +9978,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Marcos Senesi (Argentina)",
-      "file": "2026/ARG/marcos-senesi.svg"
+      "file": "2026/ARG/marcos-senesi.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Marcos_Senesi_2022.jpg/330px-Marcos_Senesi_2022.jpg"
     },
     "2026:ARG:nicolas-tagliafico": {
       "year": 2026,
@@ -9757,7 +9989,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Nicolás Tagliafico (Argentina)",
-      "file": "2026/ARG/nicolas-tagliafico.svg"
+      "file": "2026/ARG/nicolas-tagliafico.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Tagliafico_asse_ol_2425.png/330px-Tagliafico_asse_ol_2425.png"
     },
     "2026:ARG:gonzalo-montiel": {
       "year": 2026,
@@ -9767,7 +10000,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Gonzalo Montiel (Argentina)",
-      "file": "2026/ARG/gonzalo-montiel.svg"
+      "file": "2026/ARG/gonzalo-montiel.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Gonzalo_Montiel_2022.jpg/330px-Gonzalo_Montiel_2022.jpg"
     },
     "2026:ARG:leandro-paredes": {
       "year": 2026,
@@ -9777,7 +10011,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Leandro Paredes (Argentina)",
-      "file": "2026/ARG/leandro-paredes.svg"
+      "file": "2026/ARG/leandro-paredes.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Leandro_Paredes_2018_%28cropped%29.jpg/330px-Leandro_Paredes_2018_%28cropped%29.jpg"
     },
     "2026:ARG:lisandro-martinez": {
       "year": 2026,
@@ -9787,7 +10022,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Lisandro Martínez (Argentina)",
-      "file": "2026/ARG/lisandro-martinez.svg"
+      "file": "2026/ARG/lisandro-martinez.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Lisandro_Martinez_2022.jpg/330px-Lisandro_Martinez_2022.jpg"
     },
     "2026:ARG:rodrigo-de-paul": {
       "year": 2026,
@@ -9797,7 +10033,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Rodrigo De Paul (Argentina)",
-      "file": "2026/ARG/rodrigo-de-paul.svg"
+      "file": "2026/ARG/rodrigo-de-paul.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Rodrigo_De_Paul_NYCFC_Miami_24_Sep_2025-018_%28cropped%29.jpg/330px-Rodrigo_De_Paul_NYCFC_Miami_24_Sep_2025-018_%28cropped%29.jpg"
     },
     "2026:ARG:valentin-barco": {
       "year": 2026,
@@ -9807,7 +10044,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Valentín Barco (Argentina)",
-      "file": "2026/ARG/valentin-barco.svg"
+      "file": "2026/ARG/valentin-barco.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Entrenamiento_Argentina_Sub20_previo_al_mundial_-_BugWarp_%2813%29_%28cropped%29_%28cropped%29.jpg/330px-Entrenamiento_Argentina_Sub20_previo_al_mundial_-_BugWarp_%2813%29_%28cropped%29_%28cropped%29.jpg"
     },
     "2026:ARG:julian-alvarez": {
       "year": 2026,
@@ -9817,7 +10055,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Julián Alvarez (Argentina)",
-      "file": "2026/ARG/julian-alvarez.svg"
+      "file": "2026/ARG/julian-alvarez.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Juliáán_Álvarez_2023.jpg/330px-Juliáán_Álvarez_2023.jpg"
     },
     "2026:ARG:lionel-messi": {
       "year": 2026,
@@ -9827,7 +10066,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Lionel Messi (Argentina)",
-      "file": "2026/ARG/lionel-messi.svg"
+      "file": "2026/ARG/lionel-messi.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Lionel_Messi_WC2022.jpg/330px-Lionel_Messi_WC2022.jpg"
     },
     "2026:ARG:giovani-lo-celso": {
       "year": 2026,
@@ -9837,7 +10077,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Giovani Lo Celso (Argentina)",
-      "file": "2026/ARG/giovani-lo-celso.svg"
+      "file": "2026/ARG/giovani-lo-celso.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/2020-03-10_Fu%C3%9Fball%2C_M%C3%A4nner%2C_UEFA_Champions_League_Achtelfinale%2C_RB_Leipzig_-_Tottenham_Hotspur_1DX_3705_by_Stepro.jpg/330px-2020-03-10_Fu%C3%9Fball%2C_M%C3%A4nner%2C_UEFA_Champions_League_Achtelfinale%2C_RB_Leipzig_-_Tottenham_Hotspur_1DX_3705_by_Stepro.jpg"
     },
     "2026:ARG:geronimo-rulli": {
       "year": 2026,
@@ -9847,7 +10088,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Gerónimo Rulli (Argentina)",
-      "file": "2026/ARG/geronimo-rulli.svg"
+      "file": "2026/ARG/geronimo-rulli.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Rulli_asse_om_2425.png/330px-Rulli_asse_om_2425.png"
     },
     "2026:ARG:cristian-romero": {
       "year": 2026,
@@ -9857,7 +10099,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Cristian Romero (Argentina)",
-      "file": "2026/ARG/cristian-romero.svg"
+      "file": "2026/ARG/cristian-romero.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Cristian_Romero_WC2022.jpg/330px-Cristian_Romero_WC2022.jpg"
     },
     "2026:ARG:exequiel-palacios": {
       "year": 2026,
@@ -9867,7 +10110,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Exequiel Palacios (Argentina)",
-      "file": "2026/ARG/exequiel-palacios.svg"
+      "file": "2026/ARG/exequiel-palacios.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Exequiel_Palacios%2C_2022-07-31%2C_Saisoner%C3%B6ffnung_Bayer_04%2C_Leverkusen_%281%29.jpg/330px-Exequiel_Palacios%2C_2022-07-31%2C_Saisoner%C3%B6ffnung_Bayer_04%2C_Leverkusen_%281%29.jpg"
     },
     "2026:ARG:nicolas-gonzalez": {
       "year": 2026,
@@ -9877,7 +10121,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Nicolás González (Argentina)",
-      "file": "2026/ARG/nicolas-gonzalez.svg"
+      "file": "2026/ARG/nicolas-gonzalez.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/NicolasGonzalez_%28cropped%29.jpg/330px-NicolasGonzalez_%28cropped%29.jpg"
     },
     "2026:ARG:thiago-almada": {
       "year": 2026,
@@ -9887,7 +10132,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Thiago Almada (Argentina)",
-      "file": "2026/ARG/thiago-almada.svg"
+      "file": "2026/ARG/thiago-almada.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Almada_asse_ol_2425.png/330px-Almada_asse_ol_2425.png"
     },
     "2026:ARG:giuliano-simeone": {
       "year": 2026,
@@ -9897,7 +10143,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Giuliano Simeone (Argentina)",
-      "file": "2026/ARG/giuliano-simeone.svg"
+      "file": "2026/ARG/giuliano-simeone.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Giuliano_Simeone%2C_FC_Salzburg_vs._Atletico_Madrid_%282025-01-29_UEFA_Championsleague%29_53_%28cropped%29.jpg/330px-Giuliano_Simeone%2C_FC_Salzburg_vs._Atletico_Madrid_%282025-01-29_UEFA_Championsleague%29_53_%28cropped%29.jpg"
     },
     "2026:ARG:nico-paz": {
       "year": 2026,
@@ -9907,7 +10154,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Nico Paz (Argentina)",
-      "file": "2026/ARG/nico-paz.svg"
+      "file": "2026/ARG/nico-paz.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Nico_Paz_Como_2025_%28cropped%29.jpg"
     },
     "2026:ARG:nicolas-otamendi": {
       "year": 2026,
@@ -9917,7 +10165,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Nicolás Otamendi (Argentina)",
-      "file": "2026/ARG/nicolas-otamendi.svg"
+      "file": "2026/ARG/nicolas-otamendi.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/d/de/Argentina_team_in_St._Petersburg_%28cropped%29_Otamendi.jpg"
     },
     "2026:ARG:alexis-mac-allister": {
       "year": 2026,
@@ -9927,7 +10176,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Alexis Mac Allister (Argentina)",
-      "file": "2026/ARG/alexis-mac-allister.svg"
+      "file": "2026/ARG/alexis-mac-allister.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Alexis_Mac_Allister_WC_2022.jpg/330px-Alexis_Mac_Allister_WC_2022.jpg"
     },
     "2026:ARG:jose-manuel-lopez": {
       "year": 2026,
@@ -9947,7 +10197,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Lautaro Martínez (Argentina)",
-      "file": "2026/ARG/lautaro-martinez.svg"
+      "file": "2026/ARG/lautaro-martinez.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Lautaro_Martinez_2022.jpg/330px-Lautaro_Martinez_2022.jpg"
     },
     "2026:ARG:emiliano-martinez": {
       "year": 2026,
@@ -9957,7 +10208,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Emiliano Martínez (Argentina)",
-      "file": "2026/ARG/emiliano-martinez.svg"
+      "file": "2026/ARG/emiliano-martinez.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Emiliano_Mart%C3%ADnez_%28cropped%29.jpg/330px-Emiliano_Mart%C3%ADnez_%28cropped%29.jpg"
     },
     "2026:ARG:enzo-fernandez": {
       "year": 2026,
@@ -9967,7 +10219,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Enzo Fernández (Argentina)",
-      "file": "2026/ARG/enzo-fernandez.svg"
+      "file": "2026/ARG/enzo-fernandez.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Enzo_Fern%C3%A1ndez_WC2022.jpg/330px-Enzo_Fern%C3%A1ndez_WC2022.jpg"
     },
     "2026:ARG:facundo-medina": {
       "year": 2026,
@@ -9977,7 +10230,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Facundo Medina (Argentina)",
-      "file": "2026/ARG/facundo-medina.svg"
+      "file": "2026/ARG/facundo-medina.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Facundo_M%C3%A9dina_ASSE_RCL_2425.jpg/330px-Facundo_M%C3%A9dina_ASSE_RCL_2425.jpg"
     },
     "2026:ARG:nahuel-molina": {
       "year": 2026,
@@ -9987,7 +10241,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Nahuel Molina (Argentina)",
-      "file": "2026/ARG/nahuel-molina.svg"
+      "file": "2026/ARG/nahuel-molina.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Universidad_Cat%C3%B3lica_-_Rosario_Central_20190313_04.jpg/330px-Universidad_Cat%C3%B3lica_-_Rosario_Central_20190313_04.jpg"
     },
     "2026:AUT:alexander-schlager": {
       "year": 2026,
@@ -10579,7 +10834,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Luis Díaz (Colombia)",
-      "file": "2026/COL/luis-diaz.svg"
+      "file": "2026/COL/luis-diaz.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Luis_D%C3%ADaz_2022.jpg/330px-Luis_D%C3%ADaz_2022.jpg"
     },
     "2026:COL:jorge-carrascal": {
       "year": 2026,
@@ -10609,7 +10865,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "James Rodríguez (Colombia)",
-      "file": "2026/COL/james-rodriguez.svg"
+      "file": "2026/COL/james-rodriguez.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/James_Rodr%C3%ADguez_2022.jpg/330px-James_Rodr%C3%ADguez_2022.jpg"
     },
     "2026:COL:jhon-arias": {
       "year": 2026,
@@ -11039,7 +11296,7 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Diogo Costa (Portugal)",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Portugal_national_football_team_0866_%28Diogo_Costa%29.jpg/330px-Portugal_national_football_team_0866_%28Diogo_Costa%29.jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Diogo_Costa_2022.jpg/330px-Diogo_Costa_2022.jpg",
       "sourceUrl": "https://en.wikipedia.org/wiki/Diogo_Costa",
       "file": "2026/POR/diogo-costa.jpg"
     },
@@ -11061,7 +11318,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Rúben Dias (Portugal)",
-      "file": "2026/POR/ruben-dias.svg"
+      "file": "2026/POR/ruben-dias.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Rub%C3%A9n_Dias_2022.jpg/330px-Rub%C3%A9n_Dias_2022.jpg"
     },
     "2026:POR:tomas-araujo": {
       "year": 2026,
@@ -11101,7 +11359,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Cristiano Ronaldo (Portugal)",
-      "file": "2026/POR/cristiano-ronaldo.svg"
+      "file": "2026/POR/cristiano-ronaldo.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Cristiano_Ronaldo_2022_FIFA_World_Cup.jpg/330px-Cristiano_Ronaldo_2022_FIFA_World_Cup.jpg"
     },
     "2026:POR:bruno-fernandes": {
       "year": 2026,
@@ -11131,7 +11390,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Bernardo Silva (Portugal)",
-      "file": "2026/POR/bernardo-silva.svg"
+      "file": "2026/POR/bernardo-silva.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Bernardo_Silva_2022.jpg/330px-Bernardo_Silva_2022.jpg"
     },
     "2026:POR:joao-felix": {
       "year": 2026,
@@ -11141,7 +11401,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "João Félix (Portugal)",
-      "file": "2026/POR/joao-felix.svg"
+      "file": "2026/POR/joao-felix.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Jo%C3%A3o_F%C3%A9lix_2022.jpg/330px-Jo%C3%A3o_F%C3%A9lix_2022.jpg"
     },
     "2026:POR:jose-sa": {
       "year": 2026,
@@ -11201,7 +11462,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Rafael Leão (Portugal)",
-      "file": "2026/POR/rafael-leao.svg"
+      "file": "2026/POR/rafael-leao.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Rafael_Le%C3%A3o_2022.jpg/330px-Rafael_Le%C3%A3o_2022.jpg"
     },
     "2026:POR:pedro-neto": {
       "year": 2026,
@@ -11653,7 +11915,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Luka Modrić (Croatia)",
-      "file": "2026/CRO/luka-modric.svg"
+      "file": "2026/CRO/luka-modric.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Luka_Modri%C4%87_2022.jpg/330px-Luka_Modri%C4%87_2022.jpg"
     },
     "2026:CRO:ante-budimir": {
       "year": 2026,
@@ -11693,7 +11956,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Ivan Perišić (Croatia)",
-      "file": "2026/CRO/ivan-perisic.svg"
+      "file": "2026/CRO/ivan-perisic.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Ivan_Peri%C5%A1i%C4%87_2022.jpg/330px-Ivan_Peri%C5%A1i%C4%87_2022.jpg"
     },
     "2026:CRO:mario-pasalic": {
       "year": 2026,
@@ -11823,7 +12087,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Jordan Pickford (England)",
-      "file": "2026/ENG/jordan-pickford.svg"
+      "file": "2026/ENG/jordan-pickford.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Jordan_Pickford_2022.jpg/330px-Jordan_Pickford_2022.jpg"
     },
     "2026:ENG:ezri-konsa": {
       "year": 2026,
@@ -11853,7 +12118,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Declan Rice (England)",
-      "file": "2026/ENG/declan-rice.svg"
+      "file": "2026/ENG/declan-rice.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Declan_Rice_2022.jpg/330px-Declan_Rice_2022.jpg"
     },
     "2026:ENG:john-stones": {
       "year": 2026,
@@ -11883,7 +12149,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Bukayo Saka (England)",
-      "file": "2026/ENG/bukayo-saka.svg"
+      "file": "2026/ENG/bukayo-saka.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Bukayo_Saka_2022.jpg/330px-Bukayo_Saka_2022.jpg"
     },
     "2026:ENG:elliot-anderson": {
       "year": 2026,
@@ -11903,7 +12170,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Harry Kane (England)",
-      "file": "2026/ENG/harry-kane.svg"
+      "file": "2026/ENG/harry-kane.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Harry_Kane_2022.jpg/330px-Harry_Kane_2022.jpg"
     },
     "2026:ENG:jude-bellingham": {
       "year": 2026,
@@ -11913,7 +12181,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Jude Bellingham (England)",
-      "file": "2026/ENG/jude-bellingham.svg"
+      "file": "2026/ENG/jude-bellingham.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Jude_Bellingham_2022.jpg/330px-Jude_Bellingham_2022.jpg"
     },
     "2026:ENG:marcus-rashford": {
       "year": 2026,
@@ -11923,7 +12192,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Marcus Rashford (England)",
-      "file": "2026/ENG/marcus-rashford.svg"
+      "file": "2026/ENG/marcus-rashford.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Marcus_Rashford_2022.jpg/330px-Marcus_Rashford_2022.jpg"
     },
     "2026:ENG:trevoh-chalobah": {
       "year": 2026,
@@ -12053,7 +12323,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Reece James (England)",
-      "file": "2026/ENG/reece-james.svg"
+      "file": "2026/ENG/reece-james.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Reece_James_2022.jpg/330px-Reece_James_2022.jpg"
     },
     "2026:ENG:djed-spence": {
       "year": 2026,

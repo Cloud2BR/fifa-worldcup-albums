@@ -143,12 +143,15 @@ function StadiumSticker({ label }) {
   const entry = STADIUM_MAP[label]
   const slug = slugifyAssetName(label)
   const fileName = entry?.file || `${slug}.jpg`
+  // Include thumbUrl (Wikimedia) in the fallback chain so real stadium photos show
+  // when local files are not downloaded.
   const sources = [
     `/images/stadiums/${fileName}`,
     `/images/stadiums/${slug}.jpg`,
     `/images/stadiums/${slug}.png`,
     `/images/stadiums/${slug}.webp`,
     `/images/stadiums/${slug}.svg`,
+    entry?.thumbUrl || null,
   ].filter((value, index, arr) => value && arr.indexOf(value) === index)
   const [sourceIndex, setSourceIndex] = useState(0)
 
@@ -160,7 +163,7 @@ function StadiumSticker({ label }) {
     return (
       <img
         src={sources[sourceIndex]}
-        alt={entry.caption || label}
+        alt={entry?.caption || label}
         title={`${label} - © ${entry?.author || 'Unknown'} (${entry?.license || 'Unknown'})`}
         loading="lazy"
         onError={() => setSourceIndex((idx) => idx + 1)}
@@ -169,7 +172,7 @@ function StadiumSticker({ label }) {
       />
     )
   }
-  return <div className="text-[10px] font-semibold text-white/85">Image unavailable</div>
+  return <div className="flex h-full items-center justify-center text-[10px] font-semibold text-white/70">{label}</div>
 }
 
 function PlayerStickerAvatar({ name, teamCode }) {
@@ -196,9 +199,14 @@ function PlayerStickerAvatar({ name, teamCode }) {
 function PlayerStickerImage({ sticker }) {
   const key = buildPlayerKey(sticker)
   const entry = key ? PLAYER_IMAGE_MAP[key] : null
+  // Skip SVG files — they are placeholder silhouettes, not real photos.
+  // Only use a local file if it's a real image format (jpg/jpeg/png/webp).
+  const localFile = entry?.file && /\.(jpe?g|png|webp)$/i.test(entry.file)
+    ? `/images/players/${entry.file}`
+    : null
   const sources = [
-    entry?.file ? `/images/players/${entry.file}` : null,
-    entry?.thumbUrl || null,
+    localFile,
+    entry?.thumbUrl && !entry.thumbUrl.includes('logo') && !entry.thumbUrl.includes('national_football_team') && !entry.thumbUrl.includes('.pdf') ? entry.thumbUrl : null,
   ].filter((value, index, arr) => value && arr.indexOf(value) === index)
   const [sourceIndex, setSourceIndex] = useState(0)
 

@@ -1,0 +1,101 @@
+{
+  "_comment": "Hard-coded Wikipedia thumbnail URLs for well-known players whose slug→name conversion doesn't match the Wikipedia article title directly. Key format: year:TEAM:slug",
+
+  "2026:ARG:lionel-messi":        "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Lionel_Messi_WC2022.jpg/330px-Lionel_Messi_WC2022.jpg",
+  "2026:ARG:lautaro-martinez":    "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Lautaro_Martinez_2022.jpg/330px-Lautaro_Martinez_2022.jpg",
+  "2026:ARG:julian-alvarez":      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Juliáán_Álvarez_2023.jpg/330px-Juliáán_Álvarez_2023.jpg",
+  "2026:ARG:emiliano-martinez":   "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Emiliano_Mart%C3%ADnez_%28cropped%29.jpg/330px-Emiliano_Mart%C3%ADnez_%28cropped%29.jpg",
+  "2026:ARG:enzo-fernandez":      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Enzo_Fern%C3%A1ndez_WC2022.jpg/330px-Enzo_Fern%C3%A1ndez_WC2022.jpg",
+  "2026:ARG:gonzalo-montiel":     "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Gonzalo_Montiel_2022.jpg/330px-Gonzalo_Montiel_2022.jpg",
+
+  "2026:FRA:kylian-mbappe":       "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/2019129095541_2019-05-09_Fussball_Champions_League_Finale_Liverpool_-_Tottenham_-_Sven_Simon.jpg/330px-2019129095541_2019-05-09_Fussball_Champions_League_Finale_Liverpool_-_Tottenham_-_Sven_Simon.jpg",
+  "2026:FRA:n-golo-kante":        "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/N%27Golo_Kant%C3%A9_2022.jpg/330px-N%27Golo_Kant%C3%A9_2022.jpg",
+  "2026:FRA:aurelien-tchouameni": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Aur%C3%A9lien_Tchouam%C3%A9ni_2022.jpg/330px-Aur%C3%A9lien_Tchouam%C3%A9ni_2022.jpg",
+  "2026:FRA:jules-kounde":        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Jules_Kound%C3%A9_2022.jpg/330px-Jules_Kound%C3%A9_2022.jpg",
+  "2026:FRA:ousmane-dembele":     "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Ousmane_Demb%C3%A9l%C3%A9_2018.jpg/330px-Ousmane_Demb%C3%A9l%C3%A9_2018.jpg",
+  "2026:FRA:adrien-rabiot":       "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Adrien_Rabiot_2022.jpg/330px-Adrien_Rabiot_2022.jpg",
+  "2026:FRA:lucas-digne":         "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Lucas_Digne_2019.jpg/330px-Lucas_Digne_2019.jpg",
+  "2026:FRA:ibrahima-konate":     "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Ibrahima_Konate_2022.jpg/330px-Ibrahima_Konate_2022.jpg",
+  "2026:FRA:marcus-thuram":       "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Marcus_Thuram_2022.jpg/330px-Marcus_Thuram_2022.jpg",
+  "2026:FRA:manu-kone":           "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Manu_Kon%C3%A9_2023.jpg/330px-Manu_Kon%C3%A9_2023.jpg",
+  "2026:FRA:bradley-barcola":     "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Bradley_Barcola_2023.jpg/330px-Bradley_Barcola_2023.jpg",
+  "2026:FRA:warren-zaire-emery":  "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Warren_Za%C3%AFre-Emery_2023.jpg/330px-Warren_Za%C3%AFre-Emery_2023.jpg",
+  "2026:FRA:theo-hernandez":      "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Theo_Hernandez_2022.jpg/330px-Theo_Hernandez_2022.jpg",
+  "2026:FRA:rayan-cherki":        "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Rayan_Cherki_2023.jpg/330px-Rayan_Cherki_2023.jpg",
+  "2026:FRA:jean-philippe-mateta":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Jean-Philippe_Mateta_2023.jpg/330px-Jean-Philippe_Mateta_2023.jpg",
+  "2026:FRA:desire-doue":         "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/D%C3%A9sir%C3%A9_Doue_2023.jpg/330px-D%C3%A9sir%C3%A9_Doue_2023.jpg",
+  "2026:FRA:lucas-hernandez":     "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Lucas_Hernandez_2022.jpg/330px-Lucas_Hernandez_2022.jpg",
+  "2026:FRA:maghnes-akliouche":   "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Maghnes_Akliouche_2024.jpg/330px-Maghnes_Akliouche_2024.jpg",
+
+  "2026:BRA:vinicius-junior":     "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Vinicius_Jr_2022.jpg/330px-Vinicius_Jr_2022.jpg",
+  "2026:BRA:neymar":              "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Neymar_2022.jpg/330px-Neymar_2022.jpg",
+  "2026:BRA:raphinha":            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Raphinha_2022.jpg/330px-Raphinha_2022.jpg",
+  "2026:BRA:rodri":               "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Rodri_2022.jpg/330px-Rodri_2022.jpg",
+  "2026:BRA:marquinhos":          "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Marquinhos_2022.jpg/330px-Marquinhos_2022.jpg",
+  "2026:BRA:lucas-paqueta":       "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Lucas_Paquet%C3%A1_2022.jpg/330px-Lucas_Paquet%C3%A1_2022.jpg",
+  "2026:BRA:alisson":             "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Alisson_Becker_2022.jpg/330px-Alisson_Becker_2022.jpg",
+
+  "2026:ENG:jude-bellingham":     "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Jude_Bellingham_2022.jpg/330px-Jude_Bellingham_2022.jpg",
+  "2026:ENG:harry-kane":          "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Harry_Kane_2022.jpg/330px-Harry_Kane_2022.jpg",
+  "2026:ENG:bukayo-saka":         "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Bukayo_Saka_2022.jpg/330px-Bukayo_Saka_2022.jpg",
+  "2026:ENG:marcus-rashford":     "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Marcus_Rashford_2022.jpg/330px-Marcus_Rashford_2022.jpg",
+  "2026:ENG:declan-rice":         "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Declan_Rice_2022.jpg/330px-Declan_Rice_2022.jpg",
+  "2026:ENG:phil-foden":          "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Phil_Foden_2022.jpg/330px-Phil_Foden_2022.jpg",
+  "2026:ENG:jordan-pickford":     "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Jordan_Pickford_2022.jpg/330px-Jordan_Pickford_2022.jpg",
+  "2026:ENG:reece-james":         "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Reece_James_2022.jpg/330px-Reece_James_2022.jpg",
+
+  "2026:ESP:lamine-yamal":        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Lamine_Yamal_2024.jpg/330px-Lamine_Yamal_2024.jpg",
+  "2026:ESP:pedri":               "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Pedri_2022.jpg/330px-Pedri_2022.jpg",
+  "2026:ESP:rodri":               "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Rodri_2022.jpg/330px-Rodri_2022.jpg",
+  "2026:ESP:nico-williams":       "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Nico_Williams_2024.jpg/330px-Nico_Williams_2024.jpg",
+  "2026:ESP:alvaro-morata":       "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Alvaro_Morata_2022.jpg/330px-Alvaro_Morata_2022.jpg",
+  "2026:ESP:dani-olmo":           "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Dani_Olmo_2022.jpg/330px-Dani_Olmo_2022.jpg",
+  "2026:ESP:mikel-oyarzabal":     "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Mikel_Oyarzabal_2022.jpg/330px-Mikel_Oyarzabal_2022.jpg",
+
+  "2026:GER:jamal-musiala":       "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Jamal_Musiala_2022.jpg/330px-Jamal_Musiala_2022.jpg",
+  "2026:GER:florian-wirtz":       "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Florian_Wirtz_2022.jpg/330px-Florian_Wirtz_2022.jpg",
+  "2026:GER:kai-havertz":         "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Kai_Havertz_2022.jpg/330px-Kai_Havertz_2022.jpg",
+  "2026:GER:joshua-kimmich":      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Joshua_Kimmich_2022.jpg/330px-Joshua_Kimmich_2022.jpg",
+  "2026:GER:antonio-rudiger":     "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Antonio_Rudiger_2022.jpg/330px-Antonio_Rudiger_2022.jpg",
+  "2026:GER:manuel-neuer":        "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Manuel_Neuer_2022.jpg/330px-Manuel_Neuer_2022.jpg",
+  "2026:GER:leroy-sane":          "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Leroy_San%C3%A9_2022.jpg/330px-Leroy_San%C3%A9_2022.jpg",
+
+  "2026:POR:cristiano-ronaldo":   "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Cristiano_Ronaldo_2022_FIFA_World_Cup.jpg/330px-Cristiano_Ronaldo_2022_FIFA_World_Cup.jpg",
+  "2026:POR:bernardo-silva":      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Bernardo_Silva_2022.jpg/330px-Bernardo_Silva_2022.jpg",
+  "2026:POR:rafael-leao":         "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Rafael_Le%C3%A3o_2022.jpg/330px-Rafael_Le%C3%A3o_2022.jpg",
+  "2026:POR:joao-felix":          "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Jo%C3%A3o_F%C3%A9lix_2022.jpg/330px-Jo%C3%A3o_F%C3%A9lix_2022.jpg",
+  "2026:POR:ruben-dias":          "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Rub%C3%A9n_Dias_2022.jpg/330px-Rub%C3%A9n_Dias_2022.jpg",
+  "2026:POR:diogo-jota":          "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Diogo_Jota_2022.jpg/330px-Diogo_Jota_2022.jpg",
+  "2026:POR:diogo-costa":         "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Diogo_Costa_2022.jpg/330px-Diogo_Costa_2022.jpg",
+
+  "2026:MEX:hirving-lozano":      "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Hirving_Lozano_2022.jpg/330px-Hirving_Lozano_2022.jpg",
+
+  "2026:NED:virgil-van-dijk":     "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Virgil_van_Dijk_2022.jpg/330px-Virgil_van_Dijk_2022.jpg",
+  "2026:NED:frenkie-de-jong":     "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Frenkie_de_Jong_2022.jpg/330px-Frenkie_de_Jong_2022.jpg",
+
+  "2026:BEL:kevin-de-bruyne":     "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Kevin_De_Bruyne_2022.jpg/330px-Kevin_De_Bruyne_2022.jpg",
+  "2026:BEL:romelu-lukaku":       "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Romelu_Lukaku_2022.jpg/330px-Romelu_Lukaku_2022.jpg",
+  "2026:BEL:thibaut-courtois":    "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Thibaut_Courtois_2022.jpg/330px-Thibaut_Courtois_2022.jpg",
+
+  "2026:CAN:alphonso-davies":     "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Alphonso_Davies_2022.jpg/330px-Alphonso_Davies_2022.jpg",
+  "2026:CAN:jonathan-david":      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Jonathan_David_2022.jpg/330px-Jonathan_David_2022.jpg",
+
+  "2026:USA:christian-pulisic":   "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Christian_Pulisic_2022.jpg/330px-Christian_Pulisic_2022.jpg",
+
+  "2026:JPN:takehiro-tomiyasu":   "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Takehiro_Tomiyasu_2022.jpg/330px-Takehiro_Tomiyasu_2022.jpg",
+
+  "2026:KOR:son-heung-min":       "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Son_Heung-min_2022.jpg/330px-Son_Heung-min_2022.jpg",
+
+  "2026:MAR:achraf-hakimi":       "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Achraf_Hakimi_2022.jpg/330px-Achraf_Hakimi_2022.jpg",
+
+  "2026:SEN:sadio-mane":          "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Sadio_Mane_2022.jpg/330px-Sadio_Mane_2022.jpg",
+
+  "2026:CRO:luka-modric":         "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Luka_Modri%C4%87_2022.jpg/330px-Luka_Modri%C4%87_2022.jpg",
+  "2026:CRO:ivan-perisic":        "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Ivan_Peri%C5%A1i%C4%87_2022.jpg/330px-Ivan_Peri%C5%A1i%C4%87_2022.jpg",
+
+  "2026:URU:darwin-nunez":        "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Darwin_N%C3%BA%C3%B1ez_2022.jpg/330px-Darwin_N%C3%BA%C3%B1ez_2022.jpg",
+  "2026:URU:federico-valverde":   "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Federico_Valverde_2022.jpg/330px-Federico_Valverde_2022.jpg",
+
+  "2026:COL:james-rodriguez":     "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/James_Rodr%C3%ADguez_2022.jpg/330px-James_Rodr%C3%ADguez_2022.jpg",
+  "2026:COL:luis-diaz":           "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Luis_D%C3%ADaz_2022.jpg/330px-Luis_D%C3%ADaz_2022.jpg"
+}
