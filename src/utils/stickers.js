@@ -96,7 +96,13 @@ export function buildAlbumStickers(album) {
     const isWinnerTeam = code === winnerCode
     const teamSquad = Array.isArray(yearSquads[code]) ? yearSquads[code] : []
     push({ kind: 'badge', label: `${team.name} — Team Badge`, isShiny: true, team: code, section: 'team' })
-    for (let i = 0; i < playerSlotsPerTeam; i += 1) {
+    const desiredPlayers = Math.max(
+      playerSlotsPerTeam,
+      teamSquad.length,
+      isWinnerTeam ? winnerSquad.length : 0,
+    )
+
+    for (let i = 0; i < desiredPlayers; i += 1) {
       const realTeamPlayer = teamSquad[i] || null
       const realWinnerPlayer = isWinnerTeam ? winnerSquad[i] : null
       const preferredPlayer = realTeamPlayer || realWinnerPlayer

@@ -395,8 +395,58 @@
     ],
     "BRA": [
       {
+        "name": "Araken",
+        "position": "forward",
+        "shirtNumber": null
+      },
+      {
+        "name": "Benedicto",
+        "position": "forward",
+        "shirtNumber": null
+      },
+      {
+        "name": "Benvenuto",
+        "position": "midfielder",
+        "shirtNumber": null
+      },
+      {
+        "name": "Brilhante",
+        "position": "defender",
+        "shirtNumber": null
+      },
+      {
         "name": "Carvalho Leite",
         "position": "forward",
+        "shirtNumber": null
+      },
+      {
+        "name": "Doca",
+        "position": "forward",
+        "shirtNumber": null
+      },
+      {
+        "name": "Fausto",
+        "position": "defender",
+        "shirtNumber": null
+      },
+      {
+        "name": "Fernando",
+        "position": "midfielder",
+        "shirtNumber": null
+      },
+      {
+        "name": "Fortes",
+        "position": "midfielder",
+        "shirtNumber": null
+      },
+      {
+        "name": "Hermógenes",
+        "position": "defender",
+        "shirtNumber": null
+      },
+      {
+        "name": "Itália",
+        "position": "defender",
         "shirtNumber": null
       },
       {
@@ -405,112 +455,62 @@
         "shirtNumber": null
       },
       {
-        "name": "not applicable Araken",
-        "position": "forward",
-        "shirtNumber": null
-      },
-      {
-        "name": "not applicable Benedicto",
-        "position": "forward",
-        "shirtNumber": null
-      },
-      {
-        "name": "not applicable Benvenuto",
-        "position": "midfielder",
-        "shirtNumber": null
-      },
-      {
-        "name": "not applicable Brilhante",
-        "position": "defender",
-        "shirtNumber": null
-      },
-      {
-        "name": "not applicable Doca",
-        "position": "forward",
-        "shirtNumber": null
-      },
-      {
-        "name": "not applicable Fausto",
-        "position": "defender",
-        "shirtNumber": null
-      },
-      {
-        "name": "not applicable Fernando",
-        "position": "midfielder",
-        "shirtNumber": null
-      },
-      {
-        "name": "not applicable Fortes",
-        "position": "midfielder",
-        "shirtNumber": null
-      },
-      {
-        "name": "not applicable Hermógenes",
-        "position": "defender",
-        "shirtNumber": null
-      },
-      {
-        "name": "not applicable Itália",
-        "position": "defender",
-        "shirtNumber": null
-      },
-      {
-        "name": "not applicable Joel",
+        "name": "Joel",
         "position": "goal keeper",
         "shirtNumber": null
       },
       {
-        "name": "not applicable Manoelzinho",
+        "name": "Manoelzinho",
         "position": "forward",
         "shirtNumber": null
       },
       {
-        "name": "not applicable Moderato",
+        "name": "Moderato",
         "position": "forward",
         "shirtNumber": null
       },
       {
-        "name": "not applicable Nilo",
+        "name": "Nilo",
         "position": "forward",
         "shirtNumber": null
       },
       {
-        "name": "not applicable Oscarino",
+        "name": "Oscarino",
         "position": "midfielder",
         "shirtNumber": null
       },
       {
-        "name": "not applicable Pamplona",
+        "name": "Pamplona",
         "position": "midfielder",
         "shirtNumber": null
       },
       {
-        "name": "not applicable Poly",
+        "name": "Poly",
         "position": "forward",
         "shirtNumber": null
       },
       {
-        "name": "not applicable Preguinho",
+        "name": "Preguinho",
         "position": "forward",
         "shirtNumber": null
       },
       {
-        "name": "not applicable Russinho",
+        "name": "Russinho",
         "position": "forward",
         "shirtNumber": null
       },
       {
-        "name": "not applicable Teóphilo",
+        "name": "Teóphilo",
         "position": "forward",
         "shirtNumber": null
       },
       {
-        "name": "not applicable Velloso",
+        "name": "Velloso",
         "position": "goal keeper",
         "shirtNumber": null
       },
       {
-        "name": "not applicable Zé Luiz",
+        "name": "Zé Luiz",
         "position": "defender",
         "shirtNumber": null
       }
@@ -1820,13 +1820,33 @@
         "shirtNumber": null
       },
       {
+        "name": "Chacho",
+        "position": "forward",
+        "shirtNumber": null
+      },
+      {
+        "name": "Ciriaco",
+        "position": "defender",
+        "shirtNumber": null
+      },
+      {
         "name": "Crisant Bosch",
+        "position": "midfielder",
+        "shirtNumber": null
+      },
+      {
+        "name": "Fede",
         "position": "midfielder",
         "shirtNumber": null
       },
       {
         "name": "Guillermo Gorostiza",
         "position": "forward",
+        "shirtNumber": null
+      },
+      {
+        "name": "Hilario",
+        "position": "midfielder",
         "shirtNumber": null
       },
       {
@@ -1855,6 +1875,11 @@
         "shirtNumber": null
       },
       {
+        "name": "Lafuente",
+        "position": "forward",
+        "shirtNumber": null
+      },
+      {
         "name": "Leonardo Cilaurren",
         "position": "midfielder",
         "shirtNumber": null
@@ -1877,31 +1902,6 @@
       {
         "name": "Martín Marculeta",
         "position": "midfielder",
-        "shirtNumber": null
-      },
-      {
-        "name": "not applicable Chacho",
-        "position": "forward",
-        "shirtNumber": null
-      },
-      {
-        "name": "not applicable Ciriaco",
-        "position": "defender",
-        "shirtNumber": null
-      },
-      {
-        "name": "not applicable Fede",
-        "position": "midfielder",
-        "shirtNumber": null
-      },
-      {
-        "name": "not applicable Hilario",
-        "position": "midfielder",
-        "shirtNumber": null
-      },
-      {
-        "name": "not applicable Lafuente",
-        "position": "forward",
         "shirtNumber": null
       },
       {
@@ -2365,7 +2365,47 @@
     ],
     "BRA": [
       {
+        "name": "Almeida",
+        "position": "forward",
+        "shirtNumber": null
+      },
+      {
+        "name": "Ariel",
+        "position": "midfielder",
+        "shirtNumber": null
+      },
+      {
+        "name": "Armandinho",
+        "position": "forward",
+        "shirtNumber": null
+      },
+      {
+        "name": "Áttila",
+        "position": "forward",
+        "shirtNumber": null
+      },
+      {
+        "name": "Canalli",
+        "position": "midfielder",
+        "shirtNumber": null
+      },
+      {
         "name": "Carvalho Leite",
+        "position": "forward",
+        "shirtNumber": null
+      },
+      {
+        "name": "Germano",
+        "position": "goal keeper",
+        "shirtNumber": null
+      },
+      {
+        "name": "Leônidas",
+        "position": "forward",
+        "shirtNumber": null
+      },
+      {
+        "name": "Luisinho",
         "position": "forward",
         "shirtNumber": null
       },
@@ -2375,78 +2415,28 @@
         "shirtNumber": null
       },
       {
-        "name": "not applicable Almeida",
-        "position": "forward",
-        "shirtNumber": null
-      },
-      {
-        "name": "not applicable Ariel",
+        "name": "Martim",
         "position": "midfielder",
         "shirtNumber": null
       },
       {
-        "name": "not applicable Armandinho",
-        "position": "forward",
-        "shirtNumber": null
-      },
-      {
-        "name": "not applicable Áttila",
-        "position": "forward",
-        "shirtNumber": null
-      },
-      {
-        "name": "not applicable Canalli",
-        "position": "midfielder",
-        "shirtNumber": null
-      },
-      {
-        "name": "not applicable Germano",
-        "position": "goal keeper",
-        "shirtNumber": null
-      },
-      {
-        "name": "not applicable Leônidas",
-        "position": "forward",
-        "shirtNumber": null
-      },
-      {
-        "name": "not applicable Luisinho",
-        "position": "forward",
-        "shirtNumber": null
-      },
-      {
-        "name": "not applicable Martim",
-        "position": "midfielder",
-        "shirtNumber": null
-      },
-      {
-        "name": "not applicable Octacílio",
+        "name": "Octacílio",
         "position": "defender",
         "shirtNumber": null
       },
       {
-        "name": "not applicable Pamplona",
+        "name": "Pamplona",
         "position": "midfielder",
         "shirtNumber": null
       },
       {
-        "name": "not applicable Patesko",
+        "name": "Patesko",
         "position": "forward",
         "shirtNumber": null
       },
       {
-        "name": "not applicable Pedrosa",
+        "name": "Pedrosa",
         "position": "goal keeper",
-        "shirtNumber": null
-      },
-      {
-        "name": "not applicable Tinoco",
-        "position": "midfielder",
-        "shirtNumber": null
-      },
-      {
-        "name": "not applicable Waldyr",
-        "position": "midfielder",
         "shirtNumber": null
       },
       {
@@ -2455,8 +2445,18 @@
         "shirtNumber": null
       },
       {
+        "name": "Tinoco",
+        "position": "midfielder",
+        "shirtNumber": null
+      },
+      {
         "name": "Waldemar de Brito",
         "position": "forward",
+        "shirtNumber": null
+      },
+      {
+        "name": "Waldyr",
+        "position": "midfielder",
         "shirtNumber": null
       }
     ],
@@ -2920,6 +2920,11 @@
         "shirtNumber": null
       },
       {
+        "name": "Hamidu",
+        "position": "defender",
+        "shirtNumber": null
+      },
+      {
         "name": "Hassan El-Far",
         "position": "midfielder",
         "shirtNumber": null
@@ -2982,11 +2987,6 @@
       {
         "name": "Mustafa Mansour",
         "position": "goal keeper",
-        "shirtNumber": null
-      },
-      {
-        "name": "not applicable Hamidu",
-        "position": "defender",
         "shirtNumber": null
       },
       {
@@ -3447,112 +3447,112 @@
     ],
     "BRA": [
       {
+        "name": "Afonsinho",
+        "position": "midfielder",
+        "shirtNumber": null
+      },
+      {
+        "name": "Argemiro",
+        "position": "midfielder",
+        "shirtNumber": null
+      },
+      {
+        "name": "Batatais",
+        "position": "goal keeper",
+        "shirtNumber": null
+      },
+      {
+        "name": "Brandão",
+        "position": "midfielder",
+        "shirtNumber": null
+      },
+      {
+        "name": "Britto",
+        "position": "midfielder",
+        "shirtNumber": null
+      },
+      {
         "name": "Domingos da Guia",
         "position": "defender",
         "shirtNumber": null
       },
       {
-        "name": "not applicable Afonsinho",
+        "name": "Hércules",
+        "position": "forward",
+        "shirtNumber": null
+      },
+      {
+        "name": "Jaú",
+        "position": "defender",
+        "shirtNumber": null
+      },
+      {
+        "name": "Leônidas",
+        "position": "forward",
+        "shirtNumber": null
+      },
+      {
+        "name": "Lopes",
+        "position": "forward",
+        "shirtNumber": null
+      },
+      {
+        "name": "Luisinho",
+        "position": "forward",
+        "shirtNumber": null
+      },
+      {
+        "name": "Machado",
+        "position": "defender",
+        "shirtNumber": null
+      },
+      {
+        "name": "Martim",
         "position": "midfielder",
         "shirtNumber": null
       },
       {
-        "name": "not applicable Argemiro",
-        "position": "midfielder",
+        "name": "Nariz",
+        "position": "defender",
         "shirtNumber": null
       },
       {
-        "name": "not applicable Batatais",
+        "name": "Niginho",
+        "position": "forward",
+        "shirtNumber": null
+      },
+      {
+        "name": "Patesko",
+        "position": "forward",
+        "shirtNumber": null
+      },
+      {
+        "name": "Perácio",
+        "position": "forward",
+        "shirtNumber": null
+      },
+      {
+        "name": "Roberto",
+        "position": "forward",
+        "shirtNumber": null
+      },
+      {
+        "name": "Romeu",
+        "position": "forward",
+        "shirtNumber": null
+      },
+      {
+        "name": "Tim",
+        "position": "forward",
+        "shirtNumber": null
+      },
+      {
+        "name": "Walter",
         "position": "goal keeper",
         "shirtNumber": null
       },
       {
-        "name": "not applicable Brandão",
-        "position": "midfielder",
-        "shirtNumber": null
-      },
-      {
-        "name": "not applicable Britto",
-        "position": "midfielder",
-        "shirtNumber": null
-      },
-      {
-        "name": "not applicable Hércules",
-        "position": "forward",
-        "shirtNumber": null
-      },
-      {
-        "name": "not applicable Jaú",
-        "position": "defender",
-        "shirtNumber": null
-      },
-      {
-        "name": "not applicable Leônidas",
-        "position": "forward",
-        "shirtNumber": null
-      },
-      {
-        "name": "not applicable Lopes",
-        "position": "forward",
-        "shirtNumber": null
-      },
-      {
-        "name": "not applicable Luisinho",
-        "position": "forward",
-        "shirtNumber": null
-      },
-      {
-        "name": "not applicable Machado",
-        "position": "defender",
-        "shirtNumber": null
-      },
-      {
-        "name": "not applicable Martim",
-        "position": "midfielder",
-        "shirtNumber": null
-      },
-      {
-        "name": "not applicable Nariz",
-        "position": "defender",
-        "shirtNumber": null
-      },
-      {
-        "name": "not applicable Niginho",
-        "position": "forward",
-        "shirtNumber": null
-      },
-      {
-        "name": "not applicable Patesko",
-        "position": "forward",
-        "shirtNumber": null
-      },
-      {
-        "name": "not applicable Perácio",
-        "position": "forward",
-        "shirtNumber": null
-      },
-      {
-        "name": "not applicable Roberto",
-        "position": "forward",
-        "shirtNumber": null
-      },
-      {
-        "name": "not applicable Romeu",
-        "position": "forward",
-        "shirtNumber": null
-      },
-      {
-        "name": "not applicable Tim",
-        "position": "forward",
-        "shirtNumber": null
-      },
-      {
-        "name": "not applicable Walter",
-        "position": "goal keeper",
-        "shirtNumber": null
-      },
-      {
-        "name": "not applicable Zezé Procópio",
+        "name": "Zezé Procópio",
         "position": "midfielder",
         "shirtNumber": null
       }
@@ -4425,6 +4425,11 @@
         "shirtNumber": null
       },
       {
+        "name": "Dorst",
+        "position": "defender",
+        "shirtNumber": null
+      },
+      {
         "name": "Frans Alfred Meeng",
         "position": "midfielder",
         "shirtNumber": null
@@ -4480,21 +4485,6 @@
         "shirtNumber": null
       },
       {
-        "name": "not applicable Dorst",
-        "position": "defender",
-        "shirtNumber": null
-      },
-      {
-        "name": "not applicable Teilherber",
-        "position": "forward",
-        "shirtNumber": null
-      },
-      {
-        "name": "not applicable Van Den Burgh",
-        "position": "midfielder",
-        "shirtNumber": null
-      },
-      {
         "name": "Rudi Telwe",
         "position": "forward",
         "shirtNumber": null
@@ -4512,6 +4502,16 @@
       {
         "name": "Suvarte Soedarmadji",
         "position": "forward",
+        "shirtNumber": null
+      },
+      {
+        "name": "Teilherber",
+        "position": "forward",
+        "shirtNumber": null
+      },
+      {
+        "name": "Van Den Burgh",
+        "position": "midfielder",
         "shirtNumber": null
       }
     ],
@@ -4631,8 +4631,88 @@
   "1950": {
     "BRA": [
       {
+        "name": "Adãozinho",
+        "position": "forward",
+        "shirtNumber": null
+      },
+      {
+        "name": "Ademir",
+        "position": "forward",
+        "shirtNumber": null
+      },
+      {
+        "name": "Alfredo",
+        "position": "forward",
+        "shirtNumber": null
+      },
+      {
+        "name": "Augusto",
+        "position": "defender",
+        "shirtNumber": null
+      },
+      {
+        "name": "Baltazar",
+        "position": "forward",
+        "shirtNumber": null
+      },
+      {
+        "name": "Barbosa",
+        "position": "goal keeper",
+        "shirtNumber": null
+      },
+      {
+        "name": "Bauer",
+        "position": "midfielder",
+        "shirtNumber": null
+      },
+      {
+        "name": "Bigode",
+        "position": "midfielder",
+        "shirtNumber": null
+      },
+      {
         "name": "Carlos José Castilho",
         "position": "goal keeper",
+        "shirtNumber": null
+      },
+      {
+        "name": "Chico",
+        "position": "forward",
+        "shirtNumber": null
+      },
+      {
+        "name": "Danilo",
+        "position": "midfielder",
+        "shirtNumber": null
+      },
+      {
+        "name": "Ely",
+        "position": "midfielder",
+        "shirtNumber": null
+      },
+      {
+        "name": "Friaça",
+        "position": "forward",
+        "shirtNumber": null
+      },
+      {
+        "name": "Jair",
+        "position": "forward",
+        "shirtNumber": null
+      },
+      {
+        "name": "Juvenal",
+        "position": "defender",
+        "shirtNumber": null
+      },
+      {
+        "name": "Maneca",
+        "position": "forward",
+        "shirtNumber": null
+      },
+      {
+        "name": "Nena",
+        "position": "defender",
         "shirtNumber": null
       },
       {
@@ -4641,102 +4721,22 @@
         "shirtNumber": null
       },
       {
-        "name": "not applicable Adãozinho",
-        "position": "forward",
-        "shirtNumber": null
-      },
-      {
-        "name": "not applicable Ademir",
-        "position": "forward",
-        "shirtNumber": null
-      },
-      {
-        "name": "not applicable Alfredo",
-        "position": "forward",
-        "shirtNumber": null
-      },
-      {
-        "name": "not applicable Augusto",
-        "position": "defender",
-        "shirtNumber": null
-      },
-      {
-        "name": "not applicable Baltazar",
-        "position": "forward",
-        "shirtNumber": null
-      },
-      {
-        "name": "not applicable Barbosa",
-        "position": "goal keeper",
-        "shirtNumber": null
-      },
-      {
-        "name": "not applicable Bauer",
+        "name": "Noronha",
         "position": "midfielder",
         "shirtNumber": null
       },
       {
-        "name": "not applicable Bigode",
-        "position": "midfielder",
-        "shirtNumber": null
-      },
-      {
-        "name": "not applicable Chico",
+        "name": "Rodrigues",
         "position": "forward",
         "shirtNumber": null
       },
       {
-        "name": "not applicable Danilo",
+        "name": "Rui",
         "position": "midfielder",
         "shirtNumber": null
       },
       {
-        "name": "not applicable Ely",
-        "position": "midfielder",
-        "shirtNumber": null
-      },
-      {
-        "name": "not applicable Friaça",
-        "position": "forward",
-        "shirtNumber": null
-      },
-      {
-        "name": "not applicable Jair",
-        "position": "forward",
-        "shirtNumber": null
-      },
-      {
-        "name": "not applicable Juvenal",
-        "position": "defender",
-        "shirtNumber": null
-      },
-      {
-        "name": "not applicable Maneca",
-        "position": "forward",
-        "shirtNumber": null
-      },
-      {
-        "name": "not applicable Nena",
-        "position": "defender",
-        "shirtNumber": null
-      },
-      {
-        "name": "not applicable Noronha",
-        "position": "midfielder",
-        "shirtNumber": null
-      },
-      {
-        "name": "not applicable Rodrigues",
-        "position": "forward",
-        "shirtNumber": null
-      },
-      {
-        "name": "not applicable Rui",
-        "position": "midfielder",
-        "shirtNumber": null
-      },
-      {
-        "name": "not applicable Zizinho",
+        "name": "Zizinho",
         "position": "forward",
         "shirtNumber": null
       }
@@ -4987,6 +4987,11 @@
         "shirtNumber": null
       },
       {
+        "name": "César",
+        "position": "forward",
+        "shirtNumber": null
+      },
+      {
         "name": "Estanislau Basora",
         "position": "forward",
         "shirtNumber": null
@@ -5042,12 +5047,7 @@
         "shirtNumber": null
       },
       {
-        "name": "not applicable César",
-        "position": "forward",
-        "shirtNumber": null
-      },
-      {
-        "name": "not applicable Nando",
+        "name": "Nando",
         "position": "midfielder",
         "shirtNumber": null
       },
@@ -6863,57 +6863,57 @@
         "shirtNumber": 3
       },
       {
-        "name": "not applicable Brandãozinho",
+        "name": "Brandãozinho",
         "position": "defender",
         "shirtNumber": 4
       },
       {
-        "name": "not applicable Pinheiro",
+        "name": "Pinheiro",
         "position": "midfielder",
         "shirtNumber": 5
       },
       {
-        "name": "not applicable Bauer",
+        "name": "Bauer",
         "position": "midfielder",
         "shirtNumber": 6
       },
       {
-        "name": "not applicable Julinho",
+        "name": "Julinho",
         "position": "forward",
         "shirtNumber": 7
       },
       {
-        "name": "not applicable Didi",
+        "name": "Didi",
         "position": "midfielder",
         "shirtNumber": 8
       },
       {
-        "name": "not applicable Baltazar",
+        "name": "Baltazar",
         "position": "forward",
         "shirtNumber": 9
       },
       {
-        "name": "not applicable Pinga",
+        "name": "Pinga",
         "position": "forward",
         "shirtNumber": 10
       },
       {
-        "name": "not applicable Rodrigues",
+        "name": "Rodrigues",
         "position": "forward",
         "shirtNumber": 11
       },
       {
-        "name": "not applicable Paulinho",
+        "name": "Paulinho",
         "position": "defender",
         "shirtNumber": 12
       },
       {
-        "name": "not applicable Alfredo",
+        "name": "Alfredo",
         "position": "defender",
         "shirtNumber": 13
       },
       {
-        "name": "not applicable Ely",
+        "name": "Ely",
         "position": "midfielder",
         "shirtNumber": 14
       },
@@ -6923,37 +6923,37 @@
         "shirtNumber": 15
       },
       {
-        "name": "not applicable Dequinha",
+        "name": "Dequinha",
         "position": "midfielder",
         "shirtNumber": 16
       },
       {
-        "name": "not applicable Maurinho",
+        "name": "Maurinho",
         "position": "forward",
         "shirtNumber": 17
       },
       {
-        "name": "not applicable Humberto",
+        "name": "Humberto",
         "position": "forward",
         "shirtNumber": 18
       },
       {
-        "name": "not applicable Índio",
+        "name": "Índio",
         "position": "forward",
         "shirtNumber": 19
       },
       {
-        "name": "not applicable Rubens",
+        "name": "Rubens",
         "position": "forward",
         "shirtNumber": 20
       },
       {
-        "name": "not applicable Veludo",
+        "name": "Veludo",
         "position": "goal keeper",
         "shirtNumber": 21
       },
       {
-        "name": "not applicable Cabeção",
+        "name": "Cabeção",
         "position": "goal keeper",
         "shirtNumber": 22
       }
@@ -7858,7 +7858,7 @@
         "shirtNumber": 2
       },
       {
-        "name": "not applicable Gilmar",
+        "name": "Gilmar",
         "position": "goal keeper",
         "shirtNumber": 3
       },
@@ -7873,7 +7873,7 @@
         "shirtNumber": 5
       },
       {
-        "name": "not applicable Didi",
+        "name": "Didi",
         "position": "midfielder",
         "shirtNumber": 6
       },
@@ -7883,22 +7883,22 @@
         "shirtNumber": 7
       },
       {
-        "name": "not applicable Oreco",
+        "name": "Oreco",
         "position": "midfielder",
         "shirtNumber": 8
       },
       {
-        "name": "not applicable Zózimo",
+        "name": "Zózimo",
         "position": "midfielder",
         "shirtNumber": 9
       },
       {
-        "name": "not applicable Pelé",
+        "name": "Pelé",
         "position": "forward",
         "shirtNumber": 10
       },
       {
-        "name": "not applicable Garrincha",
+        "name": "Garrincha",
         "position": "forward",
         "shirtNumber": 11
       },
@@ -7908,7 +7908,7 @@
         "shirtNumber": 12
       },
       {
-        "name": "not applicable Moacir",
+        "name": "Moacir",
         "position": "midfielder",
         "shirtNumber": 13
       },
@@ -7918,7 +7918,7 @@
         "shirtNumber": 14
       },
       {
-        "name": "not applicable Orlando",
+        "name": "Orlando",
         "position": "defender",
         "shirtNumber": 15
       },
@@ -7938,22 +7938,22 @@
         "shirtNumber": 18
       },
       {
-        "name": "not applicable Zito",
+        "name": "Zito",
         "position": "midfielder",
         "shirtNumber": 19
       },
       {
-        "name": "not applicable Vavá",
+        "name": "Vavá",
         "position": "forward",
         "shirtNumber": 20
       },
       {
-        "name": "not applicable Dida",
+        "name": "Dida",
         "position": "forward",
         "shirtNumber": 21
       },
       {
-        "name": "not applicable Pepe",
+        "name": "Pepe",
         "position": "forward",
         "shirtNumber": 22
       }
@@ -9642,7 +9642,7 @@
   "1962": {
     "BRA": [
       {
-        "name": "not applicable Gilmar",
+        "name": "Gilmar",
         "position": "goal keeper",
         "shirtNumber": 1
       },
@@ -9657,12 +9657,12 @@
         "shirtNumber": 3
       },
       {
-        "name": "not applicable Zito",
+        "name": "Zito",
         "position": "midfielder",
         "shirtNumber": 4
       },
       {
-        "name": "not applicable Zózimo",
+        "name": "Zózimo",
         "position": "defender",
         "shirtNumber": 5
       },
@@ -9672,27 +9672,27 @@
         "shirtNumber": 6
       },
       {
-        "name": "not applicable Garrincha",
+        "name": "Garrincha",
         "position": "forward",
         "shirtNumber": 7
       },
       {
-        "name": "not applicable Didi",
+        "name": "Didi",
         "position": "midfielder",
         "shirtNumber": 8
       },
       {
-        "name": "not applicable Coutinho",
+        "name": "Coutinho",
         "position": "forward",
         "shirtNumber": 9
       },
       {
-        "name": "not applicable Pelé",
+        "name": "Pelé",
         "position": "forward",
         "shirtNumber": 10
       },
       {
-        "name": "not applicable Pepe",
+        "name": "Pepe",
         "position": "forward",
         "shirtNumber": 11
       },
@@ -9707,22 +9707,22 @@
         "shirtNumber": 13
       },
       {
-        "name": "not applicable Jurandir",
+        "name": "Jurandir",
         "position": "defender",
         "shirtNumber": 14
       },
       {
-        "name": "not applicable Altair",
+        "name": "Altair",
         "position": "defender",
         "shirtNumber": 15
       },
       {
-        "name": "not applicable Zequinha",
+        "name": "Zequinha",
         "position": "midfielder",
         "shirtNumber": 16
       },
       {
-        "name": "not applicable Mengálvio",
+        "name": "Mengálvio",
         "position": "midfielder",
         "shirtNumber": 17
       },
@@ -9732,12 +9732,12 @@
         "shirtNumber": 18
       },
       {
-        "name": "not applicable Vavá",
+        "name": "Vavá",
         "position": "forward",
         "shirtNumber": 19
       },
       {
-        "name": "not applicable Amarildo",
+        "name": "Amarildo",
         "position": "forward",
         "shirtNumber": 20
       },
@@ -10772,7 +10772,7 @@
         "shirtNumber": 2
       },
       {
-        "name": "not applicable Carmelo",
+        "name": "Carmelo",
         "position": "goal keeper",
         "shirtNumber": 3
       },
@@ -10822,7 +10822,7 @@
         "shirtNumber": 12
       },
       {
-        "name": "not applicable Pachín",
+        "name": "Pachín",
         "position": "defender",
         "shirtNumber": 13
       },
@@ -10842,12 +10842,12 @@
         "shirtNumber": 16
       },
       {
-        "name": "not applicable Rodri",
+        "name": "Rodri",
         "position": "defender",
         "shirtNumber": 17
       },
       {
-        "name": "not applicable Adelardo",
+        "name": "Adelardo",
         "position": "midfielder",
         "shirtNumber": 18
       },
@@ -11660,7 +11660,7 @@
     ],
     "POR": [
       {
-        "name": "not applicable Américo",
+        "name": "Américo",
         "position": "goal keeper",
         "shirtNumber": 1
       },
@@ -11675,12 +11675,12 @@
         "shirtNumber": 3
       },
       {
-        "name": "not applicable Vicente",
+        "name": "Vicente",
         "position": "defender",
         "shirtNumber": 4
       },
       {
-        "name": "not applicable Germano",
+        "name": "Germano",
         "position": "defender",
         "shirtNumber": 5
       },
@@ -11700,7 +11700,7 @@
         "shirtNumber": 8
       },
       {
-        "name": "not applicable Hilário",
+        "name": "Hilário",
         "position": "midfielder",
         "shirtNumber": 9
       },
@@ -11720,7 +11720,7 @@
         "shirtNumber": 12
       },
       {
-        "name": "not applicable Eusébio",
+        "name": "Eusébio",
         "position": "forward",
         "shirtNumber": 13
       },
@@ -12220,7 +12220,7 @@
     ],
     "BRA": [
       {
-        "name": "not applicable Gilmar",
+        "name": "Gilmar",
         "position": "goal keeper",
         "shirtNumber": 1
       },
@@ -12230,7 +12230,7 @@
         "shirtNumber": 2
       },
       {
-        "name": "not applicable Fidélis",
+        "name": "Fidélis",
         "position": "defender",
         "shirtNumber": 3
       },
@@ -12240,17 +12240,17 @@
         "shirtNumber": 4
       },
       {
-        "name": "not applicable Brito",
+        "name": "Brito",
         "position": "defender",
         "shirtNumber": 5
       },
       {
-        "name": "not applicable Altair",
+        "name": "Altair",
         "position": "defender",
         "shirtNumber": 6
       },
       {
-        "name": "not applicable Orlando",
+        "name": "Orlando",
         "position": "defender",
         "shirtNumber": 7
       },
@@ -12260,72 +12260,72 @@
         "shirtNumber": 8
       },
       {
-        "name": "not applicable Rildo",
+        "name": "Rildo",
         "position": "defender",
         "shirtNumber": 9
       },
       {
-        "name": "not applicable Pelé",
+        "name": "Pelé",
         "position": "forward",
         "shirtNumber": 10
       },
       {
-        "name": "not applicable Gérson",
+        "name": "Gérson",
         "position": "midfielder",
         "shirtNumber": 11
       },
       {
-        "name": "not applicable Manga",
+        "name": "Manga",
         "position": "goal keeper",
         "shirtNumber": 12
       },
       {
-        "name": "not applicable Denílson",
+        "name": "Denílson",
         "position": "midfielder",
         "shirtNumber": 13
       },
       {
-        "name": "not applicable Lima",
+        "name": "Lima",
         "position": "midfielder",
         "shirtNumber": 14
       },
       {
-        "name": "not applicable Zito",
+        "name": "Zito",
         "position": "midfielder",
         "shirtNumber": 15
       },
       {
-        "name": "not applicable Garrincha",
+        "name": "Garrincha",
         "position": "forward",
         "shirtNumber": 16
       },
       {
-        "name": "not applicable Jairzinho",
+        "name": "Jairzinho",
         "position": "midfielder",
         "shirtNumber": 17
       },
       {
-        "name": "not applicable Alcindo",
+        "name": "Alcindo",
         "position": "forward",
         "shirtNumber": 18
       },
       {
-        "name": "not applicable Silva",
+        "name": "Silva",
         "position": "forward",
         "shirtNumber": 19
       },
       {
-        "name": "not applicable Tostão",
+        "name": "Tostão",
         "position": "midfielder",
         "shirtNumber": 20
       },
       {
-        "name": "not applicable Paraná",
+        "name": "Paraná",
         "position": "forward",
         "shirtNumber": 21
       },
       {
-        "name": "not applicable Edu",
+        "name": "Edu",
         "position": "forward",
         "shirtNumber": 22
       }
@@ -12902,7 +12902,7 @@
         "shirtNumber": 2
       },
       {
-        "name": "not applicable Eladio",
+        "name": "Eladio",
         "position": "defender",
         "shirtNumber": 3
       },
@@ -12927,12 +12927,12 @@
         "shirtNumber": 7
       },
       {
-        "name": "not applicable Amancio",
+        "name": "Amancio",
         "position": "forward",
         "shirtNumber": 8
       },
       {
-        "name": "not applicable Marcelino",
+        "name": "Marcelino",
         "position": "forward",
         "shirtNumber": 9
       },
@@ -12972,12 +12972,12 @@
         "shirtNumber": 16
       },
       {
-        "name": "not applicable Gallego",
+        "name": "Gallego",
         "position": "defender",
         "shirtNumber": 17
       },
       {
-        "name": "not applicable Pirri",
+        "name": "Pirri",
         "position": "midfielder",
         "shirtNumber": 18
       },
@@ -12992,7 +12992,7 @@
         "shirtNumber": 20
       },
       {
-        "name": "not applicable Adelardo",
+        "name": "Adelardo",
         "position": "midfielder",
         "shirtNumber": 21
       },
@@ -13230,17 +13230,17 @@
   "1970": {
     "BRA": [
       {
-        "name": "not applicable Félix",
+        "name": "Félix",
         "position": "goal keeper",
         "shirtNumber": 1
       },
       {
-        "name": "not applicable Brito",
+        "name": "Brito",
         "position": "defender",
         "shirtNumber": 2
       },
       {
-        "name": "not applicable Piazza",
+        "name": "Piazza",
         "position": "midfielder",
         "shirtNumber": 3
       },
@@ -13250,7 +13250,7 @@
         "shirtNumber": 4
       },
       {
-        "name": "not applicable Clodoaldo",
+        "name": "Clodoaldo",
         "position": "midfielder",
         "shirtNumber": 5
       },
@@ -13260,82 +13260,82 @@
         "shirtNumber": 6
       },
       {
-        "name": "not applicable Jairzinho",
+        "name": "Jairzinho",
         "position": "forward",
         "shirtNumber": 7
       },
       {
-        "name": "not applicable Gérson",
+        "name": "Gérson",
         "position": "midfielder",
         "shirtNumber": 8
       },
       {
-        "name": "not applicable Tostão",
+        "name": "Tostão",
         "position": "forward",
         "shirtNumber": 9
       },
       {
-        "name": "not applicable Pelé",
+        "name": "Pelé",
         "position": "forward",
         "shirtNumber": 10
       },
       {
-        "name": "not applicable Rivellino",
+        "name": "Rivellino",
         "position": "midfielder",
         "shirtNumber": 11
       },
       {
-        "name": "not applicable Ado",
+        "name": "Ado",
         "position": "goal keeper",
         "shirtNumber": 12
       },
       {
-        "name": "not applicable Roberto",
+        "name": "Roberto",
         "position": "forward",
         "shirtNumber": 13
       },
       {
-        "name": "not applicable Baldocchi",
+        "name": "Baldocchi",
         "position": "defender",
         "shirtNumber": 14
       },
       {
-        "name": "not applicable Fontana",
+        "name": "Fontana",
         "position": "defender",
         "shirtNumber": 15
       },
       {
-        "name": "not applicable Everaldo",
+        "name": "Everaldo",
         "position": "defender",
         "shirtNumber": 16
       },
       {
-        "name": "not applicable Joel",
+        "name": "Joel",
         "position": "defender",
         "shirtNumber": 17
       },
       {
-        "name": "not applicable Caju",
+        "name": "Caju",
         "position": "midfielder",
         "shirtNumber": 18
       },
       {
-        "name": "not applicable Edu",
+        "name": "Edu",
         "position": "forward",
         "shirtNumber": 19
       },
       {
-        "name": "not applicable Dario",
+        "name": "Dario",
         "position": "forward",
         "shirtNumber": 20
       },
       {
-        "name": "not applicable Zé Maria",
+        "name": "Zé Maria",
         "position": "defender",
         "shirtNumber": 21
       },
       {
-        "name": "not applicable Leão",
+        "name": "Leão",
         "position": "goal keeper",
         "shirtNumber": 22
       }
@@ -15345,7 +15345,7 @@
     ],
     "BRA": [
       {
-        "name": "not applicable Leão",
+        "name": "Leão",
         "position": "goal keeper",
         "shirtNumber": 1
       },
@@ -15360,12 +15360,12 @@
         "shirtNumber": 3
       },
       {
-        "name": "not applicable Zé Maria",
+        "name": "Zé Maria",
         "position": "defender",
         "shirtNumber": 4
       },
       {
-        "name": "not applicable Piazza",
+        "name": "Piazza",
         "position": "midfielder",
         "shirtNumber": 5
       },
@@ -15375,47 +15375,47 @@
         "shirtNumber": 6
       },
       {
-        "name": "not applicable Jairzinho",
+        "name": "Jairzinho",
         "position": "forward",
         "shirtNumber": 7
       },
       {
-        "name": "not applicable Leivinha",
+        "name": "Leivinha",
         "position": "midfielder",
         "shirtNumber": 8
       },
       {
-        "name": "not applicable César",
+        "name": "César",
         "position": "forward",
         "shirtNumber": 9
       },
       {
-        "name": "not applicable Rivellino",
+        "name": "Rivellino",
         "position": "midfielder",
         "shirtNumber": 10
       },
       {
-        "name": "not applicable Caju",
+        "name": "Caju",
         "position": "midfielder",
         "shirtNumber": 11
       },
       {
-        "name": "not applicable Renato",
+        "name": "Renato",
         "position": "goal keeper",
         "shirtNumber": 12
       },
       {
-        "name": "not applicable Valdomiro",
+        "name": "Valdomiro",
         "position": "forward",
         "shirtNumber": 13
       },
       {
-        "name": "not applicable Nelinho",
+        "name": "Nelinho",
         "position": "defender",
         "shirtNumber": 14
       },
       {
-        "name": "not applicable Alfredo",
+        "name": "Alfredo",
         "position": "defender",
         "shirtNumber": 15
       },
@@ -15425,7 +15425,7 @@
         "shirtNumber": 16
       },
       {
-        "name": "not applicable Carpegiani",
+        "name": "Carpegiani",
         "position": "midfielder",
         "shirtNumber": 17
       },
@@ -15435,17 +15435,17 @@
         "shirtNumber": 18
       },
       {
-        "name": "not applicable Mirandinha",
+        "name": "Mirandinha",
         "position": "forward",
         "shirtNumber": 19
       },
       {
-        "name": "not applicable Edu",
+        "name": "Edu",
         "position": "forward",
         "shirtNumber": 20
       },
       {
-        "name": "not applicable Dirceu",
+        "name": "Dirceu",
         "position": "forward",
         "shirtNumber": 21
       },
@@ -17027,22 +17027,22 @@
     ],
     "BRA": [
       {
-        "name": "not applicable Leão",
+        "name": "Leão",
         "position": "goal keeper",
         "shirtNumber": 1
       },
       {
-        "name": "not applicable Toninho",
+        "name": "Toninho",
         "position": "defender",
         "shirtNumber": 2
       },
       {
-        "name": "not applicable Oscar",
+        "name": "Oscar",
         "position": "defender",
         "shirtNumber": 3
       },
       {
-        "name": "not applicable Amaral",
+        "name": "Amaral",
         "position": "defender",
         "shirtNumber": 4
       },
@@ -17052,52 +17052,52 @@
         "shirtNumber": 5
       },
       {
-        "name": "not applicable Edinho",
+        "name": "Edinho",
         "position": "defender",
         "shirtNumber": 6
       },
       {
-        "name": "not applicable Zé Sérgio",
+        "name": "Zé Sérgio",
         "position": "forward",
         "shirtNumber": 7
       },
       {
-        "name": "not applicable Zico",
+        "name": "Zico",
         "position": "midfielder",
         "shirtNumber": 8
       },
       {
-        "name": "not applicable Reinaldo",
+        "name": "Reinaldo",
         "position": "forward",
         "shirtNumber": 9
       },
       {
-        "name": "not applicable Rivellino",
+        "name": "Rivellino",
         "position": "forward",
         "shirtNumber": 10
       },
       {
-        "name": "not applicable Dirceu",
+        "name": "Dirceu",
         "position": "midfielder",
         "shirtNumber": 11
       },
       {
-        "name": "not applicable Carlos",
+        "name": "Carlos",
         "position": "goal keeper",
         "shirtNumber": 12
       },
       {
-        "name": "not applicable Nelinho",
+        "name": "Nelinho",
         "position": "defender",
         "shirtNumber": 13
       },
       {
-        "name": "not applicable Abel",
+        "name": "Abel",
         "position": "defender",
         "shirtNumber": 14
       },
       {
-        "name": "not applicable Polozzi",
+        "name": "Polozzi",
         "position": "defender",
         "shirtNumber": 15
       },
@@ -17107,12 +17107,12 @@
         "shirtNumber": 16
       },
       {
-        "name": "not applicable Batista",
+        "name": "Batista",
         "position": "midfielder",
         "shirtNumber": 17
       },
       {
-        "name": "not applicable Gil",
+        "name": "Gil",
         "position": "forward",
         "shirtNumber": 18
       },
@@ -17127,7 +17127,7 @@
         "shirtNumber": 20
       },
       {
-        "name": "not applicable Chicão",
+        "name": "Chicão",
         "position": "midfielder",
         "shirtNumber": 21
       },
@@ -18055,7 +18055,7 @@
         "shirtNumber": 4
       },
       {
-        "name": "not applicable Migueli",
+        "name": "Migueli",
         "position": "defender",
         "shirtNumber": 5
       },
@@ -18065,22 +18065,22 @@
         "shirtNumber": 6
       },
       {
-        "name": "not applicable Dani",
+        "name": "Dani",
         "position": "forward",
         "shirtNumber": 7
       },
       {
-        "name": "not applicable Juanito",
+        "name": "Juanito",
         "position": "forward",
         "shirtNumber": 8
       },
       {
-        "name": "not applicable Quini",
+        "name": "Quini",
         "position": "forward",
         "shirtNumber": 9
       },
       {
-        "name": "not applicable Santillana",
+        "name": "Santillana",
         "position": "forward",
         "shirtNumber": 10
       },
@@ -18105,7 +18105,7 @@
         "shirtNumber": 14
       },
       {
-        "name": "not applicable Marañón",
+        "name": "Marañón",
         "position": "forward",
         "shirtNumber": 15
       },
@@ -18115,12 +18115,12 @@
         "shirtNumber": 16
       },
       {
-        "name": "not applicable Marcelino",
+        "name": "Marcelino",
         "position": "defender",
         "shirtNumber": 17
       },
       {
-        "name": "not applicable Pirri",
+        "name": "Pirri",
         "position": "defender",
         "shirtNumber": 18
       },
@@ -18140,7 +18140,7 @@
         "shirtNumber": 21
       },
       {
-        "name": "not applicable Urruti",
+        "name": "Urruti",
         "position": "goal keeper",
         "shirtNumber": 22
       }
@@ -19050,17 +19050,17 @@
         "shirtNumber": 1
       },
       {
-        "name": "not applicable Leandro",
+        "name": "Leandro",
         "position": "defender",
         "shirtNumber": 2
       },
       {
-        "name": "not applicable Oscar",
+        "name": "Oscar",
         "position": "defender",
         "shirtNumber": 3
       },
       {
-        "name": "not applicable Luizinho",
+        "name": "Luizinho",
         "position": "defender",
         "shirtNumber": 4
       },
@@ -19070,7 +19070,7 @@
         "shirtNumber": 5
       },
       {
-        "name": "not applicable Júnior",
+        "name": "Júnior",
         "position": "defender",
         "shirtNumber": 6
       },
@@ -19080,22 +19080,22 @@
         "shirtNumber": 7
       },
       {
-        "name": "not applicable Sócrates",
+        "name": "Sócrates",
         "position": "midfielder",
         "shirtNumber": 8
       },
       {
-        "name": "not applicable Serginho",
+        "name": "Serginho",
         "position": "forward",
         "shirtNumber": 9
       },
       {
-        "name": "not applicable Zico",
+        "name": "Zico",
         "position": "midfielder",
         "shirtNumber": 10
       },
       {
-        "name": "not applicable Éder",
+        "name": "Éder",
         "position": "forward",
         "shirtNumber": 11
       },
@@ -19105,37 +19105,37 @@
         "shirtNumber": 12
       },
       {
-        "name": "not applicable Edevaldo",
+        "name": "Edevaldo",
         "position": "defender",
         "shirtNumber": 13
       },
       {
-        "name": "not applicable Juninho",
+        "name": "Juninho",
         "position": "defender",
         "shirtNumber": 14
       },
       {
-        "name": "not applicable Falcão",
+        "name": "Falcão",
         "position": "midfielder",
         "shirtNumber": 15
       },
       {
-        "name": "not applicable Edinho",
+        "name": "Edinho",
         "position": "defender",
         "shirtNumber": 16
       },
       {
-        "name": "not applicable Pedrinho",
+        "name": "Pedrinho",
         "position": "defender",
         "shirtNumber": 17
       },
       {
-        "name": "not applicable Batista",
+        "name": "Batista",
         "position": "midfielder",
         "shirtNumber": 18
       },
       {
-        "name": "not applicable Renato",
+        "name": "Renato",
         "position": "midfielder",
         "shirtNumber": 19
       },
@@ -19145,12 +19145,12 @@
         "shirtNumber": 20
       },
       {
-        "name": "not applicable Dirceu",
+        "name": "Dirceu",
         "position": "midfielder",
         "shirtNumber": 21
       },
       {
-        "name": "not applicable Carlos",
+        "name": "Carlos",
         "position": "goal keeper",
         "shirtNumber": 22
       }
@@ -19747,12 +19747,12 @@
         "shirtNumber": 6
       },
       {
-        "name": "not applicable Juanito",
+        "name": "Juanito",
         "position": "forward",
         "shirtNumber": 7
       },
       {
-        "name": "not applicable Joaquín",
+        "name": "Joaquín",
         "position": "midfielder",
         "shirtNumber": 8
       },
@@ -19807,17 +19807,17 @@
         "shirtNumber": 18
       },
       {
-        "name": "not applicable Santillana",
+        "name": "Santillana",
         "position": "forward",
         "shirtNumber": 19
       },
       {
-        "name": "not applicable Quini",
+        "name": "Quini",
         "position": "forward",
         "shirtNumber": 20
       },
       {
-        "name": "not applicable Urruti",
+        "name": "Urruti",
         "position": "goal keeper",
         "shirtNumber": 21
       },
@@ -21725,57 +21725,57 @@
     ],
     "BRA": [
       {
-        "name": "not applicable Carlos",
+        "name": "Carlos",
         "position": "goal keeper",
         "shirtNumber": 1
       },
       {
-        "name": "not applicable Édson",
+        "name": "Édson",
         "position": "defender",
         "shirtNumber": 2
       },
       {
-        "name": "not applicable Oscar",
+        "name": "Oscar",
         "position": "defender",
         "shirtNumber": 3
       },
       {
-        "name": "not applicable Edinho",
+        "name": "Edinho",
         "position": "defender",
         "shirtNumber": 4
       },
       {
-        "name": "not applicable Falcão",
+        "name": "Falcão",
         "position": "midfielder",
         "shirtNumber": 5
       },
       {
-        "name": "not applicable Júnior",
+        "name": "Júnior",
         "position": "midfielder",
         "shirtNumber": 6
       },
       {
-        "name": "not applicable Müller",
+        "name": "Müller",
         "position": "forward",
         "shirtNumber": 7
       },
       {
-        "name": "not applicable Casagrande",
+        "name": "Casagrande",
         "position": "forward",
         "shirtNumber": 8
       },
       {
-        "name": "not applicable Careca",
+        "name": "Careca",
         "position": "forward",
         "shirtNumber": 9
       },
       {
-        "name": "not applicable Zico",
+        "name": "Zico",
         "position": "midfielder",
         "shirtNumber": 10
       },
       {
-        "name": "not applicable Edivaldo",
+        "name": "Edivaldo",
         "position": "forward",
         "shirtNumber": 11
       },
@@ -21785,7 +21785,7 @@
         "shirtNumber": 12
       },
       {
-        "name": "not applicable Josimar",
+        "name": "Josimar",
         "position": "defender",
         "shirtNumber": 13
       },
@@ -21795,7 +21795,7 @@
         "shirtNumber": 14
       },
       {
-        "name": "not applicable Alemão",
+        "name": "Alemão",
         "position": "midfielder",
         "shirtNumber": 15
       },
@@ -21805,17 +21805,17 @@
         "shirtNumber": 16
       },
       {
-        "name": "not applicable Branco",
+        "name": "Branco",
         "position": "defender",
         "shirtNumber": 17
       },
       {
-        "name": "not applicable Sócrates",
+        "name": "Sócrates",
         "position": "midfielder",
         "shirtNumber": 18
       },
       {
-        "name": "not applicable Elzo",
+        "name": "Elzo",
         "position": "midfielder",
         "shirtNumber": 19
       },
@@ -21825,12 +21825,12 @@
         "shirtNumber": 20
       },
       {
-        "name": "not applicable Valdo",
+        "name": "Valdo",
         "position": "midfielder",
         "shirtNumber": 21
       },
       {
-        "name": "not applicable Leão",
+        "name": "Leão",
         "position": "goal keeper",
         "shirtNumber": 22
       }
@@ -21954,7 +21954,7 @@
         "shirtNumber": 1
       },
       {
-        "name": "not applicable Tomás",
+        "name": "Tomás",
         "position": "defender",
         "shirtNumber": 2
       },
@@ -21969,7 +21969,7 @@
         "shirtNumber": 4
       },
       {
-        "name": "not applicable Víctor",
+        "name": "Víctor",
         "position": "midfielder",
         "shirtNumber": 5
       },
@@ -22009,7 +22009,7 @@
         "shirtNumber": 12
       },
       {
-        "name": "not applicable Urruti",
+        "name": "Urruti",
         "position": "goal keeper",
         "shirtNumber": 13
       },
@@ -22019,7 +22019,7 @@
         "shirtNumber": 14
       },
       {
-        "name": "not applicable Chendo",
+        "name": "Chendo",
         "position": "defender",
         "shirtNumber": 15
       },
@@ -22029,7 +22029,7 @@
         "shirtNumber": 16
       },
       {
-        "name": "not applicable Francisco",
+        "name": "Francisco",
         "position": "midfielder",
         "shirtNumber": 17
       },
@@ -22044,12 +22044,12 @@
         "shirtNumber": 19
       },
       {
-        "name": "not applicable Eloy",
+        "name": "Eloy",
         "position": "forward",
         "shirtNumber": 20
       },
       {
-        "name": "not applicable Míchel",
+        "name": "Míchel",
         "position": "midfielder",
         "shirtNumber": 21
       },
@@ -23084,7 +23084,7 @@
         "shirtNumber": 4
       },
       {
-        "name": "not applicable Álvaro",
+        "name": "Álvaro",
         "position": "defender",
         "shirtNumber": 5
       },
@@ -23099,7 +23099,7 @@
         "shirtNumber": 7
       },
       {
-        "name": "not applicable Frederico",
+        "name": "Frederico",
         "position": "defender",
         "shirtNumber": 8
       },
@@ -23144,7 +23144,7 @@
         "shirtNumber": 16
       },
       {
-        "name": "not applicable Diamantino",
+        "name": "Diamantino",
         "position": "midfielder",
         "shirtNumber": 17
       },
@@ -24863,7 +24863,7 @@
         "shirtNumber": 1
       },
       {
-        "name": "not applicable Jorginho",
+        "name": "Jorginho",
         "position": "defender",
         "shirtNumber": 2
       },
@@ -24873,32 +24873,32 @@
         "shirtNumber": 3
       },
       {
-        "name": "not applicable Dunga",
+        "name": "Dunga",
         "position": "midfielder",
         "shirtNumber": 4
       },
       {
-        "name": "not applicable Alemão",
+        "name": "Alemão",
         "position": "midfielder",
         "shirtNumber": 5
       },
       {
-        "name": "not applicable Branco",
+        "name": "Branco",
         "position": "defender",
         "shirtNumber": 6
       },
       {
-        "name": "not applicable Bismarck",
+        "name": "Bismarck",
         "position": "midfielder",
         "shirtNumber": 7
       },
       {
-        "name": "not applicable Valdo",
+        "name": "Valdo",
         "position": "midfielder",
         "shirtNumber": 8
       },
       {
-        "name": "not applicable Careca",
+        "name": "Careca",
         "position": "forward",
         "shirtNumber": 9
       },
@@ -24908,12 +24908,12 @@
         "shirtNumber": 10
       },
       {
-        "name": "not applicable Romário",
+        "name": "Romário",
         "position": "forward",
         "shirtNumber": 11
       },
       {
-        "name": "not applicable Acácio",
+        "name": "Acácio",
         "position": "goal keeper",
         "shirtNumber": 12
       },
@@ -24923,17 +24923,17 @@
         "shirtNumber": 13
       },
       {
-        "name": "not applicable Aldair",
+        "name": "Aldair",
         "position": "defender",
         "shirtNumber": 14
       },
       {
-        "name": "not applicable Müller",
+        "name": "Müller",
         "position": "forward",
         "shirtNumber": 15
       },
       {
-        "name": "not applicable Bebeto",
+        "name": "Bebeto",
         "position": "forward",
         "shirtNumber": 16
       },
@@ -24943,7 +24943,7 @@
         "shirtNumber": 17
       },
       {
-        "name": "not applicable Mazinho",
+        "name": "Mazinho",
         "position": "defender",
         "shirtNumber": 18
       },
@@ -24953,7 +24953,7 @@
         "shirtNumber": 19
       },
       {
-        "name": "not applicable Tita",
+        "name": "Tita",
         "position": "midfielder",
         "shirtNumber": 20
       },
@@ -24963,7 +24963,7 @@
         "shirtNumber": 21
       },
       {
-        "name": "not applicable Zé Carlos",
+        "name": "Zé Carlos",
         "position": "goal keeper",
         "shirtNumber": 22
       }
@@ -24975,7 +24975,7 @@
         "shirtNumber": 1
       },
       {
-        "name": "not applicable Chendo",
+        "name": "Chendo",
         "position": "defender",
         "shirtNumber": 2
       },
@@ -25015,7 +25015,7 @@
         "shirtNumber": 9
       },
       {
-        "name": "not applicable Fernando",
+        "name": "Fernando",
         "position": "midfielder",
         "shirtNumber": 10
       },
@@ -25040,7 +25040,7 @@
         "shirtNumber": 14
       },
       {
-        "name": "not applicable Roberto",
+        "name": "Roberto",
         "position": "midfielder",
         "shirtNumber": 15
       },
@@ -25065,12 +25065,12 @@
         "shirtNumber": 19
       },
       {
-        "name": "not applicable Manolo",
+        "name": "Manolo",
         "position": "forward",
         "shirtNumber": 20
       },
       {
-        "name": "not applicable Míchel",
+        "name": "Míchel",
         "position": "midfielder",
         "shirtNumber": 21
       },
@@ -26657,7 +26657,7 @@
         "shirtNumber": 1
       },
       {
-        "name": "not applicable Jorginho",
+        "name": "Jorginho",
         "position": "defender",
         "shirtNumber": 2
       },
@@ -26667,7 +26667,7 @@
         "shirtNumber": 3
       },
       {
-        "name": "not applicable Ronaldão",
+        "name": "Ronaldão",
         "position": "defender",
         "shirtNumber": 4
       },
@@ -26677,47 +26677,47 @@
         "shirtNumber": 5
       },
       {
-        "name": "not applicable Branco",
+        "name": "Branco",
         "position": "defender",
         "shirtNumber": 6
       },
       {
-        "name": "not applicable Bebeto",
+        "name": "Bebeto",
         "position": "forward",
         "shirtNumber": 7
       },
       {
-        "name": "not applicable Dunga",
+        "name": "Dunga",
         "position": "midfielder",
         "shirtNumber": 8
       },
       {
-        "name": "not applicable Zinho",
+        "name": "Zinho",
         "position": "midfielder",
         "shirtNumber": 9
       },
       {
-        "name": "not applicable Raí",
+        "name": "Raí",
         "position": "midfielder",
         "shirtNumber": 10
       },
       {
-        "name": "not applicable Romário",
+        "name": "Romário",
         "position": "forward",
         "shirtNumber": 11
       },
       {
-        "name": "not applicable Zetti",
+        "name": "Zetti",
         "position": "goal keeper",
         "shirtNumber": 12
       },
       {
-        "name": "not applicable Aldair",
+        "name": "Aldair",
         "position": "defender",
         "shirtNumber": 13
       },
       {
-        "name": "not applicable Cafu",
+        "name": "Cafu",
         "position": "defender",
         "shirtNumber": 14
       },
@@ -26727,12 +26727,12 @@
         "shirtNumber": 15
       },
       {
-        "name": "not applicable Leonardo",
+        "name": "Leonardo",
         "position": "midfielder",
         "shirtNumber": 16
       },
       {
-        "name": "not applicable Mazinho",
+        "name": "Mazinho",
         "position": "midfielder",
         "shirtNumber": 17
       },
@@ -26742,17 +26742,17 @@
         "shirtNumber": 18
       },
       {
-        "name": "not applicable Müller",
+        "name": "Müller",
         "position": "forward",
         "shirtNumber": 19
       },
       {
-        "name": "not applicable Ronaldo",
+        "name": "Ronaldo",
         "position": "forward",
         "shirtNumber": 20
       },
       {
-        "name": "not applicable Viola",
+        "name": "Viola",
         "position": "forward",
         "shirtNumber": 21
       },
@@ -27456,7 +27456,7 @@
         "shirtNumber": 4
       },
       {
-        "name": "not applicable Abelardo",
+        "name": "Abelardo",
         "position": "defender",
         "shirtNumber": 5
       },
@@ -27491,7 +27491,7 @@
         "shirtNumber": 11
       },
       {
-        "name": "not applicable Sergi",
+        "name": "Sergi",
         "position": "defender",
         "shirtNumber": 12
       },
@@ -27501,7 +27501,7 @@
         "shirtNumber": 13
       },
       {
-        "name": "not applicable Juanele",
+        "name": "Juanele",
         "position": "forward",
         "shirtNumber": 14
       },
@@ -27516,7 +27516,7 @@
         "shirtNumber": 16
       },
       {
-        "name": "not applicable Voro",
+        "name": "Voro",
         "position": "defender",
         "shirtNumber": 17
       },
@@ -27822,7 +27822,7 @@
         "shirtNumber": 10
       },
       {
-        "name": "not applicable Zague",
+        "name": "Zague",
         "position": "forward",
         "shirtNumber": 11
       },
@@ -29459,12 +29459,12 @@
         "shirtNumber": 1
       },
       {
-        "name": "not applicable Cafu",
+        "name": "Cafu",
         "position": "defender",
         "shirtNumber": 2
       },
       {
-        "name": "not applicable Aldair",
+        "name": "Aldair",
         "position": "defender",
         "shirtNumber": 3
       },
@@ -29484,27 +29484,27 @@
         "shirtNumber": 6
       },
       {
-        "name": "not applicable Giovanni",
+        "name": "Giovanni",
         "position": "midfielder",
         "shirtNumber": 7
       },
       {
-        "name": "not applicable Dunga",
+        "name": "Dunga",
         "position": "midfielder",
         "shirtNumber": 8
       },
       {
-        "name": "not applicable Ronaldo",
+        "name": "Ronaldo",
         "position": "forward",
         "shirtNumber": 9
       },
       {
-        "name": "not applicable Rivaldo",
+        "name": "Rivaldo",
         "position": "midfielder",
         "shirtNumber": 10
       },
       {
-        "name": "not applicable Emerson",
+        "name": "Emerson",
         "position": "midfielder",
         "shirtNumber": 11
       },
@@ -29514,12 +29514,12 @@
         "shirtNumber": 12
       },
       {
-        "name": "not applicable Zé Carlos",
+        "name": "Zé Carlos",
         "position": "defender",
         "shirtNumber": 13
       },
       {
-        "name": "not applicable Gonçalves",
+        "name": "Gonçalves",
         "position": "defender",
         "shirtNumber": 14
       },
@@ -29529,37 +29529,37 @@
         "shirtNumber": 15
       },
       {
-        "name": "not applicable Zé Roberto",
+        "name": "Zé Roberto",
         "position": "midfielder",
         "shirtNumber": 16
       },
       {
-        "name": "not applicable Doriva",
+        "name": "Doriva",
         "position": "midfielder",
         "shirtNumber": 17
       },
       {
-        "name": "not applicable Leonardo",
+        "name": "Leonardo",
         "position": "midfielder",
         "shirtNumber": 18
       },
       {
-        "name": "not applicable Denílson",
+        "name": "Denílson",
         "position": "midfielder",
         "shirtNumber": 19
       },
       {
-        "name": "not applicable Bebeto",
+        "name": "Bebeto",
         "position": "forward",
         "shirtNumber": 20
       },
       {
-        "name": "not applicable Edmundo",
+        "name": "Edmundo",
         "position": "forward",
         "shirtNumber": 21
       },
       {
-        "name": "not applicable Dida",
+        "name": "Dida",
         "position": "goal keeper",
         "shirtNumber": 22
       }
@@ -31266,7 +31266,7 @@
         "shirtNumber": 4
       },
       {
-        "name": "not applicable Abelardo",
+        "name": "Abelardo",
         "position": "defender",
         "shirtNumber": 5
       },
@@ -31291,17 +31291,17 @@
         "shirtNumber": 9
       },
       {
-        "name": "not applicable Raúl",
+        "name": "Raúl",
         "position": "forward",
         "shirtNumber": 10
       },
       {
-        "name": "not applicable Alfonso",
+        "name": "Alfonso",
         "position": "forward",
         "shirtNumber": 11
       },
       {
-        "name": "not applicable Sergi",
+        "name": "Sergi",
         "position": "defender",
         "shirtNumber": 12
       },
@@ -31336,7 +31336,7 @@
         "shirtNumber": 18
       },
       {
-        "name": "not applicable Kiko",
+        "name": "Kiko",
         "position": "forward",
         "shirtNumber": 19
       },
@@ -31973,7 +31973,7 @@
         "shirtNumber": 11
       },
       {
-        "name": "not applicable Lauren",
+        "name": "Lauren",
         "position": "defender",
         "shirtNumber": 12
       },
@@ -32812,22 +32812,138 @@
         "shirtNumber": 22
       }
     ],
-    "SLV": []
-  },
-  "2002": {
-    "BRA": [
+    "RSA": [
       {
-        "name": "not applicable Marcos",
+        "name": "Hans Vonk",
         "position": "goal keeper",
         "shirtNumber": 1
       },
       {
-        "name": "not applicable Cafu",
+        "name": "Themba Mnguni",
         "position": "defender",
         "shirtNumber": 2
       },
       {
-        "name": "not applicable Lúcio",
+        "name": "David Nyathi",
+        "position": "defender",
+        "shirtNumber": 3
+      },
+      {
+        "name": "Willem Jackson",
+        "position": "defender",
+        "shirtNumber": 4
+      },
+      {
+        "name": "Mark Fish",
+        "position": "defender",
+        "shirtNumber": 5
+      },
+      {
+        "name": "Phil Masinga",
+        "position": "forward",
+        "shirtNumber": 6
+      },
+      {
+        "name": "Quinton Fortune",
+        "position": "midfielder",
+        "shirtNumber": 7
+      },
+      {
+        "name": "Alfred Phiri",
+        "position": "midfielder",
+        "shirtNumber": 8
+      },
+      {
+        "name": "Shaun Bartlett",
+        "position": "forward",
+        "shirtNumber": 9
+      },
+      {
+        "name": "John Moshoeu",
+        "position": "midfielder",
+        "shirtNumber": 10
+      },
+      {
+        "name": "Helman Mkhalele",
+        "position": "midfielder",
+        "shirtNumber": 11
+      },
+      {
+        "name": "Brendan Augustine",
+        "position": "forward",
+        "shirtNumber": 12
+      },
+      {
+        "name": "Delron Buckley",
+        "position": "forward",
+        "shirtNumber": 13
+      },
+      {
+        "name": "Jerry Sikhosana",
+        "position": "forward",
+        "shirtNumber": 14
+      },
+      {
+        "name": "Doctor Khumalo",
+        "position": "midfielder",
+        "shirtNumber": 15
+      },
+      {
+        "name": "Brian Baloyi",
+        "position": "goal keeper",
+        "shirtNumber": 16
+      },
+      {
+        "name": "Benni McCarthy",
+        "position": "forward",
+        "shirtNumber": 17
+      },
+      {
+        "name": "Lebogang Morula",
+        "position": "midfielder",
+        "shirtNumber": 18
+      },
+      {
+        "name": "Lucas Radebe",
+        "position": "defender",
+        "shirtNumber": 19
+      },
+      {
+        "name": "William Mokoena",
+        "position": "midfielder",
+        "shirtNumber": 20
+      },
+      {
+        "name": "Pierre Issa",
+        "position": "defender",
+        "shirtNumber": 21
+      },
+      {
+        "name": "Paul Evans",
+        "position": "goal keeper",
+        "shirtNumber": 22
+      },
+      {
+        "name": "Simon Gopane",
+        "position": "goal keeper",
+        "shirtNumber": 23
+      }
+    ]
+  },
+  "2002": {
+    "BRA": [
+      {
+        "name": "Marcos",
+        "position": "goal keeper",
+        "shirtNumber": 1
+      },
+      {
+        "name": "Cafu",
+        "position": "defender",
+        "shirtNumber": 2
+      },
+      {
+        "name": "Lúcio",
         "position": "defender",
         "shirtNumber": 3
       },
@@ -32837,7 +32953,7 @@
         "shirtNumber": 4
       },
       {
-        "name": "not applicable Edmílson",
+        "name": "Edmílson",
         "position": "defender",
         "shirtNumber": 5
       },
@@ -32847,7 +32963,7 @@
         "shirtNumber": 6
       },
       {
-        "name": "not applicable Ricardinho",
+        "name": "Ricardinho",
         "position": "midfielder",
         "shirtNumber": 7
       },
@@ -32857,22 +32973,22 @@
         "shirtNumber": 8
       },
       {
-        "name": "not applicable Ronaldo",
+        "name": "Ronaldo",
         "position": "forward",
         "shirtNumber": 9
       },
       {
-        "name": "not applicable Rivaldo",
+        "name": "Rivaldo",
         "position": "midfielder",
         "shirtNumber": 10
       },
       {
-        "name": "not applicable Ronaldinho",
+        "name": "Ronaldinho",
         "position": "midfielder",
         "shirtNumber": 11
       },
       {
-        "name": "not applicable Dida",
+        "name": "Dida",
         "position": "goal keeper",
         "shirtNumber": 12
       },
@@ -32887,22 +33003,22 @@
         "shirtNumber": 14
       },
       {
-        "name": "not applicable Kléberson",
+        "name": "Kléberson",
         "position": "midfielder",
         "shirtNumber": 15
       },
       {
-        "name": "not applicable Júnior",
+        "name": "Júnior",
         "position": "defender",
         "shirtNumber": 16
       },
       {
-        "name": "not applicable Denílson",
+        "name": "Denílson",
         "position": "forward",
         "shirtNumber": 17
       },
       {
-        "name": "not applicable Vampeta",
+        "name": "Vampeta",
         "position": "midfielder",
         "shirtNumber": 18
       },
@@ -32912,12 +33028,12 @@
         "shirtNumber": 19
       },
       {
-        "name": "not applicable Edílson",
+        "name": "Edílson",
         "position": "forward",
         "shirtNumber": 20
       },
       {
-        "name": "not applicable Luizão",
+        "name": "Luizão",
         "position": "forward",
         "shirtNumber": 21
       },
@@ -32927,7 +33043,7 @@
         "shirtNumber": 22
       },
       {
-        "name": "not applicable Kaká",
+        "name": "Kaká",
         "position": "midfielder",
         "shirtNumber": 23
       }
@@ -33295,7 +33411,7 @@
         "shirtNumber": 2
       },
       {
-        "name": "not applicable Juanfran",
+        "name": "Juanfran",
         "position": "defender",
         "shirtNumber": 3
       },
@@ -33315,7 +33431,7 @@
         "shirtNumber": 6
       },
       {
-        "name": "not applicable Raúl",
+        "name": "Raúl",
         "position": "forward",
         "shirtNumber": 7
       },
@@ -33345,7 +33461,7 @@
         "shirtNumber": 12
       },
       {
-        "name": "not applicable Ricardo",
+        "name": "Ricardo",
         "position": "goal keeper",
         "shirtNumber": 13
       },
@@ -33370,12 +33486,12 @@
         "shirtNumber": 17
       },
       {
-        "name": "not applicable Sergio",
+        "name": "Sergio",
         "position": "midfielder",
         "shirtNumber": 18
       },
       {
-        "name": "not applicable Xavi",
+        "name": "Xavi",
         "position": "midfielder",
         "shirtNumber": 19
       },
@@ -33390,7 +33506,7 @@
         "shirtNumber": 21
       },
       {
-        "name": "not applicable Joaquín",
+        "name": "Joaquín",
         "position": "midfielder",
         "shirtNumber": 22
       },
@@ -34846,7 +34962,7 @@
         "shirtNumber": 8
       },
       {
-        "name": "not applicable Pauleta",
+        "name": "Pauleta",
         "position": "forward",
         "shirtNumber": 9
       },
@@ -34881,7 +34997,7 @@
         "shirtNumber": 15
       },
       {
-        "name": "not applicable Ricardo",
+        "name": "Ricardo",
         "position": "goal keeper",
         "shirtNumber": 16
       },
@@ -34896,12 +35012,12 @@
         "shirtNumber": 18
       },
       {
-        "name": "not applicable Capucho",
+        "name": "Capucho",
         "position": "midfielder",
         "shirtNumber": 19
       },
       {
-        "name": "not applicable Petit",
+        "name": "Petit",
         "position": "midfielder",
         "shirtNumber": 20
       },
@@ -34911,7 +35027,7 @@
         "shirtNumber": 21
       },
       {
-        "name": "not applicable Beto",
+        "name": "Beto",
         "position": "defender",
         "shirtNumber": 22
       },
@@ -35309,7 +35425,7 @@
         "shirtNumber": 7
       },
       {
-        "name": "not applicable Geremi",
+        "name": "Geremi",
         "position": "defender",
         "shirtNumber": 8
       },
@@ -35329,7 +35445,7 @@
         "shirtNumber": 11
       },
       {
-        "name": "not applicable Lauren",
+        "name": "Lauren",
         "position": "midfielder",
         "shirtNumber": 12
       },
@@ -36914,7 +37030,7 @@
     ],
     "POR": [
       {
-        "name": "not applicable Ricardo",
+        "name": "Ricardo",
         "position": "goal keeper",
         "shirtNumber": 1
       },
@@ -36939,7 +37055,7 @@
         "shirtNumber": 5
       },
       {
-        "name": "not applicable Costinha",
+        "name": "Costinha",
         "position": "midfielder",
         "shirtNumber": 6
       },
@@ -36949,12 +37065,12 @@
         "shirtNumber": 7
       },
       {
-        "name": "not applicable Petit",
+        "name": "Petit",
         "position": "midfielder",
         "shirtNumber": 8
       },
       {
-        "name": "not applicable Pauleta",
+        "name": "Pauleta",
         "position": "forward",
         "shirtNumber": 9
       },
@@ -36964,17 +37080,17 @@
         "shirtNumber": 10
       },
       {
-        "name": "not applicable Simão",
+        "name": "Simão",
         "position": "forward",
         "shirtNumber": 11
       },
       {
-        "name": "not applicable Quim",
+        "name": "Quim",
         "position": "goal keeper",
         "shirtNumber": 12
       },
       {
-        "name": "not applicable Miguel",
+        "name": "Miguel",
         "position": "defender",
         "shirtNumber": 13
       },
@@ -36999,17 +37115,17 @@
         "shirtNumber": 17
       },
       {
-        "name": "not applicable Maniche",
+        "name": "Maniche",
         "position": "midfielder",
         "shirtNumber": 18
       },
       {
-        "name": "not applicable Tiago",
+        "name": "Tiago",
         "position": "midfielder",
         "shirtNumber": 19
       },
       {
-        "name": "not applicable Deco",
+        "name": "Deco",
         "position": "midfielder",
         "shirtNumber": 20
       },
@@ -37031,27 +37147,27 @@
     ],
     "BRA": [
       {
-        "name": "not applicable Dida",
+        "name": "Dida",
         "position": "goal keeper",
         "shirtNumber": 1
       },
       {
-        "name": "not applicable Cafu",
+        "name": "Cafu",
         "position": "defender",
         "shirtNumber": 2
       },
       {
-        "name": "not applicable Lúcio",
+        "name": "Lúcio",
         "position": "defender",
         "shirtNumber": 3
       },
       {
-        "name": "not applicable Juan",
+        "name": "Juan",
         "position": "defender",
         "shirtNumber": 4
       },
       {
-        "name": "not applicable Emerson",
+        "name": "Emerson",
         "position": "midfielder",
         "shirtNumber": 5
       },
@@ -37061,27 +37177,27 @@
         "shirtNumber": 6
       },
       {
-        "name": "not applicable Adriano",
+        "name": "Adriano",
         "position": "forward",
         "shirtNumber": 7
       },
       {
-        "name": "not applicable Kaká",
+        "name": "Kaká",
         "position": "midfielder",
         "shirtNumber": 8
       },
       {
-        "name": "not applicable Ronaldo",
+        "name": "Ronaldo",
         "position": "forward",
         "shirtNumber": 9
       },
       {
-        "name": "not applicable Ronaldinho",
+        "name": "Ronaldinho",
         "position": "midfielder",
         "shirtNumber": 10
       },
       {
-        "name": "not applicable Zé Roberto",
+        "name": "Zé Roberto",
         "position": "midfielder",
         "shirtNumber": 11
       },
@@ -37091,22 +37207,22 @@
         "shirtNumber": 12
       },
       {
-        "name": "not applicable Cicinho",
+        "name": "Cicinho",
         "position": "defender",
         "shirtNumber": 13
       },
       {
-        "name": "not applicable Luisão",
+        "name": "Luisão",
         "position": "defender",
         "shirtNumber": 14
       },
       {
-        "name": "not applicable Cris",
+        "name": "Cris",
         "position": "defender",
         "shirtNumber": 15
       },
       {
-        "name": "not applicable Gilberto",
+        "name": "Gilberto",
         "position": "defender",
         "shirtNumber": 16
       },
@@ -37116,7 +37232,7 @@
         "shirtNumber": 17
       },
       {
-        "name": "not applicable Mineiro",
+        "name": "Mineiro",
         "position": "midfielder",
         "shirtNumber": 18
       },
@@ -37126,12 +37242,12 @@
         "shirtNumber": 19
       },
       {
-        "name": "not applicable Ricardinho",
+        "name": "Ricardinho",
         "position": "midfielder",
         "shirtNumber": 20
       },
       {
-        "name": "not applicable Fred",
+        "name": "Fred",
         "position": "forward",
         "shirtNumber": 21
       },
@@ -37141,7 +37257,7 @@
         "shirtNumber": 22
       },
       {
-        "name": "not applicable Robinho",
+        "name": "Robinho",
         "position": "forward",
         "shirtNumber": 23
       }
@@ -37529,12 +37645,12 @@
         "shirtNumber": 6
       },
       {
-        "name": "not applicable Raúl",
+        "name": "Raúl",
         "position": "forward",
         "shirtNumber": 7
       },
       {
-        "name": "not applicable Xavi",
+        "name": "Xavi",
         "position": "midfielder",
         "shirtNumber": 8
       },
@@ -37579,7 +37695,7 @@
         "shirtNumber": 16
       },
       {
-        "name": "not applicable Joaquín",
+        "name": "Joaquín",
         "position": "midfielder",
         "shirtNumber": 17
       },
@@ -37594,7 +37710,7 @@
         "shirtNumber": 19
       },
       {
-        "name": "not applicable Juanito",
+        "name": "Juanito",
         "position": "defender",
         "shirtNumber": 20
       },
@@ -38231,7 +38347,7 @@
         "shirtNumber": 6
       },
       {
-        "name": "not applicable Sinha",
+        "name": "Sinha",
         "position": "midfielder",
         "shirtNumber": 7
       },
@@ -39242,7 +39358,7 @@
         "shirtNumber": 21
       },
       {
-        "name": "not applicable Romaric",
+        "name": "Romaric",
         "position": "midfielder",
         "shirtNumber": 22
       },
@@ -39568,7 +39684,7 @@
         "shirtNumber": 16
       },
       {
-        "name": "Albert Nađ",
+        "name": "Albert",
         "position": "midfielder",
         "shirtNumber": 17
       },
@@ -39849,7 +39965,7 @@
         "shirtNumber": 2
       },
       {
-        "name": "not applicable Jamba",
+        "name": "Jamba",
         "position": "defender",
         "shirtNumber": 3
       },
@@ -39859,12 +39975,12 @@
         "shirtNumber": 4
       },
       {
-        "name": "not applicable Kali",
+        "name": "Kali",
         "position": "defender",
         "shirtNumber": 5
       },
       {
-        "name": "not applicable Miloy",
+        "name": "Miloy",
         "position": "midfielder",
         "shirtNumber": 6
       },
@@ -39879,22 +39995,22 @@
         "shirtNumber": 8
       },
       {
-        "name": "not applicable Mantorras",
+        "name": "Mantorras",
         "position": "forward",
         "shirtNumber": 9
       },
       {
-        "name": "not applicable Akwá",
+        "name": "Akwá",
         "position": "forward",
         "shirtNumber": 10
       },
       {
-        "name": "not applicable Mateus",
+        "name": "Mateus",
         "position": "forward",
         "shirtNumber": 11
       },
       {
-        "name": "not applicable Lamá",
+        "name": "Lamá",
         "position": "goal keeper",
         "shirtNumber": 12
       },
@@ -39904,7 +40020,7 @@
         "shirtNumber": 13
       },
       {
-        "name": "not applicable Mendonça",
+        "name": "Mendonça",
         "position": "midfielder",
         "shirtNumber": 14
       },
@@ -39914,17 +40030,17 @@
         "shirtNumber": 15
       },
       {
-        "name": "not applicable Flávio",
+        "name": "Flávio",
         "position": "forward",
         "shirtNumber": 16
       },
       {
-        "name": "not applicable Zé Kalanga",
+        "name": "Zé Kalanga",
         "position": "midfielder",
         "shirtNumber": 17
       },
       {
-        "name": "not applicable Love",
+        "name": "Love",
         "position": "forward",
         "shirtNumber": 18
       },
@@ -39934,12 +40050,12 @@
         "shirtNumber": 19
       },
       {
-        "name": "not applicable Locó",
+        "name": "Locó",
         "position": "defender",
         "shirtNumber": 20
       },
       {
-        "name": "not applicable Delgado",
+        "name": "Delgado",
         "position": "defender",
         "shirtNumber": 21
       },
@@ -40344,7 +40460,7 @@
         "shirtNumber": 7
       },
       {
-        "name": "not applicable Xavi",
+        "name": "Xavi",
         "position": "midfielder",
         "shirtNumber": 8
       },
@@ -40394,7 +40510,7 @@
         "shirtNumber": 17
       },
       {
-        "name": "not applicable Pedro",
+        "name": "Pedro",
         "position": "forward",
         "shirtNumber": 18
       },
@@ -40633,7 +40749,7 @@
         "shirtNumber": 18
       },
       {
-        "name": "not applicable Cacau",
+        "name": "Cacau",
         "position": "forward",
         "shirtNumber": 19
       },
@@ -40899,17 +41015,17 @@
         "shirtNumber": 1
       },
       {
-        "name": "not applicable Maicon",
+        "name": "Maicon",
         "position": "defender",
         "shirtNumber": 2
       },
       {
-        "name": "not applicable Lúcio",
+        "name": "Lúcio",
         "position": "defender",
         "shirtNumber": 3
       },
       {
-        "name": "not applicable Juan",
+        "name": "Juan",
         "position": "defender",
         "shirtNumber": 4
       },
@@ -40924,7 +41040,7 @@
         "shirtNumber": 6
       },
       {
-        "name": "not applicable Elano",
+        "name": "Elano",
         "position": "midfielder",
         "shirtNumber": 7
       },
@@ -40939,12 +41055,12 @@
         "shirtNumber": 9
       },
       {
-        "name": "not applicable Kaká",
+        "name": "Kaká",
         "position": "midfielder",
         "shirtNumber": 10
       },
       {
-        "name": "not applicable Robinho",
+        "name": "Robinho",
         "position": "forward",
         "shirtNumber": 11
       },
@@ -40959,7 +41075,7 @@
         "shirtNumber": 13
       },
       {
-        "name": "not applicable Luisão",
+        "name": "Luisão",
         "position": "defender",
         "shirtNumber": 14
       },
@@ -40969,17 +41085,17 @@
         "shirtNumber": 15
       },
       {
-        "name": "not applicable Gilberto",
+        "name": "Gilberto",
         "position": "defender",
         "shirtNumber": 16
       },
       {
-        "name": "not applicable Josué",
+        "name": "Josué",
         "position": "midfielder",
         "shirtNumber": 17
       },
       {
-        "name": "not applicable Ramires",
+        "name": "Ramires",
         "position": "midfielder",
         "shirtNumber": 18
       },
@@ -40989,22 +41105,22 @@
         "shirtNumber": 19
       },
       {
-        "name": "not applicable Kléberson",
+        "name": "Kléberson",
         "position": "midfielder",
         "shirtNumber": 20
       },
       {
-        "name": "not applicable Nilmar",
+        "name": "Nilmar",
         "position": "forward",
         "shirtNumber": 21
       },
       {
-        "name": "not applicable Doni",
+        "name": "Doni",
         "position": "goal keeper",
         "shirtNumber": 22
       },
       {
-        "name": "not applicable Grafite",
+        "name": "Grafite",
         "position": "forward",
         "shirtNumber": 23
       }
@@ -41479,7 +41595,7 @@
     ],
     "POR": [
       {
-        "name": "not applicable Eduardo",
+        "name": "Eduardo",
         "position": "goal keeper",
         "shirtNumber": 1
       },
@@ -41494,12 +41610,12 @@
         "shirtNumber": 3
       },
       {
-        "name": "not applicable Rolando",
+        "name": "Rolando",
         "position": "defender",
         "shirtNumber": 4
       },
       {
-        "name": "not applicable Duda",
+        "name": "Duda",
         "position": "midfielder",
         "shirtNumber": 5
       },
@@ -41519,27 +41635,27 @@
         "shirtNumber": 8
       },
       {
-        "name": "not applicable Liédson",
+        "name": "Liédson",
         "position": "forward",
         "shirtNumber": 9
       },
       {
-        "name": "not applicable Danny",
+        "name": "Danny",
         "position": "midfielder",
         "shirtNumber": 10
       },
       {
-        "name": "not applicable Simão",
+        "name": "Simão",
         "position": "midfielder",
         "shirtNumber": 11
       },
       {
-        "name": "not applicable Beto",
+        "name": "Beto",
         "position": "goal keeper",
         "shirtNumber": 12
       },
       {
-        "name": "not applicable Miguel",
+        "name": "Miguel",
         "position": "defender",
         "shirtNumber": 13
       },
@@ -41549,7 +41665,7 @@
         "shirtNumber": 14
       },
       {
-        "name": "not applicable Pepe",
+        "name": "Pepe",
         "position": "defender",
         "shirtNumber": 15
       },
@@ -41569,12 +41685,12 @@
         "shirtNumber": 18
       },
       {
-        "name": "not applicable Tiago",
+        "name": "Tiago",
         "position": "midfielder",
         "shirtNumber": 19
       },
       {
-        "name": "not applicable Deco",
+        "name": "Deco",
         "position": "midfielder",
         "shirtNumber": 20
       },
@@ -42694,7 +42810,7 @@
         "shirtNumber": 9
       },
       {
-        "name": "not applicable Gervinho",
+        "name": "Gervinho",
         "position": "forward",
         "shirtNumber": 10
       },
@@ -42709,7 +42825,7 @@
         "shirtNumber": 12
       },
       {
-        "name": "not applicable Romaric",
+        "name": "Romaric",
         "position": "midfielder",
         "shirtNumber": 13
       },
@@ -43152,7 +43268,7 @@
         "shirtNumber": 7
       },
       {
-        "name": "not applicable Yakubu",
+        "name": "Yakubu",
         "position": "forward",
         "shirtNumber": 8
       },
@@ -43854,7 +43970,7 @@
         "shirtNumber": 7
       },
       {
-        "name": "not applicable Geremi",
+        "name": "Geremi",
         "position": "defender",
         "shirtNumber": 8
       },
@@ -44401,7 +44517,7 @@
     ],
     "BRA": [
       {
-        "name": "not applicable Jefferson",
+        "name": "Jefferson",
         "position": "goal keeper",
         "shirtNumber": 1
       },
@@ -44421,37 +44537,37 @@
         "shirtNumber": 4
       },
       {
-        "name": "not applicable Fernandinho",
+        "name": "Fernandinho",
         "position": "midfielder",
         "shirtNumber": 5
       },
       {
-        "name": "not applicable Marcelo",
+        "name": "Marcelo",
         "position": "defender",
         "shirtNumber": 6
       },
       {
-        "name": "not applicable Hulk",
+        "name": "Hulk",
         "position": "forward",
         "shirtNumber": 7
       },
       {
-        "name": "not applicable Paulinho",
+        "name": "Paulinho",
         "position": "midfielder",
         "shirtNumber": 8
       },
       {
-        "name": "not applicable Fred",
+        "name": "Fred",
         "position": "forward",
         "shirtNumber": 9
       },
       {
-        "name": "not applicable Neymar",
+        "name": "Neymar",
         "position": "forward",
         "shirtNumber": 10
       },
       {
-        "name": "not applicable Oscar",
+        "name": "Oscar",
         "position": "midfielder",
         "shirtNumber": 11
       },
@@ -44461,22 +44577,22 @@
         "shirtNumber": 12
       },
       {
-        "name": "not applicable Dante",
+        "name": "Dante",
         "position": "defender",
         "shirtNumber": 13
       },
       {
-        "name": "not applicable Maxwell",
+        "name": "Maxwell",
         "position": "defender",
         "shirtNumber": 14
       },
       {
-        "name": "not applicable Henrique",
+        "name": "Henrique",
         "position": "defender",
         "shirtNumber": 15
       },
       {
-        "name": "not applicable Ramires",
+        "name": "Ramires",
         "position": "midfielder",
         "shirtNumber": 16
       },
@@ -44486,32 +44602,32 @@
         "shirtNumber": 17
       },
       {
-        "name": "not applicable Hernanes",
+        "name": "Hernanes",
         "position": "midfielder",
         "shirtNumber": 18
       },
       {
-        "name": "not applicable Willian",
+        "name": "Willian",
         "position": "midfielder",
         "shirtNumber": 19
       },
       {
-        "name": "not applicable Bernard",
+        "name": "Bernard",
         "position": "forward",
         "shirtNumber": 20
       },
       {
-        "name": "not applicable Jô",
+        "name": "Jô",
         "position": "forward",
         "shirtNumber": 21
       },
       {
-        "name": "not applicable Victor",
+        "name": "Victor",
         "position": "goal keeper",
         "shirtNumber": 22
       },
       {
-        "name": "not applicable Maicon",
+        "name": "Maicon",
         "position": "defender",
         "shirtNumber": 23
       }
@@ -46039,7 +46155,7 @@
     ],
     "POR": [
       {
-        "name": "not applicable Eduardo",
+        "name": "Eduardo",
         "position": "goal keeper",
         "shirtNumber": 1
       },
@@ -46049,7 +46165,7 @@
         "shirtNumber": 2
       },
       {
-        "name": "not applicable Pepe",
+        "name": "Pepe",
         "position": "defender",
         "shirtNumber": 3
       },
@@ -46084,12 +46200,12 @@
         "shirtNumber": 9
       },
       {
-        "name": "not applicable Vieirinha",
+        "name": "Vieirinha",
         "position": "midfielder",
         "shirtNumber": 10
       },
       {
-        "name": "not applicable Eder",
+        "name": "Eder",
         "position": "forward",
         "shirtNumber": 11
       },
@@ -46119,7 +46235,7 @@
         "shirtNumber": 16
       },
       {
-        "name": "not applicable Nani",
+        "name": "Nani",
         "position": "midfielder",
         "shirtNumber": 17
       },
@@ -46144,7 +46260,7 @@
         "shirtNumber": 21
       },
       {
-        "name": "not applicable Beto",
+        "name": "Beto",
         "position": "goal keeper",
         "shirtNumber": 22
       },
@@ -46246,7 +46362,7 @@
         "shirtNumber": 18
       },
       {
-        "name": "not applicable Sammir",
+        "name": "Sammir",
         "position": "midfielder",
         "shirtNumber": 19
       },
@@ -46261,7 +46377,7 @@
         "shirtNumber": 21
       },
       {
-        "name": "not applicable Eduardo",
+        "name": "Eduardo",
         "position": "forward",
         "shirtNumber": 22
       },
@@ -46552,7 +46668,7 @@
         "shirtNumber": 9
       },
       {
-        "name": "not applicable Gervinho",
+        "name": "Gervinho",
         "position": "forward",
         "shirtNumber": 10
       },
@@ -46644,7 +46760,7 @@
         "shirtNumber": 4
       },
       {
-        "name": "not applicable Juanfran",
+        "name": "Juanfran",
         "position": "defender",
         "shirtNumber": 5
       },
@@ -46659,7 +46775,7 @@
         "shirtNumber": 7
       },
       {
-        "name": "not applicable Xavi",
+        "name": "Xavi",
         "position": "midfielder",
         "shirtNumber": 8
       },
@@ -46674,7 +46790,7 @@
         "shirtNumber": 10
       },
       {
-        "name": "not applicable Pedro",
+        "name": "Pedro",
         "position": "forward",
         "shirtNumber": 11
       },
@@ -46704,7 +46820,7 @@
         "shirtNumber": 16
       },
       {
-        "name": "not applicable Koke",
+        "name": "Koke",
         "position": "midfielder",
         "shirtNumber": 17
       },
@@ -48264,7 +48380,7 @@
     ],
     "BRA": [
       {
-        "name": "not applicable Alisson",
+        "name": "Alisson",
         "position": "goal keeper",
         "shirtNumber": 1
       },
@@ -48274,7 +48390,7 @@
         "shirtNumber": 2
       },
       {
-        "name": "not applicable Miranda",
+        "name": "Miranda",
         "position": "defender",
         "shirtNumber": 3
       },
@@ -48284,7 +48400,7 @@
         "shirtNumber": 4
       },
       {
-        "name": "not applicable Casemiro",
+        "name": "Casemiro",
         "position": "midfielder",
         "shirtNumber": 5
       },
@@ -48309,7 +48425,7 @@
         "shirtNumber": 9
       },
       {
-        "name": "not applicable Neymar",
+        "name": "Neymar",
         "position": "forward",
         "shirtNumber": 10
       },
@@ -48319,42 +48435,42 @@
         "shirtNumber": 11
       },
       {
-        "name": "not applicable Marcelo",
+        "name": "Marcelo",
         "position": "defender",
         "shirtNumber": 12
       },
       {
-        "name": "not applicable Marquinhos",
+        "name": "Marquinhos",
         "position": "defender",
         "shirtNumber": 13
       },
       {
-        "name": "not applicable Danilo",
+        "name": "Danilo",
         "position": "defender",
         "shirtNumber": 14
       },
       {
-        "name": "not applicable Paulinho",
+        "name": "Paulinho",
         "position": "midfielder",
         "shirtNumber": 15
       },
       {
-        "name": "not applicable Cássio",
+        "name": "Cássio",
         "position": "goal keeper",
         "shirtNumber": 16
       },
       {
-        "name": "not applicable Fernandinho",
+        "name": "Fernandinho",
         "position": "midfielder",
         "shirtNumber": 17
       },
       {
-        "name": "not applicable Fred",
+        "name": "Fred",
         "position": "midfielder",
         "shirtNumber": 18
       },
       {
-        "name": "not applicable Willian",
+        "name": "Willian",
         "position": "midfielder",
         "shirtNumber": 19
       },
@@ -48364,17 +48480,17 @@
         "shirtNumber": 20
       },
       {
-        "name": "not applicable Taison",
+        "name": "Taison",
         "position": "forward",
         "shirtNumber": 21
       },
       {
-        "name": "not applicable Fagner",
+        "name": "Fagner",
         "position": "defender",
         "shirtNumber": 22
       },
       {
-        "name": "not applicable Ederson",
+        "name": "Ederson",
         "position": "goal keeper",
         "shirtNumber": 23
       }
@@ -49098,7 +49214,7 @@
         "shirtNumber": 3
       },
       {
-        "name": "not applicable Nacho",
+        "name": "Nacho",
         "position": "defender",
         "shirtNumber": 4
       },
@@ -49113,22 +49229,22 @@
         "shirtNumber": 6
       },
       {
-        "name": "not applicable Saúl",
+        "name": "Saúl",
         "position": "midfielder",
         "shirtNumber": 7
       },
       {
-        "name": "not applicable Koke",
+        "name": "Koke",
         "position": "midfielder",
         "shirtNumber": 8
       },
       {
-        "name": "not applicable Rodrigo",
+        "name": "Rodrigo",
         "position": "forward",
         "shirtNumber": 9
       },
       {
-        "name": "not applicable Thiago",
+        "name": "Thiago",
         "position": "midfielder",
         "shirtNumber": 10
       },
@@ -49188,7 +49304,7 @@
         "shirtNumber": 21
       },
       {
-        "name": "not applicable Isco",
+        "name": "Isco",
         "position": "midfielder",
         "shirtNumber": 22
       },
@@ -49444,7 +49560,7 @@
         "shirtNumber": 2
       },
       {
-        "name": "not applicable Pepe",
+        "name": "Pepe",
         "position": "defender",
         "shirtNumber": 3
       },
@@ -49534,12 +49650,12 @@
         "shirtNumber": 20
       },
       {
-        "name": "not applicable Cédric",
+        "name": "Cédric",
         "position": "defender",
         "shirtNumber": 21
       },
       {
-        "name": "not applicable Beto",
+        "name": "Beto",
         "position": "goal keeper",
         "shirtNumber": 22
       },
@@ -50654,7 +50770,7 @@
         "shirtNumber": 10
       },
       {
-        "name": "not applicable Kahraba",
+        "name": "Kahraba",
         "position": "forward",
         "shirtNumber": 11
       },
@@ -50689,7 +50805,7 @@
         "shirtNumber": 17
       },
       {
-        "name": "not applicable Shikabala",
+        "name": "Shikabala",
         "position": "forward",
         "shirtNumber": 18
       },
@@ -50704,7 +50820,7 @@
         "shirtNumber": 20
       },
       {
-        "name": "not applicable Trézéguet",
+        "name": "Trézéguet",
         "position": "midfielder",
         "shirtNumber": 21
       },
@@ -52217,12 +52333,12 @@
     ],
     "BRA": [
       {
-        "name": "not applicable Alisson",
+        "name": "Alisson",
         "position": "goal keeper",
         "shirtNumber": 1
       },
       {
-        "name": "not applicable Danilo",
+        "name": "Danilo",
         "position": "defender",
         "shirtNumber": 2
       },
@@ -52232,12 +52348,12 @@
         "shirtNumber": 3
       },
       {
-        "name": "not applicable Marquinhos",
+        "name": "Marquinhos",
         "position": "defender",
         "shirtNumber": 4
       },
       {
-        "name": "not applicable Casemiro",
+        "name": "Casemiro",
         "position": "midfielder",
         "shirtNumber": 5
       },
@@ -52252,27 +52368,27 @@
         "shirtNumber": 7
       },
       {
-        "name": "not applicable Fred",
+        "name": "Fred",
         "position": "midfielder",
         "shirtNumber": 8
       },
       {
-        "name": "not applicable Richarlison",
+        "name": "Richarlison",
         "position": "forward",
         "shirtNumber": 9
       },
       {
-        "name": "not applicable Neymar",
+        "name": "Neymar",
         "position": "forward",
         "shirtNumber": 10
       },
       {
-        "name": "not applicable Raphinha",
+        "name": "Raphinha",
         "position": "forward",
         "shirtNumber": 11
       },
       {
-        "name": "not applicable Weverton",
+        "name": "Weverton",
         "position": "goal keeper",
         "shirtNumber": 12
       },
@@ -52287,7 +52403,7 @@
         "shirtNumber": 14
       },
       {
-        "name": "not applicable Fabinho",
+        "name": "Fabinho",
         "position": "midfielder",
         "shirtNumber": 15
       },
@@ -52307,7 +52423,7 @@
         "shirtNumber": 18
       },
       {
-        "name": "not applicable Antony",
+        "name": "Antony",
         "position": "forward",
         "shirtNumber": 19
       },
@@ -52317,7 +52433,7 @@
         "shirtNumber": 20
       },
       {
-        "name": "not applicable Rodrygo",
+        "name": "Rodrygo",
         "position": "forward",
         "shirtNumber": 21
       },
@@ -52327,17 +52443,17 @@
         "shirtNumber": 22
       },
       {
-        "name": "not applicable Ederson",
+        "name": "Ederson",
         "position": "goal keeper",
         "shirtNumber": 23
       },
       {
-        "name": "not applicable Bremer",
+        "name": "Bremer",
         "position": "defender",
         "shirtNumber": 24
       },
       {
-        "name": "not applicable Pedro",
+        "name": "Pedro",
         "position": "forward",
         "shirtNumber": 25
       },
@@ -52359,7 +52475,7 @@
         "shirtNumber": 2
       },
       {
-        "name": "not applicable Pepe",
+        "name": "Pepe",
         "position": "defender",
         "shirtNumber": 3
       },
@@ -52424,7 +52540,7 @@
         "shirtNumber": 15
       },
       {
-        "name": "not applicable Vitinha",
+        "name": "Vitinha",
         "position": "midfielder",
         "shirtNumber": 16
       },
@@ -52469,7 +52585,7 @@
         "shirtNumber": 24
       },
       {
-        "name": "not applicable Otávio",
+        "name": "Otávio",
         "position": "midfielder",
         "shirtNumber": 25
       },
@@ -53044,12 +53160,12 @@
         "shirtNumber": 7
       },
       {
-        "name": "not applicable Koke",
+        "name": "Koke",
         "position": "midfielder",
         "shirtNumber": 8
       },
       {
-        "name": "not applicable Gavi",
+        "name": "Gavi",
         "position": "midfielder",
         "shirtNumber": 9
       },
@@ -53084,7 +53200,7 @@
         "shirtNumber": 15
       },
       {
-        "name": "not applicable Rodri",
+        "name": "Rodri",
         "position": "midfielder",
         "shirtNumber": 16
       },
@@ -53134,7 +53250,7 @@
         "shirtNumber": 25
       },
       {
-        "name": "not applicable Pedri",
+        "name": "Pedri",
         "position": "midfielder",
         "shirtNumber": 26
       }
@@ -53353,7 +53469,7 @@
         "shirtNumber": 16
       },
       {
-        "name": "Na Sang-ho",
+        "name": "Sang-ho",
         "position": "midfielder",
         "shirtNumber": 17
       },
@@ -55517,7 +55633,7 @@
         "shirtNumber": 1
       },
       {
-        "name": "not applicable Ró-Ró",
+        "name": "Ró-Ró",
         "position": "defender",
         "shirtNumber": 2
       },

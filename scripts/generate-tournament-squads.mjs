@@ -17,6 +17,27 @@ function normalize(text) {
     .replace(/[^a-z0-9]/g, '')
 }
 
+function isNotApplicable(value) {
+  const v = normalize(value)
+  return v === 'notapplicable' || v === 'na' || v === 'n/a'
+}
+
+function buildPlayerName(row, playerIdx, givenIdx, familyIdx) {
+  if (playerIdx >= 0) {
+    const name = (row[playerIdx] || '').trim()
+    if (name && !isNotApplicable(name)) return name
+  }
+
+  const given = givenIdx >= 0 ? (row[givenIdx] || '').trim() : ''
+  const family = familyIdx >= 0 ? (row[familyIdx] || '').trim() : ''
+
+  const parts = []
+  if (given && !isNotApplicable(given)) parts.push(given)
+  if (family && !isNotApplicable(family)) parts.push(family)
+
+  return parts.join(' ').trim()
+}
+
 const ALIASES = {
   westgermany: ['germanyfr', 'frg', 'germany'],
   germany: ['germanyfr', 'westgermany', 'frg', 'ger'],
@@ -141,9 +162,7 @@ async function main() {
     const row = parseCsvLine(lines[i])
     const year = extractYear(row, yearIdx, tournamentNameIdx)
     const teamName = row[teamIdx]
-    const playerName = playerIdx >= 0
-      ? row[playerIdx]
-      : [row[givenIdx] || '', row[familyIdx] || ''].join(' ').trim()
+    const playerName = buildPlayerName(row, playerIdx, givenIdx, familyIdx)
     const position = row[posIdx] || null
     const shirt = shirtIdx >= 0 ? Number(row[shirtIdx]) : null
 
