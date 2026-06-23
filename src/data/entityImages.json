@@ -445,7 +445,9 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Official Ball 2014: Adidas Brazuca",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Brazuca_Official_Match_Ball_2014_FIFA_World_Cup.jpg/330px-Brazuca_Official_Match_Ball_2014_FIFA_World_Cup.jpg"
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Deutsches_Fu%C3%9Fballmuseum_2015_3.jpg/500px-Deutsches_Fu%C3%9Fballmuseum_2015_3.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Adidas_Brazuca",
+      "file": "2014/ball.jpg"
     },
     "2014:mascot": {
       "key": "2014:mascot",
@@ -453,7 +455,9 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Mascot 2014: Fuleco",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Fuleco_mascot_2014_FIFA_World_Cup.jpg/330px-Fuleco_mascot_2014_FIFA_World_Cup.jpg"
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/en/b/b4/Fuleco.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Fuleco",
+      "file": "2014/mascot.png"
     },
     "2014:emblem": {
       "key": "2014:emblem",
@@ -462,7 +466,8 @@
       "license": "See source page",
       "caption": "2014 FIFA World Cup Emblem",
       "thumbUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1d/2014_FIFA_World_Cup.svg/330px-2014_FIFA_World_Cup.svg.png",
-      "sourceUrl": "https://en.wikipedia.org/wiki/2014_FIFA_World_Cup"
+      "sourceUrl": "https://en.wikipedia.org/wiki/2014_FIFA_World_Cup",
+      "file": "2014/emblem.png"
     },
     "2018:ball": {
       "key": "2018:ball",
