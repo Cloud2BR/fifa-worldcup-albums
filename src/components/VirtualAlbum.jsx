@@ -650,40 +650,6 @@ function VirtualAlbum({ album }) {
     [spreads],
   )
 
-  const stadiumReferences = useMemo(
-    () =>
-      (album.stadiums ?? [])
-        .map((label) => {
-          const entry = STADIUM_MAP[label]
-          if (!entry) return null
-          return {
-            label,
-            author: entry.author || 'Unknown',
-            license: entry.license || 'Unknown',
-            url: entry.thumbUrl || null,
-          }
-        })
-        .filter(Boolean),
-    [album],
-  )
-
-  const entityReferences = useMemo(() => {
-    const keys = [`${album.year}:ball`, `${album.year}:mascot`, `${album.year}:emblem`, 'global:trophy']
-    return keys
-      .map((key) => {
-        const entry = ENTITY_IMAGE_MAP[key]
-        if (!entry) return null
-        return {
-          key,
-          label: entry.caption || key,
-          author: entry.author || 'Unknown',
-          license: entry.license || 'Unknown',
-          url: entry.sourceUrl || entry.thumbUrl || null,
-        }
-      })
-      .filter(Boolean)
-  }, [album.year])
-
   const playerImageStats = useMemo(() => {
     const prefix = `${album.year}:`
     let total = 0
@@ -843,60 +809,14 @@ function VirtualAlbum({ album }) {
         <p className="mt-1 text-slate-400">
           Official song information is shown from local metadata (no external media search during page load).
         </p>
-
-        {stadiumReferences.length > 0 ? (
-          <div className="mt-3 rounded-lg border border-slate-700 bg-slate-950/50 p-3">
-            <p className="mb-2 text-[11px] font-semibold uppercase tracking-wider text-slate-300">
-              Stadium image credits
-            </p>
-            <ul className="space-y-1">
-              {stadiumReferences.map((ref) => (
-                <li key={ref.label}>
-                  <span className="font-semibold text-slate-200">{ref.label}</span>
-                  <span className="text-slate-400"> — © {ref.author} ({ref.license})</span>
-                  {ref.url ? (
-                    <a
-                      href={ref.url}
-                      target="_blank"
-                      rel="noreferrer"
-                      className="ml-2 text-sky-300 hover:text-sky-200"
-                    >
-                      source
-                    </a>
-                  ) : null}
-                </li>
-              ))}
-            </ul>
-          </div>
-        ) : null}
-
-        {entityReferences.length > 0 ? (
-          <div className="mt-3 rounded-lg border border-slate-700 bg-slate-950/50 p-3">
-            <p className="mb-2 text-[11px] font-semibold uppercase tracking-wider text-slate-300">
-              Ball, mascot, emblem and trophy credits
-            </p>
-            <ul className="space-y-1">
-              {entityReferences.map((ref) => (
-                <li key={ref.key}>
-                  <span className="font-semibold text-slate-200">{ref.label}</span>
-                  <span className="text-slate-400"> — © {ref.author} ({ref.license})</span>
-                  {ref.url ? (
-                    <a
-                      href={ref.url}
-                      target="_blank"
-                      rel="noreferrer"
-                      className="ml-2 text-sky-300 hover:text-sky-200"
-                    >
-                      source
-                    </a>
-                  ) : null}
-                </li>
-              ))}
-            </ul>
-          </div>
-        ) : null}
-
-        <p className="mt-3 text-slate-400">
+        <p className="mt-2 text-slate-400">
+          Stadium photos, ball images, mascot photos, emblems, and trophy images are © Wikipedia contributors, sourced from Wikimedia Commons under CC-BY-SA or equivalent licenses. See{' '}
+          <a href="https://github.com/Cloud2BR/fifa-worldcup-albums/blob/main/CREDITS.md" target="_blank" rel="noreferrer" className="text-sky-300 hover:text-sky-200">
+            CREDITS.md
+          </a>{' '}
+          for full attribution details.
+        </p>
+        <p className="mt-2 text-slate-400">
           Player photo coverage for {album.year}: {playerImageStats.withImage}/{playerImageStats.total} mapped entries.
         </p>
       </section>

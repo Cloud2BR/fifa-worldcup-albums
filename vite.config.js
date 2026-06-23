@@ -5,6 +5,7 @@ export default defineConfig({
   plugins: [react()],
   base: '/fifa-worldcup-albums/',
   build: {
+    emptyOutDir: false,
     assetsDir: 'assets',
     rollupOptions: {
       output: {
