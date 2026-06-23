@@ -1,5 +1,6 @@
 import teamsData from '../data/teams.json'
 import winnerSquadsData from '../data/winnerSquads.json'
+import tournamentSquadsData from '../data/tournamentSquads.json'
 
 const PLAYER_POSITIONS = ['GK', 'DF', 'DF', 'DF', 'DF', 'MF', 'MF', 'MF', 'MF', 'FW', 'FW', 'FW', 'DF', 'MF', 'FW', 'GK', 'DF', 'MF', 'MF', 'FW']
 
@@ -9,6 +10,15 @@ function normalize(text) {
     .normalize('NFD')
     .replace(/[\u0300-\u036f]/g, '')
     .replace(/[^a-z0-9]/g, '')
+}
+
+function toStickerPosition(position) {
+  const value = normalize(position)
+  if (value.includes('goal')) return 'GK'
+  if (value.includes('def')) return 'DF'
+  if (value.includes('mid')) return 'MF'
+  if (value.includes('forw') || value.includes('strik') || value.includes('wing')) return 'FW'
+  return position || null
 }
 
 // Stable pseudo-random generator (mulberry32) so a sticker layout is always the same for a given album
@@ -69,6 +79,7 @@ export function buildAlbumStickers(album) {
 
   // 4. Teams — distribute remaining stickers across team blocks
   const teams = album.teams ?? []
+  const yearSquads = tournamentSquadsData[String(album.year)] ?? {}
   const winnerSquad = winnerSquadsData[String(album.year)]?.players ?? []
   const winnerNameKey = normalize(winnerSquadsData[String(album.year)]?.winner || album.winner)
   const winnerCode = teams.find((code) => normalize(getTeam(code).name) === winnerNameKey) ?? null
@@ -83,18 +94,21 @@ export function buildAlbumStickers(album) {
   for (const code of teams) {
     const team = getTeam(code)
     const isWinnerTeam = code === winnerCode
+    const teamSquad = Array.isArray(yearSquads[code]) ? yearSquads[code] : []
     push({ kind: 'badge', label: `${team.name} — Team Badge`, isShiny: true, team: code })
     for (let i = 0; i < playerSlotsPerTeam; i += 1) {
+      const realTeamPlayer = teamSquad[i] || null
       const realWinnerPlayer = isWinnerTeam ? winnerSquad[i] : null
-      const pos = realWinnerPlayer?.position || PLAYER_POSITIONS[i % PLAYER_POSITIONS.length]
+      const preferredPlayer = realTeamPlayer || realWinnerPlayer
+      const pos = toStickerPosition(preferredPlayer?.position) || PLAYER_POSITIONS[i % PLAYER_POSITIONS.length]
       const shirtNumber = i + 1
       push({
         kind: 'player',
-        label: realWinnerPlayer
-          ? `${realWinnerPlayer.name}${realWinnerPlayer.captain ? ' ©' : ''}`
+        label: preferredPlayer
+          ? `${preferredPlayer.name}${preferredPlayer.captain ? ' ©' : ''}`
           : `${team.name} #${shirtNumber}`,
         position: pos,
-        shirtNumber,
+        shirtNumber: preferredPlayer?.shirtNumber ?? shirtNumber,
         team: code,
         isShiny: false,
       })

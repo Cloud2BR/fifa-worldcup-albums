@@ -3,6 +3,52 @@ import { buildAlbumPages, getTeam } from '../utils/stickers'
 import stadiumImagesData from '../data/stadiumImages.json'
 
 const STADIUM_MAP = stadiumImagesData.images || {}
+const PLAYER_IMAGE_CACHE = new Map()
+
+const PLAYER_TITLE_OVERRIDES = {
+  'Ronaldo': 'Ronaldo (Brazilian footballer)',
+  'Cafu': 'Cafu',
+  'Pelé': 'Pelé',
+  'Müller': 'Müller',
+  'Rai': 'Raí',
+}
+
+function cleanPlayerName(name) {
+  return String(name ?? '').replace(/\s+©$/, '').trim()
+}
+
+async function resolvePlayerImage(name) {
+  const clean = cleanPlayerName(name)
+  if (!clean) return null
+  if (PLAYER_IMAGE_CACHE.has(clean)) return PLAYER_IMAGE_CACHE.get(clean)
+
+  const candidates = [
+    PLAYER_TITLE_OVERRIDES[clean],
+    clean,
+    `${clean} (footballer)`,
+    `${clean} (Argentine footballer)`,
+    `${clean} (Brazilian footballer)`,
+  ].filter(Boolean)
+
+  for (const candidate of candidates) {
+    try {
+      const url = `https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(candidate)}`
+      const response = await fetch(url)
+      if (!response.ok) continue
+      const data = await response.json()
+      const image = data?.thumbnail?.source || null
+      if (image) {
+        PLAYER_IMAGE_CACHE.set(clean, image)
+        return image
+      }
+    } catch {
+      // Ignore lookup errors and keep trying fallback titles.
+    }
+  }
+
+  PLAYER_IMAGE_CACHE.set(clean, null)
+  return null
+}
 
 function StadiumSticker({ label }) {
   const entry = STADIUM_MAP[label]
@@ -30,12 +76,52 @@ function StadiumSticker({ label }) {
   )
 }
 
+function PlayerStickerImage({ name }) {
+  const [imageUrl, setImageUrl] = useState(null)
+  const [loaded, setLoaded] = useState(false)
+
+  useEffect(() => {
+    let active = true
+    setLoaded(false)
+
+    resolvePlayerImage(name).then((url) => {
+      if (active) {
+        setImageUrl(url)
+        setLoaded(true)
+      }
+    })
+
+    return () => {
+      active = false
+    }
+  }, [name])
+
+  if (!loaded || !imageUrl) return null
+
+  return (
+    <img
+      src={imageUrl}
+      alt={name}
+      loading="lazy"
+      className="absolute inset-0 h-full w-full object-cover"
+    />
+  )
+}
+
 function StickerSlot({ sticker }) {
   const team = sticker.team ? getTeam(sticker.team) : null
   const isShiny = Boolean(sticker.isShiny)
   const isStadium = sticker.kind === 'stadium'
   const isBadge = sticker.kind === 'badge'
   const isPlayer = sticker.kind === 'player'
+  const hasRealPlayerName = isPlayer && !/#\d+$/i.test(sticker.label)
+  const topBadge = isStadium
+    ? 'STADIUM'
+    : isPlayer
+    ? 'PLAYER'
+    : isBadge
+    ? 'TEAM'
+    : 'SPECIAL'
 
   const bgStyle = isStadium
     ? { background: '#0f172a' }
@@ -75,12 +161,16 @@ function StickerSlot({ sticker }) {
 
       {/* Player silhouette */}
       {isPlayer ? (
-        <div className="absolute inset-0 flex items-end justify-center" aria-hidden="true">
-          <svg viewBox="0 0 40 56" className="h-3/4 w-1/2 opacity-25">
-            <circle cx="20" cy="11" r="8" fill="currentColor" />
-            <path d="M4,56 Q2,34 10,30 L20,28 L30,30 Q38,34 36,56 Z" fill="currentColor" />
-            <path d="M10,30 L6,46 M30,30 L34,46" stroke="currentColor" strokeWidth="4" strokeLinecap="round" />
-          </svg>
+        <div className="absolute inset-[3px] overflow-hidden rounded-[6px]" aria-hidden="true">
+          {hasRealPlayerName ? <PlayerStickerImage name={sticker.label} /> : null}
+
+          <div className="absolute inset-0 flex items-end justify-center">
+            <svg viewBox="0 0 40 56" className="h-3/4 w-1/2 opacity-25">
+              <circle cx="20" cy="11" r="8" fill="currentColor" />
+              <path d="M4,56 Q2,34 10,30 L20,28 L30,30 Q38,34 36,56 Z" fill="currentColor" />
+              <path d="M10,30 L6,46 M30,30 L34,46" stroke="currentColor" strokeWidth="4" strokeLinecap="round" />
+            </svg>
+          </div>
         </div>
       ) : null}
 
@@ -97,7 +187,7 @@ function StickerSlot({ sticker }) {
       ) : null}
 
       <span className="absolute left-1 top-1 rounded bg-black/70 px-1 py-0.5 font-mono text-[9px] font-bold text-amber-100">
-        {String(sticker.number).padStart(3, '0')}
+        {topBadge}
       </span>
 
       {isPlayer && sticker.position ? (
@@ -107,7 +197,7 @@ function StickerSlot({ sticker }) {
       ) : null}
 
       <div className="absolute inset-x-0 bottom-0 rounded-b-[6px] bg-black/60 px-1.5 py-1">
-        <p className="truncate text-[10px] font-semibold leading-tight text-white" title={sticker.label}>
+        <p className="text-[10px] font-semibold leading-tight text-white" title={sticker.label}>
           {sticker.label}
         </p>
       </div>
@@ -226,6 +316,23 @@ function VirtualAlbum({ album }) {
   const maxIndex = Math.max(0, spreads.length - 1)
   const activeSpread = spreads[spreadIndex] ?? null
 
+  const spreadOptions = useMemo(
+    () => spreads.map((spread, idx) => ({
+      idx,
+      label: `${spread.startIndex}-${spread.startIndex + 1} · ${spread.left?.title || 'Page'}${spread.right ? ` / ${spread.right.title}` : ''}`,
+    })),
+    [spreads],
+  )
+
+  const markerIndexes = useMemo(() => {
+    if (maxIndex <= 0) return [0]
+    const step = Math.max(1, Math.ceil((maxIndex + 1) / 8))
+    const marks = []
+    for (let i = 0; i <= maxIndex; i += step) marks.push(i)
+    if (marks[marks.length - 1] !== maxIndex) marks.push(maxIndex)
+    return marks
+  }, [maxIndex])
+
   const goPrev = () => {
     setFlipDirection('prev')
     setSpreadIndex((idx) => Math.max(0, idx - 1))
@@ -243,7 +350,18 @@ function VirtualAlbum({ album }) {
       <section className="rounded-xl border border-slate-800 bg-slate-900/70 p-4">
         <div className="flex flex-wrap items-center justify-between gap-3">
           <h4 className="text-sm font-semibold text-slate-100">Virtual Album Viewer</h4>
-          <div className="flex items-center gap-2">
+          <div className="flex flex-wrap items-center gap-2">
+            <select
+              value={spreadIndex}
+              onChange={(event) => setSpreadIndex(Number(event.target.value))}
+              className="rounded-md border border-slate-700 bg-slate-950 px-2 py-1 text-xs text-slate-200"
+              aria-label="Jump to album section"
+            >
+              {spreadOptions.map((opt) => (
+                <option key={opt.idx} value={opt.idx}>{opt.label}</option>
+              ))}
+            </select>
+
             <button
               type="button"
               onClick={goPrev}
@@ -281,9 +399,33 @@ function VirtualAlbum({ album }) {
           aria-label="Album spread navigator"
         />
 
+        <div className="mt-2 flex items-center justify-between gap-2">
+          {markerIndexes.map((idx) => {
+            const spread = spreads[idx]
+            const label = `${spread?.startIndex ?? 1}-${(spread?.startIndex ?? 1) + 1}`
+            return (
+              <button
+                key={idx}
+                type="button"
+                onClick={() => {
+                  setFlipDirection(idx >= spreadIndex ? 'next' : 'prev')
+                  setSpreadIndex(idx)
+                }}
+                className={[
+                  'rounded px-1.5 py-0.5 text-[10px] font-semibold transition',
+                  spreadIndex === idx ? 'bg-amber-500 text-slate-900' : 'bg-slate-800 text-slate-300 hover:bg-slate-700',
+                ].join(' ')}
+                title={spread?.left?.title || 'Jump'}
+              >
+                {label}
+              </button>
+            )
+          })}
+        </div>
+
         <div className="mt-3 flex flex-wrap gap-3 text-[11px] text-slate-300">
           <span className="rounded bg-slate-800 px-2 py-1">🏟 Stadium sticker: real image when available</span>
-          <span className="rounded bg-slate-800 px-2 py-1">👤 Player sticker: squad/person reference</span>
+          <span className="rounded bg-slate-800 px-2 py-1">👤 Player sticker: real player name + photo if public</span>
           <span className="rounded bg-slate-800 px-2 py-1">🛡 Team badge sticker</span>
           <span className="rounded bg-slate-800 px-2 py-1">✨ Shiny special sticker</span>
         </div>
