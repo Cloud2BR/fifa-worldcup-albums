@@ -14,6 +14,19 @@ const PLAYER_TITLE_OVERRIDES = {
 }
 
 const WIKIMEDIA_CACHE = new Map()
+const WIKIPEDIA_SUMMARY_CACHE = new Map()
+
+const SONG_BY_YEAR = {
+  2022: { title: 'Hayya Hayya (Better Together)' },
+  2018: { title: 'Live It Up' },
+  2014: { title: 'We Are One (Ole Ola)' },
+  2010: { title: 'Waka Waka (This Time for Africa)' },
+  2006: { title: 'The Time of Our Lives' },
+  2002: { title: 'Boom' },
+  1998: { title: 'La Copa de la Vida' },
+  1994: { title: 'Gloryland' },
+  1990: { title: "Un'estate italiana" },
+}
 
 async function resolveWikimediaImage(query) {
   const key = String(query || '').trim()
@@ -40,15 +53,48 @@ async function resolveWikimediaImage(query) {
   }
 }
 
-function WikimediaImageCard({ title, query, fallbackLabel }) {
+async function resolveWikipediaSummaryImage(query) {
+  const key = String(query || '').trim()
+  if (!key) return null
+  if (WIKIPEDIA_SUMMARY_CACHE.has(key)) return WIKIPEDIA_SUMMARY_CACHE.get(key)
+
+  try {
+    const url = `https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(key)}`
+    const response = await fetch(url)
+    if (!response.ok) throw new Error('Wikipedia summary request failed')
+    const data = await response.json()
+    const image = data?.thumbnail?.source || null
+    WIKIPEDIA_SUMMARY_CACHE.set(key, image)
+    return image
+  } catch {
+    WIKIPEDIA_SUMMARY_CACHE.set(key, null)
+    return null
+  }
+}
+
+async function resolveMediaImage(queries) {
+  const list = Array.isArray(queries) ? queries : [queries]
+  for (const q of list) {
+    if (!q) continue
+    const commons = await resolveWikimediaImage(q)
+    if (commons) return commons
+    const wiki = await resolveWikipediaSummaryImage(q)
+    if (wiki) return wiki
+  }
+  return null
+}
+
+function WikimediaImageCard({ title, queries, fallbackLabel }) {
   const [imageUrl, setImageUrl] = useState(null)
   const [loaded, setLoaded] = useState(false)
+  const queryList = Array.isArray(queries) ? queries : [queries]
+  const fallbackHref = `https://commons.wikimedia.org/w/index.php?search=${encodeURIComponent(queryList[0] || title)}`
 
   useEffect(() => {
     let active = true
     setLoaded(false)
 
-    resolveWikimediaImage(query).then((url) => {
+    resolveMediaImage(queryList).then((url) => {
       if (active) {
         setImageUrl(url)
         setLoaded(true)
@@ -58,7 +104,7 @@ function WikimediaImageCard({ title, query, fallbackLabel }) {
     return () => {
       active = false
     }
-  }, [query])
+  }, [JSON.stringify(queryList)])
 
   return (
     <div className="overflow-hidden rounded-lg border border-amber-900/35 bg-[#efe6d0]">
@@ -69,8 +115,16 @@ function WikimediaImageCard({ title, query, fallbackLabel }) {
         {loaded && imageUrl ? (
           <img src={imageUrl} alt={title} loading="lazy" className="h-full w-full object-cover" />
         ) : (
-          <div className="flex h-full items-center justify-center text-xs font-semibold text-slate-600">
-            {fallbackLabel}
+          <div className="flex h-full flex-col items-center justify-center gap-1 px-2 text-center">
+            <span className="text-xs font-semibold text-slate-600">{fallbackLabel}</span>
+            <a
+              href={fallbackHref}
+              target="_blank"
+              rel="noreferrer"
+              className="text-[11px] font-semibold text-sky-700 hover:text-sky-600"
+            >
+              Open source search
+            </a>
           </div>
         )}
       </div>
@@ -79,24 +133,26 @@ function WikimediaImageCard({ title, query, fallbackLabel }) {
 }
 
 function SongPlayer({ album }) {
-  const query = `${album.year} FIFA World Cup official song`
-  const embedSrc = `https://www.youtube.com/embed?listType=search&list=${encodeURIComponent(query)}`
+  const meta = SONG_BY_YEAR[album.year] || { title: `Official song/anthem ${album.year}` }
+  const query = `${album.year} FIFA World Cup official song ${meta.title}`
+  const searchHref = `https://www.youtube.com/results?search_query=${encodeURIComponent(query)}`
 
   return (
     <div className="rounded-lg border border-amber-900/35 bg-[#efe6d0] p-2">
       <p className="mb-2 text-[10px] font-bold uppercase tracking-wider text-slate-700">
         Official Song (YouTube)
       </p>
-      <div className="overflow-hidden rounded-md border border-amber-900/30">
-        <iframe
-          title={`${album.year} official song`}
-          src={embedSrc}
-          className="h-44 w-full"
-          loading="lazy"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerPolicy="strict-origin-when-cross-origin"
-          allowFullScreen
-        />
+      <div className="rounded-md border border-amber-900/30 bg-[#d9ccb1] p-3">
+        <p className="text-sm font-semibold text-slate-700">{meta.title}</p>
+        <p className="mt-1 text-xs text-slate-600">{album.year} FIFA World Cup music reference</p>
+        <a
+          href={searchHref}
+          target="_blank"
+          rel="noreferrer"
+          className="mt-3 inline-block rounded bg-slate-900 px-3 py-1.5 text-xs font-semibold text-white hover:bg-slate-800"
+        >
+          ▶ Play on YouTube
+        </a>
       </div>
     </div>
   )
@@ -375,8 +431,16 @@ function AlbumPage({ album, page, pageNumber, side }) {
 }
 
 function CoverSpread({ album }) {
-  const logoQuery = `${album.year} FIFA World Cup emblem logo`
-  const ballQuery = `${album.ball || `${album.year} FIFA World Cup ball`} adidas`
+  const logoQueries = [
+    `${album.year} FIFA World Cup emblem logo`,
+    `${album.year} FIFA World Cup logo`,
+    `FIFA World Cup ${album.year}`,
+  ]
+  const ballQueries = [
+    `${album.ball || `${album.year} FIFA World Cup ball`} adidas`,
+    `${album.year} FIFA World Cup official ball`,
+    `${album.ball || 'FIFA World Cup ball'}`,
+  ]
 
   return (
     <article className="relative overflow-hidden rounded-2xl border border-amber-900/35 bg-[#dfcfab] p-4 shadow-xl sm:p-6">
@@ -406,13 +470,13 @@ function CoverSpread({ album }) {
           <div className="mt-4 grid gap-3 sm:grid-cols-2">
             <WikimediaImageCard
               title="Tournament Logo"
-              query={logoQuery}
-              fallbackLabel="No logo image found"
+              queries={logoQueries}
+              fallbackLabel="Logo not found in Commons"
             />
             <WikimediaImageCard
               title="Official Ball"
-              query={ballQuery}
-              fallbackLabel={album.ball || 'Ball image not available'}
+              queries={ballQueries}
+              fallbackLabel={album.ball || 'Ball image unavailable'}
             />
           </div>
 
@@ -449,10 +513,12 @@ function VirtualAlbum({ album }) {
 
   const getSpreadJumpLabel = (spread) => {
     if (!spread) return 'Jump'
-    if (spread.left?.team) return getTeam(spread.left.team).name
-    if (spread.right?.team) return getTeam(spread.right.team).name
-    if (spread.left?.kind === 'stadium' || spread.right?.kind === 'stadium') return 'Stadiums'
-    return spread.left?.title || spread.right?.title || 'Section'
+    if (spread.left?.team) return spread.left.team
+    if (spread.right?.team) return spread.right.team
+    if (spread.left?.kind === 'stadium' || spread.right?.kind === 'stadium') return 'STD'
+    if (spread.left?.kind === 'intro' || spread.right?.kind === 'intro') return 'INT'
+    if (spread.left?.kind === 'closing' || spread.right?.kind === 'closing') return 'CLS'
+    return 'SEC'
   }
 
   const spreadOptions = useMemo(
