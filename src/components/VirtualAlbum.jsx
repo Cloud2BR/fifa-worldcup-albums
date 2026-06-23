@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { buildAlbumPages, getTeam } from '../utils/stickers'
 import stadiumImagesData from '../data/stadiumImages.json'
 
@@ -208,6 +208,8 @@ function CoverSpread({ album }) {
 
 function VirtualAlbum({ album }) {
   const pages = useMemo(() => buildAlbumPages(album, 12), [album])
+  const [spreadIndex, setSpreadIndex] = useState(0)
+  const [flipDirection, setFlipDirection] = useState('next')
 
   const spreads = useMemo(() => {
     const out = []
@@ -217,27 +219,96 @@ function VirtualAlbum({ album }) {
     return out
   }, [pages])
 
+  useEffect(() => {
+    setSpreadIndex(0)
+  }, [album.year])
+
+  const maxIndex = Math.max(0, spreads.length - 1)
+  const activeSpread = spreads[spreadIndex] ?? null
+
+  const goPrev = () => {
+    setFlipDirection('prev')
+    setSpreadIndex((idx) => Math.max(0, idx - 1))
+  }
+
+  const goNext = () => {
+    setFlipDirection('next')
+    setSpreadIndex((idx) => Math.min(maxIndex, idx + 1))
+  }
+
   return (
     <section className="space-y-5">
       <CoverSpread album={album} />
 
-      {spreads.map((spread, index) => (
+      <section className="rounded-xl border border-slate-800 bg-slate-900/70 p-4">
+        <div className="flex flex-wrap items-center justify-between gap-3">
+          <h4 className="text-sm font-semibold text-slate-100">Virtual Album Viewer</h4>
+          <div className="flex items-center gap-2">
+            <button
+              type="button"
+              onClick={goPrev}
+              disabled={spreadIndex === 0}
+              className="rounded-md border border-slate-700 px-3 py-1 text-xs font-semibold text-slate-200 disabled:cursor-not-allowed disabled:opacity-50"
+            >
+              ← Previous pages
+            </button>
+            <button
+              type="button"
+              onClick={goNext}
+              disabled={spreadIndex === maxIndex}
+              className="rounded-md border border-slate-700 px-3 py-1 text-xs font-semibold text-slate-200 disabled:cursor-not-allowed disabled:opacity-50"
+            >
+              Next pages →
+            </button>
+          </div>
+        </div>
+
+        <p className="mt-2 text-xs text-slate-400">
+          Flip like a real album: each move advances 2 pages ({activeSpread?.startIndex ?? 1}–{(activeSpread?.startIndex ?? 1) + 1}).
+        </p>
+
+        <input
+          type="range"
+          min={0}
+          max={maxIndex}
+          value={spreadIndex}
+          onChange={(event) => {
+            const next = Number(event.target.value)
+            setFlipDirection(next >= spreadIndex ? 'next' : 'prev')
+            setSpreadIndex(next)
+          }}
+          className="mt-3 w-full accent-amber-500"
+          aria-label="Album spread navigator"
+        />
+
+        <div className="mt-3 flex flex-wrap gap-3 text-[11px] text-slate-300">
+          <span className="rounded bg-slate-800 px-2 py-1">🏟 Stadium sticker: real image when available</span>
+          <span className="rounded bg-slate-800 px-2 py-1">👤 Player sticker: squad/person reference</span>
+          <span className="rounded bg-slate-800 px-2 py-1">🛡 Team badge sticker</span>
+          <span className="rounded bg-slate-800 px-2 py-1">✨ Shiny special sticker</span>
+        </div>
+      </section>
+
+      {activeSpread ? (
         <article
-          key={`${album.year}-spread-${index + 1}`}
-          className="relative rounded-2xl border border-amber-900/35 bg-[#d7c398] p-2 shadow-xl sm:p-3"
+          key={`${album.year}-spread-${spreadIndex + 1}`}
+          className={[
+            'relative rounded-2xl border border-amber-900/35 bg-[#d7c398] p-2 shadow-xl transition-all duration-300 sm:p-3',
+            flipDirection === 'next' ? 'animate-[pulse_220ms_ease-out]' : 'animate-[pulse_220ms_ease-out]',
+          ].join(' ')}
         >
           <div className="pointer-events-none absolute bottom-2 left-1/2 top-2 hidden w-px -translate-x-1/2 bg-amber-900/30 md:block" />
 
           <div className="grid gap-2 md:grid-cols-2 md:gap-0">
-            <AlbumPage album={album} page={spread.left} pageNumber={spread.startIndex} side="left" />
-            <AlbumPage album={album} page={spread.right} pageNumber={spread.startIndex + 1} side="right" />
+            <AlbumPage album={album} page={activeSpread.left} pageNumber={activeSpread.startIndex} side="left" />
+            <AlbumPage album={album} page={activeSpread.right} pageNumber={activeSpread.startIndex + 1} side="right" />
           </div>
 
           <p className="mt-2 text-center text-[10px] font-semibold uppercase tracking-[0.22em] text-amber-950/70">
-            Spread {index + 1} of {spreads.length}
+            Spread {spreadIndex + 1} of {spreads.length}
           </p>
         </article>
-      ))}
+      ) : null}
     </section>
   )
 }

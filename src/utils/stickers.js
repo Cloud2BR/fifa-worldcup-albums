@@ -1,6 +1,15 @@
 import teamsData from '../data/teams.json'
+import winnerSquadsData from '../data/winnerSquads.json'
 
 const PLAYER_POSITIONS = ['GK', 'DF', 'DF', 'DF', 'DF', 'MF', 'MF', 'MF', 'MF', 'FW', 'FW', 'FW', 'DF', 'MF', 'FW', 'GK', 'DF', 'MF', 'MF', 'FW']
+
+function normalize(text) {
+  return String(text ?? '')
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/[^a-z0-9]/g, '')
+}
 
 // Stable pseudo-random generator (mulberry32) so a sticker layout is always the same for a given album
 function seeded(seed) {
@@ -60,6 +69,10 @@ export function buildAlbumStickers(album) {
 
   // 4. Teams — distribute remaining stickers across team blocks
   const teams = album.teams ?? []
+  const winnerSquad = winnerSquadsData[String(album.year)]?.players ?? []
+  const winnerNameKey = normalize(winnerSquadsData[String(album.year)]?.winner || album.winner)
+  const winnerCode = teams.find((code) => normalize(getTeam(code).name) === winnerNameKey) ?? null
+
   // Reserve a few stickers for the closing legends section
   const reservedLegends = Math.min(8, Math.max(2, Math.round((album.stickerCount ?? 200) * 0.02)))
   const remainingForTeams = Math.max(0, (album.stickerCount ?? 200) - stickers.length - reservedLegends)
@@ -69,13 +82,17 @@ export function buildAlbumStickers(album) {
 
   for (const code of teams) {
     const team = getTeam(code)
+    const isWinnerTeam = code === winnerCode
     push({ kind: 'badge', label: `${team.name} — Team Badge`, isShiny: true, team: code })
     for (let i = 0; i < playerSlotsPerTeam; i += 1) {
-      const pos = PLAYER_POSITIONS[i % PLAYER_POSITIONS.length]
+      const realWinnerPlayer = isWinnerTeam ? winnerSquad[i] : null
+      const pos = realWinnerPlayer?.position || PLAYER_POSITIONS[i % PLAYER_POSITIONS.length]
       const shirtNumber = i + 1
       push({
         kind: 'player',
-        label: `${team.name} #${shirtNumber}`,
+        label: realWinnerPlayer
+          ? `${realWinnerPlayer.name}${realWinnerPlayer.captain ? ' ©' : ''}`
+          : `${team.name} #${shirtNumber}`,
         position: pos,
         shirtNumber,
         team: code,

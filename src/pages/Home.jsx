@@ -1,3 +1,4 @@
+import { useMemo, useState } from 'react'
 import albums from '../data/albums.json'
 import worldCups from '../data/worldcups.json'
 import StatCard from '../components/StatCard'
@@ -7,6 +8,67 @@ import { buildQuickStats, mergeTimelineData } from '../utils/stats'
 function Home() {
   const stats = buildQuickStats(worldCups, albums)
   const timeline = mergeTimelineData(worldCups, albums).slice(-8).reverse()
+  const [activeStat, setActiveStat] = useState('tournaments')
+
+  const tournamentYears = useMemo(
+    () => worldCups.map((cup) => cup.year).sort((a, b) => a - b),
+    [],
+  )
+  const albumYears = useMemo(
+    () => albums.map((album) => album.year).sort((a, b) => a - b),
+    [],
+  )
+  const uniqueWinners = useMemo(
+    () => [...new Set(worldCups.map((cup) => cup.winner))].sort(),
+    [],
+  )
+
+  const statDetails = {
+    tournaments: {
+      title: 'Why 22 tournaments?',
+      body:
+        'This app includes every FIFA World Cup actually played from 1930 to 2022. There are 22 editions because the 1942 and 1946 tournaments were canceled due to World War II.',
+      bullets: [
+        `Included years: ${tournamentYears.join(', ')}`,
+        'Missing years in that period: 1942 and 1946 (canceled)',
+      ],
+    },
+    winners: {
+      title: 'How unique winners are counted',
+      body:
+        'This number counts distinct winner names across all tournaments in the dataset.',
+      bullets: [
+        `Teams counted: ${uniqueWinners.join(', ')}`,
+        'Note: West Germany and Germany appear as separate historical names in this dataset.',
+      ],
+    },
+    goals: {
+      title: 'How total goals is calculated',
+      body:
+        'Total goals is the sum of the full-tournament goals field across all 22 World Cups.',
+      bullets: [
+        `Formula: sum of goals from 1930 to 2022 = ${stats.totalGoals.toLocaleString()}`,
+      ],
+    },
+    gpm: {
+      title: 'How goals per match is calculated',
+      body:
+        'Goals per match is the tournament-wide average across all matches in the dataset.',
+      bullets: [
+        `Formula: ${stats.totalGoals.toLocaleString()} goals / ${stats.totalMatches} matches = ${stats.goalsPerMatch}`,
+      ],
+    },
+    albums: {
+      title: 'Why 22 albums catalogued',
+      body:
+        'The album archive currently has one catalogued album entry for each tournament edition in the app.',
+      bullets: [
+        `Album years: ${albumYears.join(', ')}`,
+      ],
+    },
+  }
+
+  const activeDetail = statDetails[activeStat]
 
   return (
     <div className="space-y-8">
@@ -39,11 +101,47 @@ function Home() {
       </section>
 
       <section className="grid gap-4 md:grid-cols-2 lg:grid-cols-5">
-        <StatCard label="Tournaments" value={stats.tournaments} />
-        <StatCard label="Unique Winners" value={stats.uniqueWinners} />
-        <StatCard label="Total Goals" value={stats.totalGoals.toLocaleString()} />
-        <StatCard label="Goals / Match" value={stats.goalsPerMatch} helper={`across ${stats.totalMatches} matches`} />
-        <StatCard label="Albums Catalogued" value={stats.albums} />
+        <StatCard
+          label="Tournaments"
+          value={stats.tournaments}
+          onClick={() => setActiveStat('tournaments')}
+          isActive={activeStat === 'tournaments'}
+        />
+        <StatCard
+          label="Unique Winners"
+          value={stats.uniqueWinners}
+          onClick={() => setActiveStat('winners')}
+          isActive={activeStat === 'winners'}
+        />
+        <StatCard
+          label="Total Goals"
+          value={stats.totalGoals.toLocaleString()}
+          onClick={() => setActiveStat('goals')}
+          isActive={activeStat === 'goals'}
+        />
+        <StatCard
+          label="Goals / Match"
+          value={stats.goalsPerMatch}
+          helper={`across ${stats.totalMatches} matches`}
+          onClick={() => setActiveStat('gpm')}
+          isActive={activeStat === 'gpm'}
+        />
+        <StatCard
+          label="Albums Catalogued"
+          value={stats.albums}
+          onClick={() => setActiveStat('albums')}
+          isActive={activeStat === 'albums'}
+        />
+      </section>
+
+      <section className="rounded-xl border border-slate-800 bg-slate-900/80 p-4">
+        <h3 className="text-sm font-semibold text-slate-100">{activeDetail.title}</h3>
+        <p className="mt-2 text-sm text-slate-300">{activeDetail.body}</p>
+        <ul className="mt-3 space-y-1 text-xs text-slate-400">
+          {activeDetail.bullets.map((item) => (
+            <li key={item}>• {item}</li>
+          ))}
+        </ul>
       </section>
 
       <section className="space-y-3">

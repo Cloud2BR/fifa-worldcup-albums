@@ -19,8 +19,8 @@ function Albums() {
         </p>
         <h2 className="mt-1 text-2xl font-bold text-white">World Cup Album Book Layout</h2>
         <p className="mt-2 text-slate-400">
-          This view is tuned as a book-style reference: cover plus all generated pages shown in a
-          filled spread sequence, similar to flipping through the full sticker book.
+          One single-place virtual album: cover + page-turn viewer with visual references for
+          players, stadiums, team badges, and special stickers.
         </p>
         <p className="mt-2 text-[11px] text-slate-500">
           {albums.length} tournaments and {totalStickers.toLocaleString()} total sticker slots.
