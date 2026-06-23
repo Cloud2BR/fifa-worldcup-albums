@@ -160,7 +160,141 @@ function ConnectorArrow() {
   )
 }
 
-function BracketDiagram({ matches, champion }) {
+function GroupTable({ group, adv }) {
+  const hasStats = group.teams.some((t) => typeof t.p === 'number')
+  return (
+    <div className="overflow-hidden rounded-lg border border-slate-700 bg-slate-900">
+      <div className="border-b border-slate-700 bg-slate-800/60 px-2 py-1.5">
+        <h5 className="text-[10px] font-bold uppercase tracking-widest text-sky-300">{group.name}</h5>
+      </div>
+      <table className="w-full text-xs">
+        <thead>
+          <tr className="border-b border-slate-800 text-[9px] uppercase tracking-wide text-slate-500">
+            <th className="w-4 px-1 py-1 text-center">#</th>
+            <th className="px-2 py-1 text-left">Team</th>
+            {hasStats ? (
+              <>
+                <th className="px-1 py-1 text-center">P</th>
+                <th className="px-1 py-1 text-center">W</th>
+                <th className="px-1 py-1 text-center">D</th>
+                <th className="px-1 py-1 text-center">L</th>
+                <th className="px-1 py-1 text-center">GF</th>
+                <th className="px-1 py-1 text-center">GA</th>
+              </>
+            ) : null}
+            <th className="px-1 py-1 text-center">Pts</th>
+          </tr>
+        </thead>
+        <tbody>
+          {group.teams.map((team, idx) => {
+            const name = typeof team === 'string' ? team : team.t
+            const pts = typeof team === 'object' ? team.pts : null
+            const advanced = typeof adv === 'number' ? idx < adv : false
+            const advThird = typeof team === 'object' && team.adv3 === true
+            const isAdv = advanced || advThird
+            const isTbd = name === 'TBD' || name?.startsWith('Group')
+            return (
+              <tr
+                key={name}
+                className={[
+                  'border-b border-slate-800/60 last:border-b-0',
+                  isAdv ? 'bg-emerald-950/40' : '',
+                ].join(' ')}
+              >
+                <td className="px-1 py-1 text-center text-slate-500">{idx + 1}</td>
+                <td className="px-2 py-1">
+                  <div className="flex items-center gap-1.5">
+                    {isAdv && !isTbd ? (
+                      <span className="h-1.5 w-1.5 shrink-0 rounded-full bg-emerald-400" title="Advanced to knockout stage" />
+                    ) : (
+                      <span className="h-1.5 w-1.5 shrink-0 rounded-full bg-transparent" />
+                    )}
+                    <span className={[
+                      'truncate font-medium max-w-[90px]',
+                      isAdv && !isTbd ? 'text-emerald-300' : isTbd ? 'text-slate-600 italic' : 'text-slate-300',
+                    ].join(' ')}>
+                      {name}
+                    </span>
+                  </div>
+                </td>
+                {hasStats ? (
+                  <>
+                    <td className="px-1 py-1 text-center text-slate-400 tabular-nums">{team.p ?? '-'}</td>
+                    <td className="px-1 py-1 text-center text-slate-400 tabular-nums">{team.w ?? '-'}</td>
+                    <td className="px-1 py-1 text-center text-slate-400 tabular-nums">{team.d ?? '-'}</td>
+                    <td className="px-1 py-1 text-center text-slate-400 tabular-nums">{team.l ?? '-'}</td>
+                    <td className="px-1 py-1 text-center text-slate-400 tabular-nums">{team.gf ?? '-'}</td>
+                    <td className="px-1 py-1 text-center text-slate-400 tabular-nums">{team.ga ?? '-'}</td>
+                  </>
+                ) : null}
+                <td className="px-1 py-1 text-center font-bold tabular-nums">
+                  <span className={isAdv && !isTbd ? 'text-emerald-300' : 'text-slate-300'}>
+                    {pts ?? '—'}
+                  </span>
+                </td>
+              </tr>
+            )
+          })}
+        </tbody>
+      </table>
+    </div>
+  )
+}
+
+function GroupRound({ round }) {
+  const cols = round.groups.length <= 4 ? round.groups.length : Math.min(4, Math.ceil(round.groups.length / 2))
+  const gridClass = {
+    1: 'grid-cols-1',
+    2: 'grid-cols-1 sm:grid-cols-2',
+    3: 'grid-cols-1 sm:grid-cols-2 lg:grid-cols-3',
+    4: 'grid-cols-2 lg:grid-cols-4',
+  }[Math.min(cols, 4)] ?? 'grid-cols-2 lg:grid-cols-4'
+
+  return (
+    <div className="space-y-2">
+      <h5 className="text-[10px] font-bold uppercase tracking-widest text-slate-400">{round.label}</h5>
+      {round.advNote && (
+        <p className="text-[10px] text-amber-400/80">{round.advNote}</p>
+      )}
+      <div className={`grid gap-2 ${gridClass}`}>
+        {round.groups.map((group) => (
+          <GroupTable key={group.name} group={group} adv={round.adv} />
+        ))}
+      </div>
+    </div>
+  )
+}
+
+function GroupStageSection({ groupData }) {
+  if (!groupData) return null
+
+  return (
+    <div className="space-y-4 rounded-xl border border-slate-800 bg-gradient-to-b from-slate-950 to-slate-900/60 p-4">
+      <div className="flex flex-wrap items-center justify-between gap-2">
+        <h4 className="text-[10px] font-bold uppercase tracking-widest text-sky-300">Group Stage</h4>
+        {groupData.format && (
+          <span className="text-[10px] text-slate-500">{groupData.format}</span>
+        )}
+      </div>
+      {groupData.note && (
+        <div className="flex items-start gap-2 rounded-lg border border-sky-800/40 bg-sky-950/30 px-3 py-2 text-xs leading-relaxed text-sky-300">
+          <span className="mt-0.5 shrink-0">ℹ️</span>
+          <span>{groupData.note}</span>
+        </div>
+      )}
+      <div className="space-y-5">
+        {groupData.rounds.map((round) => (
+          <GroupRound key={round.label} round={round} />
+        ))}
+      </div>
+      <p className="text-[10px] text-slate-600">
+        🟢 Green dot = advanced to knockout stage
+      </p>
+    </div>
+  )
+}
+
+function BracketDiagram({ matches, champion, groupData }) {
   const { byPhase, thirdMatch, year } = useMemo(() => {
     const byPhase = Object.fromEntries(BRACKET_PHASES.map((p) => [p, []]))
     let thirdMatch = null
@@ -176,7 +310,7 @@ function BracketDiagram({ matches, champion }) {
   const activePhases = BRACKET_PHASES.filter((p) => byPhase[p].length > 0)
   const formatNote = year ? FORMAT_NOTES[year] : null
 
-  if (matches.length === 0) {
+  if (matches.length === 0 && !groupData) {
     return (
       <div className="rounded-xl border border-dashed border-slate-700 bg-slate-900/40 p-8 text-center">
         <p className="text-sm text-slate-400">No match data available for this tournament.</p>
@@ -186,40 +320,50 @@ function BracketDiagram({ matches, champion }) {
 
   return (
     <div className="space-y-4">
-      {/* Format note for non-standard tournaments */}
-      {formatNote && (
-        <div className="flex items-start gap-2.5 rounded-lg border border-sky-800/40 bg-sky-950/30 px-4 py-2.5 text-xs leading-relaxed text-sky-300">
-          <span className="mt-0.5 shrink-0 text-base">ℹ️</span>
-          <span>{formatNote}</span>
-        </div>
-      )}
+      {/* Group Stage */}
+      <GroupStageSection groupData={groupData} />
 
-      {/* Main bracket */}
-      <div className="overflow-x-auto rounded-xl border border-slate-800 bg-gradient-to-b from-slate-950 to-slate-900/60 p-4">
-        <div className="flex min-w-max items-start gap-1">
-          {activePhases.map((phase, idx) => (
-            <div key={phase} className="flex items-start gap-1">
-              <PhaseColumn phase={phase} matches={byPhase[phase]} champion={champion} />
-              {idx < activePhases.length - 1 && <ConnectorArrow />}
+      {matches.length > 0 && (
+        <>
+          {/* Format note for non-standard tournaments */}
+          {formatNote && (
+            <div className="flex items-start gap-2.5 rounded-lg border border-sky-800/40 bg-sky-950/30 px-4 py-2.5 text-xs leading-relaxed text-sky-300">
+              <span className="mt-0.5 shrink-0 text-base">ℹ️</span>
+              <span>{formatNote}</span>
             </div>
-          ))}
-        </div>
+          )}
 
-        <p className="mt-4 text-center text-[10px] uppercase tracking-widest text-slate-600">
-          🏆 Champion path highlighted in amber · Scroll horizontally on small screens
-        </p>
-      </div>
+          {/* Knockout Bracket header */}
+          <h4 className="text-[10px] font-bold uppercase tracking-widest text-slate-400">Knockout Bracket</h4>
 
-      {/* 3rd place play-off */}
-      {thirdMatch && (
-        <div className="rounded-xl border border-slate-700/50 bg-slate-900/40 p-4">
-          <h4 className="mb-3 text-[10px] font-bold uppercase tracking-widest text-slate-400">
-            {PHASE_LABELS['3rd']}
-          </h4>
-          <div className="max-w-xs">
-            <MatchCard match={thirdMatch} champion={null} size="normal" />
+          {/* Main bracket */}
+          <div className="overflow-x-auto rounded-xl border border-slate-800 bg-gradient-to-b from-slate-950 to-slate-900/60 p-4">
+            <div className="flex min-w-max items-start gap-1">
+              {activePhases.map((phase, idx) => (
+                <div key={phase} className="flex items-start gap-1">
+                  <PhaseColumn phase={phase} matches={byPhase[phase]} champion={champion} />
+                  {idx < activePhases.length - 1 && <ConnectorArrow />}
+                </div>
+              ))}
+            </div>
+
+            <p className="mt-4 text-center text-[10px] uppercase tracking-widest text-slate-600">
+              🏆 Champion path highlighted in amber · Scroll horizontally on small screens
+            </p>
           </div>
-        </div>
+
+          {/* 3rd place play-off */}
+          {thirdMatch && (
+            <div className="rounded-xl border border-slate-700/50 bg-slate-900/40 p-4">
+              <h4 className="mb-3 text-[10px] font-bold uppercase tracking-widest text-slate-400">
+                {PHASE_LABELS['3rd']}
+              </h4>
+              <div className="max-w-xs">
+                <MatchCard match={thirdMatch} champion={null} size="normal" />
+              </div>
+            </div>
+          )}
+        </>
       )}
     </div>
   )

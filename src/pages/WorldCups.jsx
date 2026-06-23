@@ -3,6 +3,7 @@ import ResultsChart from '../components/ResultsChart'
 import BracketDiagram from '../components/BracketDiagram'
 import worldCups from '../data/worldcups.json'
 import matchesData from '../data/matches.json'
+import groupStandingsData from '../data/groupStandings.json'
 import { filterWorldCups } from '../utils/filters'
 
 function WorldCups() {
@@ -44,6 +45,10 @@ function WorldCups() {
   )
   const bracketCup = useMemo(
     () => worldCups.find((c) => c.year === bracketYear) ?? null,
+    [bracketYear],
+  )
+  const bracketGroupData = useMemo(
+    () => (bracketYear ? groupStandingsData[String(bracketYear)] ?? null : null),
     [bracketYear],
   )
 
@@ -112,7 +117,7 @@ function WorldCups() {
       {activeTab === 'bracket' ? (
         <section className="space-y-3">
           <div className="flex flex-wrap items-center justify-between gap-3">
-            <h3 className="text-xl font-semibold">Knockout Bracket</h3>
+            <h3 className="text-xl font-semibold">Tournament Bracket</h3>
             <label className="flex items-center gap-2 text-sm">
               Tournament
               <select
@@ -140,7 +145,7 @@ function WorldCups() {
               {' · '}Final: <span className="font-mono text-slate-200">{bracketCup.finalScore}</span>
             </p>
           ) : null}
-          <BracketDiagram matches={bracketMatches} champion={bracketCup?.winner} />
+          <BracketDiagram matches={bracketMatches} champion={bracketCup?.winner} groupData={bracketGroupData} />
         </section>
       ) : null}
 
