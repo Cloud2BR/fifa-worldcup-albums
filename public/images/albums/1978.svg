@@ -1,14 +1,78 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="480" height="640" viewBox="0 0 480 640">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0ea5e9" />
-      <stop offset="100%" stop-color="#1e293b" />
+    <linearGradient id="bg78" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#74b9e8"/>
+      <stop offset="50%" stop-color="#4a90d9"/>
+      <stop offset="100%" stop-color="#1a4a7a"/>
     </linearGradient>
+    <radialGradient id="ball78g" cx="38%" cy="32%" r="62%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#cccccc"/>
+    </radialGradient>
+    <filter id="sh78">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#00000055"/>
+    </filter>
   </defs>
-  <rect width="480" height="640" fill="url(#bg)" />
-  <rect x="22" y="22" width="436" height="596" rx="20" fill="none" stroke="#e2e8f0" stroke-width="4" />
-  <text x="240" y="240" text-anchor="middle" fill="#f8fafc" font-size="58" font-family="Arial, sans-serif" font-weight="700">FIFA</text>
-  <text x="240" y="310" text-anchor="middle" fill="#f8fafc" font-size="34" font-family="Arial, sans-serif">World Cup</text>
-  <text x="240" y="370" text-anchor="middle" fill="#bae6fd" font-size="56" font-family="Arial, sans-serif" font-weight="700">1978</text>
-  <text x="240" y="575" text-anchor="middle" fill="#cbd5e1" font-size="20" font-family="Arial, sans-serif">Album Cover Placeholder</text>
+
+  <rect width="480" height="640" fill="url(#bg78)"/>
+
+  <!-- Diagonal light blue and white stripes (Argentina flag motif) -->
+  <g opacity="0.2">
+    <rect x="0" y="0" width="480" height="640" fill="#74b9e8"/>
+    <rect x="0" y="80" width="480" height="60" fill="#ffffff"/>
+    <rect x="0" y="200" width="480" height="60" fill="#ffffff"/>
+    <rect x="0" y="320" width="480" height="60" fill="#ffffff"/>
+    <rect x="0" y="440" width="480" height="60" fill="#ffffff"/>
+    <rect x="0" y="560" width="480" height="60" fill="#ffffff"/>
+  </g>
+
+  <!-- Sun of May -->
+  <g transform="translate(240,100)" opacity="0.3">
+    <circle r="45" fill="#f9e11e"/>
+    <!-- Sun rays -->
+    <g stroke="#f9e11e" stroke-width="5">
+      <line x1="0" y1="-55" x2="0" y2="-80"/>
+      <line x1="0" y1="55" x2="0" y2="80"/>
+      <line x1="-55" y1="0" x2="-80" y2="0"/>
+      <line x1="55" y1="0" x2="80" y2="0"/>
+      <line x1="-39" y1="-39" x2="-57" y2="-57"/>
+      <line x1="39" y1="-39" x2="57" y2="-57"/>
+      <line x1="-39" y1="39" x2="-57" y2="57"/>
+      <line x1="39" y1="39" x2="57" y2="57"/>
+    </g>
+  </g>
+
+  <!-- Border -->
+  <rect x="16" y="16" width="448" height="608" rx="18" fill="none" stroke="#f9e11e" stroke-width="5" opacity="0.85"/>
+  <rect x="24" y="24" width="432" height="592" rx="14" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.4"/>
+
+  <!-- Panini band -->
+  <rect x="16" y="16" width="448" height="52" rx="18" fill="#1a4a7a" opacity="0.92"/>
+  <rect x="16" y="52" width="448" height="16" fill="#1a4a7a" opacity="0.92"/>
+  <text x="240" y="51" text-anchor="middle" fill="#f9e11e" font-size="22" font-family="Arial Black, Arial, sans-serif" font-weight="900" letter-spacing="4">PANINI</text>
+
+  <!-- Argentina flag stripes on top -->
+  <rect x="16" y="68" width="448" height="7" fill="#74b9e8" opacity="0.9"/>
+  <rect x="16" y="75" width="448" height="7" fill="#ffffff" opacity="0.9"/>
+  <rect x="16" y="82" width="448" height="7" fill="#74b9e8" opacity="0.9"/>
+
+  <!-- Soccer ball -->
+  <g transform="translate(240,240)" filter="url(#sh78)">
+    <circle r="74" fill="url(#ball78g)"/>
+    <polygon points="0,-32 30,-10 18.5,26 -18.5,26 -30,-10" fill="#1a1a1a" opacity="0.88"/>
+    <polygon points="0,-74 20,-55 20,-32 0,-32 -20,-32 -20,-55" fill="#1a1a1a" opacity="0.5"/>
+    <polygon points="0,-32 30,-10 52,12 46,40 18.5,26" fill="#1a1a1a" opacity="0.2"/>
+    <polygon points="0,-32 -30,-10 -52,12 -46,40 -18.5,26" fill="#1a1a1a" opacity="0.2"/>
+    <circle r="74" fill="none" stroke="#aaa" stroke-width="1.5"/>
+  </g>
+
+  <text x="240" y="355" text-anchor="middle" fill="#ffffff" font-size="14" font-family="Arial, sans-serif" font-weight="700" letter-spacing="4" opacity="0.95">FIFA WORLD CUP</text>
+  <text x="240" y="428" text-anchor="middle" fill="#f9e11e" font-size="88" font-family="Arial Black, Arial, sans-serif" font-weight="900" filter="url(#sh78)">1978</text>
+
+  <rect x="115" y="444" width="250" height="40" rx="8" fill="#1a4a7a" opacity="0.82"/>
+  <text x="240" y="470" text-anchor="middle" fill="#ffffff" font-size="20" font-family="Arial, sans-serif" font-weight="700" letter-spacing="2">ARGENTINA</text>
+
+  <rect x="16" y="560" width="448" height="64" rx="0" fill="#1a4a7a" opacity="0.6"/>
+  <rect x="16" y="605" width="448" height="19" rx="18" fill="#1a4a7a" opacity="0.85"/>
+  <text x="240" y="590" text-anchor="middle" fill="#f9e11e" font-size="13" font-family="Arial, sans-serif" letter-spacing="1">427 STICKERS · OFFICIAL COLLECTION</text>
 </svg>

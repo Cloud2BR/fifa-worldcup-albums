@@ -1,14 +1,92 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="480" height="640" viewBox="0 0 480 640">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0ea5e9" />
-      <stop offset="100%" stop-color="#1e293b" />
+    <linearGradient id="bg70" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#c0392b"/>
+      <stop offset="50%" stop-color="#e67e22"/>
+      <stop offset="100%" stop-color="#f39c12"/>
     </linearGradient>
+    <linearGradient id="ball70g" x1="0.3" y1="0.2" x2="0.8" y2="0.9">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#cccccc"/>
+    </linearGradient>
+    <radialGradient id="sunGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f1c40f"/>
+      <stop offset="100%" stop-color="#e67e22" stop-opacity="0.4"/>
+    </radialGradient>
+    <filter id="shadow70">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#00000055"/>
+    </filter>
   </defs>
-  <rect width="480" height="640" fill="url(#bg)" />
-  <rect x="22" y="22" width="436" height="596" rx="20" fill="none" stroke="#e2e8f0" stroke-width="4" />
-  <text x="240" y="240" text-anchor="middle" fill="#f8fafc" font-size="58" font-family="Arial, sans-serif" font-weight="700">FIFA</text>
-  <text x="240" y="310" text-anchor="middle" fill="#f8fafc" font-size="34" font-family="Arial, sans-serif">World Cup</text>
-  <text x="240" y="370" text-anchor="middle" fill="#bae6fd" font-size="56" font-family="Arial, sans-serif" font-weight="700">1970</text>
-  <text x="240" y="575" text-anchor="middle" fill="#cbd5e1" font-size="20" font-family="Arial, sans-serif">Album Cover Placeholder</text>
+
+  <!-- Background -->
+  <rect width="480" height="640" fill="url(#bg70)"/>
+
+  <!-- Aztec sun rays -->
+  <g transform="translate(240,100)" opacity="0.25">
+    <circle r="180" fill="none" stroke="#f1c40f" stroke-width="1"/>
+    <circle r="140" fill="none" stroke="#f1c40f" stroke-width="1"/>
+    <circle r="100" fill="none" stroke="#f1c40f" stroke-width="1"/>
+    <line x1="0" y1="-180" x2="0" y2="180" stroke="#f1c40f" stroke-width="1"/>
+    <line x1="-180" y1="0" x2="180" y2="0" stroke="#f1c40f" stroke-width="1"/>
+    <line x1="-127" y1="-127" x2="127" y2="127" stroke="#f1c40f" stroke-width="1"/>
+    <line x1="127" y1="-127" x2="-127" y2="127" stroke="#f1c40f" stroke-width="1"/>
+    <line x1="-68" y1="-166" x2="68" y2="166" stroke="#f1c40f" stroke-width="0.5"/>
+    <line x1="166" y1="-68" x2="-166" y2="68" stroke="#f1c40f" stroke-width="0.5"/>
+    <line x1="-68" y1="166" x2="68" y2="-166" stroke="#f1c40f" stroke-width="0.5"/>
+    <line x1="166" y1="68" x2="-166" y2="-68" stroke="#f1c40f" stroke-width="0.5"/>
+  </g>
+
+  <!-- Aztec-style stepped pyramid silhouette -->
+  <g opacity="0.18" fill="#1a0a00">
+    <rect x="140" y="430" width="200" height="20"/>
+    <rect x="160" y="410" width="160" height="20"/>
+    <rect x="180" y="390" width="120" height="20"/>
+    <rect x="200" y="370" width="80" height="20"/>
+    <rect x="215" y="355" width="50" height="15"/>
+  </g>
+
+  <!-- Border frame -->
+  <rect x="16" y="16" width="448" height="608" rx="18" fill="none" stroke="#f1c40f" stroke-width="5" opacity="0.85"/>
+  <rect x="24" y="24" width="432" height="592" rx="14" fill="none" stroke="#f1c40f" stroke-width="1.5" opacity="0.5"/>
+
+  <!-- Panini ribbon at top -->
+  <rect x="16" y="16" width="448" height="52" rx="18" fill="#006847" opacity="0.92"/>
+  <rect x="16" y="52" width="448" height="16" fill="#006847" opacity="0.92"/>
+  <text x="240" y="51" text-anchor="middle" fill="#f1c40f" font-size="22" font-family="Arial Black, Arial, sans-serif" font-weight="900" letter-spacing="4">PANINI</text>
+
+  <!-- White stripe (Mexico flag green/white/red) -->
+  <rect x="16" y="68" width="448" height="8" fill="#006847" opacity="0.7"/>
+  <rect x="16" y="76" width="448" height="8" fill="#ffffff" opacity="0.7"/>
+  <rect x="16" y="84" width="448" height="8" fill="#ce1126" opacity="0.7"/>
+
+  <!-- Soccer ball -->
+  <g transform="translate(240,230)" filter="url(#shadow70)">
+    <circle r="72" fill="url(#ball70g)"/>
+    <!-- Pentagon pattern -->
+    <polygon points="0,-30 28.5,-9.3 17.6,24.3 -17.6,24.3 -28.5,-9.3" fill="#1a1a1a" opacity="0.85"/>
+    <polygon points="0,-72 18,-53 18,-30 0,-30 -18,-30 -18,-53" fill="#1a1a1a" opacity="0.55"/>
+    <polygon points="0,-30 28.5,-9.3 44,-30 62,-53 36,-68" fill="#1a1a1a" opacity="0.22"/>
+    <polygon points="0,-30 -28.5,-9.3 -44,-30 -62,-53 -36,-68" fill="#1a1a1a" opacity="0.22"/>
+    <polygon points="0,-30 28.5,-9.3 50,10 44,38 17.6,24.3" fill="#1a1a1a" opacity="0.18"/>
+    <polygon points="0,-30 -28.5,-9.3 -50,10 -44,38 -17.6,24.3" fill="#1a1a1a" opacity="0.18"/>
+    <circle r="72" fill="none" stroke="#999" stroke-width="1.5"/>
+  </g>
+
+  <!-- FIFA World Cup text -->
+  <text x="240" y="345" text-anchor="middle" fill="#ffffff" font-size="15" font-family="Arial, sans-serif" font-weight="700" letter-spacing="3" opacity="0.9">FIFA WORLD CUP</text>
+
+  <!-- Year -->
+  <text x="240" y="415" text-anchor="middle" fill="#f1c40f" font-size="90" font-family="Arial Black, Arial, sans-serif" font-weight="900" filter="url(#shadow70)">1970</text>
+
+  <!-- Host country -->
+  <rect x="120" y="435" width="240" height="38" rx="8" fill="#006847" opacity="0.85"/>
+  <text x="240" y="460" text-anchor="middle" fill="#ffffff" font-size="20" font-family="Arial, sans-serif" font-weight="700" letter-spacing="2">MEXICO</text>
+
+  <!-- Sticker count band -->
+  <rect x="16" y="560" width="448" height="64" rx="0" fill="#1a0a00" opacity="0.55"/>
+  <rect x="16" y="605" width="448" height="19" rx="0" fill="#006847" opacity="0.7"/>
+  <text x="240" y="590" text-anchor="middle" fill="#f1c40f" font-size="13" font-family="Arial, sans-serif" letter-spacing="1">271 STICKERS · OFFICIAL COLLECTION</text>
+
+  <!-- Bottom rounded corners continuation -->
+  <rect x="16" y="605" width="448" height="19" rx="18" fill="#006847" opacity="0.7"/>
 </svg>

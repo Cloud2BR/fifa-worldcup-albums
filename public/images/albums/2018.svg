@@ -1,14 +1,86 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="480" height="640" viewBox="0 0 480 640">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0ea5e9" />
-      <stop offset="100%" stop-color="#1e293b" />
+    <linearGradient id="bg18" x1="0" y1="0" x2="0.5" y2="1">
+      <stop offset="0%" stop-color="#cc0000"/>
+      <stop offset="50%" stop-color="#990000"/>
+      <stop offset="100%" stop-color="#1a0000"/>
     </linearGradient>
+    <radialGradient id="ball18g" cx="38%" cy="32%" r="62%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#cccccc"/>
+    </radialGradient>
+    <filter id="sh18"><feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#00000055"/></filter>
   </defs>
-  <rect width="480" height="640" fill="url(#bg)" />
-  <rect x="22" y="22" width="436" height="596" rx="20" fill="none" stroke="#e2e8f0" stroke-width="4" />
-  <text x="240" y="240" text-anchor="middle" fill="#f8fafc" font-size="58" font-family="Arial, sans-serif" font-weight="700">FIFA</text>
-  <text x="240" y="310" text-anchor="middle" fill="#f8fafc" font-size="34" font-family="Arial, sans-serif">World Cup</text>
-  <text x="240" y="370" text-anchor="middle" fill="#bae6fd" font-size="56" font-family="Arial, sans-serif" font-weight="700">2018</text>
-  <text x="240" y="575" text-anchor="middle" fill="#cbd5e1" font-size="20" font-family="Arial, sans-serif">Album Cover Placeholder</text>
+
+  <rect width="480" height="640" fill="url(#bg18)"/>
+
+  <!-- Onion dome silhouette (St. Basil's) -->
+  <g opacity="0.12" fill="#ffffff">
+    <!-- Central dome -->
+    <ellipse cx="240" cy="480" rx="22" ry="35"/>
+    <rect x="232" y="480" width="16" height="80"/>
+    <!-- Left dome -->
+    <ellipse cx="180" cy="490" rx="18" ry="28"/>
+    <rect x="173" y="490" width="14" height="70"/>
+    <!-- Right dome -->
+    <ellipse cx="300" cy="490" rx="18" ry="28"/>
+    <rect x="293" y="490" width="14" height="70"/>
+    <!-- Far left -->
+    <ellipse cx="130" cy="500" rx="14" ry="22"/>
+    <rect x="124" y="500" width="12" height="60"/>
+    <!-- Far right -->
+    <ellipse cx="350" cy="500" rx="14" ry="22"/>
+    <rect x="344" y="500" width="12" height="60"/>
+  </g>
+
+  <!-- Russian pattern (geometric) -->
+  <g opacity="0.1" stroke="#ffcc00" fill="none" stroke-width="2">
+    <rect x="30" y="95" width="20" height="20"/>
+    <rect x="60" y="95" width="20" height="20"/>
+    <rect x="400" y="95" width="20" height="20"/>
+    <rect x="430" y="95" width="20" height="20"/>
+    <rect x="30" y="510" width="20" height="20"/>
+    <rect x="60" y="510" width="20" height="20"/>
+    <rect x="400" y="510" width="20" height="20"/>
+    <rect x="430" y="510" width="20" height="20"/>
+  </g>
+
+  <!-- Border -->
+  <rect x="16" y="16" width="448" height="608" rx="18" fill="none" stroke="#ffcc00" stroke-width="5" opacity="0.85"/>
+  <rect x="24" y="24" width="432" height="592" rx="14" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.35"/>
+
+  <!-- Panini band -->
+  <rect x="16" y="16" width="448" height="52" rx="18" fill="#003580" opacity="0.95"/>
+  <rect x="16" y="52" width="448" height="16" fill="#003580" opacity="0.95"/>
+  <text x="240" y="51" text-anchor="middle" fill="#ffffff" font-size="22" font-family="Arial Black, Arial, sans-serif" font-weight="900" letter-spacing="4">PANINI</text>
+
+  <!-- Russia flag stripes -->
+  <rect x="16" y="68" width="448" height="7" fill="#ffffff" opacity="0.9"/>
+  <rect x="16" y="75" width="448" height="7" fill="#003580" opacity="0.9"/>
+  <rect x="16" y="82" width="448" height="7" fill="#cc0000" opacity="0.9"/>
+
+  <!-- Soccer ball (Telstar 18) -->
+  <g transform="translate(240,240)" filter="url(#sh18)">
+    <circle r="74" fill="url(#ball18g)"/>
+    <!-- Telstar 18 pixel/tech pattern -->
+    <g fill="#1a1a1a" opacity="0.7">
+      <rect x="-6" y="-74" width="12" height="12"/>
+      <rect x="-6" y="62" width="12" height="12"/>
+      <rect x="-74" y="-6" width="12" height="12"/>
+      <rect x="62" y="-6" width="12" height="12"/>
+    </g>
+    <polygon points="0,-32 30,-10 18.5,26 -18.5,26 -30,-10" fill="#1a1a1a" opacity="0.75"/>
+    <text x="0" y="5" text-anchor="middle" fill="#555" font-size="8" font-family="Arial, sans-serif" opacity="0.65">TELSTAR 18</text>
+    <circle r="74" fill="none" stroke="#aaa" stroke-width="1.5"/>
+  </g>
+
+  <text x="240" y="354" text-anchor="middle" fill="#ffffff" font-size="14" font-family="Arial, sans-serif" font-weight="700" letter-spacing="4" opacity="0.95">FIFA WORLD CUP</text>
+  <text x="240" y="428" text-anchor="middle" fill="#ffffff" font-size="88" font-family="Arial Black, Arial, sans-serif" font-weight="900" filter="url(#sh18)">2018</text>
+
+  <rect x="128" y="444" width="224" height="40" rx="8" fill="#003580" opacity="0.85"/>
+  <text x="240" y="470" text-anchor="middle" fill="#ffffff" font-size="20" font-family="Arial, sans-serif" font-weight="700" letter-spacing="3">RUSSIA</text>
+
+  <rect x="16" y="560" width="448" height="64" rx="0" fill="#1a0000" opacity="0.55"/>
+  <rect x="16" y="605" width="448" height="19" rx="18" fill="#cc0000" opacity="0.8"/>
+  <text x="240" y="590" text-anchor="middle" fill="#ffffff" font-size="13" font-family="Arial, sans-serif" letter-spacing="1">682 STICKERS · OFFICIAL COLLECTION</text>
 </svg>

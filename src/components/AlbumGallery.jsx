@@ -16,61 +16,96 @@ function AlbumGallery({ albums }) {
             key={album.year}
             type="button"
             onClick={() => setSelectedYear(album.year)}
-            className="rounded-xl border border-slate-800 bg-slate-900 p-3 text-left transition hover:border-sky-500"
+            className="group rounded-xl border border-slate-800 bg-slate-900 p-3 text-left transition hover:border-sky-500 hover:shadow-lg hover:shadow-sky-900/30"
           >
-            <img
-              src={album.coverImage}
-              alt={`${album.year} official album cover`}
-              className="h-36 w-full rounded-md object-cover"
-            />
-            <p className="mt-2 font-semibold text-slate-100">{album.year}</p>
-            <p className="text-sm text-slate-400">{album.publisher}</p>
+            <div className="relative overflow-hidden rounded-md">
+              <img
+                src={album.coverImage}
+                alt={`${album.year} official Panini album cover`}
+                className="h-44 w-full rounded-md object-cover transition duration-300 group-hover:scale-105"
+              />
+              <div className="absolute inset-0 rounded-md bg-gradient-to-t from-black/60 to-transparent opacity-0 transition group-hover:opacity-100" />
+              <span className="absolute bottom-2 left-2 rounded bg-sky-500 px-1.5 py-0.5 text-xs font-bold text-white opacity-0 transition group-hover:opacity-100">
+                View details
+              </span>
+            </div>
+            <p className="mt-2 text-base font-bold text-slate-100">{album.year}</p>
+            <p className="text-xs text-slate-400">
+              {album.host} · {album.stickerCount} stickers
+            </p>
           </button>
         ))}
       </div>
 
       {selectedAlbum ? (
         <div
-          className="fixed inset-0 z-50 flex items-center justify-center bg-slate-950/80 p-4"
+          className="fixed inset-0 z-50 flex items-center justify-center bg-slate-950/85 p-4 backdrop-blur-sm"
           role="dialog"
           aria-modal="true"
           onClick={() => setSelectedYear(null)}
         >
           <article
-            className="w-full max-w-lg rounded-xl border border-slate-700 bg-slate-900 p-4"
+            className="w-full max-w-lg rounded-2xl border border-slate-700 bg-slate-900 shadow-2xl"
             onClick={(event) => event.stopPropagation()}
           >
-            <div className="flex items-start justify-between gap-4">
-              <h3 className="text-xl font-semibold">{selectedAlbum.year} Official Album</h3>
+            <div className="flex items-center justify-between gap-4 border-b border-slate-800 px-5 py-4">
+              <div>
+                <h3 className="text-xl font-bold text-white">
+                  {selectedAlbum.year} FIFA World Cup
+                </h3>
+                <p className="text-sm text-slate-400">{selectedAlbum.host} · Official Panini Album</p>
+              </div>
               <button
                 type="button"
                 onClick={() => setSelectedYear(null)}
-                className="rounded-md bg-slate-800 px-2 py-1 text-sm"
+                className="rounded-lg bg-slate-800 px-3 py-1.5 text-sm text-slate-300 transition hover:bg-slate-700 hover:text-white"
               >
-                Close
+                ✕ Close
               </button>
             </div>
-            <img
-              src={selectedAlbum.coverImage}
-              alt={`${selectedAlbum.year} album cover detail`}
-              className="mt-4 h-64 w-full rounded-md object-cover"
-            />
-            <dl className="mt-4 grid gap-2 text-sm text-slate-300">
-              <div className="flex justify-between gap-3">
-                <dt className="text-slate-400">Publisher</dt>
-                <dd>{selectedAlbum.publisher}</dd>
+
+            <div className="flex gap-4 p-5">
+              <img
+                src={selectedAlbum.coverImage}
+                alt={`${selectedAlbum.year} album cover detail`}
+                className="h-56 w-40 flex-shrink-0 rounded-xl object-cover shadow-lg"
+              />
+              <div className="flex flex-col gap-3">
+                <dl className="grid gap-2.5 text-sm">
+                  <div className="flex justify-between gap-3">
+                    <dt className="text-slate-400">Publisher</dt>
+                    <dd className="font-medium text-slate-200">{selectedAlbum.publisher}</dd>
+                  </div>
+                  <div className="flex justify-between gap-3">
+                    <dt className="text-slate-400">Host</dt>
+                    <dd className="font-medium text-slate-200">{selectedAlbum.host}</dd>
+                  </div>
+                  {selectedAlbum.winner ? (
+                    <div className="flex justify-between gap-3">
+                      <dt className="text-slate-400">Champion</dt>
+                      <dd className="font-medium text-sky-400">🏆 {selectedAlbum.winner}</dd>
+                    </div>
+                  ) : null}
+                  {selectedAlbum.ball ? (
+                    <div className="flex justify-between gap-3">
+                      <dt className="text-slate-400">Official Ball</dt>
+                      <dd className="font-medium text-slate-200">{selectedAlbum.ball}</dd>
+                    </div>
+                  ) : null}
+                  <div className="flex justify-between gap-3">
+                    <dt className="text-slate-400">Stickers</dt>
+                    <dd className="font-medium text-slate-200">{selectedAlbum.stickerCount.toLocaleString()}</dd>
+                  </div>
+                </dl>
               </div>
-              <div className="flex justify-between gap-3">
-                <dt className="text-slate-400">Stickers</dt>
-                <dd>{selectedAlbum.stickerCount}</dd>
+            </div>
+
+            {selectedAlbum.notes ? (
+              <div className="border-t border-slate-800 px-5 py-4">
+                <p className="text-xs font-semibold uppercase tracking-wider text-slate-500">About this tournament</p>
+                <p className="mt-1.5 text-sm leading-relaxed text-slate-300">{selectedAlbum.notes}</p>
               </div>
-              {selectedAlbum.notes ? (
-                <div>
-                  <dt className="text-slate-400">Notes</dt>
-                  <dd>{selectedAlbum.notes}</dd>
-                </div>
-              ) : null}
-            </dl>
+            ) : null}
           </article>
         </div>
       ) : null}

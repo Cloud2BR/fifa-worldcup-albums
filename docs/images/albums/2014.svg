@@ -1,14 +1,64 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="480" height="640" viewBox="0 0 480 640">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0ea5e9" />
-      <stop offset="100%" stop-color="#1e293b" />
+    <linearGradient id="bg14" x1="0" y1="0" x2="0.5" y2="1">
+      <stop offset="0%" stop-color="#009c3b"/>
+      <stop offset="40%" stop-color="#008a34"/>
+      <stop offset="100%" stop-color="#003d16"/>
     </linearGradient>
+    <radialGradient id="ball14g" cx="38%" cy="32%" r="62%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#cccccc"/>
+    </radialGradient>
+    <filter id="sh14"><feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#00000055"/></filter>
   </defs>
-  <rect width="480" height="640" fill="url(#bg)" />
-  <rect x="22" y="22" width="436" height="596" rx="20" fill="none" stroke="#e2e8f0" stroke-width="4" />
-  <text x="240" y="240" text-anchor="middle" fill="#f8fafc" font-size="58" font-family="Arial, sans-serif" font-weight="700">FIFA</text>
-  <text x="240" y="310" text-anchor="middle" fill="#f8fafc" font-size="34" font-family="Arial, sans-serif">World Cup</text>
-  <text x="240" y="370" text-anchor="middle" fill="#bae6fd" font-size="56" font-family="Arial, sans-serif" font-weight="700">2014</text>
-  <text x="240" y="575" text-anchor="middle" fill="#cbd5e1" font-size="20" font-family="Arial, sans-serif">Album Cover Placeholder</text>
+
+  <rect width="480" height="640" fill="url(#bg14)"/>
+
+  <!-- Brazuca/tropical pattern -->
+  <g opacity="0.14">
+    <!-- Chevron bands top -->
+    <polygon points="0,80 80,160 160,80 240,160 320,80 400,160 480,80 480,110 400,190 320,110 240,190 160,110 80,190 0,110" fill="#ffdf00"/>
+    <polygon points="0,130 80,210 160,130 240,210 320,130 400,210 480,130 480,160 400,240 320,160 240,240 160,160 80,240 0,160" fill="#ffdf00" opacity="0.5"/>
+  </g>
+
+  <!-- Blue diamond (Brazilian flag) -->
+  <polygon points="240,100 390,220 240,340 90,220" fill="#002776" opacity="0.12"/>
+  <circle cx="240" cy="220" r="60" fill="none" stroke="#002776" stroke-width="2" opacity="0.1"/>
+
+  <!-- Border -->
+  <rect x="16" y="16" width="448" height="608" rx="18" fill="none" stroke="#ffdf00" stroke-width="5" opacity="0.88"/>
+  <rect x="24" y="24" width="432" height="592" rx="14" fill="none" stroke="#ffdf00" stroke-width="1.5" opacity="0.4"/>
+
+  <!-- Panini band -->
+  <rect x="16" y="16" width="448" height="52" rx="18" fill="#ffdf00" opacity="0.95"/>
+  <rect x="16" y="52" width="448" height="16" fill="#ffdf00" opacity="0.95"/>
+  <text x="240" y="51" text-anchor="middle" fill="#009c3b" font-size="22" font-family="Arial Black, Arial, sans-serif" font-weight="900" letter-spacing="4">PANINI</text>
+
+  <!-- Brazil flag stripes -->
+  <rect x="16" y="68" width="448" height="8" fill="#009c3b" opacity="0.9"/>
+  <rect x="16" y="76" width="448" height="8" fill="#ffdf00" opacity="0.9"/>
+  <rect x="16" y="84" width="448" height="8" fill="#002776" opacity="0.9"/>
+
+  <!-- Soccer ball (Brazuca) -->
+  <g transform="translate(240,240)" filter="url(#sh14)">
+    <circle r="74" fill="url(#ball14g)"/>
+    <!-- Brazuca 6-panel pattern -->
+    <path d="M0,-74 Q35,-60 50,-30 Q35,-15 0,-32 Q-35,-15 -50,-30 Q-35,-60 0,-74 Z" fill="#009c3b" opacity="0.45"/>
+    <path d="M50,-30 Q74,0 60,40 Q40,35 18.5,26 Q20,0 50,-30 Z" fill="#002776" opacity="0.45"/>
+    <path d="M-50,-30 Q-74,0 -60,40 Q-40,35 -18.5,26 Q-20,0 -50,-30 Z" fill="#ffdf00" opacity="0.45"/>
+    <path d="M18.5,26 Q30,50 0,74 Q-30,50 -18.5,26 Q0,32 18.5,26 Z" fill="#c60b1e" opacity="0.45"/>
+    <polygon points="0,-32 30,-10 18.5,26 -18.5,26 -30,-10" fill="#1a1a1a" opacity="0.55"/>
+    <text x="0" y="5" text-anchor="middle" fill="#555" font-size="8" font-family="Arial, sans-serif" opacity="0.65">BRAZUCA</text>
+    <circle r="74" fill="none" stroke="#aaa" stroke-width="1.5"/>
+  </g>
+
+  <text x="240" y="354" text-anchor="middle" fill="#ffdf00" font-size="14" font-family="Arial, sans-serif" font-weight="700" letter-spacing="4" opacity="0.95">FIFA WORLD CUP</text>
+  <text x="240" y="428" text-anchor="middle" fill="#ffdf00" font-size="88" font-family="Arial Black, Arial, sans-serif" font-weight="900" filter="url(#sh14)">2014</text>
+
+  <rect x="128" y="444" width="224" height="40" rx="8" fill="#002776" opacity="0.85"/>
+  <text x="240" y="470" text-anchor="middle" fill="#ffffff" font-size="20" font-family="Arial, sans-serif" font-weight="700" letter-spacing="3">BRAZIL</text>
+
+  <rect x="16" y="560" width="448" height="64" rx="0" fill="#003d16" opacity="0.55"/>
+  <rect x="16" y="605" width="448" height="19" rx="18" fill="#009c3b" opacity="0.8"/>
+  <text x="240" y="590" text-anchor="middle" fill="#ffdf00" font-size="13" font-family="Arial, sans-serif" letter-spacing="1">640 STICKERS · OFFICIAL COLLECTION</text>
 </svg>
