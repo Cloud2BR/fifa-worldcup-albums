@@ -22,27 +22,20 @@ function slugifyAssetName(input) {
 }
 
 const SONG_BY_YEAR = {
-  2022: { title: 'Hayya Hayya (Better Together)' },
-  2018: { title: 'Live It Up' },
-  2014: { title: 'We Are One (Ole Ola)' },
-  2010: { title: 'Waka Waka (This Time for Africa)' },
-  2006: { title: 'The Time of Our Lives' },
-  2002: { title: 'Boom' },
-  1998: { title: 'La Copa de la Vida' },
-  1994: { title: 'Gloryland' },
-  1990: { title: "Un'estate italiana" },
+  2022: { title: 'Hayya Hayya (Better Together)', artist: 'Trinidad Cardona, Davido & Aisha' },
+  2018: { title: 'Live It Up', artist: 'Nicky Jam feat. Will Smith & Era Istrefi' },
+  2014: { title: 'We Are One (Ole Ola)', artist: 'Pitbull feat. Jennifer Lopez & Claudia Leitte' },
+  2010: { title: 'Waka Waka (This Time for Africa)', artist: 'Shakira feat. Freshlyground' },
+  2006: { title: 'The Time of Our Lives', artist: 'Il Divo & Toni Braxton' },
+  2002: { title: 'Boom', artist: 'Anastacia' },
+  1998: { title: 'La Copa de la Vida', artist: 'Ricky Martin' },
+  1994: { title: 'Gloryland', artist: 'Daryl Hall & Sounds of Blackness' },
+  1990: { title: "Un'estate italiana", artist: 'Gianna Nannini & Edoardo Bennato' },
 }
 
-const LOCAL_SONG_PREVIEWS = {
-  2022: `${BASE_URL}audio/songs/2022-preview.wav`,
-  2018: `${BASE_URL}audio/songs/2018-preview.wav`,
-  2014: `${BASE_URL}audio/songs/2014-preview.wav`,
-  2010: `${BASE_URL}audio/songs/2010-preview.wav`,
-  2006: `${BASE_URL}audio/songs/2006-preview.wav`,
-  2002: `${BASE_URL}audio/songs/2002-preview.wav`,
-  1998: `${BASE_URL}audio/songs/1998-preview.wav`,
-  1994: `${BASE_URL}audio/songs/1994-preview.wav`,
-  1990: `${BASE_URL}audio/songs/1990-preview.wav`,
+function getSongYouTubeSearchUrl(year, title, artist) {
+  const query = encodeURIComponent(`${year} FIFA World Cup official song ${title} ${artist || ''}`.trim())
+  return `https://www.youtube.com/results?search_query=${query}`
 }
 
 function LocalPreviewCard({ title, src, srcFallback, fallbackLabel, imageClassName = 'object-cover' }) {
@@ -89,29 +82,24 @@ function LocalPreviewCard({ title, src, srcFallback, fallbackLabel, imageClassNa
 }
 
 function SongPlayer({ album }) {
-  const meta = SONG_BY_YEAR[album.year] || { title: `Official song/anthem ${album.year}` }
-  const audioSrc = LOCAL_SONG_PREVIEWS[album.year] || null
-  const [audioMissing, setAudioMissing] = useState(false)
+  const meta = SONG_BY_YEAR[album.year] || { title: `Official song/anthem ${album.year}`, artist: '' }
+  const youtubeUrl = getSongYouTubeSearchUrl(album.year, meta.title, meta.artist)
 
   return (
     <div className="rounded-lg border border-amber-900/35 bg-[#efe6d0] p-2">
       <p className="mb-2 text-[10px] font-bold uppercase tracking-wider text-slate-700">Official Song</p>
       <div className="rounded-md border border-amber-900/30 bg-[#d9ccb1] p-3">
         <p className="text-sm font-semibold text-slate-700">{meta.title}</p>
-        <p className="mt-1 text-xs text-slate-600">Playable local preview hosted in this repository (GitHub Pages friendly).</p>
-        {audioSrc && !audioMissing ? (
-          <audio
-            className="mt-3 w-full"
-            controls
-            preload="none"
-            onError={() => setAudioMissing(true)}
-          >
-            <source src={audioSrc} type="audio/wav" />
-            Your browser does not support audio playback.
-          </audio>
-        ) : (
-          <p className="mt-3 text-xs text-slate-600">No local preview audio available for this year.</p>
-        )}
+        {meta.artist ? <p className="mt-1 text-xs text-slate-600">Artist: {meta.artist}</p> : null}
+        <p className="mt-2 text-xs text-slate-600">Listen on official platforms via YouTube search results (no downloaded or rehosted audio).</p>
+        <a
+          href={youtubeUrl}
+          target="_blank"
+          rel="noreferrer"
+          className="mt-3 inline-flex items-center rounded border border-amber-900/40 bg-amber-100 px-3 py-1.5 text-xs font-semibold text-amber-900 hover:bg-amber-200"
+        >
+          Open on YouTube
+        </a>
       </div>
     </div>
   )
