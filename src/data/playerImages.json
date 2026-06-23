@@ -62,7 +62,10 @@
       "name": "Štěpán Chaloupek",
       "author": "Wikipedia contributors",
       "license": "See source page",
-      "caption": "Štěpán Chaloupek (Czech Republic)"
+      "caption": "Štěpán Chaloupek (Czech Republic)",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/7/76/Czech_Republic_national_football_team_logo.svg/330px-Czech_Republic_national_football_team_logo.svg.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Czech_Republic_national_football_team",
+      "file": "2026/CZE/stepan-chaloupek.png"
     },
     "2026:CZE:ladislav-krejci": {
       "year": 2026,
@@ -71,7 +74,10 @@
       "name": "Ladislav Krejčí",
       "author": "Wikipedia contributors",
       "license": "See source page",
-      "caption": "Ladislav Krejčí (Czech Republic)"
+      "caption": "Ladislav Krejčí (Czech Republic)",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Ladislav_Krej%C4%8D%C3%AD_01112025_%281%29.jpg/330px-Ladislav_Krej%C4%8D%C3%AD_01112025_%281%29.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ladislav_Krej%C4%8D%C3%AD_(footballer%2C_born_1999)",
+      "file": "2026/CZE/ladislav-krejci.jpg"
     },
     "2026:CZE:vladimir-darida": {
       "year": 2026,
@@ -80,7 +86,10 @@
       "name": "Vladimír Darida",
       "author": "Wikipedia contributors",
       "license": "See source page",
-      "caption": "Vladimír Darida (Czech Republic)"
+      "caption": "Vladimír Darida (Czech Republic)",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Vladim%C3%ADr_Darida_20180601_AUSCZE_3910_%28cropped%29.jpg/330px-Vladim%C3%ADr_Darida_20180601_AUSCZE_3910_%28cropped%29.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Vladim%C3%ADr_Darida",
+      "file": "2026/CZE/vladimir-darida.jpg"
     },
     "2026:CZE:adam-hlozek": {
       "year": 2026,
@@ -89,7 +98,10 @@
       "name": "Adam Hložek",
       "author": "Wikipedia contributors",
       "license": "See source page",
-      "caption": "Adam Hložek (Czech Republic)"
+      "caption": "Adam Hložek (Czech Republic)",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Adam_Hlo%C5%BEek%2C_2022-07-31%2C_Saisoner%C3%B6ffnung_Bayer_04%2C_Leverkusen_%282%29_%28cropped%29.jpg/330px-Adam_Hlo%C5%BEek%2C_2022-07-31%2C_Saisoner%C3%B6ffnung_Bayer_04%2C_Leverkusen_%282%29_%28cropped%29.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Adam_Hlo%C5%BEek",
+      "file": "2026/CZE/adam-hlozek.jpg"
     },
     "2026:CZE:patrik-schick": {
       "year": 2026,
@@ -1401,6 +1413,801 @@
       "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/CINvOCB_2017-05-13_-_Richie_Laryea_%2834525525311%29_%28cropped%29.jpg/330px-CINvOCB_2017-05-13_-_Richie_Laryea_%2834525525311%29_%28cropped%29.jpg",
       "sourceUrl": "https://en.wikipedia.org/wiki/Richie_Laryea",
       "file": "2026/CAN/richie-laryea.jpg"
+    },
+    "2026:CAN:niko-sigur": {
+      "year": 2026,
+      "teamCode": "CAN",
+      "team": "Canada",
+      "name": "Niko Sigur",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Niko Sigur (Canada)"
+    },
+    "2026:CAN:promise-david": {
+      "year": 2026,
+      "teamCode": "CAN",
+      "team": "Canada",
+      "name": "Promise David",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Promise David (Canada)"
+    },
+    "2026:CAN:nathan-saliba": {
+      "year": 2026,
+      "teamCode": "CAN",
+      "team": "Canada",
+      "name": "Nathan Saliba",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Nathan Saliba (Canada)"
+    },
+    "2026:CAN:jayden-nelson": {
+      "year": 2026,
+      "teamCode": "CAN",
+      "team": "Canada",
+      "name": "Jayden Nelson",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Jayden Nelson (Canada)"
+    },
+    "2026:QAT:mahmud-abunada": {
+      "year": 2026,
+      "teamCode": "QAT",
+      "team": "Qatar",
+      "name": "Mahmud Abunada",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Mahmud Abunada (Qatar)"
+    },
+    "2026:QAT:pedro-miguel": {
+      "year": 2026,
+      "teamCode": "QAT",
+      "team": "Qatar",
+      "name": "Pedro Miguel",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Pedro Miguel (Qatar)"
+    },
+    "2026:QAT:lucas-mendes": {
+      "year": 2026,
+      "teamCode": "QAT",
+      "team": "Qatar",
+      "name": "Lucas Mendes",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Lucas Mendes (Qatar)"
+    },
+    "2026:QAT:issa-laye": {
+      "year": 2026,
+      "teamCode": "QAT",
+      "team": "Qatar",
+      "name": "Issa Laye",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Issa Laye (Qatar)"
+    },
+    "2026:QAT:jassem-gaber": {
+      "year": 2026,
+      "teamCode": "QAT",
+      "team": "Qatar",
+      "name": "Jassem Gaber",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Jassem Gaber (Qatar)"
+    },
+    "2026:QAT:abdulaziz-hatem": {
+      "year": 2026,
+      "teamCode": "QAT",
+      "team": "Qatar",
+      "name": "Abdulaziz Hatem",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Abdulaziz Hatem (Qatar)"
+    },
+    "2026:QAT:ahmed-alaaeldin": {
+      "year": 2026,
+      "teamCode": "QAT",
+      "team": "Qatar",
+      "name": "Ahmed Alaaeldin",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Ahmed Alaaeldin (Qatar)"
+    },
+    "2026:QAT:edmilson-junior": {
+      "year": 2026,
+      "teamCode": "QAT",
+      "team": "Qatar",
+      "name": "Edmilson Junior",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Edmilson Junior (Qatar)"
+    },
+    "2026:QAT:mohammed-muntari": {
+      "year": 2026,
+      "teamCode": "QAT",
+      "team": "Qatar",
+      "name": "Mohammed Muntari",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Mohammed Muntari (Qatar)"
+    },
+    "2026:QAT:hassan-al-haydos": {
+      "year": 2026,
+      "teamCode": "QAT",
+      "team": "Qatar",
+      "name": "Hassan Al-Haydos",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Hassan Al-Haydos (Qatar)"
+    },
+    "2026:QAT:akram-afif": {
+      "year": 2026,
+      "teamCode": "QAT",
+      "team": "Qatar",
+      "name": "Akram Afif",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Akram Afif (Qatar)"
+    },
+    "2026:QAT:karim-boudiaf": {
+      "year": 2026,
+      "teamCode": "QAT",
+      "team": "Qatar",
+      "name": "Karim Boudiaf",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Karim Boudiaf (Qatar)"
+    },
+    "2026:QAT:ayoub-al-oui": {
+      "year": 2026,
+      "teamCode": "QAT",
+      "team": "Qatar",
+      "name": "Ayoub Al-Oui",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Ayoub Al-Oui (Qatar)"
+    },
+    "2026:QAT:homam-ahmed": {
+      "year": 2026,
+      "teamCode": "QAT",
+      "team": "Qatar",
+      "name": "Homam Ahmed",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Homam Ahmed (Qatar)"
+    },
+    "2026:QAT:yusuf-abdurisag": {
+      "year": 2026,
+      "teamCode": "QAT",
+      "team": "Qatar",
+      "name": "Yusuf Abdurisag",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Yusuf Abdurisag (Qatar)"
+    },
+    "2026:QAT:boualem-khoukhi": {
+      "year": 2026,
+      "teamCode": "QAT",
+      "team": "Qatar",
+      "name": "Boualem Khoukhi",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Boualem Khoukhi (Qatar)"
+    },
+    "2026:QAT:ahmed-al-ganehi": {
+      "year": 2026,
+      "teamCode": "QAT",
+      "team": "Qatar",
+      "name": "Ahmed Al-Ganehi",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Ahmed Al-Ganehi (Qatar)"
+    },
+    "2026:QAT:sultan-al-brake": {
+      "year": 2026,
+      "teamCode": "QAT",
+      "team": "Qatar",
+      "name": "Sultan Al-Brake",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Sultan Al-Brake (Qatar)"
+    },
+    "2026:QAT:almoez-ali": {
+      "year": 2026,
+      "teamCode": "QAT",
+      "team": "Qatar",
+      "name": "Almoez Ali",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Almoez Ali (Qatar)"
+    },
+    "2026:QAT:ahmed-fathy": {
+      "year": 2026,
+      "teamCode": "QAT",
+      "team": "Qatar",
+      "name": "Ahmed Fathy",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Ahmed Fathy (Qatar)"
+    },
+    "2026:QAT:salah-zakaria": {
+      "year": 2026,
+      "teamCode": "QAT",
+      "team": "Qatar",
+      "name": "Salah Zakaria",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Salah Zakaria (Qatar)"
+    },
+    "2026:QAT:meshaal-barsham": {
+      "year": 2026,
+      "teamCode": "QAT",
+      "team": "Qatar",
+      "name": "Meshaal Barsham",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Meshaal Barsham (Qatar)"
+    },
+    "2026:QAT:assim-madibo": {
+      "year": 2026,
+      "teamCode": "QAT",
+      "team": "Qatar",
+      "name": "Assim Madibo",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Assim Madibo (Qatar)"
+    },
+    "2026:QAT:tahsin-jamshid": {
+      "year": 2026,
+      "teamCode": "QAT",
+      "team": "Qatar",
+      "name": "Tahsin Jamshid",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Tahsin Jamshid (Qatar)"
+    },
+    "2026:QAT:al-hashmi-al-hussain": {
+      "year": 2026,
+      "teamCode": "QAT",
+      "team": "Qatar",
+      "name": "Al-Hashmi Al-Hussain",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Al-Hashmi Al-Hussain (Qatar)"
+    },
+    "2026:QAT:mohamed-manai": {
+      "year": 2026,
+      "teamCode": "QAT",
+      "team": "Qatar",
+      "name": "Mohamed Manai",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Mohamed Manai (Qatar)"
+    },
+    "2026:SUI:gregor-kobel": {
+      "year": 2026,
+      "teamCode": "SUI",
+      "team": "Switzerland",
+      "name": "Gregor Kobel",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Gregor Kobel (Switzerland)"
+    },
+    "2026:SUI:miro-muheim": {
+      "year": 2026,
+      "teamCode": "SUI",
+      "team": "Switzerland",
+      "name": "Miro Muheim",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Miro Muheim (Switzerland)"
+    },
+    "2026:SUI:silvan-widmer": {
+      "year": 2026,
+      "teamCode": "SUI",
+      "team": "Switzerland",
+      "name": "Silvan Widmer",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Silvan Widmer (Switzerland)"
+    },
+    "2026:SUI:nico-elvedi": {
+      "year": 2026,
+      "teamCode": "SUI",
+      "team": "Switzerland",
+      "name": "Nico Elvedi",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Nico Elvedi (Switzerland)"
+    },
+    "2026:SUI:manuel-akanji": {
+      "year": 2026,
+      "teamCode": "SUI",
+      "team": "Switzerland",
+      "name": "Manuel Akanji",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Manuel Akanji (Switzerland)"
+    },
+    "2026:SUI:denis-zakaria": {
+      "year": 2026,
+      "teamCode": "SUI",
+      "team": "Switzerland",
+      "name": "Denis Zakaria",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Denis Zakaria (Switzerland)"
+    },
+    "2026:SUI:breel-embolo": {
+      "year": 2026,
+      "teamCode": "SUI",
+      "team": "Switzerland",
+      "name": "Breel Embolo",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Breel Embolo (Switzerland)"
+    },
+    "2026:SUI:remo-freuler": {
+      "year": 2026,
+      "teamCode": "SUI",
+      "team": "Switzerland",
+      "name": "Remo Freuler",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Remo Freuler (Switzerland)"
+    },
+    "2026:SUI:johan-manzambi": {
+      "year": 2026,
+      "teamCode": "SUI",
+      "team": "Switzerland",
+      "name": "Johan Manzambi",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Johan Manzambi (Switzerland)"
+    },
+    "2026:SUI:granit-xhaka": {
+      "year": 2026,
+      "teamCode": "SUI",
+      "team": "Switzerland",
+      "name": "Granit Xhaka",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Granit Xhaka (Switzerland)"
+    },
+    "2026:SUI:dan-ndoye": {
+      "year": 2026,
+      "teamCode": "SUI",
+      "team": "Switzerland",
+      "name": "Dan Ndoye",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Dan Ndoye (Switzerland)"
+    },
+    "2026:SUI:yvon-mvogo": {
+      "year": 2026,
+      "teamCode": "SUI",
+      "team": "Switzerland",
+      "name": "Yvon Mvogo",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Yvon Mvogo (Switzerland)"
+    },
+    "2026:SUI:ricardo-rodriguez": {
+      "year": 2026,
+      "teamCode": "SUI",
+      "team": "Switzerland",
+      "name": "Ricardo Rodriguez",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Ricardo Rodriguez (Switzerland)"
+    },
+    "2026:SUI:ardon-jashari": {
+      "year": 2026,
+      "teamCode": "SUI",
+      "team": "Switzerland",
+      "name": "Ardon Jashari",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Ardon Jashari (Switzerland)"
+    },
+    "2026:SUI:djibril-sow": {
+      "year": 2026,
+      "teamCode": "SUI",
+      "team": "Switzerland",
+      "name": "Djibril Sow",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Djibril Sow (Switzerland)"
+    },
+    "2026:SUI:christian-fassnacht": {
+      "year": 2026,
+      "teamCode": "SUI",
+      "team": "Switzerland",
+      "name": "Christian Fassnacht",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Christian Fassnacht (Switzerland)"
+    },
+    "2026:SUI:ruben-vargas": {
+      "year": 2026,
+      "teamCode": "SUI",
+      "team": "Switzerland",
+      "name": "Rubén Vargas",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Rubén Vargas (Switzerland)"
+    },
+    "2026:SUI:eray-comert": {
+      "year": 2026,
+      "teamCode": "SUI",
+      "team": "Switzerland",
+      "name": "Eray Cömert",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Eray Cömert (Switzerland)"
+    },
+    "2026:SUI:noah-okafor": {
+      "year": 2026,
+      "teamCode": "SUI",
+      "team": "Switzerland",
+      "name": "Noah Okafor",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Noah Okafor (Switzerland)",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/FC_RB_Salzburg_gegen_FK_Austria_Wien_%282022-04-24%29_68.jpg/330px-FC_RB_Salzburg_gegen_FK_Austria_Wien_%282022-04-24%29_68.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Noah_Okafor",
+      "file": "2026/SUI/noah-okafor.jpg"
+    },
+    "2026:SUI:michel-aebischer": {
+      "year": 2026,
+      "teamCode": "SUI",
+      "team": "Switzerland",
+      "name": "Michel Aebischer",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Michel Aebischer (Switzerland)"
+    },
+    "2026:SUI:marvin-keller": {
+      "year": 2026,
+      "teamCode": "SUI",
+      "team": "Switzerland",
+      "name": "Marvin Keller",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Marvin Keller (Switzerland)"
+    },
+    "2026:SUI:fabian-rieder": {
+      "year": 2026,
+      "teamCode": "SUI",
+      "team": "Switzerland",
+      "name": "Fabian Rieder",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Fabian Rieder (Switzerland)"
+    },
+    "2026:SUI:zeki-amdouni": {
+      "year": 2026,
+      "teamCode": "SUI",
+      "team": "Switzerland",
+      "name": "Zeki Amdouni",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Zeki Amdouni (Switzerland)"
+    },
+    "2026:SUI:aurele-amenda": {
+      "year": 2026,
+      "teamCode": "SUI",
+      "team": "Switzerland",
+      "name": "Aurèle Amenda",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Aurèle Amenda (Switzerland)"
+    },
+    "2026:SUI:luca-jaquez": {
+      "year": 2026,
+      "teamCode": "SUI",
+      "team": "Switzerland",
+      "name": "Luca Jaquez",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Luca Jaquez (Switzerland)"
+    },
+    "2026:SUI:cedric-itten": {
+      "year": 2026,
+      "teamCode": "SUI",
+      "team": "Switzerland",
+      "name": "Cedric Itten",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Cedric Itten (Switzerland)"
+    },
+    "2026:BRA:alisson": {
+      "year": 2026,
+      "teamCode": "BRA",
+      "team": "Brazil",
+      "name": "Alisson",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Alisson (Brazil)"
+    },
+    "2026:BRA:ederson-silva": {
+      "year": 2026,
+      "teamCode": "BRA",
+      "team": "Brazil",
+      "name": "Éderson Silva",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Éderson Silva (Brazil)"
+    },
+    "2026:BRA:gabriel-magalhaes": {
+      "year": 2026,
+      "teamCode": "BRA",
+      "team": "Brazil",
+      "name": "Gabriel Magalhães",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Gabriel Magalhães (Brazil)"
+    },
+    "2026:BRA:marquinhos": {
+      "year": 2026,
+      "teamCode": "BRA",
+      "team": "Brazil",
+      "name": "Marquinhos",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Marquinhos (Brazil)"
+    },
+    "2026:BRA:casemiro": {
+      "year": 2026,
+      "teamCode": "BRA",
+      "team": "Brazil",
+      "name": "Casemiro",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Casemiro (Brazil)"
+    },
+    "2026:BRA:alex-sandro": {
+      "year": 2026,
+      "teamCode": "BRA",
+      "team": "Brazil",
+      "name": "Alex Sandro",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Alex Sandro (Brazil)"
+    },
+    "2026:BRA:vinicius-junior": {
+      "year": 2026,
+      "teamCode": "BRA",
+      "team": "Brazil",
+      "name": "Vinícius Júnior",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Vinícius Júnior (Brazil)"
+    },
+    "2026:BRA:bruno-guimaraes": {
+      "year": 2026,
+      "teamCode": "BRA",
+      "team": "Brazil",
+      "name": "Bruno Guimarães",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Bruno Guimarães (Brazil)"
+    },
+    "2026:BRA:matheus-cunha": {
+      "year": 2026,
+      "teamCode": "BRA",
+      "team": "Brazil",
+      "name": "Matheus Cunha",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Matheus Cunha (Brazil)"
+    },
+    "2026:BRA:neymar": {
+      "year": 2026,
+      "teamCode": "BRA",
+      "team": "Brazil",
+      "name": "Neymar",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Neymar (Brazil)"
+    },
+    "2026:BRA:raphinha": {
+      "year": 2026,
+      "teamCode": "BRA",
+      "team": "Brazil",
+      "name": "Raphinha",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Raphinha (Brazil)"
+    },
+    "2026:BRA:weverton": {
+      "year": 2026,
+      "teamCode": "BRA",
+      "team": "Brazil",
+      "name": "Weverton",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Weverton (Brazil)"
+    },
+    "2026:BRA:danilo-luiz": {
+      "year": 2026,
+      "teamCode": "BRA",
+      "team": "Brazil",
+      "name": "Danilo Luiz",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Danilo Luiz (Brazil)"
+    },
+    "2026:BRA:bremer": {
+      "year": 2026,
+      "teamCode": "BRA",
+      "team": "Brazil",
+      "name": "Bremer",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Bremer (Brazil)"
+    },
+    "2026:BRA:leo-pereira": {
+      "year": 2026,
+      "teamCode": "BRA",
+      "team": "Brazil",
+      "name": "Léo Pereira",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Léo Pereira (Brazil)"
+    },
+    "2026:BRA:douglas-santos": {
+      "year": 2026,
+      "teamCode": "BRA",
+      "team": "Brazil",
+      "name": "Douglas Santos",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Douglas Santos (Brazil)"
+    },
+    "2026:BRA:fabinho": {
+      "year": 2026,
+      "teamCode": "BRA",
+      "team": "Brazil",
+      "name": "Fabinho",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Fabinho (Brazil)"
+    },
+    "2026:BRA:danilo-santos": {
+      "year": 2026,
+      "teamCode": "BRA",
+      "team": "Brazil",
+      "name": "Danilo Santos",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Danilo Santos (Brazil)"
+    },
+    "2026:BRA:endrick": {
+      "year": 2026,
+      "teamCode": "BRA",
+      "team": "Brazil",
+      "name": "Endrick",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Endrick (Brazil)"
+    },
+    "2026:BRA:lucas-paqueta": {
+      "year": 2026,
+      "teamCode": "BRA",
+      "team": "Brazil",
+      "name": "Lucas Paquetá",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Lucas Paquetá (Brazil)"
+    },
+    "2026:BRA:luiz-henrique": {
+      "year": 2026,
+      "teamCode": "BRA",
+      "team": "Brazil",
+      "name": "Luiz Henrique",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Luiz Henrique (Brazil)"
+    },
+    "2026:BRA:gabriel-martinelli": {
+      "year": 2026,
+      "teamCode": "BRA",
+      "team": "Brazil",
+      "name": "Gabriel Martinelli",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Gabriel Martinelli (Brazil)"
+    },
+    "2026:BRA:ederson-moraes": {
+      "year": 2026,
+      "teamCode": "BRA",
+      "team": "Brazil",
+      "name": "Ederson Moraes",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Ederson Moraes (Brazil)"
+    },
+    "2026:BRA:roger-ibanez": {
+      "year": 2026,
+      "teamCode": "BRA",
+      "team": "Brazil",
+      "name": "Roger Ibañez",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Roger Ibañez (Brazil)"
+    },
+    "2026:BRA:igor-thiago": {
+      "year": 2026,
+      "teamCode": "BRA",
+      "team": "Brazil",
+      "name": "Igor Thiago",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Igor Thiago (Brazil)"
+    },
+    "2026:BRA:rayan": {
+      "year": 2026,
+      "teamCode": "BRA",
+      "team": "Brazil",
+      "name": "Rayan",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Rayan (Brazil)"
+    },
+    "2026:HAI:johny-placide": {
+      "year": 2026,
+      "teamCode": "HAI",
+      "team": "Haiti",
+      "name": "Johny Placide",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Johny Placide (Haiti)"
+    },
+    "2026:HAI:carlens-arcus": {
+      "year": 2026,
+      "teamCode": "HAI",
+      "team": "Haiti",
+      "name": "Carlens Arcus",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Carlens Arcus (Haiti)"
+    },
+    "2026:HAI:keeto-thermoncy": {
+      "year": 2026,
+      "teamCode": "HAI",
+      "team": "Haiti",
+      "name": "Keeto Thermoncy",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Keeto Thermoncy (Haiti)"
+    },
+    "2026:HAI:ricardo-ade": {
+      "year": 2026,
+      "teamCode": "HAI",
+      "team": "Haiti",
+      "name": "Ricardo Adé",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Ricardo Adé (Haiti)"
+    },
+    "2026:HAI:hannes-delcroix": {
+      "year": 2026,
+      "teamCode": "HAI",
+      "team": "Haiti",
+      "name": "Hannes Delcroix",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Hannes Delcroix (Haiti)"
+    },
+    "2026:HAI:carl-sainte": {
+      "year": 2026,
+      "teamCode": "HAI",
+      "team": "Haiti",
+      "name": "Carl Sainté",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Carl Sainté (Haiti)"
     }
   }
 }
