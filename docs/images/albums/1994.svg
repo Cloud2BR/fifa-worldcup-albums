@@ -1,14 +1,68 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="480" height="640" viewBox="0 0 480 640">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0ea5e9" />
-      <stop offset="100%" stop-color="#1e293b" />
+    <linearGradient id="bg94" x1="0" y1="0" x2="0.5" y2="1">
+      <stop offset="0%" stop-color="#002868"/>
+      <stop offset="50%" stop-color="#bf0a30"/>
+      <stop offset="100%" stop-color="#002868"/>
     </linearGradient>
+    <radialGradient id="ball94g" cx="38%" cy="32%" r="62%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#cccccc"/>
+    </radialGradient>
+    <filter id="sh94"><feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#00000055"/></filter>
   </defs>
-  <rect width="480" height="640" fill="url(#bg)" />
-  <rect x="22" y="22" width="436" height="596" rx="20" fill="none" stroke="#e2e8f0" stroke-width="4" />
-  <text x="240" y="240" text-anchor="middle" fill="#f8fafc" font-size="58" font-family="Arial, sans-serif" font-weight="700">FIFA</text>
-  <text x="240" y="310" text-anchor="middle" fill="#f8fafc" font-size="34" font-family="Arial, sans-serif">World Cup</text>
-  <text x="240" y="370" text-anchor="middle" fill="#bae6fd" font-size="56" font-family="Arial, sans-serif" font-weight="700">1994</text>
-  <text x="240" y="575" text-anchor="middle" fill="#cbd5e1" font-size="20" font-family="Arial, sans-serif">Album Cover Placeholder</text>
+
+  <rect width="480" height="640" fill="url(#bg94)"/>
+
+  <!-- Stars background pattern -->
+  <g fill="#ffffff" opacity="0.12">
+    <text x="50" y="120" font-size="16">★</text><text x="120" y="90" font-size="12">★</text>
+    <text x="200" y="130" font-size="14">★</text><text x="310" y="95" font-size="16">★</text>
+    <text x="400" y="120" font-size="12">★</text><text x="80" y="170" font-size="10">★</text>
+    <text x="350" y="160" font-size="14">★</text><text x="440" y="80" font-size="10">★</text>
+    <text x="30" y="200" font-size="12">★</text><text x="160" y="180" font-size="16">★</text>
+    <text x="260" y="160" font-size="10">★</text><text x="420" y="190" font-size="12">★</text>
+  </g>
+
+  <!-- Red and white stripes motif -->
+  <g opacity="0.1">
+    <rect x="0" y="300" width="480" height="18" fill="#ffffff"/>
+    <rect x="0" y="336" width="480" height="18" fill="#bf0a30"/>
+    <rect x="0" y="372" width="480" height="18" fill="#ffffff"/>
+    <rect x="0" y="408" width="480" height="18" fill="#bf0a30"/>
+  </g>
+
+  <!-- Border -->
+  <rect x="16" y="16" width="448" height="608" rx="18" fill="none" stroke="#ffffff" stroke-width="5" opacity="0.85"/>
+  <rect x="24" y="24" width="432" height="592" rx="14" fill="none" stroke="#bf0a30" stroke-width="1.5" opacity="0.5"/>
+
+  <!-- Panini band -->
+  <rect x="16" y="16" width="448" height="52" rx="18" fill="#bf0a30" opacity="0.95"/>
+  <rect x="16" y="52" width="448" height="16" fill="#bf0a30" opacity="0.95"/>
+  <text x="240" y="51" text-anchor="middle" fill="#ffffff" font-size="22" font-family="Arial Black, Arial, sans-serif" font-weight="900" letter-spacing="4">PANINI</text>
+
+  <!-- USA flag-inspired stripe -->
+  <rect x="16" y="68" width="448" height="8" fill="#bf0a30" opacity="0.9"/>
+  <rect x="16" y="76" width="448" height="8" fill="#ffffff" opacity="0.9"/>
+  <rect x="16" y="84" width="448" height="8" fill="#002868" opacity="0.9"/>
+
+  <!-- Soccer ball (Questra) -->
+  <g transform="translate(240,240)" filter="url(#sh94)">
+    <circle r="74" fill="url(#ball94g)"/>
+    <polygon points="0,-32 30,-10 18.5,26 -18.5,26 -30,-10" fill="#bf0a30" opacity="0.7"/>
+    <polygon points="0,-74 20,-55 20,-32 0,-32 -20,-32 -20,-55" fill="#002868" opacity="0.5"/>
+    <polygon points="0,-32 30,-10 52,12 46,40 18.5,26" fill="#002868" opacity="0.2"/>
+    <polygon points="0,-32 -30,-10 -52,12 -46,40 -18.5,26" fill="#002868" opacity="0.2"/>
+    <circle r="74" fill="none" stroke="#aaa" stroke-width="1.5"/>
+  </g>
+
+  <text x="240" y="354" text-anchor="middle" fill="#ffffff" font-size="14" font-family="Arial, sans-serif" font-weight="700" letter-spacing="4" opacity="0.95">FIFA WORLD CUP</text>
+  <text x="240" y="428" text-anchor="middle" fill="#ffffff" font-size="88" font-family="Arial Black, Arial, sans-serif" font-weight="900" filter="url(#sh94)">1994</text>
+
+  <rect x="100" y="444" width="280" height="40" rx="8" fill="#002868" opacity="0.85"/>
+  <text x="240" y="470" text-anchor="middle" fill="#ffffff" font-size="18" font-family="Arial, sans-serif" font-weight="700" letter-spacing="2">UNITED STATES</text>
+
+  <rect x="16" y="560" width="448" height="64" rx="0" fill="#002868" opacity="0.55"/>
+  <rect x="16" y="605" width="448" height="19" rx="18" fill="#bf0a30" opacity="0.8"/>
+  <text x="240" y="590" text-anchor="middle" fill="#ffffff" font-size="13" font-family="Arial, sans-serif" letter-spacing="1">561 STICKERS · OFFICIAL COLLECTION</text>
 </svg>
