@@ -326,18 +326,10 @@ function StickerSlot({ sticker }) {
         </div>
       ) : null}
 
-      {/* Player reference */}
-      {isPlayer ? (
+      {/* Player reference image (no overlay silhouette to avoid overlap) */}
+      {isPlayer && hasRealPlayerName ? (
         <div className="absolute inset-[3px] overflow-hidden rounded-[6px]" aria-hidden="true">
-          {hasRealPlayerName ? <PlayerStickerImage name={sticker.label} /> : null}
-
-          <div className="absolute inset-0 flex items-end justify-center">
-            <svg viewBox="0 0 40 56" className={hasRealPlayerName ? 'h-3/4 w-1/2 opacity-10' : 'h-3/4 w-1/2 opacity-25'}>
-              <circle cx="20" cy="11" r="8" fill="currentColor" />
-              <path d="M4,56 Q2,34 10,30 L20,28 L30,30 Q38,34 36,56 Z" fill="currentColor" />
-              <path d="M10,30 L6,46 M30,30 L34,46" stroke="currentColor" strokeWidth="4" strokeLinecap="round" />
-            </svg>
-          </div>
+          <PlayerStickerImage name={sticker.label} />
         </div>
       ) : null}
 
