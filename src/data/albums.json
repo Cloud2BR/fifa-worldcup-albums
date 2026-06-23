@@ -328,5 +328,20 @@
     "stadiums": ["Lusail Iconic Stadium", "Al Bayt Stadium", "Stadium 974", "Education City Stadium", "Ahmad bin Ali Stadium"],
     "teams": ["ARG", "FRA", "CRO", "MAR", "NED", "ENG", "BRA", "POR", "JPN", "SEN", "AUS", "SUI", "ESP", "USA", "KOR", "POL", "GER", "ECU", "CMR", "URU", "TUN", "MEX", "BEL", "GHA", "KSA", "IRN", "CRC", "DEN", "SRB", "WAL", "CAN", "QAT"],
     "notes": "First World Cup in the Middle East. Argentina won their third title in a 3-3 final (4-2 on penalties). Messi's Golden Ball."
+  },
+  {
+    "year": 2026,
+    "publisher": "Panini",
+    "official": true,
+    "coverImage": "./images/albums/2026.svg",
+    "stickerCount": 1200,
+    "host": "Canada / Mexico / United States",
+    "winner": "In Progress",
+    "runnerUp": "TBD",
+    "ball": "TBD",
+    "mascot": "TBD",
+    "stadiums": ["Estadio Azteca", "Estadio BBVA (Monterrey)", "Estadio Akron (Guadalajara)", "BMO Field (Toronto)", "BC Place (Vancouver)", "MetLife Stadium (New York/New Jersey)", "SoFi Stadium (Los Angeles)", "AT&T Stadium (Dallas)", "NRG Stadium (Houston)", "Mercedes-Benz Stadium (Atlanta)", "Hard Rock Stadium (Miami)", "Lincoln Financial Field (Philadelphia)", "Lumen Field (Seattle)", "Levi's Stadium (San Francisco Bay Area)", "Gillette Stadium (Boston)", "Arrowhead Stadium (Kansas City)"],
+    "teams": ["CZE", "MEX", "RSA", "KOR", "BIH", "CAN", "QAT", "SUI", "BRA", "HAI", "MAR", "SCO", "AUS", "PAR", "TUR", "USA", "CUW", "ECU", "GER", "CIV", "JPN", "NED", "SWE", "TUN", "BEL", "EGY", "IRN", "NZL", "CPV", "KSA", "ESP", "URU", "FRA", "IRQ", "NOR", "SEN", "ALG", "ARG", "AUT", "JOR", "COL", "COD", "POR", "UZB", "CRO", "ENG", "GHA", "PAN"],
+    "notes": "Expanded 48-team edition. Teams and registered squads are synced to public 2026 tournament sources as of 23 June 2026; later injuries/replacements and matchday updates may still change."
   }
 ]

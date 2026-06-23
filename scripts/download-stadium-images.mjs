@@ -1,10 +1,13 @@
 import fs from 'node:fs/promises'
 import path from 'node:path'
+import { fileURLToPath } from 'node:url'
 
-const repoRoot = process.cwd()
+const __dirname = path.dirname(fileURLToPath(import.meta.url))
+const repoRoot = path.resolve(__dirname, '..')
 const dataFile = path.join(repoRoot, 'src', 'data', 'stadiumImages.json')
 const albumsFile = path.join(repoRoot, 'src', 'data', 'albums.json')
 const outputDir = path.join(repoRoot, 'public', 'images', 'stadiums')
+const yearsOutputDir = path.join(repoRoot, 'public', 'images', 'years')
 
 function slugifyAssetName(input) {
   return String(input || '')
@@ -38,6 +41,22 @@ async function readJson(filePath) {
 
 async function writeJson(filePath, data) {
   await fs.writeFile(filePath, `${JSON.stringify(data, null, 2)}\n`, 'utf8')
+}
+
+async function fileExists(filePath) {
+  try {
+    await fs.access(filePath)
+    return true
+  } catch {
+    return false
+  }
+}
+
+async function copyIfExists(fromPath, toPath) {
+  if (!(await fileExists(fromPath))) return false
+  await ensureDir(path.dirname(toPath))
+  await fs.copyFile(fromPath, toPath)
+  return true
 }
 
 async function fetchJson(url) {
@@ -132,6 +151,7 @@ async function resolveFallbackImageMeta(label, existingEntry) {
 
 async function main() {
   await ensureDir(outputDir)
+  await ensureDir(yearsOutputDir)
 
   const json = await readJson(dataFile)
   const albums = await readJson(albumsFile)
@@ -153,6 +173,8 @@ async function main() {
   let skipped = 0
   let failed = 0
   let resolved = 0
+  let stillMissingEntry = 0
+  let stillMissingFile = 0
 
   for (const [label, entry] of Object.entries(images)) {
     let thumbUrl = entry?.thumbUrl
@@ -170,6 +192,7 @@ async function main() {
     }
 
     if (!thumbUrl) {
+      stillMissingEntry += 1
       skipped += 1
       continue
     }
@@ -196,8 +219,46 @@ async function main() {
       console.log(`Downloaded: ${fileName}`)
     } catch (error) {
       failed += 1
+      stillMissingFile += 1
       console.error(`Failed: ${label} -> ${thumbUrl}`)
       console.error(String(error.message || error))
+    }
+  }
+
+  let yearCopies = 0
+  let yearMissing = 0
+  for (const album of albums) {
+    const yearDir = path.join(yearsOutputDir, String(album.year))
+    const stadiumYearDir = path.join(yearDir, 'stadiums')
+    await ensureDir(stadiumYearDir)
+
+    const coverSource = album.coverImage
+      ? path.join(repoRoot, 'public', album.coverImage.replace(/^\.\//, ''))
+      : null
+    const coverTarget = coverSource
+      ? path.join(yearDir, `cover${path.extname(coverSource) || '.svg'}`)
+      : null
+    if (coverSource && coverTarget) {
+      const copied = await copyIfExists(coverSource, coverTarget)
+      if (copied) yearCopies += 1
+    }
+
+    for (const label of album.stadiums || []) {
+      const entry = images[label]
+      if (!entry) {
+        yearMissing += 1
+        continue
+      }
+
+      const fileName = entry.file || `${slugifyAssetName(label)}.jpg`
+      const source = path.join(outputDir, fileName)
+      const target = path.join(stadiumYearDir, fileName)
+      const copied = await copyIfExists(source, target)
+      if (copied) {
+        yearCopies += 1
+      } else {
+        yearMissing += 1
+      }
     }
   }
 
@@ -205,6 +266,8 @@ async function main() {
 
   console.log('')
   console.log(`Done. downloaded=${downloaded}, skipped=${skipped}, failed=${failed}, resolved=${resolved}`)
+  console.log(`Status: missingEntry=${stillMissingEntry}, missingFile=${stillMissingFile}`)
+  console.log(`YearFolders: copied=${yearCopies}, missing=${yearMissing}`)
 }
 
 main().catch((error) => {

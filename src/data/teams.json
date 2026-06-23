@@ -87,5 +87,10 @@
   "SAU": {"name": "Saudi Arabia", "primary": "#006C35", "secondary": "#FFFFFF", "accent": "#000000"},
   "SCG": {"name": "Serbia & Montenegro", "primary": "#C6363C", "secondary": "#0C4076", "accent": "#FFFFFF"},
   "ANG": {"name": "Angola", "primary": "#CE1126", "secondary": "#000000", "accent": "#FFCB00"},
-  "TRI": {"name": "Trinidad & Tobago", "primary": "#DA1A35", "secondary": "#000000", "accent": "#FFFFFF"}
+  "TRI": {"name": "Trinidad & Tobago", "primary": "#DA1A35", "secondary": "#000000", "accent": "#FFFFFF"},
+  "CPV": {"name": "Cape Verde", "primary": "#003893", "secondary": "#FFFFFF", "accent": "#FCD116"},
+  "COD": {"name": "DR Congo", "primary": "#00A3E0", "secondary": "#EF3340", "accent": "#FCD116"},
+  "CUW": {"name": "Curaçao", "primary": "#002B7F", "secondary": "#FCD116", "accent": "#FFFFFF"},
+  "JOR": {"name": "Jordan", "primary": "#CE1126", "secondary": "#FFFFFF", "accent": "#000000"},
+  "UZB": {"name": "Uzbekistan", "primary": "#1EB53A", "secondary": "#FFFFFF", "accent": "#0099B5"}
 }

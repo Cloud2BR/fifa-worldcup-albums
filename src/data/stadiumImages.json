@@ -50,53 +50,60 @@
       "file": "estadio-nacional-santiago.jpg"
     },
     "Olympiastadion (Munich)": {
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Olympiastadion_Muenchen_Spielfeld.jpg/400px-Olympiastadion_Muenchen_Spielfeld.jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/2022-08-21_Olympiapark_M%C3%BCnchen_by_Sandro_Halank%E2%80%93025.jpg/330px-2022-08-21_Olympiapark_M%C3%BCnchen_by_Sandro_Halank%E2%80%93025.jpg",
       "author": "Wikimedia Commons",
       "license": "CC-BY-SA-3.0",
       "caption": "Olympiastadion, Munich — host of the 1974 Final.",
-      "file": "olympiastadion-munich.jpg"
+      "file": "olympiastadion-munich.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Olympiastadion_(Munich)"
     },
     "Estadio Monumental (Buenos Aires)": {
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Estadio_Monumental_Antonio_Vespucio_Liberti.jpg/400px-Estadio_Monumental_Antonio_Vespucio_Liberti.jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Estadio_mas_monumental.jpg/330px-Estadio_mas_monumental.jpg",
       "author": "Wikimedia Commons",
       "license": "CC-BY-SA-3.0",
       "caption": "Estadio Monumental, Buenos Aires — host of the 1978 Final.",
-      "file": "estadio-monumental-buenos-aires.jpg"
+      "file": "estadio-monumental-buenos-aires.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Estadio_Monumental_(Buenos_Aires)"
     },
     "Santiago Bernabéu (Madrid)": {
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Estadio_Santiago_Bernabeu_2022.jpg/400px-Estadio_Santiago_Bernabeu_2022.jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/M-estadio-santiago-bernabeu-diciembre-2024-c.jpg/330px-M-estadio-santiago-bernabeu-diciembre-2024-c.jpg",
       "author": "Wikimedia Commons",
       "license": "CC-BY-SA-4.0",
       "caption": "Santiago Bernabéu, Madrid — host of the 1982 Final.",
-      "file": "santiago-bernabeu-madrid.jpg"
+      "file": "santiago-bernabeu-madrid.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Bernab%C3%A9u_(stadium)"
     },
     "Camp Nou (Barcelona)": {
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Camp_Nou_-_21_de_juny_de_2009.jpg/400px-Camp_Nou_-_21_de_juny_de_2009.jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Camp_Nou_aerial.jpg/330px-Camp_Nou_aerial.jpg",
       "author": "Wikimedia Commons",
       "license": "CC-BY-SA-3.0",
       "caption": "Camp Nou, Barcelona — 1982 World Cup venue.",
-      "file": "camp-nou-barcelona.jpg"
+      "file": "camp-nou-barcelona.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Camp_Nou"
     },
     "Rose Bowl (Pasadena)": {
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Rose_Bowl_Aerials.jpg/400px-Rose_Bowl_Aerials.jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/2018.06.17_Over_the_Rose_Bowl%2C_Pasadena%2C_CA_USA_0039_%2842855669451%29_%28cropped%29.jpg/330px-2018.06.17_Over_the_Rose_Bowl%2C_Pasadena%2C_CA_USA_0039_%2842855669451%29_%28cropped%29.jpg",
       "author": "Wikimedia Commons",
       "license": "CC-BY-SA-3.0",
       "caption": "Rose Bowl, Pasadena — host of the 1994 Final.",
-      "file": "rose-bowl-pasadena.jpg"
+      "file": "rose-bowl-pasadena.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Rose_Bowl_(stadium)"
     },
     "International Stadium Yokohama": {
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/International_Stadium_Yokohama.jpg/400px-International_Stadium_Yokohama.jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Nissan_International_Stadium_Yokohama.jpg/330px-Nissan_International_Stadium_Yokohama.jpg",
       "author": "Wikimedia Commons",
       "license": "CC-BY-SA-3.0",
       "caption": "International Stadium Yokohama — host of the 2002 Final.",
-      "file": "international-stadium-yokohama.jpg"
+      "file": "international-stadium-yokohama.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Nissan_Stadium_(Yokohama)"
     },
     "Allianz Arena (Munich)": {
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Allianz_Arena_03_%28edit%29.jpg/400px-Allianz_Arena_03_%28edit%29.jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Allianz_Arena_2008-02-09.jpg/330px-Allianz_Arena_2008-02-09.jpg",
       "author": "Wikimedia Commons",
       "license": "CC-BY-SA-3.0",
       "caption": "Allianz Arena, Munich — 2006 World Cup venue.",
-      "file": "allianz-arena-munich.jpg"
+      "file": "allianz-arena-munich.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Allianz_Arena"
     },
     "Westfalenstadion (Dortmund)": {
       "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Signal_iduna_park_stadium_dortmund_4.jpg/330px-Signal_iduna_park_stadium_dortmund_4.jpg",
@@ -115,25 +122,28 @@
       "file": "soccer-city-johannesburg.jpg"
     },
     "Moses Mabhida (Durban)": {
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Moses_Mabhida_Stadium_01.jpg/400px-Moses_Mabhida_Stadium_01.jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Moses_Mabhida_stadium_in_Durban.jpg/330px-Moses_Mabhida_stadium_in_Durban.jpg",
       "author": "Wikimedia Commons",
       "license": "CC-BY-SA-3.0",
       "caption": "Moses Mabhida Stadium, Durban — 2010 World Cup venue.",
-      "file": "moses-mabhida-durban.jpg"
+      "file": "moses-mabhida-durban.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Moses_Mabhida_Stadium"
     },
     "Maracanã (Rio de Janeiro)": {
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Maracana_in_Rio.jpg/400px-Maracana_in_Rio.jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Maracan%C3%A3_2014_g.jpg/330px-Maracan%C3%A3_2014_g.jpg",
       "author": "Wikimedia Commons",
       "license": "CC-BY-SA-3.0",
       "caption": "Maracanã, Rio de Janeiro — host of the 2014 Final.",
-      "file": "maracana-rio-de-janeiro.jpg"
+      "file": "maracana-rio-de-janeiro.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Maracan%C3%A3%2C_Rio_de_Janeiro"
     },
     "Arena Corinthians (São Paulo)": {
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Arena_Corinthians_view_from_the_tower.jpg/400px-Arena_Corinthians_view_from_the_tower.jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/ARENA_CORINTHIANS.jpg/330px-ARENA_CORINTHIANS.jpg",
       "author": "Wikimedia Commons",
       "license": "CC-BY-SA-3.0",
       "caption": "Arena Corinthians, São Paulo — 2014 World Cup venue.",
-      "file": "arena-corinthians-sao-paulo.jpg"
+      "file": "arena-corinthians-sao-paulo.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Arena_Corinthians"
     },
     "Luzhniki Stadium (Moscow)": {
       "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Luzhniki_Stadium_%28LCA%29.jpg/400px-Luzhniki_Stadium_%28LCA%29.jpg",
@@ -165,17 +175,19 @@
     },
     "Stade de France": {
       "file": "stade-de-france.jpg",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Stade_de_France_-_9_April_2014.jpg/400px-Stade_de_France_-_9_April_2014.jpg",
-      "author": "Liondartois",
-      "license": "CC-BY-SA-4.0",
-      "caption": "Stade de France, Saint-Denis — host of the 1998 Final."
-    },
-    "Stade de France (Saint-Denis)": {
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Stade_de_France_-_9_April_2014.jpg/400px-Stade_de_France_-_9_April_2014.jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/France-Islande_Stade_de_France_03.jpg/330px-France-Islande_Stade_de_France_03.jpg",
       "author": "Liondartois",
       "license": "CC-BY-SA-4.0",
       "caption": "Stade de France, Saint-Denis — host of the 1998 Final.",
-      "file": "stade-de-france-saint-denis.jpg"
+      "sourceUrl": "https://en.wikipedia.org/wiki/Stade_de_France"
+    },
+    "Stade de France (Saint-Denis)": {
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/France-Islande_Stade_de_France_03.jpg/330px-France-Islande_Stade_de_France_03.jpg",
+      "author": "Liondartois",
+      "license": "CC-BY-SA-4.0",
+      "caption": "Stade de France, Saint-Denis — host of the 1998 Final.",
+      "file": "stade-de-france-saint-denis.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Stade_de_France"
     },
     "Stadio Nazionale PNF (Rome)": {
       "author": "Wikipedia contributors",
@@ -276,17 +288,26 @@
     "Stade Vélodrome (Marseille)": {
       "author": "Wikipedia contributors",
       "license": "See source page",
-      "caption": "Stade Vélodrome (Marseille) - FIFA World Cup venue."
+      "caption": "Stade Vélodrome (Marseille) - FIFA World Cup venue.",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/7/73/Stade_V%C3%A9lodrome.png/330px-Stade_V%C3%A9lodrome.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Stade_V%C3%A9lodrome",
+      "file": "stade-velodrome-marseille.png"
     },
     "Parc Lescure (Bordeaux)": {
       "author": "Wikipedia contributors",
       "license": "See source page",
-      "caption": "Parc Lescure (Bordeaux) - FIFA World Cup venue."
+      "caption": "Parc Lescure (Bordeaux) - FIFA World Cup venue.",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Stade_Chaban-Delmas_Rugby.jpg/330px-Stade_Chaban-Delmas_Rugby.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Stade_Chaban-Delmas",
+      "file": "parc-lescure-bordeaux.jpg"
     },
     "Pacaembu (São Paulo)": {
       "author": "Wikipedia contributors",
       "license": "See source page",
-      "caption": "Pacaembu (São Paulo) - FIFA World Cup venue."
+      "caption": "Pacaembu (São Paulo) - FIFA World Cup venue.",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Pacaembu.jpg/330px-Pacaembu.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Pacaembu_Stadium",
+      "file": "pacaembu-sao-paulo.jpg"
     },
     "Independência (Belo Horizonte)": {
       "author": "Wikipedia contributors",
@@ -371,27 +392,42 @@
     "Stadio Olimpico (Rome)": {
       "author": "Wikipedia contributors",
       "license": "See source page",
-      "caption": "Stadio Olimpico (Rome) - FIFA World Cup venue."
+      "caption": "Stadio Olimpico (Rome) - FIFA World Cup venue.",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Stadio_Olimpico_2024.jpg/330px-Stadio_Olimpico_2024.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Stadio_Olimpico",
+      "file": "stadio-olimpico-rome.jpg"
     },
     "Stadio San Paolo (Naples)": {
       "author": "Wikipedia contributors",
       "license": "See source page",
-      "caption": "Stadio San Paolo (Naples) - FIFA World Cup venue."
+      "caption": "Stadio San Paolo (Naples) - FIFA World Cup venue.",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Stadio_Maradona_Serie_A.jpg/330px-Stadio_Maradona_Serie_A.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Stadio_Diego_Armando_Maradona",
+      "file": "stadio-san-paolo-naples.jpg"
     },
     "Stadio delle Alpi (Turin)": {
       "author": "Wikipedia contributors",
       "license": "See source page",
-      "caption": "Stadio delle Alpi (Turin) - FIFA World Cup venue."
+      "caption": "Stadio delle Alpi (Turin) - FIFA World Cup venue.",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Torino%2C_Stadio_%27Delle_Alpi%27%2C_Mondiali_1990%2C_Brasile-Svezia_2-1.jpg/330px-Torino%2C_Stadio_%27Delle_Alpi%27%2C_Mondiali_1990%2C_Brasile-Svezia_2-1.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Stadio_Delle_Alpi",
+      "file": "stadio-delle-alpi-turin.jpg"
     },
     "Soldier Field (Chicago)": {
       "author": "Wikipedia contributors",
       "license": "See source page",
-      "caption": "Soldier Field (Chicago) - FIFA World Cup venue."
+      "caption": "Soldier Field (Chicago) - FIFA World Cup venue.",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Soldier_Field_S.jpg/330px-Soldier_Field_S.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Soldier_Field",
+      "file": "soldier-field-chicago.jpg"
     },
     "Giants Stadium (East Rutherford)": {
       "author": "Wikipedia contributors",
       "license": "See source page",
-      "caption": "Giants Stadium (East Rutherford) - FIFA World Cup venue."
+      "caption": "Giants Stadium (East Rutherford) - FIFA World Cup venue.",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Giants_Stadium_Hosts_the_1994_World_Cup.jpg/330px-Giants_Stadium_Hosts_the_1994_World_Cup.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Giants_Stadium",
+      "file": "giants-stadium-east-rutherford.jpg"
     },
     "Cotton Bowl (Dallas)": {
       "author": "Wikipedia contributors",
@@ -482,6 +518,81 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Ahmad bin Ali Stadium - FIFA World Cup venue."
+    },
+    "Estadio BBVA (Monterrey)": {
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Estadio BBVA (Monterrey) - FIFA World Cup venue."
+    },
+    "Estadio Akron (Guadalajara)": {
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Estadio Akron (Guadalajara) - FIFA World Cup venue."
+    },
+    "BMO Field (Toronto)": {
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "BMO Field (Toronto) - FIFA World Cup venue."
+    },
+    "BC Place (Vancouver)": {
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "BC Place (Vancouver) - FIFA World Cup venue."
+    },
+    "MetLife Stadium (New York/New Jersey)": {
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "MetLife Stadium (New York/New Jersey) - FIFA World Cup venue."
+    },
+    "SoFi Stadium (Los Angeles)": {
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "SoFi Stadium (Los Angeles) - FIFA World Cup venue."
+    },
+    "AT&T Stadium (Dallas)": {
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "AT&T Stadium (Dallas) - FIFA World Cup venue."
+    },
+    "NRG Stadium (Houston)": {
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "NRG Stadium (Houston) - FIFA World Cup venue."
+    },
+    "Mercedes-Benz Stadium (Atlanta)": {
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Mercedes-Benz Stadium (Atlanta) - FIFA World Cup venue."
+    },
+    "Hard Rock Stadium (Miami)": {
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Hard Rock Stadium (Miami) - FIFA World Cup venue."
+    },
+    "Lincoln Financial Field (Philadelphia)": {
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Lincoln Financial Field (Philadelphia) - FIFA World Cup venue."
+    },
+    "Lumen Field (Seattle)": {
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Lumen Field (Seattle) - FIFA World Cup venue."
+    },
+    "Levi's Stadium (San Francisco Bay Area)": {
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Levi's Stadium (San Francisco Bay Area) - FIFA World Cup venue."
+    },
+    "Gillette Stadium (Boston)": {
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Gillette Stadium (Boston) - FIFA World Cup venue."
+    },
+    "Arrowhead Stadium (Kansas City)": {
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Arrowhead Stadium (Kansas City) - FIFA World Cup venue."
     }
   }
 }

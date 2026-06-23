@@ -7,7 +7,13 @@
     "dev": "vite",
     "build": "vite build --outDir docs",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "media:stadiums": "node scripts/download-stadium-images.mjs",
+    "media:teams": "node scripts/download-team-images.mjs",
+    "media:players": "node scripts/download-player-images.mjs --year 2026",
+    "media:entities": "node scripts/download-entity-images.mjs",
+    "media:index": "node scripts/build-media-index.mjs",
+    "media:sync": "npm run media:stadiums && npm run media:teams && npm run media:entities && npm run media:players && npm run media:index"
   },
   "dependencies": {
     "chart.js": "4.5.1",

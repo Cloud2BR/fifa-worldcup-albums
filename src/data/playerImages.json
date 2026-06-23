@@ -1,0 +1,1406 @@
+{
+  "_comment": "Auto-generated player image mapping. Run: npm run media:players",
+  "images": {
+    "2026:CZE:matej-kovar": {
+      "year": 2026,
+      "teamCode": "CZE",
+      "team": "Czech Republic",
+      "name": "Matěj Kovář",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Matěj Kovář (Czech Republic)"
+    },
+    "2026:CZE:david-zima": {
+      "year": 2026,
+      "teamCode": "CZE",
+      "team": "Czech Republic",
+      "name": "David Zima",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "David Zima (Czech Republic)",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/David_Zima_CZE-KUW_2021-11-11_%28cropped%29.jpg/330px-David_Zima_CZE-KUW_2021-11-11_%28cropped%29.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/David_Zima",
+      "file": "2026/CZE/david-zima.jpg"
+    },
+    "2026:CZE:tomas-holes": {
+      "year": 2026,
+      "teamCode": "CZE",
+      "team": "Czech Republic",
+      "name": "Tomáš Holeš",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Tomáš Holeš (Czech Republic)",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Tom%C3%A1%C5%A1_Hole%C5%A1_Jablonec-Ostrava.jpg/330px-Tom%C3%A1%C5%A1_Hole%C5%A1_Jablonec-Ostrava.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Tom%C3%A1%C5%A1_Hole%C5%A1",
+      "file": "2026/CZE/tomas-holes.jpg"
+    },
+    "2026:CZE:robin-hranac": {
+      "year": 2026,
+      "teamCode": "CZE",
+      "team": "Czech Republic",
+      "name": "Robin Hranáč",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Robin Hranáč (Czech Republic)"
+    },
+    "2026:CZE:vladimir-coufal": {
+      "year": 2026,
+      "teamCode": "CZE",
+      "team": "Czech Republic",
+      "name": "Vladimír Coufal",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Vladimír Coufal (Czech Republic)",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Vladim%C3%ADr_Coufal_with_West_Ham_United.jpeg/330px-Vladim%C3%ADr_Coufal_with_West_Ham_United.jpeg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Vladim%C3%ADr_Coufal",
+      "file": "2026/CZE/vladimir-coufal.jpg"
+    },
+    "2026:CZE:stepan-chaloupek": {
+      "year": 2026,
+      "teamCode": "CZE",
+      "team": "Czech Republic",
+      "name": "Štěpán Chaloupek",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Štěpán Chaloupek (Czech Republic)"
+    },
+    "2026:CZE:ladislav-krejci": {
+      "year": 2026,
+      "teamCode": "CZE",
+      "team": "Czech Republic",
+      "name": "Ladislav Krejčí",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Ladislav Krejčí (Czech Republic)"
+    },
+    "2026:CZE:vladimir-darida": {
+      "year": 2026,
+      "teamCode": "CZE",
+      "team": "Czech Republic",
+      "name": "Vladimír Darida",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Vladimír Darida (Czech Republic)"
+    },
+    "2026:CZE:adam-hlozek": {
+      "year": 2026,
+      "teamCode": "CZE",
+      "team": "Czech Republic",
+      "name": "Adam Hložek",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Adam Hložek (Czech Republic)"
+    },
+    "2026:CZE:patrik-schick": {
+      "year": 2026,
+      "teamCode": "CZE",
+      "team": "Czech Republic",
+      "name": "Patrik Schick",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Patrik Schick (Czech Republic)"
+    },
+    "2026:CZE:jan-kuchta": {
+      "year": 2026,
+      "teamCode": "CZE",
+      "team": "Czech Republic",
+      "name": "Jan Kuchta",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Jan Kuchta (Czech Republic)"
+    },
+    "2026:CZE:lukas-cerv": {
+      "year": 2026,
+      "teamCode": "CZE",
+      "team": "Czech Republic",
+      "name": "Lukáš Červ",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Lukáš Červ (Czech Republic)"
+    },
+    "2026:CZE:mojmir-chytil": {
+      "year": 2026,
+      "teamCode": "CZE",
+      "team": "Czech Republic",
+      "name": "Mojmír Chytil",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Mojmír Chytil (Czech Republic)"
+    },
+    "2026:CZE:david-jurasek": {
+      "year": 2026,
+      "teamCode": "CZE",
+      "team": "Czech Republic",
+      "name": "David Jurásek",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "David Jurásek (Czech Republic)"
+    },
+    "2026:CZE:pavel-sulc": {
+      "year": 2026,
+      "teamCode": "CZE",
+      "team": "Czech Republic",
+      "name": "Pavel Šulc",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Pavel Šulc (Czech Republic)"
+    },
+    "2026:CZE:jindrich-stanek": {
+      "year": 2026,
+      "teamCode": "CZE",
+      "team": "Czech Republic",
+      "name": "Jindřich Staněk",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Jindřich Staněk (Czech Republic)"
+    },
+    "2026:CZE:lukas-provod": {
+      "year": 2026,
+      "teamCode": "CZE",
+      "team": "Czech Republic",
+      "name": "Lukáš Provod",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Lukáš Provod (Czech Republic)"
+    },
+    "2026:CZE:michal-sadilek": {
+      "year": 2026,
+      "teamCode": "CZE",
+      "team": "Czech Republic",
+      "name": "Michal Sadílek",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Michal Sadílek (Czech Republic)"
+    },
+    "2026:CZE:tomas-chory": {
+      "year": 2026,
+      "teamCode": "CZE",
+      "team": "Czech Republic",
+      "name": "Tomáš Chorý",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Tomáš Chorý (Czech Republic)"
+    },
+    "2026:CZE:jaroslav-zeleny": {
+      "year": 2026,
+      "teamCode": "CZE",
+      "team": "Czech Republic",
+      "name": "Jaroslav Zelený",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Jaroslav Zelený (Czech Republic)"
+    },
+    "2026:CZE:david-doudera": {
+      "year": 2026,
+      "teamCode": "CZE",
+      "team": "Czech Republic",
+      "name": "David Douděra",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "David Douděra (Czech Republic)"
+    },
+    "2026:CZE:tomas-soucek": {
+      "year": 2026,
+      "teamCode": "CZE",
+      "team": "Czech Republic",
+      "name": "Tomáš Souček",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Tomáš Souček (Czech Republic)"
+    },
+    "2026:CZE:lukas-hornicek": {
+      "year": 2026,
+      "teamCode": "CZE",
+      "team": "Czech Republic",
+      "name": "Lukáš Horníček",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Lukáš Horníček (Czech Republic)"
+    },
+    "2026:CZE:alexandr-sojka": {
+      "year": 2026,
+      "teamCode": "CZE",
+      "team": "Czech Republic",
+      "name": "Alexandr Sojka",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Alexandr Sojka (Czech Republic)"
+    },
+    "2026:CZE:hugo-sochurek": {
+      "year": 2026,
+      "teamCode": "CZE",
+      "team": "Czech Republic",
+      "name": "Hugo Sochůrek",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Hugo Sochůrek (Czech Republic)"
+    },
+    "2026:CZE:denis-visinsky": {
+      "year": 2026,
+      "teamCode": "CZE",
+      "team": "Czech Republic",
+      "name": "Denis Višinský",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Denis Višinský (Czech Republic)"
+    },
+    "2026:MEX:raul-rangel": {
+      "year": 2026,
+      "teamCode": "MEX",
+      "team": "Mexico",
+      "name": "Raúl Rangel",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Raúl Rangel (Mexico)"
+    },
+    "2026:MEX:jorge-sanchez": {
+      "year": 2026,
+      "teamCode": "MEX",
+      "team": "Mexico",
+      "name": "Jorge Sánchez",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Jorge Sánchez (Mexico)"
+    },
+    "2026:MEX:cesar-montes": {
+      "year": 2026,
+      "teamCode": "MEX",
+      "team": "Mexico",
+      "name": "César Montes",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "César Montes (Mexico)"
+    },
+    "2026:MEX:edson-alvarez": {
+      "year": 2026,
+      "teamCode": "MEX",
+      "team": "Mexico",
+      "name": "Edson Álvarez",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Edson Álvarez (Mexico)"
+    },
+    "2026:MEX:johan-vasquez": {
+      "year": 2026,
+      "teamCode": "MEX",
+      "team": "Mexico",
+      "name": "Johan Vásquez",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Johan Vásquez (Mexico)"
+    },
+    "2026:MEX:erik-lira": {
+      "year": 2026,
+      "teamCode": "MEX",
+      "team": "Mexico",
+      "name": "Érik Lira",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Érik Lira (Mexico)"
+    },
+    "2026:MEX:luis-romo": {
+      "year": 2026,
+      "teamCode": "MEX",
+      "team": "Mexico",
+      "name": "Luis Romo",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Luis Romo (Mexico)"
+    },
+    "2026:MEX:alvaro-fidalgo": {
+      "year": 2026,
+      "teamCode": "MEX",
+      "team": "Mexico",
+      "name": "Álvaro Fidalgo",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Álvaro Fidalgo (Mexico)"
+    },
+    "2026:MEX:raul-jimenez": {
+      "year": 2026,
+      "teamCode": "MEX",
+      "team": "Mexico",
+      "name": "Raúl Jiménez",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Raúl Jiménez (Mexico)"
+    },
+    "2026:MEX:alexis-vega": {
+      "year": 2026,
+      "teamCode": "MEX",
+      "team": "Mexico",
+      "name": "Alexis Vega",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Alexis Vega (Mexico)"
+    },
+    "2026:MEX:santiago-gimenez": {
+      "year": 2026,
+      "teamCode": "MEX",
+      "team": "Mexico",
+      "name": "Santiago Giménez",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Santiago Giménez (Mexico)"
+    },
+    "2026:MEX:carlos-acevedo": {
+      "year": 2026,
+      "teamCode": "MEX",
+      "team": "Mexico",
+      "name": "Carlos Acevedo",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Carlos Acevedo (Mexico)"
+    },
+    "2026:MEX:guillermo-ochoa": {
+      "year": 2026,
+      "teamCode": "MEX",
+      "team": "Mexico",
+      "name": "Guillermo Ochoa",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Guillermo Ochoa (Mexico)"
+    },
+    "2026:MEX:armando-gonzalez": {
+      "year": 2026,
+      "teamCode": "MEX",
+      "team": "Mexico",
+      "name": "Armando González",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Armando González (Mexico)"
+    },
+    "2026:MEX:israel-reyes": {
+      "year": 2026,
+      "teamCode": "MEX",
+      "team": "Mexico",
+      "name": "Israel Reyes",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Israel Reyes (Mexico)"
+    },
+    "2026:MEX:julian-quinones": {
+      "year": 2026,
+      "teamCode": "MEX",
+      "team": "Mexico",
+      "name": "Julián Quiñones",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Julián Quiñones (Mexico)"
+    },
+    "2026:MEX:orbelin-pineda": {
+      "year": 2026,
+      "teamCode": "MEX",
+      "team": "Mexico",
+      "name": "Orbelín Pineda",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Orbelín Pineda (Mexico)"
+    },
+    "2026:MEX:obed-vargas": {
+      "year": 2026,
+      "teamCode": "MEX",
+      "team": "Mexico",
+      "name": "Obed Vargas",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Obed Vargas (Mexico)"
+    },
+    "2026:MEX:gilberto-mora": {
+      "year": 2026,
+      "teamCode": "MEX",
+      "team": "Mexico",
+      "name": "Gilberto Mora",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Gilberto Mora (Mexico)"
+    },
+    "2026:MEX:mateo-chavez": {
+      "year": 2026,
+      "teamCode": "MEX",
+      "team": "Mexico",
+      "name": "Mateo Chávez",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Mateo Chávez (Mexico)"
+    },
+    "2026:MEX:cesar-huerta": {
+      "year": 2026,
+      "teamCode": "MEX",
+      "team": "Mexico",
+      "name": "César Huerta",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "César Huerta (Mexico)"
+    },
+    "2026:MEX:guillermo-martinez": {
+      "year": 2026,
+      "teamCode": "MEX",
+      "team": "Mexico",
+      "name": "Guillermo Martínez",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Guillermo Martínez (Mexico)"
+    },
+    "2026:MEX:jesus-gallardo": {
+      "year": 2026,
+      "teamCode": "MEX",
+      "team": "Mexico",
+      "name": "Jesús Gallardo",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Jesús Gallardo (Mexico)"
+    },
+    "2026:MEX:luis-chavez": {
+      "year": 2026,
+      "teamCode": "MEX",
+      "team": "Mexico",
+      "name": "Luis Chávez",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Luis Chávez (Mexico)"
+    },
+    "2026:MEX:roberto-alvarado": {
+      "year": 2026,
+      "teamCode": "MEX",
+      "team": "Mexico",
+      "name": "Roberto Alvarado",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Roberto Alvarado (Mexico)"
+    },
+    "2026:MEX:brian-gutierrez": {
+      "year": 2026,
+      "teamCode": "MEX",
+      "team": "Mexico",
+      "name": "Brian Gutiérrez",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Brian Gutiérrez (Mexico)"
+    },
+    "2026:RSA:ronwen-williams": {
+      "year": 2026,
+      "teamCode": "RSA",
+      "team": "South Africa",
+      "name": "Ronwen Williams",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Ronwen Williams (South Africa)",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Ronwen_Williams_AFCON2025Q_35.jpg/330px-Ronwen_Williams_AFCON2025Q_35.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ronwen_Williams",
+      "file": "2026/RSA/ronwen-williams.jpg"
+    },
+    "2026:RSA:thabang-matuludi": {
+      "year": 2026,
+      "teamCode": "RSA",
+      "team": "South Africa",
+      "name": "Thabang Matuludi",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Thabang Matuludi (South Africa)"
+    },
+    "2026:RSA:khulumani-ndamane": {
+      "year": 2026,
+      "teamCode": "RSA",
+      "team": "South Africa",
+      "name": "Khulumani Ndamane",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Khulumani Ndamane (South Africa)"
+    },
+    "2026:RSA:teboho-mokoena": {
+      "year": 2026,
+      "teamCode": "RSA",
+      "team": "South Africa",
+      "name": "Teboho Mokoena",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Teboho Mokoena (South Africa)"
+    },
+    "2026:RSA:thalente-mbatha": {
+      "year": 2026,
+      "teamCode": "RSA",
+      "team": "South Africa",
+      "name": "Thalente Mbatha",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Thalente Mbatha (South Africa)"
+    },
+    "2026:RSA:aubrey-modiba": {
+      "year": 2026,
+      "teamCode": "RSA",
+      "team": "South Africa",
+      "name": "Aubrey Modiba",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Aubrey Modiba (South Africa)"
+    },
+    "2026:RSA:oswin-appollis": {
+      "year": 2026,
+      "teamCode": "RSA",
+      "team": "South Africa",
+      "name": "Oswin Appollis",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Oswin Appollis (South Africa)"
+    },
+    "2026:RSA:tshepang-moremi": {
+      "year": 2026,
+      "teamCode": "RSA",
+      "team": "South Africa",
+      "name": "Tshepang Moremi",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Tshepang Moremi (South Africa)"
+    },
+    "2026:RSA:lyle-foster": {
+      "year": 2026,
+      "teamCode": "RSA",
+      "team": "South Africa",
+      "name": "Lyle Foster",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Lyle Foster (South Africa)"
+    },
+    "2026:RSA:relebohile-mofokeng": {
+      "year": 2026,
+      "teamCode": "RSA",
+      "team": "South Africa",
+      "name": "Relebohile Mofokeng",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Relebohile Mofokeng (South Africa)"
+    },
+    "2026:RSA:themba-zwane": {
+      "year": 2026,
+      "teamCode": "RSA",
+      "team": "South Africa",
+      "name": "Themba Zwane",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Themba Zwane (South Africa)"
+    },
+    "2026:RSA:thapelo-maseko": {
+      "year": 2026,
+      "teamCode": "RSA",
+      "team": "South Africa",
+      "name": "Thapelo Maseko",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Thapelo Maseko (South Africa)"
+    },
+    "2026:RSA:sphephelo-sithole": {
+      "year": 2026,
+      "teamCode": "RSA",
+      "team": "South Africa",
+      "name": "Sphephelo Sithole",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Sphephelo Sithole (South Africa)"
+    },
+    "2026:RSA:mbekezeli-mbokazi": {
+      "year": 2026,
+      "teamCode": "RSA",
+      "team": "South Africa",
+      "name": "Mbekezeli Mbokazi",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Mbekezeli Mbokazi (South Africa)"
+    },
+    "2026:RSA:iqraam-rayners": {
+      "year": 2026,
+      "teamCode": "RSA",
+      "team": "South Africa",
+      "name": "Iqraam Rayners",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Iqraam Rayners (South Africa)"
+    },
+    "2026:RSA:sipho-chaine": {
+      "year": 2026,
+      "teamCode": "RSA",
+      "team": "South Africa",
+      "name": "Sipho Chaine",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Sipho Chaine (South Africa)"
+    },
+    "2026:RSA:evidence-makgopa": {
+      "year": 2026,
+      "teamCode": "RSA",
+      "team": "South Africa",
+      "name": "Evidence Makgopa",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Evidence Makgopa (South Africa)"
+    },
+    "2026:RSA:samukele-kabini": {
+      "year": 2026,
+      "teamCode": "RSA",
+      "team": "South Africa",
+      "name": "Samukele Kabini",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Samukele Kabini (South Africa)"
+    },
+    "2026:RSA:nkosinathi-sibisi": {
+      "year": 2026,
+      "teamCode": "RSA",
+      "team": "South Africa",
+      "name": "Nkosinathi Sibisi",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Nkosinathi Sibisi (South Africa)"
+    },
+    "2026:RSA:khuliso-mudau": {
+      "year": 2026,
+      "teamCode": "RSA",
+      "team": "South Africa",
+      "name": "Khuliso Mudau",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Khuliso Mudau (South Africa)"
+    },
+    "2026:RSA:ime-okon": {
+      "year": 2026,
+      "teamCode": "RSA",
+      "team": "South Africa",
+      "name": "Ime Okon",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Ime Okon (South Africa)"
+    },
+    "2026:RSA:ricardo-goss": {
+      "year": 2026,
+      "teamCode": "RSA",
+      "team": "South Africa",
+      "name": "Ricardo Goss",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Ricardo Goss (South Africa)"
+    },
+    "2026:RSA:jayden-adams": {
+      "year": 2026,
+      "teamCode": "RSA",
+      "team": "South Africa",
+      "name": "Jayden Adams",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Jayden Adams (South Africa)"
+    },
+    "2026:RSA:olwethu-makhanya": {
+      "year": 2026,
+      "teamCode": "RSA",
+      "team": "South Africa",
+      "name": "Olwethu Makhanya",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Olwethu Makhanya (South Africa)"
+    },
+    "2026:RSA:kamogelo-sebelebele": {
+      "year": 2026,
+      "teamCode": "RSA",
+      "team": "South Africa",
+      "name": "Kamogelo Sebelebele",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Kamogelo Sebelebele (South Africa)"
+    },
+    "2026:RSA:bradley-cross": {
+      "year": 2026,
+      "teamCode": "RSA",
+      "team": "South Africa",
+      "name": "Bradley Cross",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Bradley Cross (South Africa)"
+    },
+    "2026:KOR:kim-seung-gyu": {
+      "year": 2026,
+      "teamCode": "KOR",
+      "team": "South Korea",
+      "name": "Kim Seung-gyu",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Kim Seung-gyu (South Korea)"
+    },
+    "2026:KOR:lee-han-beom": {
+      "year": 2026,
+      "teamCode": "KOR",
+      "team": "South Korea",
+      "name": "Lee Han-beom",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Lee Han-beom (South Korea)"
+    },
+    "2026:KOR:lee-gi-hyuk": {
+      "year": 2026,
+      "teamCode": "KOR",
+      "team": "South Korea",
+      "name": "Lee Gi-hyuk",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Lee Gi-hyuk (South Korea)"
+    },
+    "2026:KOR:kim-min-jae": {
+      "year": 2026,
+      "teamCode": "KOR",
+      "team": "South Korea",
+      "name": "Kim Min-jae",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Kim Min-jae (South Korea)"
+    },
+    "2026:KOR:kim-tae-hyeon": {
+      "year": 2026,
+      "teamCode": "KOR",
+      "team": "South Korea",
+      "name": "Kim Tae-hyeon",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Kim Tae-hyeon (South Korea)"
+    },
+    "2026:KOR:hwang-in-beom": {
+      "year": 2026,
+      "teamCode": "KOR",
+      "team": "South Korea",
+      "name": "Hwang In-beom",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Hwang In-beom (South Korea)"
+    },
+    "2026:KOR:son-heung-min": {
+      "year": 2026,
+      "teamCode": "KOR",
+      "team": "South Korea",
+      "name": "Son Heung-min",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Son Heung-min (South Korea)"
+    },
+    "2026:KOR:paik-seung-ho": {
+      "year": 2026,
+      "teamCode": "KOR",
+      "team": "South Korea",
+      "name": "Paik Seung-ho",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Paik Seung-ho (South Korea)"
+    },
+    "2026:KOR:cho-gue-sung": {
+      "year": 2026,
+      "teamCode": "KOR",
+      "team": "South Korea",
+      "name": "Cho Gue-sung",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Cho Gue-sung (South Korea)"
+    },
+    "2026:KOR:lee-jae-sung": {
+      "year": 2026,
+      "teamCode": "KOR",
+      "team": "South Korea",
+      "name": "Lee Jae-sung",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Lee Jae-sung (South Korea)"
+    },
+    "2026:KOR:hwang-hee-chan": {
+      "year": 2026,
+      "teamCode": "KOR",
+      "team": "South Korea",
+      "name": "Hwang Hee-chan",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Hwang Hee-chan (South Korea)"
+    },
+    "2026:KOR:song-bum-keun": {
+      "year": 2026,
+      "teamCode": "KOR",
+      "team": "South Korea",
+      "name": "Song Bum-keun",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Song Bum-keun (South Korea)"
+    },
+    "2026:KOR:lee-tae-seok": {
+      "year": 2026,
+      "teamCode": "KOR",
+      "team": "South Korea",
+      "name": "Lee Tae-seok",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Lee Tae-seok (South Korea)"
+    },
+    "2026:KOR:cho-wi-je": {
+      "year": 2026,
+      "teamCode": "KOR",
+      "team": "South Korea",
+      "name": "Cho Wi-je",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Cho Wi-je (South Korea)"
+    },
+    "2026:KOR:kim-moon-hwan": {
+      "year": 2026,
+      "teamCode": "KOR",
+      "team": "South Korea",
+      "name": "Kim Moon-hwan",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Kim Moon-hwan (South Korea)"
+    },
+    "2026:KOR:park-jin-seob": {
+      "year": 2026,
+      "teamCode": "KOR",
+      "team": "South Korea",
+      "name": "Park Jin-seob",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Park Jin-seob (South Korea)"
+    },
+    "2026:KOR:bae-jun-ho": {
+      "year": 2026,
+      "teamCode": "KOR",
+      "team": "South Korea",
+      "name": "Bae Jun-ho",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Bae Jun-ho (South Korea)"
+    },
+    "2026:KOR:oh-hyeon-gyu": {
+      "year": 2026,
+      "teamCode": "KOR",
+      "team": "South Korea",
+      "name": "Oh Hyeon-gyu",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Oh Hyeon-gyu (South Korea)"
+    },
+    "2026:KOR:lee-kang-in": {
+      "year": 2026,
+      "teamCode": "KOR",
+      "team": "South Korea",
+      "name": "Lee Kang-in",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Lee Kang-in (South Korea)",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Lee_Kang-in_-_2022_%2852551771501%29_%28cropped%29.jpg/330px-Lee_Kang-in_-_2022_%2852551771501%29_%28cropped%29.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Lee_Kang-in",
+      "file": "2026/KOR/lee-kang-in.jpg"
+    },
+    "2026:KOR:yang-hyun-jun": {
+      "year": 2026,
+      "teamCode": "KOR",
+      "team": "South Korea",
+      "name": "Yang Hyun-jun",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Yang Hyun-jun (South Korea)",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Celtic-20240722-062_%28cropped%29.jpg/330px-Celtic-20240722-062_%28cropped%29.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Yang_Hyun-jun",
+      "file": "2026/KOR/yang-hyun-jun.jpg"
+    },
+    "2026:KOR:jo-hyeon-woo": {
+      "year": 2026,
+      "teamCode": "KOR",
+      "team": "South Korea",
+      "name": "Jo Hyeon-woo",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Jo Hyeon-woo (South Korea)",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/2/26/Jo_Hyeon-woo.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Jo_Hyeon-woo",
+      "file": "2026/KOR/jo-hyeon-woo.jpg"
+    },
+    "2026:KOR:seol-young-woo": {
+      "year": 2026,
+      "teamCode": "KOR",
+      "team": "South Korea",
+      "name": "Seol Young-woo",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Seol Young-woo (South Korea)",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/%28%EC%B6%94%EA%BE%B8%EB%AF%B8%29_%27%EC%9A%B8%EC%82%B0_%ED%95%A9%EB%A5%98%27_%EC%84%A4%EC%98%81%EC%9A%B0.jpg/330px-%28%EC%B6%94%EA%BE%B8%EB%AF%B8%29_%27%EC%9A%B8%EC%82%B0_%ED%95%A9%EB%A5%98%27_%EC%84%A4%EC%98%81%EC%9A%B0.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Seol_Young-woo",
+      "file": "2026/KOR/seol-young-woo.jpg"
+    },
+    "2026:KOR:jens-castrop": {
+      "year": 2026,
+      "teamCode": "KOR",
+      "team": "South Korea",
+      "name": "Jens Castrop",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Jens Castrop (South Korea)"
+    },
+    "2026:KOR:kim-jin-gyu": {
+      "year": 2026,
+      "teamCode": "KOR",
+      "team": "South Korea",
+      "name": "Kim Jin-gyu",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Kim Jin-gyu (South Korea)"
+    },
+    "2026:KOR:eom-ji-sung": {
+      "year": 2026,
+      "teamCode": "KOR",
+      "team": "South Korea",
+      "name": "Eom Ji-sung",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Eom Ji-sung (South Korea)"
+    },
+    "2026:KOR:lee-dong-gyeong": {
+      "year": 2026,
+      "teamCode": "KOR",
+      "team": "South Korea",
+      "name": "Lee Dong-gyeong",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Lee Dong-gyeong (South Korea)"
+    },
+    "2026:BIH:nikola-vasilj": {
+      "year": 2026,
+      "teamCode": "BIH",
+      "team": "Bosnia & Herzegovina",
+      "name": "Nikola Vasilj",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Nikola Vasilj (Bosnia & Herzegovina)"
+    },
+    "2026:BIH:nihad-mujakic": {
+      "year": 2026,
+      "teamCode": "BIH",
+      "team": "Bosnia & Herzegovina",
+      "name": "Nihad Mujakić",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Nihad Mujakić (Bosnia & Herzegovina)"
+    },
+    "2026:BIH:dennis-hadzikadunic": {
+      "year": 2026,
+      "teamCode": "BIH",
+      "team": "Bosnia & Herzegovina",
+      "name": "Dennis Hadžikadunić",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Dennis Hadžikadunić (Bosnia & Herzegovina)"
+    },
+    "2026:BIH:tarik-muharemovic": {
+      "year": 2026,
+      "teamCode": "BIH",
+      "team": "Bosnia & Herzegovina",
+      "name": "Tarik Muharemović",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Tarik Muharemović (Bosnia & Herzegovina)"
+    },
+    "2026:BIH:sead-kolasinac": {
+      "year": 2026,
+      "teamCode": "BIH",
+      "team": "Bosnia & Herzegovina",
+      "name": "Sead Kolašinac",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Sead Kolašinac (Bosnia & Herzegovina)"
+    },
+    "2026:BIH:benjamin-tahirovic": {
+      "year": 2026,
+      "teamCode": "BIH",
+      "team": "Bosnia & Herzegovina",
+      "name": "Benjamin Tahirović",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Benjamin Tahirović (Bosnia & Herzegovina)"
+    },
+    "2026:BIH:amar-dedic": {
+      "year": 2026,
+      "teamCode": "BIH",
+      "team": "Bosnia & Herzegovina",
+      "name": "Amar Dedić",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Amar Dedić (Bosnia & Herzegovina)"
+    },
+    "2026:BIH:armin-gigovic": {
+      "year": 2026,
+      "teamCode": "BIH",
+      "team": "Bosnia & Herzegovina",
+      "name": "Armin Gigović",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Armin Gigović (Bosnia & Herzegovina)"
+    },
+    "2026:BIH:samed-bazdar": {
+      "year": 2026,
+      "teamCode": "BIH",
+      "team": "Bosnia & Herzegovina",
+      "name": "Samed Baždar",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Samed Baždar (Bosnia & Herzegovina)"
+    },
+    "2026:BIH:ermedin-demirovic": {
+      "year": 2026,
+      "teamCode": "BIH",
+      "team": "Bosnia & Herzegovina",
+      "name": "Ermedin Demirović",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Ermedin Demirović (Bosnia & Herzegovina)"
+    },
+    "2026:BIH:edin-dzeko": {
+      "year": 2026,
+      "teamCode": "BIH",
+      "team": "Bosnia & Herzegovina",
+      "name": "Edin Džeko",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Edin Džeko (Bosnia & Herzegovina)"
+    },
+    "2026:BIH:mladen-jurkas": {
+      "year": 2026,
+      "teamCode": "BIH",
+      "team": "Bosnia & Herzegovina",
+      "name": "Mladen Jurkas",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Mladen Jurkas (Bosnia & Herzegovina)"
+    },
+    "2026:BIH:ivan-basic": {
+      "year": 2026,
+      "teamCode": "BIH",
+      "team": "Bosnia & Herzegovina",
+      "name": "Ivan Bašić",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Ivan Bašić (Bosnia & Herzegovina)"
+    },
+    "2026:BIH:ivan-sunjic": {
+      "year": 2026,
+      "teamCode": "BIH",
+      "team": "Bosnia & Herzegovina",
+      "name": "Ivan Šunjić",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Ivan Šunjić (Bosnia & Herzegovina)"
+    },
+    "2026:BIH:amar-memic": {
+      "year": 2026,
+      "teamCode": "BIH",
+      "team": "Bosnia & Herzegovina",
+      "name": "Amar Memić",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Amar Memić (Bosnia & Herzegovina)"
+    },
+    "2026:BIH:amir-hadziahmetovic": {
+      "year": 2026,
+      "teamCode": "BIH",
+      "team": "Bosnia & Herzegovina",
+      "name": "Amir Hadžiahmetović",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Amir Hadžiahmetović (Bosnia & Herzegovina)"
+    },
+    "2026:BIH:dzenis-burnic": {
+      "year": 2026,
+      "teamCode": "BIH",
+      "team": "Bosnia & Herzegovina",
+      "name": "Dženis Burnić",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Dženis Burnić (Bosnia & Herzegovina)"
+    },
+    "2026:BIH:nikola-katic": {
+      "year": 2026,
+      "teamCode": "BIH",
+      "team": "Bosnia & Herzegovina",
+      "name": "Nikola Katić",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Nikola Katić (Bosnia & Herzegovina)"
+    },
+    "2026:BIH:kerim-alajbegovic": {
+      "year": 2026,
+      "teamCode": "BIH",
+      "team": "Bosnia & Herzegovina",
+      "name": "Kerim Alajbegović",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Kerim Alajbegović (Bosnia & Herzegovina)"
+    },
+    "2026:BIH:esmir-bajraktarevic": {
+      "year": 2026,
+      "teamCode": "BIH",
+      "team": "Bosnia & Herzegovina",
+      "name": "Esmir Bajraktarević",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Esmir Bajraktarević (Bosnia & Herzegovina)"
+    },
+    "2026:BIH:stjepan-radeljic": {
+      "year": 2026,
+      "teamCode": "BIH",
+      "team": "Bosnia & Herzegovina",
+      "name": "Stjepan Radeljić",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Stjepan Radeljić (Bosnia & Herzegovina)"
+    },
+    "2026:BIH:martin-zlomislic": {
+      "year": 2026,
+      "teamCode": "BIH",
+      "team": "Bosnia & Herzegovina",
+      "name": "Martin Zlomislić",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Martin Zlomislić (Bosnia & Herzegovina)"
+    },
+    "2026:BIH:haris-tabakovic": {
+      "year": 2026,
+      "teamCode": "BIH",
+      "team": "Bosnia & Herzegovina",
+      "name": "Haris Tabaković",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Haris Tabaković (Bosnia & Herzegovina)"
+    },
+    "2026:BIH:arjan-malic": {
+      "year": 2026,
+      "teamCode": "BIH",
+      "team": "Bosnia & Herzegovina",
+      "name": "Arjan Malić",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Arjan Malić (Bosnia & Herzegovina)"
+    },
+    "2026:BIH:jovo-lukic": {
+      "year": 2026,
+      "teamCode": "BIH",
+      "team": "Bosnia & Herzegovina",
+      "name": "Jovo Lukić",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Jovo Lukić (Bosnia & Herzegovina)"
+    },
+    "2026:BIH:ermin-mahmic": {
+      "year": 2026,
+      "teamCode": "BIH",
+      "team": "Bosnia & Herzegovina",
+      "name": "Ermin Mahmić",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Ermin Mahmić (Bosnia & Herzegovina)"
+    },
+    "2026:CAN:dayne-st-clair": {
+      "year": 2026,
+      "teamCode": "CAN",
+      "team": "Canada",
+      "name": "Dayne St. Clair",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Dayne St. Clair (Canada)"
+    },
+    "2026:CAN:alistair-johnston": {
+      "year": 2026,
+      "teamCode": "CAN",
+      "team": "Canada",
+      "name": "Alistair Johnston",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Alistair Johnston (Canada)"
+    },
+    "2026:CAN:alfie-jones": {
+      "year": 2026,
+      "teamCode": "CAN",
+      "team": "Canada",
+      "name": "Alfie Jones",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Alfie Jones (Canada)"
+    },
+    "2026:CAN:luc-de-fougerolles": {
+      "year": 2026,
+      "teamCode": "CAN",
+      "team": "Canada",
+      "name": "Luc de Fougerolles",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Luc de Fougerolles (Canada)"
+    },
+    "2026:CAN:joel-waterman": {
+      "year": 2026,
+      "teamCode": "CAN",
+      "team": "Canada",
+      "name": "Joel Waterman",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Joel Waterman (Canada)"
+    },
+    "2026:CAN:mathieu-choiniere": {
+      "year": 2026,
+      "teamCode": "CAN",
+      "team": "Canada",
+      "name": "Mathieu Choinière",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Mathieu Choinière (Canada)"
+    },
+    "2026:CAN:stephen-eustaquio": {
+      "year": 2026,
+      "teamCode": "CAN",
+      "team": "Canada",
+      "name": "Stephen Eustáquio",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Stephen Eustáquio (Canada)"
+    },
+    "2026:CAN:ismael-kone": {
+      "year": 2026,
+      "teamCode": "CAN",
+      "team": "Canada",
+      "name": "Ismaël Koné",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Ismaël Koné (Canada)"
+    },
+    "2026:CAN:cyle-larin": {
+      "year": 2026,
+      "teamCode": "CAN",
+      "team": "Canada",
+      "name": "Cyle Larin",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Cyle Larin (Canada)"
+    },
+    "2026:CAN:jonathan-david": {
+      "year": 2026,
+      "teamCode": "CAN",
+      "team": "Canada",
+      "name": "Jonathan David",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Jonathan David (Canada)"
+    },
+    "2026:CAN:liam-millar": {
+      "year": 2026,
+      "teamCode": "CAN",
+      "team": "Canada",
+      "name": "Liam Millar",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Liam Millar (Canada)"
+    },
+    "2026:CAN:tani-oluwaseyi": {
+      "year": 2026,
+      "teamCode": "CAN",
+      "team": "Canada",
+      "name": "Tani Oluwaseyi",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Tani Oluwaseyi (Canada)"
+    },
+    "2026:CAN:derek-cornelius": {
+      "year": 2026,
+      "teamCode": "CAN",
+      "team": "Canada",
+      "name": "Derek Cornelius",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Derek Cornelius (Canada)"
+    },
+    "2026:CAN:jacob-shaffelburg": {
+      "year": 2026,
+      "teamCode": "CAN",
+      "team": "Canada",
+      "name": "Jacob Shaffelburg",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Jacob Shaffelburg (Canada)"
+    },
+    "2026:CAN:moise-bombito": {
+      "year": 2026,
+      "teamCode": "CAN",
+      "team": "Canada",
+      "name": "Moïse Bombito",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Moïse Bombito (Canada)"
+    },
+    "2026:CAN:maxime-crepeau": {
+      "year": 2026,
+      "teamCode": "CAN",
+      "team": "Canada",
+      "name": "Maxime Crépeau",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Maxime Crépeau (Canada)"
+    },
+    "2026:CAN:tajon-buchanan": {
+      "year": 2026,
+      "teamCode": "CAN",
+      "team": "Canada",
+      "name": "Tajon Buchanan",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Tajon Buchanan (Canada)"
+    },
+    "2026:CAN:owen-goodman": {
+      "year": 2026,
+      "teamCode": "CAN",
+      "team": "Canada",
+      "name": "Owen Goodman",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Owen Goodman (Canada)"
+    },
+    "2026:CAN:alphonso-davies": {
+      "year": 2026,
+      "teamCode": "CAN",
+      "team": "Canada",
+      "name": "Alphonso Davies",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Alphonso Davies (Canada)"
+    },
+    "2026:CAN:ali-ahmed": {
+      "year": 2026,
+      "teamCode": "CAN",
+      "team": "Canada",
+      "name": "Ali Ahmed",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Ali Ahmed (Canada)",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/President_Fakhruddin_Ali_Ahmed.jpg/330px-President_Fakhruddin_Ali_Ahmed.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Fakhruddin_Ali_Ahmed",
+      "file": "2026/CAN/ali-ahmed.jpg"
+    },
+    "2026:CAN:jonathan-osorio": {
+      "year": 2026,
+      "teamCode": "CAN",
+      "team": "Canada",
+      "name": "Jonathan Osorio",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Jonathan Osorio (Canada)",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Jonathan_Osorio_2017.jpg/330px-Jonathan_Osorio_2017.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Jonathan_Osorio",
+      "file": "2026/CAN/jonathan-osorio.jpg"
+    },
+    "2026:CAN:richie-laryea": {
+      "year": 2026,
+      "teamCode": "CAN",
+      "team": "Canada",
+      "name": "Richie Laryea",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Richie Laryea (Canada)",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/CINvOCB_2017-05-13_-_Richie_Laryea_%2834525525311%29_%28cropped%29.jpg/330px-CINvOCB_2017-05-13_-_Richie_Laryea_%2834525525311%29_%28cropped%29.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Richie_Laryea",
+      "file": "2026/CAN/richie-laryea.jpg"
+    }
+  }
+}

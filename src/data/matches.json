@@ -264,6 +264,26 @@
     { "year": 2022, "phase": "SF",  "date": "2022-12-13", "home": "Argentina",     "away": "Croatia",       "score": "3-0", "extraTime": false, "penalties": null, "winner": "Argentina" },
     { "year": 2022, "phase": "SF",  "date": "2022-12-14", "home": "France",        "away": "Morocco",       "score": "2-0", "extraTime": false, "penalties": null, "winner": "France" },
     { "year": 2022, "phase": "3rd", "date": "2022-12-17", "home": "Croatia",       "away": "Morocco",       "score": "2-1", "extraTime": false, "penalties": null, "winner": "Croatia" },
-    { "year": 2022, "phase": "Final","date":"2022-12-18", "home": "Argentina",     "away": "France",        "score": "3-3", "extraTime": true,  "penalties": "4-2", "winner": "Argentina" }
+    { "year": 2022, "phase": "Final","date":"2022-12-18", "home": "Argentina",     "away": "France",        "score": "3-3", "extraTime": true,  "penalties": "4-2", "winner": "Argentina" },
+
+    { "year": 2026, "phase": "R16", "date": "2026-07-03", "home": "Group A Winner", "away": "Group C Runner-up", "score": "TBD", "extraTime": false, "penalties": null, "winner": "TBD" },
+    { "year": 2026, "phase": "R16", "date": "2026-07-03", "home": "Group B Winner", "away": "Group D Runner-up", "score": "TBD", "extraTime": false, "penalties": null, "winner": "TBD" },
+    { "year": 2026, "phase": "R16", "date": "2026-07-04", "home": "Group C Winner", "away": "Group E Runner-up", "score": "TBD", "extraTime": false, "penalties": null, "winner": "TBD" },
+    { "year": 2026, "phase": "R16", "date": "2026-07-04", "home": "Group D Winner", "away": "Group F Runner-up", "score": "TBD", "extraTime": false, "penalties": null, "winner": "TBD" },
+    { "year": 2026, "phase": "R16", "date": "2026-07-05", "home": "Group E Winner", "away": "Group G Runner-up", "score": "TBD", "extraTime": false, "penalties": null, "winner": "TBD" },
+    { "year": 2026, "phase": "R16", "date": "2026-07-05", "home": "Group F Winner", "away": "Group H Runner-up", "score": "TBD", "extraTime": false, "penalties": null, "winner": "TBD" },
+    { "year": 2026, "phase": "R16", "date": "2026-07-06", "home": "Group G Winner", "away": "Group I Runner-up", "score": "TBD", "extraTime": false, "penalties": null, "winner": "TBD" },
+    { "year": 2026, "phase": "R16", "date": "2026-07-06", "home": "Group H Winner", "away": "Group J Runner-up", "score": "TBD", "extraTime": false, "penalties": null, "winner": "TBD" },
+
+    { "year": 2026, "phase": "QF", "date": "2026-07-09", "home": "R16 Match 1 Winner", "away": "R16 Match 2 Winner", "score": "TBD", "extraTime": false, "penalties": null, "winner": "TBD" },
+    { "year": 2026, "phase": "QF", "date": "2026-07-09", "home": "R16 Match 3 Winner", "away": "R16 Match 4 Winner", "score": "TBD", "extraTime": false, "penalties": null, "winner": "TBD" },
+    { "year": 2026, "phase": "QF", "date": "2026-07-10", "home": "R16 Match 5 Winner", "away": "R16 Match 6 Winner", "score": "TBD", "extraTime": false, "penalties": null, "winner": "TBD" },
+    { "year": 2026, "phase": "QF", "date": "2026-07-10", "home": "R16 Match 7 Winner", "away": "R16 Match 8 Winner", "score": "TBD", "extraTime": false, "penalties": null, "winner": "TBD" },
+
+    { "year": 2026, "phase": "SF", "date": "2026-07-14", "home": "QF Match 1 Winner", "away": "QF Match 2 Winner", "score": "TBD", "extraTime": false, "penalties": null, "winner": "TBD" },
+    { "year": 2026, "phase": "SF", "date": "2026-07-15", "home": "QF Match 3 Winner", "away": "QF Match 4 Winner", "score": "TBD", "extraTime": false, "penalties": null, "winner": "TBD" },
+
+    { "year": 2026, "phase": "3rd", "date": "2026-07-18", "home": "SF Match 1 Loser", "away": "SF Match 2 Loser", "score": "TBD", "extraTime": false, "penalties": null, "winner": "TBD" },
+    { "year": 2026, "phase": "Final", "date": "2026-07-19", "home": "SF Match 1 Winner", "away": "SF Match 2 Winner", "score": "TBD", "extraTime": false, "penalties": null, "winner": "TBD" }
   ]
 }

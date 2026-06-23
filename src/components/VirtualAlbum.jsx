@@ -1,8 +1,14 @@
 import { useEffect, useMemo, useState } from 'react'
 import { buildAlbumPages, getTeam } from '../utils/stickers'
 import stadiumImagesData from '../data/stadiumImages.json'
+import teamImagesData from '../data/teamImages.json'
+import playerImagesData from '../data/playerImages.json'
+import entityImagesData from '../data/entityImages.json'
 
 const STADIUM_MAP = stadiumImagesData.images || {}
+const TEAM_IMAGE_MAP = teamImagesData.images || {}
+const PLAYER_IMAGE_MAP = playerImagesData.images || {}
+const ENTITY_IMAGE_MAP = entityImagesData.images || {}
 
 function slugifyAssetName(input) {
   return String(input || '')
@@ -89,6 +95,42 @@ function cleanPlayerName(name) {
   return String(name ?? '').replace(/\s+©$/, '').trim()
 }
 
+function slugifyPlayerName(name) {
+  return cleanPlayerName(name)
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '')
+}
+
+function buildPlayerKey(sticker) {
+  const year = String(sticker?.albumYear || '')
+  const team = String(sticker?.team || '')
+  const slug = slugifyPlayerName(sticker?.label)
+  if (!year || !team || !slug) return null
+  return `${year}:${team}:${slug}`
+}
+
+function getEntityEntry(sticker) {
+  const year = String(sticker?.albumYear || '')
+  const label = String(sticker?.label || '')
+
+  if (!year && !label) return null
+  if (sticker?.kind === 'mascot') return ENTITY_IMAGE_MAP[`${year}:mascot`] || null
+  if (label.includes('Official Ball:')) return ENTITY_IMAGE_MAP[`${year}:ball`] || null
+  if (label.includes('Tournament Emblem')) return ENTITY_IMAGE_MAP[`${year}:emblem`] || null
+  if (label.includes('Trophy')) return ENTITY_IMAGE_MAP['global:trophy'] || null
+  return null
+}
+
+function getEntityImageSources(entry) {
+  const out = []
+  if (entry?.file) out.push(`/images/entities/${entry.file}`)
+  if (entry?.thumbUrl) out.push(entry.thumbUrl)
+  return out.filter((value, index, arr) => value && arr.indexOf(value) === index)
+}
+
 function getInitials(name) {
   const clean = cleanPlayerName(name)
   const parts = clean.split(/\s+/).filter(Boolean)
@@ -99,8 +141,15 @@ function getInitials(name) {
 
 function StadiumSticker({ label }) {
   const entry = STADIUM_MAP[label]
-  const fileName = entry?.file || `${slugifyAssetName(label)}.jpg`
-  const sources = [`/images/stadiums/${fileName}`, entry?.thumbUrl].filter(Boolean)
+  const slug = slugifyAssetName(label)
+  const fileName = entry?.file || `${slug}.jpg`
+  const sources = [
+    `/images/stadiums/${fileName}`,
+    `/images/stadiums/${slug}.jpg`,
+    `/images/stadiums/${slug}.png`,
+    `/images/stadiums/${slug}.webp`,
+    `/images/stadiums/${slug}.svg`,
+  ].filter((value, index, arr) => value && arr.indexOf(value) === index)
   const [sourceIndex, setSourceIndex] = useState(0)
 
   useEffect(() => {
@@ -144,6 +193,77 @@ function PlayerStickerAvatar({ name, teamCode }) {
   )
 }
 
+function PlayerStickerImage({ sticker }) {
+  const key = buildPlayerKey(sticker)
+  const entry = key ? PLAYER_IMAGE_MAP[key] : null
+  const sources = [
+    entry?.file ? `/images/players/${entry.file}` : null,
+    entry?.thumbUrl || null,
+  ].filter((value, index, arr) => value && arr.indexOf(value) === index)
+  const [sourceIndex, setSourceIndex] = useState(0)
+
+  useEffect(() => {
+    setSourceIndex(0)
+  }, [key])
+
+  if (!sources[sourceIndex]) {
+    return <PlayerStickerAvatar name={sticker.label} teamCode={sticker.team} />
+  }
+
+  return (
+    <img
+      src={sources[sourceIndex]}
+      alt={cleanPlayerName(sticker.label)}
+      loading="lazy"
+      onError={() => setSourceIndex((idx) => idx + 1)}
+      className="absolute inset-0 h-full w-full object-cover"
+      style={{ objectPosition: '50% 26%' }}
+    />
+  )
+}
+
+function EntityStickerImage({ sticker }) {
+  const entry = getEntityEntry(sticker)
+  const sources = getEntityImageSources(entry)
+  const [sourceIndex, setSourceIndex] = useState(0)
+
+  useEffect(() => {
+    setSourceIndex(0)
+  }, [sticker?.albumYear, sticker?.label, sticker?.kind])
+
+  if (!sources[sourceIndex]) return null
+
+  return (
+    <img
+      src={sources[sourceIndex]}
+      alt={sticker.label}
+      title={entry ? `${sticker.label} - © ${entry.author || 'Unknown'} (${entry.license || 'Unknown'})` : sticker.label}
+      loading="lazy"
+      onError={() => setSourceIndex((idx) => idx + 1)}
+      className="absolute inset-0 h-full w-full object-cover"
+      style={{ objectPosition: '50% 50%' }}
+    />
+  )
+}
+
+function TeamImage({ teamCode, alt }) {
+  const entry = TEAM_IMAGE_MAP[teamCode]
+  const file = entry?.file
+  if (!file) return null
+
+  return (
+    <img
+      src={`/images/teams/${file}`}
+      alt={alt}
+      loading="lazy"
+      className="h-8 w-8 shrink-0 rounded border border-amber-900/40 bg-white/90 object-cover"
+      onError={(event) => {
+        event.currentTarget.style.display = 'none'
+      }}
+    />
+  )
+}
+
 function StickerSlot({ sticker }) {
   const team = sticker.team ? getTeam(sticker.team) : null
   const isShiny = Boolean(sticker.isShiny)
@@ -151,6 +271,7 @@ function StickerSlot({ sticker }) {
   const isBadge = sticker.kind === 'badge'
   const isPlayer = sticker.kind === 'player'
   const hasRealPlayerName = isPlayer && !/#\d+$/i.test(sticker.label)
+  const isEntityHistory = sticker.kind === 'mascot' || sticker.kind === 'history'
   const topBadge = isStadium
     ? 'STADIUM'
     : isPlayer
@@ -198,7 +319,13 @@ function StickerSlot({ sticker }) {
       {/* Local player avatar: no runtime external lookups */}
       {isPlayer && hasRealPlayerName ? (
         <div className="absolute inset-[3px] overflow-hidden rounded-[6px]" aria-hidden="true">
-          <PlayerStickerAvatar name={sticker.label} teamCode={sticker.team} />
+          <PlayerStickerImage sticker={sticker} />
+        </div>
+      ) : null}
+
+      {isEntityHistory ? (
+        <div className="absolute inset-[3px] overflow-hidden rounded-[6px]" aria-hidden="true">
+          <EntityStickerImage sticker={sticker} />
         </div>
       ) : null}
 
@@ -263,9 +390,12 @@ function AlbumPage({ album, page, pageNumber, side }) {
 
       <header className="relative z-10 mb-3 rounded-lg border border-amber-900/35 bg-[#e8dcc0] px-3 py-2">
         <div className="flex items-center justify-between gap-2">
-          <h4 className="truncate text-sm font-semibold uppercase tracking-wide text-slate-800">
-            {page.title}
-          </h4>
+          <div className="flex min-w-0 items-center gap-2">
+            {page.team ? <TeamImage teamCode={page.team} alt={`${team?.name || page.team} image`} /> : null}
+            <h4 className="truncate text-sm font-semibold uppercase tracking-wide text-slate-800">
+              {page.title}
+            </h4>
+          </div>
           {team ? (
             <span
               className="shrink-0 rounded px-2 py-0.5 text-[10px] font-bold"
@@ -302,6 +432,14 @@ function CoverSpread({ album }) {
   const firstStadiumSrc = firstStadiumFile ? `/images/stadiums/${firstStadiumFile}` : null
   const firstStadiumFallbackSrc = firstStadiumEntry?.thumbUrl || null
   const [coverStadiumSrc, setCoverStadiumSrc] = useState(firstStadiumSrc || firstStadiumFallbackSrc || null)
+  const ballEntry = ENTITY_IMAGE_MAP[`${album.year}:ball`] || null
+  const mascotEntry = ENTITY_IMAGE_MAP[`${album.year}:mascot`] || null
+  const emblemEntry = ENTITY_IMAGE_MAP[`${album.year}:emblem`] || null
+  const trophyEntry = ENTITY_IMAGE_MAP['global:trophy'] || null
+  const ballSrc = ballEntry?.file ? `/images/entities/${ballEntry.file}` : ballEntry?.thumbUrl || null
+  const mascotSrc = mascotEntry?.file ? `/images/entities/${mascotEntry.file}` : mascotEntry?.thumbUrl || null
+  const emblemSrc = emblemEntry?.file ? `/images/entities/${emblemEntry.file}` : emblemEntry?.thumbUrl || logoSrc
+  const trophySrc = trophyEntry?.file ? `/images/entities/${trophyEntry.file}` : trophyEntry?.thumbUrl || null
 
   useEffect(() => {
     setCoverStadiumSrc(firstStadiumSrc || firstStadiumFallbackSrc || null)
@@ -393,13 +531,24 @@ function CoverSpread({ album }) {
           <div className="mt-4 grid gap-3 sm:grid-cols-2">
             <LocalPreviewCard
               title="Tournament Logo"
-              src={logoSrc}
+              src={emblemSrc}
               fallbackLabel="Local logo preview"
               imageClassName="object-contain"
             />
             <LocalPreviewCard
               title="Official Ball"
+              src={ballSrc}
               fallbackLabel={album.ball || 'Ball name unavailable'}
+            />
+            <LocalPreviewCard
+              title="Mascot"
+              src={mascotSrc}
+              fallbackLabel={album.mascot || 'Mascot unavailable'}
+            />
+            <LocalPreviewCard
+              title="Trophy"
+              src={trophySrc}
+              fallbackLabel="FIFA World Cup Trophy"
             />
           </div>
 
@@ -473,6 +622,35 @@ function VirtualAlbum({ album }) {
         .filter(Boolean),
     [album],
   )
+
+  const entityReferences = useMemo(() => {
+    const keys = [`${album.year}:ball`, `${album.year}:mascot`, `${album.year}:emblem`, 'global:trophy']
+    return keys
+      .map((key) => {
+        const entry = ENTITY_IMAGE_MAP[key]
+        if (!entry) return null
+        return {
+          key,
+          label: entry.caption || key,
+          author: entry.author || 'Unknown',
+          license: entry.license || 'Unknown',
+          url: entry.sourceUrl || entry.thumbUrl || null,
+        }
+      })
+      .filter(Boolean)
+  }, [album.year])
+
+  const playerImageStats = useMemo(() => {
+    const prefix = `${album.year}:`
+    let total = 0
+    let withImage = 0
+    for (const [key, entry] of Object.entries(PLAYER_IMAGE_MAP)) {
+      if (!key.startsWith(prefix)) continue
+      total += 1
+      if (entry?.file || entry?.thumbUrl) withImage += 1
+    }
+    return { total, withImage }
+  }, [album.year])
 
   const goPrev = () => {
     setFlipDirection('prev')
@@ -647,6 +825,36 @@ function VirtualAlbum({ album }) {
             </ul>
           </div>
         ) : null}
+
+        {entityReferences.length > 0 ? (
+          <div className="mt-3 rounded-lg border border-slate-700 bg-slate-950/50 p-3">
+            <p className="mb-2 text-[11px] font-semibold uppercase tracking-wider text-slate-300">
+              Ball, mascot, emblem and trophy credits
+            </p>
+            <ul className="space-y-1">
+              {entityReferences.map((ref) => (
+                <li key={ref.key}>
+                  <span className="font-semibold text-slate-200">{ref.label}</span>
+                  <span className="text-slate-400"> — © {ref.author} ({ref.license})</span>
+                  {ref.url ? (
+                    <a
+                      href={ref.url}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="ml-2 text-sky-300 hover:text-sky-200"
+                    >
+                      source
+                    </a>
+                  ) : null}
+                </li>
+              ))}
+            </ul>
+          </div>
+        ) : null}
+
+        <p className="mt-3 text-slate-400">
+          Player photo coverage for {album.year}: {playerImageStats.withImage}/{playerImageStats.total} mapped entries.
+        </p>
       </section>
     </section>
   )

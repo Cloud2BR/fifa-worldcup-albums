@@ -20,5 +20,6 @@
   {"year":2010,"host":"South Africa","winner":"Spain","runnerUp":"Netherlands","finalScore":"1-0 aet","goals":145,"teams":32,"matches":64,"topScorer":"Thomas Müller et al.","goalsPerMatch":2.27,"goalsByPhase":{"group":101,"r16":22,"qf":10,"sf":6,"thirdPlace":5,"final":1}},
   {"year":2014,"host":"Brazil","winner":"Germany","runnerUp":"Argentina","finalScore":"1-0 aet","goals":171,"teams":32,"matches":64,"topScorer":"James Rodríguez","goalsPerMatch":2.67,"goalsByPhase":{"group":136,"r16":18,"qf":5,"sf":8,"thirdPlace":3,"final":1}},
   {"year":2018,"host":"Russia","winner":"France","runnerUp":"Croatia","finalScore":"4-2","goals":169,"teams":32,"matches":64,"topScorer":"Harry Kane","goalsPerMatch":2.64,"goalsByPhase":{"group":122,"r16":24,"qf":11,"sf":4,"thirdPlace":2,"final":6}},
-  {"year":2022,"host":"Qatar","winner":"Argentina","runnerUp":"France","finalScore":"3-3 (4-2 pens)","goals":172,"teams":32,"matches":64,"topScorer":"Kylian Mbappé","goalsPerMatch":2.69,"goalsByPhase":{"group":120,"r16":28,"qf":10,"sf":5,"thirdPlace":3,"final":6}}
+  {"year":2022,"host":"Qatar","winner":"Argentina","runnerUp":"France","finalScore":"3-3 (4-2 pens)","goals":172,"teams":32,"matches":64,"topScorer":"Kylian Mbappé","goalsPerMatch":2.69,"goalsByPhase":{"group":120,"r16":28,"qf":10,"sf":5,"thirdPlace":3,"final":6}},
+  {"year":2026,"host":"Canada/Mexico/United States","winner":"In Progress","runnerUp":"TBD","finalScore":"TBD","goals":0,"teams":48,"matches":0,"topScorer":"TBD","goalsPerMatch":0,"goalsByPhase":null}
 ]

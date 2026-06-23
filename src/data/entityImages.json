@@ -1,0 +1,470 @@
+{
+  "_comment": "Auto-generated tournament entity image mapping (ball, mascot, emblem, trophy). Run: npm run media:entities",
+  "images": {
+    "global:trophy": {
+      "key": "global:trophy",
+      "label": "FIFA World Cup Trophy",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "FIFA World Cup Trophy",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/FIFA_World_Cup_Trophy_%28Ank_Kumar%2C_Infosys_Limited%29_04.jpg/330px-FIFA_World_Cup_Trophy_%28Ank_Kumar%2C_Infosys_Limited%29_04.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/FIFA_World_Cup_Trophy",
+      "file": "global/fifa-world-cup-trophy.jpg"
+    },
+    "1930:ball": {
+      "key": "1930:ball",
+      "label": "Official Ball 1930: T-Model / Tiento",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Official Ball 1930: T-Model / Tiento",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Football_Pallo_valmiina-cropped.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ball_(association_football)",
+      "file": "1930/ball.jpg"
+    },
+    "1930:emblem": {
+      "key": "1930:emblem",
+      "label": "1930 FIFA World Cup Emblem",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "1930 FIFA World Cup Emblem",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e3/2022_FIFA_World_Cup.svg/330px-2022_FIFA_World_Cup.svg.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/2022_FIFA_World_Cup",
+      "file": "1930/emblem.png"
+    },
+    "1934:ball": {
+      "key": "1934:ball",
+      "label": "Official Ball 1934: Federale 102",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Official Ball 1934: Federale 102",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Giant_balls.jpg/330px-Giant_balls.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_FIFA_World_Cup_official_match_balls",
+      "file": "1934/ball.jpg"
+    },
+    "1934:emblem": {
+      "key": "1934:emblem",
+      "label": "1934 FIFA World Cup Emblem",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "1934 FIFA World Cup Emblem",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e3/2022_FIFA_World_Cup.svg/330px-2022_FIFA_World_Cup.svg.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/2022_FIFA_World_Cup",
+      "file": "1934/emblem.png"
+    },
+    "1938:ball": {
+      "key": "1938:ball",
+      "label": "Official Ball 1938: Allen",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Official Ball 1938: Allen",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Adidas_Yeezy_Boost_%22Oxford_Tan%22.jpg/330px-Adidas_Yeezy_Boost_%22Oxford_Tan%22.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Adidas_Yeezy",
+      "file": "1938/ball.jpg"
+    },
+    "1938:emblem": {
+      "key": "1938:emblem",
+      "label": "1938 FIFA World Cup Emblem",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "1938 FIFA World Cup Emblem",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/1/17/2026_FIFA_World_Cup_emblem.svg/330px-2026_FIFA_World_Cup_emblem.svg.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup",
+      "file": "1938/emblem.png"
+    },
+    "1950:ball": {
+      "key": "1950:ball",
+      "label": "Official Ball 1950: Superball Duplo T",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Official Ball 1950: Superball Duplo T",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Giant_balls.jpg/330px-Giant_balls.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_FIFA_World_Cup_official_match_balls",
+      "file": "1950/ball.jpg"
+    },
+    "1950:emblem": {
+      "key": "1950:emblem",
+      "label": "1950 FIFA World Cup Emblem",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "1950 FIFA World Cup Emblem"
+    },
+    "1954:ball": {
+      "key": "1954:ball",
+      "label": "Official Ball 1954: Swiss World Champion",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Official Ball 1954: Swiss World Champion"
+    },
+    "1954:emblem": {
+      "key": "1954:emblem",
+      "label": "1954 FIFA World Cup Emblem",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "1954 FIFA World Cup Emblem"
+    },
+    "1958:ball": {
+      "key": "1958:ball",
+      "label": "Official Ball 1958: Top Star",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Official Ball 1958: Top Star"
+    },
+    "1958:emblem": {
+      "key": "1958:emblem",
+      "label": "1958 FIFA World Cup Emblem",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "1958 FIFA World Cup Emblem"
+    },
+    "1962:ball": {
+      "key": "1962:ball",
+      "label": "Official Ball 1962: Crack",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Official Ball 1962: Crack"
+    },
+    "1962:emblem": {
+      "key": "1962:emblem",
+      "label": "1962 FIFA World Cup Emblem",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "1962 FIFA World Cup Emblem"
+    },
+    "1966:ball": {
+      "key": "1966:ball",
+      "label": "Official Ball 1966: Slazenger Challenge 4-Star",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Official Ball 1966: Slazenger Challenge 4-Star"
+    },
+    "1966:mascot": {
+      "key": "1966:mascot",
+      "label": "Mascot 1966: World Cup Willie",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Mascot 1966: World Cup Willie"
+    },
+    "1966:emblem": {
+      "key": "1966:emblem",
+      "label": "1966 FIFA World Cup Emblem",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "1966 FIFA World Cup Emblem"
+    },
+    "1970:ball": {
+      "key": "1970:ball",
+      "label": "Official Ball 1970: Adidas Telstar",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Official Ball 1970: Adidas Telstar"
+    },
+    "1970:mascot": {
+      "key": "1970:mascot",
+      "label": "Mascot 1970: Juanito",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Mascot 1970: Juanito"
+    },
+    "1970:emblem": {
+      "key": "1970:emblem",
+      "label": "1970 FIFA World Cup Emblem",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "1970 FIFA World Cup Emblem"
+    },
+    "1974:ball": {
+      "key": "1974:ball",
+      "label": "Official Ball 1974: Adidas Telstar Durlast",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Official Ball 1974: Adidas Telstar Durlast"
+    },
+    "1974:mascot": {
+      "key": "1974:mascot",
+      "label": "Mascot 1974: Tip and Tap",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Mascot 1974: Tip and Tap"
+    },
+    "1974:emblem": {
+      "key": "1974:emblem",
+      "label": "1974 FIFA World Cup Emblem",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "1974 FIFA World Cup Emblem"
+    },
+    "1978:ball": {
+      "key": "1978:ball",
+      "label": "Official Ball 1978: Adidas Tango",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Official Ball 1978: Adidas Tango"
+    },
+    "1978:mascot": {
+      "key": "1978:mascot",
+      "label": "Mascot 1978: Gauchito",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Mascot 1978: Gauchito"
+    },
+    "1978:emblem": {
+      "key": "1978:emblem",
+      "label": "1978 FIFA World Cup Emblem",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "1978 FIFA World Cup Emblem"
+    },
+    "1982:ball": {
+      "key": "1982:ball",
+      "label": "Official Ball 1982: Adidas Tango España",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Official Ball 1982: Adidas Tango España"
+    },
+    "1982:mascot": {
+      "key": "1982:mascot",
+      "label": "Mascot 1982: Naranjito",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Mascot 1982: Naranjito"
+    },
+    "1982:emblem": {
+      "key": "1982:emblem",
+      "label": "1982 FIFA World Cup Emblem",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "1982 FIFA World Cup Emblem"
+    },
+    "1986:ball": {
+      "key": "1986:ball",
+      "label": "Official Ball 1986: Adidas Azteca",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Official Ball 1986: Adidas Azteca"
+    },
+    "1986:mascot": {
+      "key": "1986:mascot",
+      "label": "Mascot 1986: Pique",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Mascot 1986: Pique"
+    },
+    "1986:emblem": {
+      "key": "1986:emblem",
+      "label": "1986 FIFA World Cup Emblem",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "1986 FIFA World Cup Emblem"
+    },
+    "1990:ball": {
+      "key": "1990:ball",
+      "label": "Official Ball 1990: Adidas Etrusco Unico",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Official Ball 1990: Adidas Etrusco Unico"
+    },
+    "1990:mascot": {
+      "key": "1990:mascot",
+      "label": "Mascot 1990: Ciao",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Mascot 1990: Ciao"
+    },
+    "1990:emblem": {
+      "key": "1990:emblem",
+      "label": "1990 FIFA World Cup Emblem",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "1990 FIFA World Cup Emblem"
+    },
+    "1994:ball": {
+      "key": "1994:ball",
+      "label": "Official Ball 1994: Adidas Questra",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Official Ball 1994: Adidas Questra"
+    },
+    "1994:mascot": {
+      "key": "1994:mascot",
+      "label": "Mascot 1994: Striker",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Mascot 1994: Striker"
+    },
+    "1994:emblem": {
+      "key": "1994:emblem",
+      "label": "1994 FIFA World Cup Emblem",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "1994 FIFA World Cup Emblem"
+    },
+    "1998:ball": {
+      "key": "1998:ball",
+      "label": "Official Ball 1998: Adidas Tricolore",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Official Ball 1998: Adidas Tricolore"
+    },
+    "1998:mascot": {
+      "key": "1998:mascot",
+      "label": "Mascot 1998: Footix",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Mascot 1998: Footix"
+    },
+    "1998:emblem": {
+      "key": "1998:emblem",
+      "label": "1998 FIFA World Cup Emblem",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "1998 FIFA World Cup Emblem"
+    },
+    "2002:ball": {
+      "key": "2002:ball",
+      "label": "Official Ball 2002: Adidas Fevernova",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Official Ball 2002: Adidas Fevernova"
+    },
+    "2002:mascot": {
+      "key": "2002:mascot",
+      "label": "Mascot 2002: The Spheriks (Ato, Kaz, Nik)",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Mascot 2002: The Spheriks (Ato, Kaz, Nik)"
+    },
+    "2002:emblem": {
+      "key": "2002:emblem",
+      "label": "2002 FIFA World Cup Emblem",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "2002 FIFA World Cup Emblem"
+    },
+    "2006:ball": {
+      "key": "2006:ball",
+      "label": "Official Ball 2006: Adidas Teamgeist",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Official Ball 2006: Adidas Teamgeist"
+    },
+    "2006:mascot": {
+      "key": "2006:mascot",
+      "label": "Mascot 2006: Goleo VI & Pille",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Mascot 2006: Goleo VI & Pille"
+    },
+    "2006:emblem": {
+      "key": "2006:emblem",
+      "label": "2006 FIFA World Cup Emblem",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "2006 FIFA World Cup Emblem"
+    },
+    "2010:ball": {
+      "key": "2010:ball",
+      "label": "Official Ball 2010: Adidas Jabulani",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Official Ball 2010: Adidas Jabulani"
+    },
+    "2010:mascot": {
+      "key": "2010:mascot",
+      "label": "Mascot 2010: Zakumi",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Mascot 2010: Zakumi"
+    },
+    "2010:emblem": {
+      "key": "2010:emblem",
+      "label": "2010 FIFA World Cup Emblem",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "2010 FIFA World Cup Emblem"
+    },
+    "2014:ball": {
+      "key": "2014:ball",
+      "label": "Official Ball 2014: Adidas Brazuca",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Official Ball 2014: Adidas Brazuca"
+    },
+    "2014:mascot": {
+      "key": "2014:mascot",
+      "label": "Mascot 2014: Fuleco",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Mascot 2014: Fuleco"
+    },
+    "2014:emblem": {
+      "key": "2014:emblem",
+      "label": "2014 FIFA World Cup Emblem",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "2014 FIFA World Cup Emblem"
+    },
+    "2018:ball": {
+      "key": "2018:ball",
+      "label": "Official Ball 2018: Adidas Telstar 18",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Official Ball 2018: Adidas Telstar 18"
+    },
+    "2018:mascot": {
+      "key": "2018:mascot",
+      "label": "Mascot 2018: Zabivaka",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Mascot 2018: Zabivaka"
+    },
+    "2018:emblem": {
+      "key": "2018:emblem",
+      "label": "2018 FIFA World Cup Emblem",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "2018 FIFA World Cup Emblem"
+    },
+    "2022:ball": {
+      "key": "2022:ball",
+      "label": "Official Ball 2022: Adidas Al Rihla",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Official Ball 2022: Adidas Al Rihla"
+    },
+    "2022:mascot": {
+      "key": "2022:mascot",
+      "label": "Mascot 2022: La'eeb",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Mascot 2022: La'eeb"
+    },
+    "2022:emblem": {
+      "key": "2022:emblem",
+      "label": "2022 FIFA World Cup Emblem",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "2022 FIFA World Cup Emblem"
+    },
+    "2026:ball": {
+      "key": "2026:ball",
+      "label": "Official Ball 2026: TBD",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Official Ball 2026: TBD"
+    },
+    "2026:mascot": {
+      "key": "2026:mascot",
+      "label": "Mascot 2026: TBD",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Mascot 2026: TBD"
+    },
+    "2026:emblem": {
+      "key": "2026:emblem",
+      "label": "2026 FIFA World Cup Emblem",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "2026 FIFA World Cup Emblem"
+    }
+  }
+}

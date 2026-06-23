@@ -183,6 +183,10 @@ function LegendChip({ color, label }) {
 // ── Main component ──────────────────────────────────────────────────────────
 
 function ResultsChart({ worldCups }) {
+  const completedWorldCups = worldCups.filter(
+    (cup) => cup.winner !== 'In Progress' && cup.finalScore !== 'TBD',
+  )
+
   return (
     <div className="space-y-6">
 
@@ -193,7 +197,7 @@ function ResultsChart({ worldCups }) {
           Cumulative World Cup titles per nation at each tournament — trace which country led at any point in time.
         </p>
         <div className="h-[360px]">
-          <Line data={buildCumulativeTitlesData(worldCups)} options={cumulativeOptions} />
+          <Line data={buildCumulativeTitlesData(completedWorldCups)} options={cumulativeOptions} />
         </div>
       </article>
 
@@ -205,7 +209,7 @@ function ResultsChart({ worldCups }) {
             Total World Cup final appearances — champions (gold) vs runners-up (grey). West Germany and Germany merged.
           </p>
           <div className="h-[360px]">
-            <Bar data={buildFinalsAppearancesData(worldCups)} options={horizontalBarOptions} />
+            <Bar data={buildFinalsAppearancesData(completedWorldCups)} options={horizontalBarOptions} />
           </div>
         </article>
 
@@ -220,7 +224,7 @@ function ResultsChart({ worldCups }) {
             <LegendChip color="rgba(251,191,36,0.85)" label="Penalty shootout" />
           </div>
           <div className="h-[310px]">
-            <Bar data={buildFinalMarginsData(worldCups)} options={finalMarginsOptions} />
+            <Bar data={buildFinalMarginsData(completedWorldCups)} options={finalMarginsOptions} />
           </div>
         </article>
       </div>
@@ -233,7 +237,7 @@ function ResultsChart({ worldCups }) {
             Average goals per game across all matches — the 1950s high-scoring era vs modern tactical football.
           </p>
           <div className="h-[280px]">
-            <Line data={buildGoalsPerMatchData(worldCups)} options={goalsPerMatchOptions} />
+            <Line data={buildGoalsPerMatchData(completedWorldCups)} options={goalsPerMatchOptions} />
           </div>
         </article>
 
@@ -243,7 +247,7 @@ function ResultsChart({ worldCups }) {
             World Cup wins per decade, split by confederation — Europe vs South America's historic rivalry.
           </p>
           <div className="h-[280px]">
-            <Bar data={buildContinentalRivalryData(worldCups)} options={groupedBarOptions} />
+            <Bar data={buildContinentalRivalryData(completedWorldCups)} options={groupedBarOptions} />
           </div>
         </article>
       </div>

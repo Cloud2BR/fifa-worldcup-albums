@@ -1,0 +1,629 @@
+{
+  "_comment": "Auto-generated team image mapping. Run: npm run media:teams",
+  "images": {
+    "ARG": {
+      "team": "Argentina",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Argentina team image",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/c/c1/Argentina_national_football_team_logo.svg/330px-Argentina_national_football_team_logo.svg.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Argentina_national_football_team",
+      "file": "ARG.png"
+    },
+    "AUS": {
+      "team": "Australia",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Australia team image",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Australia_national_football_team_badge.svg/330px-Australia_national_football_team_badge.svg.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Australia_men's_national_soccer_team",
+      "file": "AUS.png"
+    },
+    "AUT": {
+      "team": "Austria",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Austria team image",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b7/Austria_national_football_team_crest.svg/330px-Austria_national_football_team_crest.svg.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Austria_national_football_team",
+      "file": "AUT.png"
+    },
+    "BEL": {
+      "team": "Belgium",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Belgium team image",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f9/Royal_Belgian_FA_logo_2019.svg/330px-Royal_Belgian_FA_logo_2019.svg.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Belgium_national_football_team",
+      "file": "BEL.png"
+    },
+    "BIH": {
+      "team": "Bosnia & Herzegovina",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Bosnia & Herzegovina team image",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Flag_of_Bosnia_and_Herzegovina.svg/330px-Flag_of_Bosnia_and_Herzegovina.svg.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Bosnia_and_Herzegovina_national_football_team",
+      "file": "BIH.png"
+    },
+    "BOL": {
+      "team": "Bolivia",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Bolivia team image",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Bolivia.svg/330px-Flag_of_Bolivia.svg.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Bolivia_national_football_team",
+      "file": "BOL.png"
+    },
+    "BRA": {
+      "team": "Brazil",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Brazil team image",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Confedera%C3%A7%C3%A3o_Brasileira_de_Futebol_logo_%282020%29.svg/330px-Confedera%C3%A7%C3%A3o_Brasileira_de_Futebol_logo_%282020%29.svg.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Brazil_national_football_team",
+      "file": "BRA.png"
+    },
+    "BUL": {
+      "team": "Bulgaria",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Bulgaria team image",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/en/1/11/Bgnatcrest.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Bulgaria_national_football_team",
+      "file": "BUL.png"
+    },
+    "CAN": {
+      "team": "Canada",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Canada team image",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Canadian_Soccer_Association_logo.svg/330px-Canadian_Soccer_Association_logo.svg.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Canada_men's_national_soccer_team",
+      "file": "CAN.png"
+    },
+    "CHI": {
+      "team": "Chile",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Chile team image",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Federaci%C3%B3n_de_F%C3%BAtbol_de_Chile_logo.svg/330px-Federaci%C3%B3n_de_F%C3%BAtbol_de_Chile_logo.svg.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Chile_national_football_team",
+      "file": "CHI.png"
+    },
+    "CHN": {
+      "team": "China PR",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "China PR team image",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/0/03/China_national_football_team.svg/330px-China_national_football_team.svg.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/China_national_football_team",
+      "file": "CHN.png"
+    },
+    "CIV": {
+      "team": "Côte d'Ivoire",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Côte d'Ivoire team image",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_C%C3%B4te_d%27Ivoire.svg/330px-Flag_of_C%C3%B4te_d%27Ivoire.svg.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ivory_Coast_national_football_team",
+      "file": "CIV.png"
+    },
+    "CMR": {
+      "team": "Cameroon",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Cameroon team image"
+    },
+    "COL": {
+      "team": "Colombia",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Colombia team image"
+    },
+    "CRC": {
+      "team": "Costa Rica",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Costa Rica team image"
+    },
+    "CRO": {
+      "team": "Croatia",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Croatia team image"
+    },
+    "CTR": {
+      "team": "Trinidad & Tobago",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Trinidad & Tobago team image"
+    },
+    "CUB": {
+      "team": "Cuba",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Cuba team image"
+    },
+    "CZE": {
+      "team": "Czech Republic",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Czech Republic team image"
+    },
+    "DEN": {
+      "team": "Denmark",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Denmark team image"
+    },
+    "DZA": {
+      "team": "Algeria",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Algeria team image"
+    },
+    "ECU": {
+      "team": "Ecuador",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Ecuador team image",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/en/b/ba/Ecuador_national_football_team.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ecuador_national_football_team",
+      "file": "ECU.png"
+    },
+    "EGY": {
+      "team": "Egypt",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Egypt team image",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f8/Egyptian_Football_Association_logo.svg/330px-Egyptian_Football_Association_logo.svg.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Egypt_national_football_team",
+      "file": "EGY.png"
+    },
+    "ENG": {
+      "team": "England",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "England team image",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8b/England_national_football_team_crest.svg/330px-England_national_football_team_crest.svg.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/England_national_football_team",
+      "file": "ENG.png"
+    },
+    "ESP": {
+      "team": "Spain",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Spain team image",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/3/39/Spain_national_football_team_crest.svg/330px-Spain_national_football_team_crest.svg.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Spain_national_football_team",
+      "file": "ESP.png"
+    },
+    "FRA": {
+      "team": "France",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "France team image",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/1/12/France_national_football_team_seal.svg/330px-France_national_football_team_seal.svg.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/France_national_football_team",
+      "file": "FRA.png"
+    },
+    "GDR": {
+      "team": "East Germany",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "East Germany team image"
+    },
+    "GER": {
+      "team": "Germany",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Germany team image",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/330px-Flag_of_Germany.svg.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Germany",
+      "file": "GER.png"
+    },
+    "GHA": {
+      "team": "Ghana",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Ghana team image",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9c/Ghana_Football_Association_logo_%282001%29.svg/330px-Ghana_Football_Association_logo_%282001%29.svg.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ghana_national_football_team",
+      "file": "GHA.png"
+    },
+    "GRE": {
+      "team": "Greece",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Greece team image",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Greece_National_Football_Team.svg/330px-Greece_National_Football_Team.svg.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Greece_national_football_team",
+      "file": "GRE.png"
+    },
+    "HAI": {
+      "team": "Haiti",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Haiti team image",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Flag_of_Haiti.svg/330px-Flag_of_Haiti.svg.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Haiti_national_football_team",
+      "file": "HAI.png"
+    },
+    "HON": {
+      "team": "Honduras",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Honduras team image",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Honduras_football_crest.svg/330px-Honduras_football_crest.svg.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Honduras_national_football_team",
+      "file": "HON.png"
+    },
+    "HUN": {
+      "team": "Hungary",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Hungary team image",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Coat_of_arms_of_Hungary.svg/330px-Coat_of_arms_of_Hungary.svg.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Hungary_national_football_team",
+      "file": "HUN.png"
+    },
+    "IDN": {
+      "team": "Dutch East Indies",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Dutch East Indies team image",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/2025_Indonesia_National_Football_Team_Badge.png/330px-2025_Indonesia_National_Football_Team_Badge.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Indonesia_national_football_team",
+      "file": "IDN.png"
+    },
+    "IRL": {
+      "team": "Republic of Ireland",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Republic of Ireland team image",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f8/Republic_of_Ireland_national_football_team_crest.svg/330px-Republic_of_Ireland_national_football_team_crest.svg.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Republic_of_Ireland_national_football_team",
+      "file": "IRL.png"
+    },
+    "IRN": {
+      "team": "Iran",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Iran team image",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d6/Football_Federation_Islamic_Republic_of_Iran_logo.svg/330px-Football_Federation_Islamic_Republic_of_Iran_logo.svg.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Iran_national_football_team",
+      "file": "IRN.png"
+    },
+    "IRQ": {
+      "team": "Iraq",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Iraq team image",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Iraq_National_Team_Badge_2021_v1.svg/330px-Iraq_National_Team_Badge_2021_v1.svg.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Iraq_national_football_team",
+      "file": "IRQ.png"
+    },
+    "ISL": {
+      "team": "Iceland",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Iceland team image"
+    },
+    "ISR": {
+      "team": "Israel",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Israel team image"
+    },
+    "ITA": {
+      "team": "Italy",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Italy team image"
+    },
+    "JAM": {
+      "team": "Jamaica",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Jamaica team image"
+    },
+    "JPN": {
+      "team": "Japan",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Japan team image"
+    },
+    "KOR": {
+      "team": "South Korea",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "South Korea team image"
+    },
+    "KSA": {
+      "team": "Saudi Arabia",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Saudi Arabia team image"
+    },
+    "KUW": {
+      "team": "Kuwait",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Kuwait team image"
+    },
+    "MAR": {
+      "team": "Morocco",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Morocco team image"
+    },
+    "MEX": {
+      "team": "Mexico",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Mexico team image"
+    },
+    "NED": {
+      "team": "Netherlands",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Netherlands team image"
+    },
+    "NGA": {
+      "team": "Nigeria",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Nigeria team image"
+    },
+    "NIR": {
+      "team": "Northern Ireland",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Northern Ireland team image"
+    },
+    "NOR": {
+      "team": "Norway",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Norway team image"
+    },
+    "NZL": {
+      "team": "New Zealand",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "New Zealand team image"
+    },
+    "PAN": {
+      "team": "Panama",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Panama team image"
+    },
+    "PAR": {
+      "team": "Paraguay",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Paraguay team image"
+    },
+    "PER": {
+      "team": "Peru",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Peru team image"
+    },
+    "POL": {
+      "team": "Poland",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Poland team image"
+    },
+    "POR": {
+      "team": "Portugal",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Portugal team image"
+    },
+    "PRK": {
+      "team": "North Korea",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "North Korea team image"
+    },
+    "QAT": {
+      "team": "Qatar",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Qatar team image"
+    },
+    "ROU": {
+      "team": "Romania",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Romania team image"
+    },
+    "RSA": {
+      "team": "South Africa",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "South Africa team image"
+    },
+    "RUS": {
+      "team": "Russia",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Russia team image"
+    },
+    "SCO": {
+      "team": "Scotland",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Scotland team image"
+    },
+    "SEN": {
+      "team": "Senegal",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Senegal team image"
+    },
+    "SLV": {
+      "team": "El Salvador",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "El Salvador team image"
+    },
+    "SRB": {
+      "team": "Serbia",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Serbia team image"
+    },
+    "SUI": {
+      "team": "Switzerland",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Switzerland team image"
+    },
+    "SVK": {
+      "team": "Slovakia",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Slovakia team image"
+    },
+    "SVN": {
+      "team": "Slovenia",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Slovenia team image"
+    },
+    "SWE": {
+      "team": "Sweden",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Sweden team image"
+    },
+    "TCH": {
+      "team": "Czechoslovakia",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Czechoslovakia team image"
+    },
+    "TOG": {
+      "team": "Togo",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Togo team image"
+    },
+    "TUN": {
+      "team": "Tunisia",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Tunisia team image"
+    },
+    "TUR": {
+      "team": "Turkey",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Turkey team image"
+    },
+    "UAE": {
+      "team": "United Arab Emirates",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "United Arab Emirates team image"
+    },
+    "UKR": {
+      "team": "Ukraine",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Ukraine team image"
+    },
+    "URS": {
+      "team": "Soviet Union",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Soviet Union team image"
+    },
+    "URU": {
+      "team": "Uruguay",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Uruguay team image"
+    },
+    "USA": {
+      "team": "United States",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "United States team image"
+    },
+    "WAL": {
+      "team": "Wales",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Wales team image"
+    },
+    "FRG": {
+      "team": "West Germany",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "West Germany team image"
+    },
+    "YUG": {
+      "team": "Yugoslavia",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Yugoslavia team image"
+    },
+    "ZAI": {
+      "team": "Zaire",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Zaire team image"
+    },
+    "EGT": {
+      "team": "Egypt (1934)",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Egypt (1934) team image"
+    },
+    "ALG": {
+      "team": "Algeria",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Algeria team image"
+    },
+    "SAU": {
+      "team": "Saudi Arabia",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Saudi Arabia team image",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ee/Saudi_Arabia_national_football_team_logo.svg/330px-Saudi_Arabia_national_football_team_logo.svg.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Saudi_Arabia_national_football_team",
+      "file": "SAU.png"
+    },
+    "SCG": {
+      "team": "Serbia & Montenegro",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Serbia & Montenegro team image",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Flag_of_Serbia_and_Montenegro_%281992%E2%80%932006%29.svg/330px-Flag_of_Serbia_and_Montenegro_%281992%E2%80%932006%29.svg.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Serbia_and_Montenegro_national_football_team",
+      "file": "SCG.png"
+    },
+    "ANG": {
+      "team": "Angola",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Angola team image",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Flag_of_Angola.svg/330px-Flag_of_Angola.svg.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Angola",
+      "file": "ANG.png"
+    },
+    "TRI": {
+      "team": "Trinidad & Tobago",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Trinidad & Tobago team image"
+    }
+  }
+}

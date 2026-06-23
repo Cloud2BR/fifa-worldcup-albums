@@ -23,8 +23,10 @@ with the champion path highlighted.
 - Scrollable timeline combining tournament results and album visuals.
 - Album gallery covering every World Cup from **1930 to 2022**, grouped by era  
 (Pre-Panini, Classic Panini, Modern Panini).
+- Album gallery now includes the **2026 in-progress edition** with placeholders for undecided teams/phases.
 - **Virtual album viewer** — open any album as a two-page spread with sticker  
 slots, keyboard navigation (← / →), swipe on mobile, and Esc to close.
+- Local-first media library: stadium and team images are downloaded into the repository and organized by year/type.
 - **Cross-album sticker search** — filter all ~9,000 sticker slots by team,  
 year, type (player / badge / stadium / mascot / honour), shiny only, or  
 sticker number. Click a result to jump straight to its page in the album.
@@ -163,6 +165,22 @@ npm install
 npm run dev
 npm run build
 ```
+
+## Media Sync (Download + Organize)
+
+```bash
+npm run media:stadiums
+npm run media:teams
+npm run media:index
+npm run media:sync
+```
+
+- `media:stadiums`: downloads stadium photos and builds `public/images/years/<year>/...`
+- `media:teams`: downloads team crest/flag images where available
+- `media:index`: regenerates grouped media metadata in `src/data/mediaIndex.json`
+- `media:sync`: runs all three in order
+
+More details: [docs/media-library.md](./docs/media-library.md)
 
 ## GitHub Pages (Main Branch) Deployment
 

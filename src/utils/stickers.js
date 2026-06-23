@@ -34,7 +34,10 @@ function seeded(seed) {
 }
 
 export function getTeam(code) {
-  return teamsData[code] ?? { name: code, primary: '#1e293b', secondary: '#475569', accent: '#cbd5e1' }
+  if (teamsData[code]) return teamsData[code]
+  const slotMatch = String(code ?? '').match(/^T(\d{2})$/)
+  const fallbackName = slotMatch ? `Team Slot ${slotMatch[1]}` : String(code ?? 'Unknown Team')
+  return { name: fallbackName, primary: '#1e293b', secondary: '#475569', accent: '#cbd5e1' }
 }
 
 /**
