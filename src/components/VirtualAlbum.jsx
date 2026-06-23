@@ -100,8 +100,7 @@ function getInitials(name) {
 function StadiumSticker({ label }) {
   const entry = STADIUM_MAP[label]
   const fileName = entry?.file || `${slugifyAssetName(label)}.jpg`
-  const localSvg = `/images/stadiums/${slugifyAssetName(label)}.svg`
-  const sources = [`/images/stadiums/${fileName}`, localSvg].filter(Boolean)
+  const sources = [`/images/stadiums/${fileName}`, entry?.thumbUrl].filter(Boolean)
   const [sourceIndex, setSourceIndex] = useState(0)
 
   useEffect(() => {
@@ -121,13 +120,7 @@ function StadiumSticker({ label }) {
       />
     )
   }
-  return (
-    <svg viewBox="0 0 60 40" className="h-3/4 w-3/4 opacity-40" aria-hidden="true">
-      <ellipse cx="30" cy="30" rx="26" ry="8" fill="none" stroke="#fff" strokeWidth="1.5" />
-      <ellipse cx="30" cy="26" rx="22" ry="6" fill="none" stroke="#fff" strokeWidth="1" />
-      <path d="M4,30 Q30,10 56,30" fill="none" stroke="#fff" strokeWidth="1.5" />
-    </svg>
-  )
+  return <div className="text-[10px] font-semibold text-white/85">Image unavailable</div>
 }
 
 function PlayerStickerAvatar({ name, teamCode }) {
@@ -307,6 +300,12 @@ function CoverSpread({ album }) {
     ? (firstStadiumEntry?.file || `${slugifyAssetName(firstStadium)}.jpg`)
     : null
   const firstStadiumSrc = firstStadiumFile ? `/images/stadiums/${firstStadiumFile}` : null
+  const firstStadiumFallbackSrc = firstStadiumEntry?.thumbUrl || null
+  const [coverStadiumSrc, setCoverStadiumSrc] = useState(firstStadiumSrc || firstStadiumFallbackSrc || null)
+
+  useEffect(() => {
+    setCoverStadiumSrc(firstStadiumSrc || firstStadiumFallbackSrc || null)
+  }, [firstStadiumSrc, firstStadiumFallbackSrc])
 
   return (
     <article className="relative overflow-hidden rounded-2xl border border-amber-900/35 bg-[#dfcfab] p-4 shadow-xl sm:p-6">
@@ -353,14 +352,18 @@ function CoverSpread({ album }) {
               <img src={logoSrc} alt="Logo asset" className="h-14 w-full object-contain object-center" />
             </div>
             <div className="overflow-hidden rounded-md border border-white/20 bg-white/10 p-1">
-              {firstStadiumSrc ? (
+              {coverStadiumSrc ? (
                 <img
-                  src={firstStadiumSrc}
+                  src={coverStadiumSrc}
                   alt={firstStadium || 'Stadium asset'}
                   loading="lazy"
                   className="h-14 w-full object-cover object-center"
                   onError={(event) => {
-                    event.currentTarget.style.display = 'none'
+                    if (coverStadiumSrc !== firstStadiumFallbackSrc && firstStadiumFallbackSrc) {
+                      setCoverStadiumSrc(firstStadiumFallbackSrc)
+                    } else {
+                      event.currentTarget.style.display = 'none'
+                    }
                   }}
                 />
               ) : (
@@ -610,7 +613,7 @@ function VirtualAlbum({ album }) {
         <h4 className="text-sm font-semibold text-slate-100">Image & Media References</h4>
 
         <p className="mt-2 text-slate-400">
-          Visual previews in this album are loaded from local repository assets and generated local placeholders.
+          Visual previews in this album use real images from local repository assets and curated stadium photo URLs.
         </p>
         <p className="mt-1 text-slate-400">
           Squad names by tournament/team are sourced from the World Cup dataset by jfjelstul/worldcup.
