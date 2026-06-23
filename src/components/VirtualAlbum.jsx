@@ -3,18 +3,15 @@ import { buildAlbumPages, getTeam } from '../utils/stickers'
 import stadiumImagesData from '../data/stadiumImages.json'
 
 const STADIUM_MAP = stadiumImagesData.images || {}
-const PLAYER_IMAGE_CACHE = new Map()
 
-const PLAYER_TITLE_OVERRIDES = {
-  'Ronaldo': 'Ronaldo (Brazilian footballer)',
-  'Cafu': 'Cafu',
-  'Pelé': 'Pelé',
-  'Müller': 'Müller',
-  'Rai': 'Raí',
+function slugifyAssetName(input) {
+  return String(input || '')
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '')
 }
-
-const WIKIMEDIA_CACHE = new Map()
-const WIKIPEDIA_SUMMARY_CACHE = new Map()
 
 const SONG_BY_YEAR = {
   2022: { title: 'Hayya Hayya (Better Together)' },
@@ -28,103 +25,30 @@ const SONG_BY_YEAR = {
   1990: { title: "Un'estate italiana" },
 }
 
-async function resolveWikimediaImage(query) {
-  const key = String(query || '').trim()
-  if (!key) return null
-  if (WIKIMEDIA_CACHE.has(key)) return WIKIMEDIA_CACHE.get(key)
-
-  try {
-    const url =
-      'https://commons.wikimedia.org/w/api.php?action=query&generator=search' +
-      `&gsrsearch=${encodeURIComponent(key)}` +
-      '&gsrlimit=1&prop=pageimages|info&pithumbsize=700&piprop=thumbnail|name' +
-      '&inprop=url&format=json&origin=*'
-    const response = await fetch(url)
-    if (!response.ok) throw new Error('Wikimedia request failed')
-    const data = await response.json()
-    const pages = data?.query?.pages ? Object.values(data.query.pages) : []
-    const page = pages[0]
-    const image = page?.thumbnail?.source || null
-    WIKIMEDIA_CACHE.set(key, image)
-    return image
-  } catch {
-    WIKIMEDIA_CACHE.set(key, null)
-    return null
-  }
+const LOCAL_SONG_PREVIEWS = {
+  2022: '/audio/songs/2022-preview.wav',
+  2018: '/audio/songs/2018-preview.wav',
+  2014: '/audio/songs/2014-preview.wav',
+  2010: '/audio/songs/2010-preview.wav',
+  2006: '/audio/songs/2006-preview.wav',
+  2002: '/audio/songs/2002-preview.wav',
+  1998: '/audio/songs/1998-preview.wav',
+  1994: '/audio/songs/1994-preview.wav',
+  1990: '/audio/songs/1990-preview.wav',
 }
 
-async function resolveWikipediaSummaryImage(query) {
-  const key = String(query || '').trim()
-  if (!key) return null
-  if (WIKIPEDIA_SUMMARY_CACHE.has(key)) return WIKIPEDIA_SUMMARY_CACHE.get(key)
-
-  try {
-    const url = `https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(key)}`
-    const response = await fetch(url)
-    if (!response.ok) throw new Error('Wikipedia summary request failed')
-    const data = await response.json()
-    const image = data?.thumbnail?.source || null
-    WIKIPEDIA_SUMMARY_CACHE.set(key, image)
-    return image
-  } catch {
-    WIKIPEDIA_SUMMARY_CACHE.set(key, null)
-    return null
-  }
-}
-
-async function resolveMediaImage(queries) {
-  const list = Array.isArray(queries) ? queries : [queries]
-  for (const q of list) {
-    if (!q) continue
-    const commons = await resolveWikimediaImage(q)
-    if (commons) return commons
-    const wiki = await resolveWikipediaSummaryImage(q)
-    if (wiki) return wiki
-  }
-  return null
-}
-
-function WikimediaImageCard({ title, queries, fallbackLabel }) {
-  const [imageUrl, setImageUrl] = useState(null)
-  const [loaded, setLoaded] = useState(false)
-  const queryList = Array.isArray(queries) ? queries : [queries]
-  const fallbackHref = `https://commons.wikimedia.org/w/index.php?search=${encodeURIComponent(queryList[0] || title)}`
-
-  useEffect(() => {
-    let active = true
-    setLoaded(false)
-
-    resolveMediaImage(queryList).then((url) => {
-      if (active) {
-        setImageUrl(url)
-        setLoaded(true)
-      }
-    })
-
-    return () => {
-      active = false
-    }
-  }, [JSON.stringify(queryList)])
-
+function LocalPreviewCard({ title, src, fallbackLabel, imageClassName = 'object-cover' }) {
   return (
     <div className="overflow-hidden rounded-lg border border-amber-900/35 bg-[#efe6d0]">
       <div className="border-b border-amber-900/25 bg-[#e8dcc0] px-2 py-1">
         <p className="text-[10px] font-bold uppercase tracking-wider text-slate-700">{title}</p>
       </div>
       <div className="relative h-32 w-full bg-[#d9ccb1]">
-        {loaded && imageUrl ? (
-          <img src={imageUrl} alt={title} loading="lazy" className="h-full w-full object-cover" />
+        {src ? (
+          <img src={src} alt={title} loading="lazy" className={`h-full w-full object-center ${imageClassName}`} />
         ) : (
           <div className="flex h-full flex-col items-center justify-center gap-1 px-2 text-center">
             <span className="text-xs font-semibold text-slate-600">{fallbackLabel}</span>
-            <a
-              href={fallbackHref}
-              target="_blank"
-              rel="noreferrer"
-              className="text-[11px] font-semibold text-sky-700 hover:text-sky-600"
-            >
-              Open source search
-            </a>
           </div>
         )}
       </div>
@@ -134,25 +58,28 @@ function WikimediaImageCard({ title, queries, fallbackLabel }) {
 
 function SongPlayer({ album }) {
   const meta = SONG_BY_YEAR[album.year] || { title: `Official song/anthem ${album.year}` }
-  const query = `${album.year} FIFA World Cup official song ${meta.title}`
-  const searchHref = `https://www.youtube.com/results?search_query=${encodeURIComponent(query)}`
+  const audioSrc = LOCAL_SONG_PREVIEWS[album.year] || null
+  const [audioMissing, setAudioMissing] = useState(false)
 
   return (
     <div className="rounded-lg border border-amber-900/35 bg-[#efe6d0] p-2">
-      <p className="mb-2 text-[10px] font-bold uppercase tracking-wider text-slate-700">
-        Official Song (YouTube)
-      </p>
+      <p className="mb-2 text-[10px] font-bold uppercase tracking-wider text-slate-700">Official Song</p>
       <div className="rounded-md border border-amber-900/30 bg-[#d9ccb1] p-3">
         <p className="text-sm font-semibold text-slate-700">{meta.title}</p>
-        <p className="mt-1 text-xs text-slate-600">{album.year} FIFA World Cup music reference</p>
-        <a
-          href={searchHref}
-          target="_blank"
-          rel="noreferrer"
-          className="mt-3 inline-block rounded bg-slate-900 px-3 py-1.5 text-xs font-semibold text-white hover:bg-slate-800"
-        >
-          ▶ Play on YouTube
-        </a>
+        <p className="mt-1 text-xs text-slate-600">Playable local preview hosted in this repository (GitHub Pages friendly).</p>
+        {audioSrc && !audioMissing ? (
+          <audio
+            className="mt-3 w-full"
+            controls
+            preload="none"
+            onError={() => setAudioMissing(true)}
+          >
+            <source src={audioSrc} type="audio/wav" />
+            Your browser does not support audio playback.
+          </audio>
+        ) : (
+          <p className="mt-3 text-xs text-slate-600">No local preview audio available for this year.</p>
+        )}
       </div>
     </div>
   )
@@ -162,72 +89,33 @@ function cleanPlayerName(name) {
   return String(name ?? '').replace(/\s+©$/, '').trim()
 }
 
-async function resolvePlayerImage(name) {
+function getInitials(name) {
   const clean = cleanPlayerName(name)
-  if (!clean) return null
-  if (PLAYER_IMAGE_CACHE.has(clean)) return PLAYER_IMAGE_CACHE.get(clean)
-
-  const candidates = [
-    PLAYER_TITLE_OVERRIDES[clean],
-    clean,
-    `${clean} (footballer)`,
-    `${clean} (Argentine footballer)`,
-    `${clean} (Brazilian footballer)`,
-  ].filter(Boolean)
-
-  for (const candidate of candidates) {
-    try {
-      const url = `https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(candidate)}`
-      const response = await fetch(url)
-      if (!response.ok) continue
-      const data = await response.json()
-      const image = data?.thumbnail?.source || null
-      if (image) {
-        PLAYER_IMAGE_CACHE.set(clean, image)
-        return image
-      }
-    } catch {
-      // Ignore lookup errors and keep trying fallback titles.
-    }
-  }
-
-  // Fallback: search Wikimedia Commons historical media when Wikipedia summary has no thumbnail.
-  for (const candidate of candidates) {
-    try {
-      const commonsUrl =
-        `https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=${encodeURIComponent(candidate + ' football')}` +
-        `&gsrlimit=1&prop=pageimages&piprop=thumbnail&pithumbsize=500&format=json&origin=*`
-      const response = await fetch(commonsUrl)
-      if (!response.ok) continue
-      const data = await response.json()
-      const pages = data?.query?.pages ? Object.values(data.query.pages) : []
-      const image = pages[0]?.thumbnail?.source || null
-      if (image) {
-        PLAYER_IMAGE_CACHE.set(clean, image)
-        return image
-      }
-    } catch {
-      // Ignore and keep fallback behavior.
-    }
-  }
-
-  PLAYER_IMAGE_CACHE.set(clean, null)
-  return null
+  const parts = clean.split(/\s+/).filter(Boolean)
+  if (parts.length === 0) return 'PL'
+  if (parts.length === 1) return parts[0].slice(0, 2).toUpperCase()
+  return `${parts[0][0]}${parts[parts.length - 1][0]}`.toUpperCase()
 }
 
 function StadiumSticker({ label }) {
   const entry = STADIUM_MAP[label]
-  const [failed, setFailed] = useState(false)
-  const url = entry?.thumbUrl
+  const fileName = entry?.file || `${slugifyAssetName(label)}.jpg`
+  const localSvg = `/images/stadiums/${slugifyAssetName(label)}.svg`
+  const sources = [`/images/stadiums/${fileName}`, localSvg].filter(Boolean)
+  const [sourceIndex, setSourceIndex] = useState(0)
 
-  if (url && !failed) {
+  useEffect(() => {
+    setSourceIndex(0)
+  }, [label])
+
+  if (sources[sourceIndex]) {
     return (
       <img
-        src={url}
+        src={sources[sourceIndex]}
         alt={entry.caption || label}
-        title={`${label} — © ${entry.author} (${entry.license})`}
+        title={`${label} - © ${entry?.author || 'Unknown'} (${entry?.license || 'Unknown'})`}
         loading="lazy"
-        onError={() => setFailed(true)}
+        onError={() => setSourceIndex((idx) => idx + 1)}
         className="absolute inset-0 h-full w-full object-cover"
         style={{ objectPosition: '50% 50%' }}
       />
@@ -242,36 +130,24 @@ function StadiumSticker({ label }) {
   )
 }
 
-function PlayerStickerImage({ name }) {
-  const [imageUrl, setImageUrl] = useState(null)
-  const [loaded, setLoaded] = useState(false)
-
-  useEffect(() => {
-    let active = true
-    setLoaded(false)
-
-    resolvePlayerImage(name).then((url) => {
-      if (active) {
-        setImageUrl(url)
-        setLoaded(true)
-      }
-    })
-
-    return () => {
-      active = false
-    }
-  }, [name])
-
-  if (!loaded || !imageUrl) return null
+function PlayerStickerAvatar({ name, teamCode }) {
+  const team = teamCode ? getTeam(teamCode) : null
+  const initials = getInitials(name)
 
   return (
-    <img
-      src={imageUrl}
-      alt={name}
-      loading="lazy"
-      className="absolute inset-0 h-full w-full object-cover"
-      style={{ objectPosition: '50% 22%' }}
-    />
+    <div
+      className="absolute inset-0 flex items-center justify-center"
+      style={{
+        background: team
+          ? `radial-gradient(circle at 50% 30%, ${team.accent}44 0%, ${team.primary}cc 60%, ${team.secondary}dd 100%)`
+          : 'radial-gradient(circle at 50% 30%, #94a3b844 0%, #334155cc 60%, #0f172add 100%)',
+      }}
+      aria-hidden="true"
+    >
+      <div className="rounded-full border border-white/50 bg-black/25 px-3 py-2 text-center backdrop-blur-[1px]">
+        <span className="text-lg font-black tracking-wide text-white">{initials}</span>
+      </div>
+    </div>
   )
 }
 
@@ -326,10 +202,10 @@ function StickerSlot({ sticker }) {
         </div>
       ) : null}
 
-      {/* Player reference image (no overlay silhouette to avoid overlap) */}
+      {/* Local player avatar: no runtime external lookups */}
       {isPlayer && hasRealPlayerName ? (
         <div className="absolute inset-[3px] overflow-hidden rounded-[6px]" aria-hidden="true">
-          <PlayerStickerImage name={sticker.label} />
+          <PlayerStickerAvatar name={sticker.label} teamCode={sticker.team} />
         </div>
       ) : null}
 
@@ -423,16 +299,14 @@ function AlbumPage({ album, page, pageNumber, side }) {
 }
 
 function CoverSpread({ album }) {
-  const logoQueries = [
-    `${album.year} FIFA World Cup emblem logo`,
-    `${album.year} FIFA World Cup logo`,
-    `FIFA World Cup ${album.year}`,
-  ]
-  const ballQueries = [
-    `${album.ball || `${album.year} FIFA World Cup ball`} adidas`,
-    `${album.year} FIFA World Cup official ball`,
-    `${album.ball || 'FIFA World Cup ball'}`,
-  ]
+  const coverSrc = album.coverImage ? album.coverImage.replace(/^\.\//, '/') : null
+  const logoSrc = '/images/logos/fifa-logo.svg'
+  const firstStadium = (album.stadiums || [])[0]
+  const firstStadiumEntry = firstStadium ? STADIUM_MAP[firstStadium] : null
+  const firstStadiumFile = firstStadium
+    ? (firstStadiumEntry?.file || `${slugifyAssetName(firstStadium)}.jpg`)
+    : null
+  const firstStadiumSrc = firstStadiumFile ? `/images/stadiums/${firstStadiumFile}` : null
 
   return (
     <article className="relative overflow-hidden rounded-2xl border border-amber-900/35 bg-[#dfcfab] p-4 shadow-xl sm:p-6">
@@ -441,6 +315,60 @@ function CoverSpread({ album }) {
           <p className="text-xs uppercase tracking-[0.24em] text-slate-200">FIFA World Cup</p>
           <h3 className="mt-1 text-3xl font-black tracking-tight">Album {album.year}</h3>
           <p className="mt-2 text-sm text-slate-300">Host nation: {album.host}</p>
+          {coverSrc ? (
+            <div className="mt-4 overflow-hidden rounded-lg border border-white/20 bg-white/10">
+              <img
+                src={coverSrc}
+                alt={`${album.year} album cover`}
+                loading="lazy"
+                className="h-36 w-full object-contain object-center"
+              />
+            </div>
+          ) : null}
+
+          <div className="mt-4 grid grid-cols-3 gap-2 text-center">
+            <div className="rounded-md border border-white/15 bg-white/10 p-2">
+              <p className="text-[10px] uppercase tracking-wider text-slate-300">Cover</p>
+              <p className="mt-1 text-sm font-semibold text-white">1</p>
+            </div>
+            <div className="rounded-md border border-white/15 bg-white/10 p-2">
+              <p className="text-[10px] uppercase tracking-wider text-slate-300">Logo</p>
+              <p className="mt-1 text-sm font-semibold text-white">1</p>
+            </div>
+            <div className="rounded-md border border-white/15 bg-white/10 p-2">
+              <p className="text-[10px] uppercase tracking-wider text-slate-300">Stadiums</p>
+              <p className="mt-1 text-sm font-semibold text-white">{(album.stadiums || []).length}</p>
+            </div>
+          </div>
+
+          <div className="mt-4 grid grid-cols-3 gap-2">
+            <div className="overflow-hidden rounded-md border border-white/20 bg-white/10 p-1">
+              {coverSrc ? (
+                <img src={coverSrc} alt="Cover asset" className="h-14 w-full object-contain object-center" />
+              ) : (
+                <div className="flex h-14 items-center justify-center text-[10px] text-slate-300">No cover</div>
+              )}
+            </div>
+            <div className="overflow-hidden rounded-md border border-white/20 bg-white/10 p-1">
+              <img src={logoSrc} alt="Logo asset" className="h-14 w-full object-contain object-center" />
+            </div>
+            <div className="overflow-hidden rounded-md border border-white/20 bg-white/10 p-1">
+              {firstStadiumSrc ? (
+                <img
+                  src={firstStadiumSrc}
+                  alt={firstStadium || 'Stadium asset'}
+                  loading="lazy"
+                  className="h-14 w-full object-cover object-center"
+                  onError={(event) => {
+                    event.currentTarget.style.display = 'none'
+                  }}
+                />
+              ) : (
+                <div className="flex h-14 items-center justify-center text-[10px] text-slate-300">No stadium</div>
+              )}
+            </div>
+          </div>
+
           <p className="mt-6 text-sm text-slate-300">Publisher: {album.publisher}</p>
           <p className="text-sm text-slate-300">Sticker count: {album.stickerCount}</p>
         </div>
@@ -460,15 +388,15 @@ function CoverSpread({ album }) {
             <dd className="font-semibold">{(album.teams || []).length}</dd>
           </dl>
           <div className="mt-4 grid gap-3 sm:grid-cols-2">
-            <WikimediaImageCard
+            <LocalPreviewCard
               title="Tournament Logo"
-              queries={logoQueries}
-              fallbackLabel="Logo not found in Commons"
+              src={logoSrc}
+              fallbackLabel="Local logo preview"
+              imageClassName="object-contain"
             />
-            <WikimediaImageCard
+            <LocalPreviewCard
               title="Official Ball"
-              queries={ballQueries}
-              fallbackLabel={album.ball || 'Ball image unavailable'}
+              fallbackLabel={album.ball || 'Ball name unavailable'}
             />
           </div>
 
@@ -682,13 +610,13 @@ function VirtualAlbum({ album }) {
         <h4 className="text-sm font-semibold text-slate-100">Image & Media References</h4>
 
         <p className="mt-2 text-slate-400">
-          Player photos and emblem/ball visuals are resolved from public Wikipedia and Wikimedia Commons sources when available.
+          Visual previews in this album are loaded from local repository assets and generated local placeholders.
         </p>
         <p className="mt-1 text-slate-400">
           Squad names by tournament/team are sourced from the World Cup dataset by jfjelstul/worldcup.
         </p>
         <p className="mt-1 text-slate-400">
-          Official song playback is embedded from YouTube search results for each tournament year.
+          Official song information is shown from local metadata (no external media search during page load).
         </p>
 
         {stadiumReferences.length > 0 ? (

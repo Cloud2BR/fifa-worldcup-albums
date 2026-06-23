@@ -2,39 +2,32 @@
 
 Atlanta, USA
 
-[![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/)
+![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)  
 [Cloud2BR OSS - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)
 
 Last updated: 2026-06-23
 
-----------
+---
 
 A React + Vite web application that presents FIFA World Cup tournament results and a visual gallery of official sticker albums.
-
-## Screenshots
-
-> Add screenshots after first deployment:
-- Home page
-- World Cups analytics page
-- Albums gallery modal
 
 ## Features
 
 - Historical World Cup results table across all tournaments.
-- Interactive charts for titles, goals, and tournament trends — including a
-  stacked **goals-by-phase** breakdown (group → R16 → QF → SF → 3rd → Final)
-  for World Cups with knockout data available.
-- **Knockout bracket diagrams** — pick any tournament with seeded data
-  (currently 2010, 2014, 2018, 2022) and follow the phase-by-phase flow
-  with the champion path highlighted.
+- Interactive charts for titles, goals, and tournament trends — including a  
+stacked **goals-by-phase** breakdown (group → R16 → QF → SF → 3rd → Final)  
+for World Cups with knockout data available.
+- **Knockout bracket diagrams** — pick any tournament with seeded data  
+(currently 2010, 2014, 2018, 2022) and follow the phase-by-phase flow  
+with the champion path highlighted.
 - Scrollable timeline combining tournament results and album visuals.
-- Album gallery covering every World Cup from **1930 to 2022**, grouped by era
-  (Pre-Panini, Classic Panini, Modern Panini).
-- **Virtual album viewer** — open any album as a two-page spread with sticker
-  slots, keyboard navigation (← / →), swipe on mobile, and Esc to close.
-- **Cross-album sticker search** — filter all ~9,000 sticker slots by team,
-  year, type (player / badge / stadium / mascot / honour), shiny only, or
-  sticker number. Click a result to jump straight to its page in the album.
+- Album gallery covering every World Cup from **1930 to 2022**, grouped by era  
+(Pre-Panini, Classic Panini, Modern Panini).
+- **Virtual album viewer** — open any album as a two-page spread with sticker  
+slots, keyboard navigation (← / →), swipe on mobile, and Esc to close.
+- **Cross-album sticker search** — filter all ~9,000 sticker slots by team,  
+year, type (player / badge / stadium / mascot / honour), shiny only, or  
+sticker number. Click a result to jump straight to its page in the album.
 - Responsive interface for desktop and mobile.
 
 ## Tech Stack
@@ -57,6 +50,7 @@ A React + Vite web application that presents FIFA World Cup tournament results a
 ## Data Schema
 
 ### `worldcups.json`
+
 - `year` (number)
 - `host` (string)
 - `winner` (string)
@@ -67,14 +61,16 @@ A React + Vite web application that presents FIFA World Cup tournament results a
 - `matches` (number)
 - `topScorer` (string)
 - `goalsPerMatch` (number) — pre-computed average (`goals / matches`, 2 dp)
-- `goalsByPhase` (object | null) — per-phase breakdown when known, with
-  keys `group`, `r16`, `qf`, `sf`, `thirdPlace`, `final`. The values sum
-  to `goals`. Currently populated for 2010, 2014, 2018, 2022; `null` for
-  earlier tournaments and can be backfilled following the same schema.
+- `goalsByPhase` (object | null) — per-phase breakdown when known, with  
+keys `group`, `r16`, `qf`, `sf`, `thirdPlace`, `final`. The values sum  
+to `goals`. Currently populated for 2010, 2014, 2018, 2022; `null` for  
+earlier tournaments and can be backfilled following the same schema.
 
 ### `matches.json`
-Knockout-stage matches per tournament. One entry per match under the
+
+Knockout-stage matches per tournament. One entry per match under the  
 `matches` array, with fields:
+
 - `year` (number)
 - `phase` (`"R16" | "QF" | "SF" | "3rd" | "Final"`)
 - `date` (`YYYY-MM-DD`)
@@ -82,27 +78,30 @@ Knockout-stage matches per tournament. One entry per match under the
 - `score` (string, `"h-a"`) — regulation score (or score at end of AET)
 - `extraTime` (boolean) — `true` if extra time was played
 - `penalties` (string | null) — penalty shoot-out score `"h-a"` if any
-- `winner` (string) — name of the side that advanced (or the trophy
-  winner for the Final / 3rd-place match)
+- `winner` (string) — name of the side that advanced (or the trophy  
+winner for the Final / 3rd-place match)
 
-Seeded for 2010, 2014, 2018, 2022. Older tournaments can be backfilled
-by appending entries to the same `matches` array — no schema change
+Seeded for 2010, 2014, 2018, 2022. Older tournaments can be backfilled  
+by appending entries to the same `matches` array — no schema change  
 required.
 
 ### `stadiumImages.json`
-Optional curated mapping from stadium name (as it appears in
+
+Optional curated mapping from stadium name (as it appears in  
 `albums.json` `stadiums[]`) to a free-license image entry:
+
 - `file` (string) — filename under `public/images/stadiums/`
 - `author` (string)
 - `license` (string) — must be PD / CC0 / CC-BY / CC-BY-SA
 - `sourceUrl` (string) — link to the Wikimedia Commons file page
 - `caption` (string)
 
-Until the binary file is committed, the `VirtualAlbum` component falls
-back to its built-in SVG silhouette automatically. Every entry must
-also be listed in [`CREDITS.md`](./CREDITS.md).
+Until the binary file is committed, the `VirtualAlbum` component falls  
+back to its built-in SVG silhouette automatically. Every entry must  
+also be listed in `[CREDITS.md](./CREDITS.md)`.
 
 ### `albums.json`
+
 - `year` (number)
 - `publisher` (string) — historical publisher; not always Panini for pre-1970 albums
 - `official` (boolean) — `true` for the official Panini line (1970+), `false` for the pre-Panini era
@@ -118,13 +117,15 @@ also be listed in [`CREDITS.md`](./CREDITS.md).
 - `notes` (optional string)
 
 ### `teams.json`
-A keyed map of three-letter team codes to `{ name, primary, secondary, accent }`
-colours, used to style badge and player sticker slots. Includes historical
-entities such as `FRG` (West Germany), `TCH` (Czechoslovakia), `URS` (Soviet
+
+A keyed map of three-letter team codes to `{ name, primary, secondary, accent }`  
+colours, used to style badge and player sticker slots. Includes historical  
+entities such as `FRG` (West Germany), `TCH` (Czechoslovakia), `URS` (Soviet  
 Union), `YUG` (Yugoslavia), `ZAI` (Zaire), and `SCG` (Serbia & Montenegro).
 
 ### Generated stickers
-Stickers themselves are not stored as data. The deterministic generator in
+
+Stickers themselves are not stored as data. The deterministic generator in  
 `src/utils/stickers.js` builds every sticker for an album from its metadata:
 
 1. Intro / history slots (cover, trophy, host, champion, ball, emblem)
@@ -133,26 +134,26 @@ Stickers themselves are not stored as data. The deterministic generator in
 4. Per-team block: a foil badge plus N player slots
 5. Closing honours (Golden Boot, Golden Ball, etc.)
 
-Each generated sticker has `number`, `albumYear`, `kind`
-(`player` | `badge` | `stadium` | `mascot` | `history`), `team` (or `null`),
-`isShiny`, and a `label`. The total always matches the album's declared
+Each generated sticker has `number`, `albumYear`, `kind`  
+(`player` | `badge` | `stadium` | `mascot` | `history`), `team` (or `null`),  
+`isShiny`, and a `label`. The total always matches the album's declared  
 `stickerCount`.
 
 ## Copyright
 
-Real Panini sticker artwork, player photographs, club crests and tournament
-emblems are the property of Panini S.p.A., FIFA, the national federations,
-and the players. **No copyrighted sticker images are bundled in this
-repository.** The virtual album renders styled placeholder slots (sticker
-number, team colours, position, shiny/foil flag) that mirror the structure of
+Real Panini sticker artwork, player photographs, club crests and tournament  
+emblems are the property of Panini S.p.A., FIFA, the national federations,  
+and the players. **No copyrighted sticker images are bundled in this**  
+**repository.** The virtual album renders styled placeholder slots (sticker  
+number, team colours, position, shiny/foil flag) that mirror the structure of  
 a real album so collectors can later drop in their own scans.
 
-Stadium photographs may be optionally bundled under `public/images/stadiums/`
-provided they are released under a permissive free-culture license
-(public-domain, CC0, CC-BY, or CC-BY-SA). Every bundled image must be
-listed in [`CREDITS.md`](./CREDITS.md) with its author, license, and
-source URL, and the same metadata must be present in
-`src/data/stadiumImages.json`. When no image file is present, the
+Stadium photographs may be optionally bundled under `public/images/stadiums/`  
+provided they are released under a permissive free-culture license  
+(public-domain, CC0, CC-BY, or CC-BY-SA). Every bundled image must be  
+listed in `[CREDITS.md](./CREDITS.md)` with its author, license, and  
+source URL, and the same metadata must be present in  
+`src/data/stadiumImages.json`. When no image file is present, the  
 virtual album falls back to a styled SVG silhouette automatically.
 
 ## Local Setup
@@ -170,8 +171,8 @@ This project is configured for GitHub Pages hosted from the **main branch** usin
 1. Run `npm run build` (outputs static site to `/docs`).
 2. Commit the generated `/docs` folder to `main`.
 3. In repository settings, set GitHub Pages source to:
-   - **Branch:** `main`
-   - **Folder:** `/docs`
+  - **Branch:** `main`
+  - **Folder:** `/docs`
 
 Configured Vite base path: `/fifa-worldcup-albums/`.
 
@@ -183,9 +184,6 @@ This repository is dual-licensed:
 - Commercial proprietary license: see `LICENSE-COMMERCIAL.md`
 - Licensing summary: `NOTICE`
 
-<!-- START BADGE -->
-<div align="center">
-  <img src="https://img.shields.io/badge/Total%20views-0-limegreen" alt="Total views">
-  <p>Refresh Date: 2026-06-23</p>
-</div>
-<!-- END BADGE -->
+![Total views](https://img.shields.io/badge/Total%20views-0-limegreen)
+
+Refresh Date: 2026-06-23

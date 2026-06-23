@@ -176,6 +176,13 @@ export function buildAlbumPages(album, stickersPerPage = 8) {
     stadiumStart = Math.min(needed, stadiums.length)
   }
 
+  // Final safety: if intro + early stadiums are still short, top up with team/closing stickers.
+  if (introPageStickers.length < stickersPerPage) {
+    const needed = stickersPerPage - introPageStickers.length
+    const fallbackPool = [...teamStickers, ...closing]
+    introPageStickers = introPageStickers.concat(fallbackPool.slice(0, needed))
+  }
+
   // Intro page
   if (introPageStickers.length) {
     pages.push({ title: `${album.year} ${album.host} — Tournament`, kind: 'intro', stickers: introPageStickers })
