@@ -1,5 +1,5 @@
 {
-  "_comment": "Knockout matches per FIFA World Cup. One entry per match. All tournaments 1930-2022 are seeded. Fields: year, phase (R16|QF|SF|3rd|Final), date (YYYY-MM-DD), home, away, score (regulation 'h-a'), extraTime (bool), penalties ('h-a' or null), winner (team name).",
+  "_comment": "Knockout matches per FIFA World Cup. One entry per match. Historical tournaments 1930-2022 are seeded; 2026 entries will be appended as the tournament progresses. Fields: year, phase (R16|QF|SF|3rd|Final), date (YYYY-MM-DD), home, away, score (regulation 'h-a'), extraTime (bool), penalties ('h-a' or null), winner (team name).",
   "matches": [
     { "year": 1930, "phase": "SF",    "date": "1930-07-26", "home": "Argentina",     "away": "United States",    "score": "6-1", "extraTime": false, "penalties": null, "winner": "Argentina" },
     { "year": 1930, "phase": "SF",    "date": "1930-07-27", "home": "Uruguay",       "away": "Yugoslavia",       "score": "6-1", "extraTime": false, "penalties": null, "winner": "Uruguay" },
