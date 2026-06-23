@@ -44,14 +44,18 @@ const LOCAL_SONG_PREVIEWS = {
 }
 
 function LocalPreviewCard({ title, src, srcFallback, fallbackLabel, imageClassName = 'object-cover' }) {
-  // Support a primary src with optional fallback URL before showing text
   const sources = [src, srcFallback].filter(Boolean)
   const [sourceIndex, setSourceIndex] = useState(0)
+  const [allFailed, setAllFailed] = useState(false)
 
-  // Reset when src changes (different album year)
-  useEffect(() => { setSourceIndex(0) }, [src])
+  // Reset whenever the source set changes (different album year, different entity)
+  useEffect(() => {
+    setSourceIndex(0)
+    setAllFailed(false)
+  }, [src, srcFallback])
 
-  const activeSrc = sources[sourceIndex]
+  const activeSrc = allFailed ? null : sources[sourceIndex]
+
   return (
     <div className="overflow-hidden rounded-lg border border-amber-900/35 bg-[#efe6d0]">
       <div className="border-b border-amber-900/25 bg-[#e8dcc0] px-2 py-1">
@@ -68,15 +72,12 @@ function LocalPreviewCard({ title, src, srcFallback, fallbackLabel, imageClassNa
               if (sourceIndex < sources.length - 1) {
                 setSourceIndex((i) => i + 1)
               } else {
-                // hide broken img
-                const el = document.querySelector(`[data-preview-title="${CSS.escape(title)}"] img`)
-                if (el) el.style.display = 'none'
+                setAllFailed(true)
               }
             }}
           />
         ) : (
           <div className="flex h-full flex-col items-center justify-center gap-1 px-2 text-center">
-            <span className="text-2xl">🖼️</span>
             <span className="text-xs font-semibold text-slate-600">{fallbackLabel}</span>
           </div>
         )}
