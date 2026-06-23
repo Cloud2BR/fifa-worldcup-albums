@@ -61,6 +61,51 @@ export function buildTeamsMatchesData(worldCups) {
   }
 }
 
+export function parseFinalScore(finalScore) {
+  if (typeof finalScore !== 'string') return { winnerGoals: null, runnerUpGoals: null }
+  const match = finalScore.match(/(\d+)\s*-\s*(\d+)/)
+  if (!match) return { winnerGoals: null, runnerUpGoals: null }
+  return { winnerGoals: Number(match[1]), runnerUpGoals: Number(match[2]) }
+}
+
+export function buildMatchesAndFinalScoreData(worldCups) {
+  const scores = worldCups.map((cup) => parseFinalScore(cup.finalScore))
+  return {
+    labels: worldCups.map((cup) => cup.year),
+    datasets: [
+      {
+        type: 'bar',
+        label: 'Matches played',
+        data: worldCups.map((cup) => cup.matches),
+        backgroundColor: 'rgba(14, 165, 233, 0.6)',
+        borderColor: '#0ea5e9',
+        yAxisID: 'y',
+        order: 2,
+      },
+      {
+        type: 'line',
+        label: 'Final – winner goals',
+        data: scores.map((score) => score.winnerGoals),
+        borderColor: '#facc15',
+        backgroundColor: 'rgba(250, 204, 21, 0.3)',
+        yAxisID: 'yScore',
+        tension: 0.3,
+        order: 1,
+      },
+      {
+        type: 'line',
+        label: 'Final – runner-up goals',
+        data: scores.map((score) => score.runnerUpGoals),
+        borderColor: '#f472b6',
+        backgroundColor: 'rgba(244, 114, 182, 0.3)',
+        yAxisID: 'yScore',
+        tension: 0.3,
+        order: 1,
+      },
+    ],
+  }
+}
+
 export function mergeTimelineData(worldCups, albums) {
   const albumByYear = new Map(albums.map((album) => [album.year, album]))
 
