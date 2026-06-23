@@ -156,7 +156,6 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Mascot 1966: World Cup Willie",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e9/1966_FIFA_World_Cup.png/330px-1966_FIFA_World_Cup.png",
       "sourceUrl": "https://en.wikipedia.org/wiki/1966_FIFA_World_Cup"
     },
     "1966:emblem": {
@@ -209,8 +208,7 @@
       "label": "Mascot 1974: Tip and Tap",
       "author": "Wikipedia contributors",
       "license": "See source page",
-      "caption": "Mascot 1974: Tip and Tap",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/FIFA_World_Cup_1974_-_emblem.svg/330px-FIFA_World_Cup_1974_-_emblem.svg.png"
+      "caption": "Mascot 1974: Tip and Tap"
     },
     "1974:emblem": {
       "key": "1974:emblem",
@@ -235,8 +233,7 @@
       "label": "Mascot 1978: Gauchito",
       "author": "Wikipedia contributors",
       "license": "See source page",
-      "caption": "Mascot 1978: Gauchito",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Logo_Mundial_78.svg/330px-Logo_Mundial_78.svg.png"
+      "caption": "Mascot 1978: Gauchito"
     },
     "1978:emblem": {
       "key": "1978:emblem",
@@ -261,8 +258,7 @@
       "label": "Mascot 1982: Naranjito",
       "author": "Wikipedia contributors",
       "license": "See source page",
-      "caption": "Mascot 1982: Naranjito",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/3/32/1982_FIFA_World_Cup.svg/330px-1982_FIFA_World_Cup.svg.png"
+      "caption": "Mascot 1982: Naranjito"
     },
     "1982:emblem": {
       "key": "1982:emblem",
@@ -287,8 +283,7 @@
       "label": "Mascot 1986: Pique",
       "author": "Wikipedia contributors",
       "license": "See source page",
-      "caption": "Mascot 1986: Pique",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/7/77/1986_FIFA_World_Cup.svg/330px-1986_FIFA_World_Cup.svg.png"
+      "caption": "Mascot 1986: Pique"
     },
     "1986:emblem": {
       "key": "1986:emblem",
@@ -313,8 +308,7 @@
       "label": "Mascot 1990: Ciao",
       "author": "Wikipedia contributors",
       "license": "See source page",
-      "caption": "Mascot 1990: Ciao",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a9/1990_FIFA_World_Cup.svg/330px-1990_FIFA_World_Cup.svg.png"
+      "caption": "Mascot 1990: Ciao"
     },
     "1990:emblem": {
       "key": "1990:emblem",
@@ -340,7 +334,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Mascot 1994: Striker",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/1994_FIFA_World_Cup.svg/330px-1994_FIFA_World_Cup.svg.png"
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/Striker_USA_94.JPG",
+      "file": "1994/mascot.jpg"
     },
     "1994:emblem": {
       "key": "1994:emblem",
@@ -366,7 +361,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Mascot 1998: Footix",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/1998_FIFA_World_Cup.svg/330px-1998_FIFA_World_Cup.svg.png"
+      "file": "1998/mascot.jpeg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/6/65/Stamp_of_Albania_-_1998_-_Colnect_186191_-_Mascot_Footix.jpeg"
     },
     "1998:emblem": {
       "key": "1998:emblem",
@@ -391,8 +387,7 @@
       "label": "Mascot 2002: The Spheriks (Ato, Kaz, Nik)",
       "author": "Wikipedia contributors",
       "license": "See source page",
-      "caption": "Mascot 2002: The Spheriks (Ato, Kaz, Nik)",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/4/47/2002_FIFA_World_Cup_logo.svg/330px-2002_FIFA_World_Cup_logo.svg.png"
+      "caption": "Mascot 2002: The Spheriks (Ato, Kaz, Nik)"
     },
     "2002:emblem": {
       "key": "2002:emblem",
@@ -418,7 +413,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Mascot 2006: Goleo VI & Pille",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6b/2006_FIFA_World_Cup.svg/330px-2006_FIFA_World_Cup.svg.png"
+      "file": "2006/mascot.jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/d/da/Goleo_VI.jpg"
     },
     "2006:emblem": {
       "key": "2006:emblem",
@@ -444,7 +440,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Mascot 2010: Zakumi",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0d/2010_FIFA_World_Cup.svg/330px-2010_FIFA_World_Cup.svg.png"
+      "file": "2010/mascot.jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/HK_Causeway_Bay_Times_Square_evening_South_Africa_World_Cup_2010_Icon_figure_Zakumi_%E7%BE%85%E7%B4%A0%E8%A1%97_Russell_Street.jpg/500px-HK_Causeway_Bay_Times_Square_evening_South_Africa_World_Cup_2010_Icon_figure_Zakumi_%E7%BE%85%E7%B4%A0%E8%A1%97_Russell_Street.jpg"
     },
     "2010:emblem": {
       "key": "2010:emblem",
@@ -500,7 +497,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Mascot 2018: Zabivaka",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/6/67/2018_FIFA_World_Cup.svg/330px-2018_FIFA_World_Cup.svg.png"
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/2018_FIFA_World_Cup_Mascot%2C_Zabivaka%28%D0%97%D0%B0%D0%B1%D0%B8%D0%B2%D0%B0%CC%81%D0%BA%D0%B0%29_at_FIFA_World_Museum%2C_Zurich%2C_Switzerland_%28Ank_Kumar%2C_Infosys_Limited_01.jpg/500px-2018_FIFA_World_Cup_Mascot%2C_Zabivaka%28%D0%97%D0%B0%D0%B1%D0%B8%D0%B2%D0%B0%CC%81%D0%BA%D0%B0%29_at_FIFA_World_Museum%2C_Zurich%2C_Switzerland_%28Ank_Kumar%2C_Infosys_Limited_01.jpg",
+      "file": "2018/mascot.jpg"
     },
     "2018:emblem": {
       "key": "2018:emblem",
@@ -527,7 +525,8 @@
       "license": "See source page",
       "caption": "Mascot 2022: La'eeb",
       "thumbUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/2/22/Laeeb_%28mascot%29.jpeg/330px-Laeeb_%28mascot%29.jpeg",
-      "sourceUrl": "https://en.wikipedia.org/wiki/La'eeb"
+      "sourceUrl": "https://en.wikipedia.org/wiki/La'eeb",
+      "file": "2022/mascot.jpeg"
     },
     "2022:emblem": {
       "key": "2022:emblem",
@@ -550,8 +549,7 @@
       "label": "Mascot 2026: TBD",
       "author": "Wikipedia contributors",
       "license": "See source page",
-      "caption": "Mascot 2026: TBD",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/1/17/2026_FIFA_World_Cup_emblem.svg/330px-2026_FIFA_World_Cup_emblem.svg.png"
+      "caption": "Mascot 2026: TBD"
     },
     "2026:emblem": {
       "key": "2026:emblem",
