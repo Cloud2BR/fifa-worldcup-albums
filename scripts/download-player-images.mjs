@@ -63,15 +63,47 @@ async function writeJson(filePath, data) {
   await fs.writeFile(filePath, `${JSON.stringify(data, null, 2)}\n`, 'utf8')
 }
 
-async function fetchJson(url) {
-  const response = await fetch(url, {
-    headers: {
-      'user-agent': 'fifa-worldcup-albums/1.0 (player image downloader)',
-      accept: 'application/json',
-    },
-  })
-  if (!response.ok) throw new Error(`HTTP ${response.status} for ${url}`)
-  return response.json()
+async function fetchJson(url, attempts = 5) {
+  let lastError = null
+
+  for (let i = 0; i < attempts; i += 1) {
+    try {
+      const response = await fetch(url, {
+        headers: {
+          'user-agent': 'fifa-worldcup-albums/1.0 (player image downloader)',
+          accept: 'application/json',
+        },
+      })
+
+      if (response.ok) return response.json()
+
+      // Wikimedia/Wikipedia APIs can throttle bursts.
+      if (response.status === 429 || response.status === 503) {
+        await wait(900 * (i + 1))
+        continue
+      }
+
+      throw new Error(`HTTP ${response.status} for ${url}`)
+    } catch (error) {
+      lastError = error
+      await wait(400 * (i + 1))
+    }
+  }
+
+  throw lastError || new Error(`Failed JSON fetch for ${url}`)
+}
+
+async function commonsFileToThumb(fileName) {
+  const apiUrl =
+    'https://commons.wikimedia.org/w/api.php?action=query&titles=File:' +
+    `${encodeURIComponent(fileName)}` +
+    '&prop=imageinfo&iiprop=url&iiurlwidth=700&format=json&origin=*'
+
+  const data = await fetchJson(apiUrl)
+  const pages = data?.query?.pages ? Object.values(data.query.pages) : []
+  const page = pages[0]
+  const info = page?.imageinfo?.[0] || null
+  return info?.thumburl || info?.url || null
 }
 
 async function findWikipediaTitle(query) {
@@ -85,6 +117,62 @@ async function findWikipediaTitle(query) {
 async function getWikipediaSummary(title) {
   const summaryUrl = `https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(title)}`
   return fetchJson(summaryUrl)
+}
+
+async function findCommonsImage(query) {
+  const apiUrl =
+    'https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrnamespace=6&gsrlimit=1&prop=imageinfo&iiprop=url&iiurlwidth=700&format=json&origin=*' +
+    `&gsrsearch=${encodeURIComponent(query)}`
+
+  const data = await fetchJson(apiUrl)
+  const pages = data?.query?.pages ? Object.values(data.query.pages) : []
+  const page = pages[0]
+  if (!page) return null
+
+  const info = page?.imageinfo?.[0] || null
+  const title = String(page?.title || '').replace(/^File:/, '')
+  const thumbUrl = info?.thumburl || info?.url || null
+  if (!thumbUrl) return null
+
+  return {
+    thumbUrl,
+    sourceUrl: title ? `https://commons.wikimedia.org/wiki/File:${encodeURIComponent(title)}` : null,
+    author: 'Wikimedia Commons contributors',
+    license: 'See source page',
+  }
+}
+
+async function findWikidataImage(query) {
+  const searchUrl =
+    'https://www.wikidata.org/w/api.php?action=wbsearchentities&language=en&format=json&limit=3&origin=*' +
+    `&search=${encodeURIComponent(query)}`
+  const searchData = await fetchJson(searchUrl)
+  const candidates = searchData?.search || []
+
+  for (const candidate of candidates) {
+    const id = candidate?.id
+    if (!id) continue
+
+    const entityUrl =
+      'https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&props=claims&origin=*' +
+      `&ids=${encodeURIComponent(id)}`
+    const entityData = await fetchJson(entityUrl)
+    const entity = entityData?.entities?.[id]
+    const p18 = entity?.claims?.P18?.[0]?.mainsnak?.datavalue?.value
+    if (!p18) continue
+
+    const fileName = String(p18)
+    const thumbUrl = await commonsFileToThumb(fileName)
+    if (!thumbUrl) continue
+    return {
+      thumbUrl,
+      sourceUrl: `https://commons.wikimedia.org/wiki/File:${encodeURIComponent(fileName)}`,
+      author: 'Wikidata/Wikimedia Commons contributors',
+      license: 'See source page',
+    }
+  }
+
+  return null
 }
 
 async function resolvePlayerImage(playerName, teamName) {
@@ -107,6 +195,39 @@ async function resolvePlayerImage(playerName, teamName) {
         sourceUrl: summary?.content_urls?.desktop?.page || null,
         author: 'Wikipedia contributors',
         license: 'See source page',
+        caption: `${playerName} (${teamName})`,
+      }
+    } catch {
+      await wait(200)
+    }
+  }
+
+  // Fallback for players without a dedicated Wikipedia summary thumbnail.
+  for (const query of queries) {
+    try {
+      const commons = await findCommonsImage(query)
+      if (!commons?.thumbUrl) continue
+      return {
+        thumbUrl: commons.thumbUrl,
+        sourceUrl: commons.sourceUrl,
+        author: commons.author,
+        license: commons.license,
+        caption: `${playerName} (${teamName})`,
+      }
+    } catch {
+      await wait(200)
+    }
+  }
+
+  for (const query of queries) {
+    try {
+      const wikidata = await findWikidataImage(query)
+      if (!wikidata?.thumbUrl) continue
+      return {
+        thumbUrl: wikidata.thumbUrl,
+        sourceUrl: wikidata.sourceUrl,
+        author: wikidata.author,
+        license: wikidata.license,
         caption: `${playerName} (${teamName})`,
       }
     } catch {
@@ -232,11 +353,11 @@ async function main() {
       }
 
       const ext = detectExtension(thumbUrl)
-      const fileName = entry.file || `${slugify(playerName)}${ext}`
+      const fileName = entry.file ? path.basename(entry.file) : `${slugify(playerName)}${ext}`
       const outPath = path.join(teamDir, fileName)
       const relativeFile = `${options.year}/${teamCode}/${fileName}`
 
-      if (!entry.file) entry.file = relativeFile
+      if (entry.file !== relativeFile) entry.file = relativeFile
 
       if (await fileExists(outPath)) {
         skipped += 1
@@ -257,7 +378,7 @@ async function main() {
       processed += 1
       catalog.images = images
       await writeJson(outputFile, catalog)
-      await wait(120)
+      await wait(420)
     }
 
     if (options.max && processed >= options.max) break

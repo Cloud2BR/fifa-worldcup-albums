@@ -13,6 +13,8 @@
     "media:players": "node scripts/download-player-images.mjs --year 2026",
     "media:entities": "node scripts/download-entity-images.mjs",
     "media:index": "node scripts/build-media-index.mjs",
+    "media:references:index": "node scripts/build-reference-image-index.mjs",
+    "media:audit": "node scripts/audit-public-images.mjs",
     "media:sync": "npm run media:stadiums && npm run media:teams && npm run media:entities && npm run media:players && npm run media:index"
   },
   "dependencies": {

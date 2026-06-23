@@ -1,0 +1,67 @@
+{
+  "source": "Google Maps Satellite",
+  "capturedAt": "2026-06-23",
+  "notes": "Reference screenshots for real-world stadium context. Respect Google Maps terms and attribution when displaying these assets.",
+  "items": [
+    {
+      "id": "maracana-rio-de-janeiro",
+      "label": "Maracana (Rio de Janeiro)",
+      "coordinates": {
+        "lat": -22.91216,
+        "lng": -43.23018
+      },
+      "mapsUrl": "https://www.google.com/maps/@-22.91216,-43.23018,1800m/data=!3m1!1e3?entry=ttu",
+      "screenshot": "/images/references/maps/maracana-rio-de-janeiro.png"
+    },
+    {
+      "id": "rose-bowl-pasadena",
+      "label": "Rose Bowl (Pasadena)",
+      "coordinates": {
+        "lat": 34.1613,
+        "lng": -118.1676
+      },
+      "mapsUrl": "https://www.google.com/maps/@34.1613,-118.1676,1800m/data=!3m1!1e3?entry=ttu",
+      "screenshot": "/images/references/maps/rose-bowl-pasadena.png"
+    },
+    {
+      "id": "allianz-arena-munich",
+      "label": "Allianz Arena (Munich)",
+      "coordinates": {
+        "lat": 48.2188,
+        "lng": 11.6247
+      },
+      "mapsUrl": "https://www.google.com/maps/@48.2188,11.6247,1800m/data=!3m1!1e3?entry=ttu",
+      "screenshot": "/images/references/maps/allianz-arena-munich.png"
+    },
+    {
+      "id": "camp-nou-barcelona",
+      "label": "Camp Nou (Barcelona)",
+      "coordinates": {
+        "lat": 41.3809,
+        "lng": 2.1228
+      },
+      "mapsUrl": "https://www.google.com/maps/@41.3809,2.1228,1800m/data=!3m1!1e3?entry=ttu",
+      "screenshot": "/images/references/maps/camp-nou-barcelona.png"
+    },
+    {
+      "id": "estadio-azteca-mexico-city",
+      "label": "Estadio Azteca (Mexico City)",
+      "coordinates": {
+        "lat": 19.3029,
+        "lng": -99.1505
+      },
+      "mapsUrl": "https://www.google.com/maps/@19.3029,-99.1505,1800m/data=!3m1!1e3?entry=ttu",
+      "screenshot": "/images/references/maps/estadio-azteca-mexico-city.png"
+    },
+    {
+      "id": "lusail-stadium-qatar",
+      "label": "Lusail Stadium (Qatar)",
+      "coordinates": {
+        "lat": 25.4208,
+        "lng": 51.4907
+      },
+      "mapsUrl": "https://www.google.com/maps/@25.4208,51.4907,1800m/data=!3m1!1e3?entry=ttu",
+      "screenshot": "/images/references/maps/lusail-stadium-qatar.png"
+    }
+  ]
+}

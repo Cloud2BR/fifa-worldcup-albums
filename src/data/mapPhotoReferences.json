@@ -1,0 +1,73 @@
+{
+  "source": "Google Maps Place Photos",
+  "capturedAt": "2026-06-23",
+  "notes": "Use these place/photo links to capture real venue photo-style references similar to the example image. Keep Google Maps attribution visible when displaying screenshots.",
+  "items": [
+    {
+      "id": "maracana-rio-de-janeiro",
+      "label": "Maracana (Rio de Janeiro)",
+      "coordinates": {
+        "lat": -22.91216,
+        "lng": -43.23018
+      },
+      "placeUrl": "https://www.google.com/maps/search/?api=1&query=Maracana+Stadium+Rio+de+Janeiro",
+      "screenshot": "/images/references/place-photos/maracana-rio-de-janeiro.png",
+      "photoHint": "Open place panel, go to Photos, choose an exterior stadium shot."
+    },
+    {
+      "id": "rose-bowl-pasadena",
+      "label": "Rose Bowl (Pasadena)",
+      "coordinates": {
+        "lat": 34.1613,
+        "lng": -118.1676
+      },
+      "placeUrl": "https://www.google.com/maps/search/?api=1&query=Rose+Bowl+Stadium+Pasadena",
+      "screenshot": "/images/references/place-photos/rose-bowl-pasadena.png",
+      "photoHint": "Open place panel, go to Photos, choose a venue overview shot."
+    },
+    {
+      "id": "allianz-arena-munich",
+      "label": "Allianz Arena (Munich)",
+      "coordinates": {
+        "lat": 48.2188,
+        "lng": 11.6247
+      },
+      "placeUrl": "https://www.google.com/maps/search/?api=1&query=Allianz+Arena+Munich",
+      "screenshot": "/images/references/place-photos/allianz-arena-munich.png",
+      "photoHint": "Open place panel, go to Photos, choose an exterior facade image."
+    },
+    {
+      "id": "camp-nou-barcelona",
+      "label": "Camp Nou (Barcelona)",
+      "coordinates": {
+        "lat": 41.3809,
+        "lng": 2.1228
+      },
+      "placeUrl": "https://www.google.com/maps/search/?api=1&query=Camp+Nou+Barcelona",
+      "screenshot": "/images/references/place-photos/camp-nou-barcelona.png",
+      "photoHint": "Open place panel, go to Photos, choose a stadium frontage shot."
+    },
+    {
+      "id": "estadio-azteca-mexico-city",
+      "label": "Estadio Azteca (Mexico City)",
+      "coordinates": {
+        "lat": 19.3029,
+        "lng": -99.1505
+      },
+      "placeUrl": "https://www.google.com/maps/search/?api=1&query=Estadio+Azteca+Mexico+City",
+      "screenshot": "/images/references/place-photos/estadio-azteca-mexico-city.png",
+      "photoHint": "Open place panel, go to Photos, choose a full-stadium perspective."
+    },
+    {
+      "id": "lusail-stadium-qatar",
+      "label": "Lusail Stadium (Qatar)",
+      "coordinates": {
+        "lat": 25.4208,
+        "lng": 51.4907
+      },
+      "placeUrl": "https://www.google.com/maps/search/?api=1&query=Lusail+Stadium+Qatar",
+      "screenshot": "/images/references/place-photos/lusail-stadium-qatar.png",
+      "photoHint": "Open place panel, go to Photos, choose a night exterior shot (similar to your example)."
+    }
+  ]
+}
