@@ -6,7 +6,7 @@ import { buildQuickStats, mergeTimelineData } from '../utils/stats'
 
 function Home() {
   const stats = buildQuickStats(worldCups, albums)
-  const timeline = mergeTimelineData(worldCups, albums).slice(-8)
+  const timeline = mergeTimelineData(worldCups, albums).slice(-8).reverse()
 
   return (
     <div className="space-y-8">
