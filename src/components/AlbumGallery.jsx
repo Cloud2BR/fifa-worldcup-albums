@@ -1,115 +1,79 @@
-import { useMemo, useState } from 'react'
-
-function AlbumGallery({ albums }) {
-  const [selectedYear, setSelectedYear] = useState(null)
-
-  const selectedAlbum = useMemo(
-    () => albums.find((album) => album.year === selectedYear),
-    [albums, selectedYear],
+function AlbumCard({ album, onOpen }) {
+  return (
+    <button
+      type="button"
+      onClick={() => onOpen(album)}
+      className="group rounded-xl border border-slate-800 bg-slate-900 p-3 text-left transition hover:border-sky-500 hover:shadow-lg hover:shadow-sky-900/30"
+    >
+      <div className="relative overflow-hidden rounded-md">
+        <img
+          src={album.coverImage}
+          alt={`${album.year} album cover (${album.publisher})`}
+          className="h-44 w-full rounded-md object-cover transition duration-300 group-hover:scale-105"
+        />
+        <div className="absolute inset-0 rounded-md bg-gradient-to-t from-black/60 to-transparent opacity-0 transition group-hover:opacity-100" />
+        <span className="absolute bottom-2 left-2 rounded bg-sky-500 px-1.5 py-0.5 text-xs font-bold text-white opacity-0 transition group-hover:opacity-100">
+          Open virtual album
+        </span>
+        {!album.official ? (
+          <span className="absolute top-2 right-2 rounded bg-amber-500/90 px-1.5 py-0.5 text-[10px] font-bold uppercase tracking-wide text-amber-950">
+            Pre-Panini
+          </span>
+        ) : null}
+      </div>
+      <p className="mt-2 text-base font-bold text-slate-100">{album.year}</p>
+      <p className="text-xs text-slate-400">
+        {album.host} · {album.stickerCount} stickers
+      </p>
+      <p className="mt-1 truncate text-[10px] uppercase tracking-wide text-slate-500" title={album.publisher}>
+        {album.publisher}
+      </p>
+    </button>
   )
+}
+
+function AlbumGallery({ albums, onOpen }) {
+  const eras = [
+    {
+      key: 'pre',
+      title: 'Pre-Panini Era',
+      subtitle: '1930 – 1966 · regional publishers, cigarette cards, and retrospective collections',
+      match: (a) => a.year < 1970,
+    },
+    {
+      key: 'classic',
+      title: 'Classic Panini',
+      subtitle: '1970 – 1998 · the golden age of paper stickers',
+      match: (a) => a.year >= 1970 && a.year < 2002,
+    },
+    {
+      key: 'modern',
+      title: 'Modern Panini',
+      subtitle: '2002 – 2022 · holographics, digital companion apps, global craze',
+      match: (a) => a.year >= 2002,
+    },
+  ]
 
   return (
-    <>
-      <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
-        {albums.map((album) => (
-          <button
-            key={album.year}
-            type="button"
-            onClick={() => setSelectedYear(album.year)}
-            className="group rounded-xl border border-slate-800 bg-slate-900 p-3 text-left transition hover:border-sky-500 hover:shadow-lg hover:shadow-sky-900/30"
-          >
-            <div className="relative overflow-hidden rounded-md">
-              <img
-                src={album.coverImage}
-                alt={`${album.year} official Panini album cover`}
-                className="h-44 w-full rounded-md object-cover transition duration-300 group-hover:scale-105"
-              />
-              <div className="absolute inset-0 rounded-md bg-gradient-to-t from-black/60 to-transparent opacity-0 transition group-hover:opacity-100" />
-              <span className="absolute bottom-2 left-2 rounded bg-sky-500 px-1.5 py-0.5 text-xs font-bold text-white opacity-0 transition group-hover:opacity-100">
-                View details
-              </span>
+    <div className="space-y-8">
+      {eras.map((era) => {
+        const list = albums.filter(era.match)
+        if (list.length === 0) return null
+        return (
+          <section key={era.key}>
+            <div className="mb-3">
+              <h3 className="text-lg font-bold text-white">{era.title}</h3>
+              <p className="text-xs text-slate-400">{era.subtitle}</p>
             </div>
-            <p className="mt-2 text-base font-bold text-slate-100">{album.year}</p>
-            <p className="text-xs text-slate-400">
-              {album.host} · {album.stickerCount} stickers
-            </p>
-          </button>
-        ))}
-      </div>
-
-      {selectedAlbum ? (
-        <div
-          className="fixed inset-0 z-50 flex items-center justify-center bg-slate-950/85 p-4 backdrop-blur-sm"
-          role="dialog"
-          aria-modal="true"
-          onClick={() => setSelectedYear(null)}
-        >
-          <article
-            className="w-full max-w-lg rounded-2xl border border-slate-700 bg-slate-900 shadow-2xl"
-            onClick={(event) => event.stopPropagation()}
-          >
-            <div className="flex items-center justify-between gap-4 border-b border-slate-800 px-5 py-4">
-              <div>
-                <h3 className="text-xl font-bold text-white">
-                  {selectedAlbum.year} FIFA World Cup
-                </h3>
-                <p className="text-sm text-slate-400">{selectedAlbum.host} · Official Panini Album</p>
-              </div>
-              <button
-                type="button"
-                onClick={() => setSelectedYear(null)}
-                className="rounded-lg bg-slate-800 px-3 py-1.5 text-sm text-slate-300 transition hover:bg-slate-700 hover:text-white"
-              >
-                ✕ Close
-              </button>
+            <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
+              {list.map((album) => (
+                <AlbumCard key={album.year} album={album} onOpen={onOpen} />
+              ))}
             </div>
-
-            <div className="flex gap-4 p-5">
-              <img
-                src={selectedAlbum.coverImage}
-                alt={`${selectedAlbum.year} album cover detail`}
-                className="h-56 w-40 flex-shrink-0 rounded-xl object-cover shadow-lg"
-              />
-              <div className="flex flex-col gap-3">
-                <dl className="grid gap-2.5 text-sm">
-                  <div className="flex justify-between gap-3">
-                    <dt className="text-slate-400">Publisher</dt>
-                    <dd className="font-medium text-slate-200">{selectedAlbum.publisher}</dd>
-                  </div>
-                  <div className="flex justify-between gap-3">
-                    <dt className="text-slate-400">Host</dt>
-                    <dd className="font-medium text-slate-200">{selectedAlbum.host}</dd>
-                  </div>
-                  {selectedAlbum.winner ? (
-                    <div className="flex justify-between gap-3">
-                      <dt className="text-slate-400">Champion</dt>
-                      <dd className="font-medium text-sky-400">🏆 {selectedAlbum.winner}</dd>
-                    </div>
-                  ) : null}
-                  {selectedAlbum.ball ? (
-                    <div className="flex justify-between gap-3">
-                      <dt className="text-slate-400">Official Ball</dt>
-                      <dd className="font-medium text-slate-200">{selectedAlbum.ball}</dd>
-                    </div>
-                  ) : null}
-                  <div className="flex justify-between gap-3">
-                    <dt className="text-slate-400">Stickers</dt>
-                    <dd className="font-medium text-slate-200">{selectedAlbum.stickerCount.toLocaleString()}</dd>
-                  </div>
-                </dl>
-              </div>
-            </div>
-
-            {selectedAlbum.notes ? (
-              <div className="border-t border-slate-800 px-5 py-4">
-                <p className="text-xs font-semibold uppercase tracking-wider text-slate-500">About this tournament</p>
-                <p className="mt-1.5 text-sm leading-relaxed text-slate-300">{selectedAlbum.notes}</p>
-              </div>
-            ) : null}
-          </article>
-        </div>
-      ) : null}
-    </>
+          </section>
+        )
+      })}
+    </div>
   )
 }
 
