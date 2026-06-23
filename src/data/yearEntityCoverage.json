@@ -1,0 +1,126 @@
+{
+  "generatedAt": "2026-06-23T16:49:44.399Z",
+  "summary": {
+    "years": 23,
+    "expectedSlots": 69,
+    "presentSlots": 69,
+    "placeholderSlots": 62
+  },
+  "years": {
+    "1930": {
+      "expectedSlots": 3,
+      "presentSlots": 3,
+      "placeholderSlots": 1
+    },
+    "1934": {
+      "expectedSlots": 3,
+      "presentSlots": 3,
+      "placeholderSlots": 1
+    },
+    "1938": {
+      "expectedSlots": 3,
+      "presentSlots": 3,
+      "placeholderSlots": 1
+    },
+    "1950": {
+      "expectedSlots": 3,
+      "presentSlots": 3,
+      "placeholderSlots": 2
+    },
+    "1954": {
+      "expectedSlots": 3,
+      "presentSlots": 3,
+      "placeholderSlots": 3
+    },
+    "1958": {
+      "expectedSlots": 3,
+      "presentSlots": 3,
+      "placeholderSlots": 3
+    },
+    "1962": {
+      "expectedSlots": 3,
+      "presentSlots": 3,
+      "placeholderSlots": 3
+    },
+    "1966": {
+      "expectedSlots": 3,
+      "presentSlots": 3,
+      "placeholderSlots": 3
+    },
+    "1970": {
+      "expectedSlots": 3,
+      "presentSlots": 3,
+      "placeholderSlots": 3
+    },
+    "1974": {
+      "expectedSlots": 3,
+      "presentSlots": 3,
+      "placeholderSlots": 3
+    },
+    "1978": {
+      "expectedSlots": 3,
+      "presentSlots": 3,
+      "placeholderSlots": 3
+    },
+    "1982": {
+      "expectedSlots": 3,
+      "presentSlots": 3,
+      "placeholderSlots": 3
+    },
+    "1986": {
+      "expectedSlots": 3,
+      "presentSlots": 3,
+      "placeholderSlots": 3
+    },
+    "1990": {
+      "expectedSlots": 3,
+      "presentSlots": 3,
+      "placeholderSlots": 3
+    },
+    "1994": {
+      "expectedSlots": 3,
+      "presentSlots": 3,
+      "placeholderSlots": 3
+    },
+    "1998": {
+      "expectedSlots": 3,
+      "presentSlots": 3,
+      "placeholderSlots": 3
+    },
+    "2002": {
+      "expectedSlots": 3,
+      "presentSlots": 3,
+      "placeholderSlots": 3
+    },
+    "2006": {
+      "expectedSlots": 3,
+      "presentSlots": 3,
+      "placeholderSlots": 3
+    },
+    "2010": {
+      "expectedSlots": 3,
+      "presentSlots": 3,
+      "placeholderSlots": 3
+    },
+    "2014": {
+      "expectedSlots": 3,
+      "presentSlots": 3,
+      "placeholderSlots": 3
+    },
+    "2018": {
+      "expectedSlots": 3,
+      "presentSlots": 3,
+      "placeholderSlots": 3
+    },
+    "2022": {
+      "expectedSlots": 3,
+      "presentSlots": 3,
+      "placeholderSlots": 3
+    },
+    "2026": {
+      "expectedSlots": 3,
+      "presentSlots": 3,
+      "placeholderSlots": 3
+    }
+  }
+}

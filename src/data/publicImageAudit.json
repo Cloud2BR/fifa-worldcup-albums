@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T16:30:46.386Z",
+  "generatedAt": "2026-06-23T16:56:07.865Z",
   "teamCodes": 94,
   "teamImageFiles": 30,
   "missingTeamCodes": 64,
@@ -69,8 +69,8 @@
     "JOR",
     "UZB"
   ],
-  "mappedPlayers": 933,
-  "playerLocalFiles": 42,
+  "mappedPlayers": 1248,
+  "playerLocalFiles": 43,
   "mappedEntities": 63,
   "entityLocalFiles": 8,
   "mapSatelliteReferences": 6,

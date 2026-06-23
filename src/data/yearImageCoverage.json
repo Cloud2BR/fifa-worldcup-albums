@@ -1,0 +1,150 @@
+{
+  "generatedAt": "2026-06-23T16:48:55.258Z",
+  "summary": {
+    "years": 23,
+    "coversPresent": 23,
+    "stadiumsExpected": 99,
+    "stadiumsPresent": 99,
+    "missingStadiums": 0
+  },
+  "years": {
+    "1930": {
+      "cover": "/images/years/1930/cover.svg",
+      "stadiumsExpected": 3,
+      "stadiumsPresent": 3,
+      "missingStadiums": []
+    },
+    "1934": {
+      "cover": "/images/years/1934/cover.svg",
+      "stadiumsExpected": 3,
+      "stadiumsPresent": 3,
+      "missingStadiums": []
+    },
+    "1938": {
+      "cover": "/images/years/1938/cover.svg",
+      "stadiumsExpected": 3,
+      "stadiumsPresent": 3,
+      "missingStadiums": []
+    },
+    "1950": {
+      "cover": "/images/years/1950/cover.svg",
+      "stadiumsExpected": 3,
+      "stadiumsPresent": 3,
+      "missingStadiums": []
+    },
+    "1954": {
+      "cover": "/images/years/1954/cover.svg",
+      "stadiumsExpected": 3,
+      "stadiumsPresent": 3,
+      "missingStadiums": []
+    },
+    "1958": {
+      "cover": "/images/years/1958/cover.svg",
+      "stadiumsExpected": 3,
+      "stadiumsPresent": 3,
+      "missingStadiums": []
+    },
+    "1962": {
+      "cover": "/images/years/1962/cover.svg",
+      "stadiumsExpected": 3,
+      "stadiumsPresent": 3,
+      "missingStadiums": []
+    },
+    "1966": {
+      "cover": "/images/years/1966/cover.svg",
+      "stadiumsExpected": 5,
+      "stadiumsPresent": 5,
+      "missingStadiums": []
+    },
+    "1970": {
+      "cover": "/images/years/1970/cover.svg",
+      "stadiumsExpected": 4,
+      "stadiumsPresent": 4,
+      "missingStadiums": []
+    },
+    "1974": {
+      "cover": "/images/years/1974/cover.svg",
+      "stadiumsExpected": 4,
+      "stadiumsPresent": 4,
+      "missingStadiums": []
+    },
+    "1978": {
+      "cover": "/images/years/1978/cover.svg",
+      "stadiumsExpected": 4,
+      "stadiumsPresent": 4,
+      "missingStadiums": []
+    },
+    "1982": {
+      "cover": "/images/years/1982/cover.svg",
+      "stadiumsExpected": 4,
+      "stadiumsPresent": 4,
+      "missingStadiums": []
+    },
+    "1986": {
+      "cover": "/images/years/1986/cover.svg",
+      "stadiumsExpected": 4,
+      "stadiumsPresent": 4,
+      "missingStadiums": []
+    },
+    "1990": {
+      "cover": "/images/years/1990/cover.svg",
+      "stadiumsExpected": 4,
+      "stadiumsPresent": 4,
+      "missingStadiums": []
+    },
+    "1994": {
+      "cover": "/images/years/1994/cover.svg",
+      "stadiumsExpected": 4,
+      "stadiumsPresent": 4,
+      "missingStadiums": []
+    },
+    "1998": {
+      "cover": "/images/years/1998/cover.svg",
+      "stadiumsExpected": 4,
+      "stadiumsPresent": 4,
+      "missingStadiums": []
+    },
+    "2002": {
+      "cover": "/images/years/2002/cover.svg",
+      "stadiumsExpected": 4,
+      "stadiumsPresent": 4,
+      "missingStadiums": []
+    },
+    "2006": {
+      "cover": "/images/years/2006/cover.svg",
+      "stadiumsExpected": 4,
+      "stadiumsPresent": 4,
+      "missingStadiums": []
+    },
+    "2010": {
+      "cover": "/images/years/2010/cover.svg",
+      "stadiumsExpected": 4,
+      "stadiumsPresent": 4,
+      "missingStadiums": []
+    },
+    "2014": {
+      "cover": "/images/years/2014/cover.svg",
+      "stadiumsExpected": 4,
+      "stadiumsPresent": 4,
+      "missingStadiums": []
+    },
+    "2018": {
+      "cover": "/images/years/2018/cover.svg",
+      "stadiumsExpected": 4,
+      "stadiumsPresent": 4,
+      "missingStadiums": []
+    },
+    "2022": {
+      "cover": "/images/years/2022/cover.svg",
+      "stadiumsExpected": 5,
+      "stadiumsPresent": 5,
+      "missingStadiums": []
+    },
+    "2026": {
+      "cover": "/images/years/2026/cover.svg",
+      "stadiumsExpected": 16,
+      "stadiumsPresent": 16,
+      "missingStadiums": []
+    }
+  }
+}

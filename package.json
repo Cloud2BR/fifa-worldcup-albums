@@ -15,6 +15,10 @@
     "media:index": "node scripts/build-media-index.mjs",
     "media:references:index": "node scripts/build-reference-image-index.mjs",
     "media:audit": "node scripts/audit-public-images.mjs",
+    "media:years:sync": "node scripts/sync-year-images.mjs",
+    "media:years:entities": "node scripts/sync-entity-images-by-year.mjs",
+    "media:players:all-years": "node scripts/fill-player-placeholders-all-years.mjs",
+    "media:players:replace-year": "node scripts/replace-placeholders-year.mjs 2026 5",
     "media:sync": "npm run media:stadiums && npm run media:teams && npm run media:entities && npm run media:players && npm run media:index"
   },
   "dependencies": {

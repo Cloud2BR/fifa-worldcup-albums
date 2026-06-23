@@ -264,6 +264,7 @@ function parseArgs() {
   const out = {
     year: '2026',
     max: null,
+    replacePlaceholdersOnly: false,
   }
 
   for (let i = 0; i < args.length; i += 1) {
@@ -277,6 +278,10 @@ function parseArgs() {
       const parsed = Number.parseInt(args[i + 1], 10)
       out.max = Number.isNaN(parsed) ? null : parsed
       i += 1
+      continue
+    }
+    if (arg === '--replace-placeholders-only') {
+      out.replacePlaceholdersOnly = true
     }
   }
 
@@ -331,6 +336,17 @@ async function main() {
       }
 
       const entry = images[key]
+      const entryFile = String(entry.file || '')
+      const isPlaceholderFile = entryFile.toLowerCase().endsWith('.svg')
+      const isPlaceholderMeta = String(entry.author || '').toLowerCase().includes('placeholder')
+      const isPlaceholder = isPlaceholderFile || isPlaceholderMeta
+
+      if (options.replacePlaceholdersOnly && !isPlaceholder) {
+        skipped += 1
+        processed += 1
+        continue
+      }
+
       let thumbUrl = entry.thumbUrl || null
 
       if (!thumbUrl) {
@@ -353,7 +369,12 @@ async function main() {
       }
 
       const ext = detectExtension(thumbUrl)
-      const fileName = entry.file ? path.basename(entry.file) : `${slugify(playerName)}${ext}`
+      const oldRelativeFile = entry.file ? String(entry.file) : null
+      const existingBase = entry.file ? path.basename(entry.file) : null
+      const preferredBase = `${slugify(playerName)}${ext}`
+      const fileName = isPlaceholderFile
+        ? preferredBase
+        : (existingBase || preferredBase)
       const outPath = path.join(teamDir, fileName)
       const relativeFile = `${options.year}/${teamCode}/${fileName}`
 
@@ -367,6 +388,21 @@ async function main() {
 
       try {
         await downloadWithRetry(thumbUrl, outPath)
+
+        // Remove old placeholder file once a real image is written.
+        if (oldRelativeFile && oldRelativeFile !== relativeFile) {
+          try {
+            await fs.unlink(path.join(outputDir, oldRelativeFile))
+          } catch {
+            // no-op
+          }
+        }
+
+        if (isPlaceholderMeta) {
+          entry.author = 'Wikipedia contributors'
+          entry.license = entry.license || 'See source page'
+        }
+
         downloaded += 1
         console.log(`Downloaded: ${teamCode} / ${playerName}`)
       } catch (error) {
