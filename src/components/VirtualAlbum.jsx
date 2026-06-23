@@ -1,334 +1,181 @@
-import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
+import { useMemo } from 'react'
 import { buildAlbumPages, getTeam } from '../utils/stickers'
-import stadiumImagesData from '../data/stadiumImages.json'
 
-const STADIUM_IMAGES = stadiumImagesData.images || {}
-
-function StadiumPhoto({ label }) {
-  const entry = STADIUM_IMAGES[label]
-  const [failed, setFailed] = useState(false)
-  const showImage = entry && !failed
-
-  if (!showImage) {
-    return (
-      <svg viewBox="0 0 60 40" className="h-3/4 w-3/4 opacity-45" aria-hidden="true">
-        <ellipse cx="30" cy="30" rx="26" ry="8" fill="none" stroke="#fff" strokeWidth="1.5" />
-        <ellipse cx="30" cy="26" rx="22" ry="6" fill="none" stroke="#fff" strokeWidth="1" />
-        <path d="M4,30 Q30,10 56,30" fill="none" stroke="#fff" strokeWidth="1.5" />
-      </svg>
-    )
-  }
-
-  const src = `./images/stadiums/${entry.file}`
-  return (
-    <img
-      src={src}
-      alt={entry.caption || label}
-      title={`${label} — © ${entry.author} (${entry.license})`}
-      loading="lazy"
-      onError={() => setFailed(true)}
-      className="absolute inset-0 h-full w-full object-cover"
-    />
-  )
-}
-
-function Sticker({ sticker }) {
+function StickerSlot({ sticker }) {
   const team = sticker.team ? getTeam(sticker.team) : null
-  const isShiny = sticker.isShiny
-  const baseClasses = 'relative aspect-[3/4] overflow-hidden rounded-md border text-[10px] sm:text-xs'
-  const borderClass = isShiny ? 'border-amber-300/70' : 'border-slate-700'
+  const isShiny = Boolean(sticker.isShiny)
+
   const style = team
     ? {
         background: isShiny
-          ? `linear-gradient(135deg, ${team.primary} 0%, ${team.accent} 50%, ${team.secondary} 100%)`
+          ? `linear-gradient(145deg, ${team.primary} 0%, ${team.accent} 42%, ${team.secondary} 100%)`
           : `linear-gradient(160deg, ${team.primary} 0%, ${team.secondary} 100%)`,
       }
     : {
         background: isShiny
-          ? 'linear-gradient(135deg, #f59e0b 0%, #fde68a 50%, #f59e0b 100%)'
-          : 'linear-gradient(160deg, #1e293b 0%, #334155 100%)',
+          ? 'linear-gradient(145deg, #ca8a04 0%, #fef3c7 45%, #92400e 100%)'
+          : 'linear-gradient(160deg, #334155 0%, #0f172a 100%)',
       }
+
   return (
-    <div className={`${baseClasses} ${borderClass} shadow-md`} style={style}>
+    <div className="relative aspect-[3/4] overflow-hidden rounded-[8px] border border-amber-900/40 bg-slate-800 shadow-sm">
+      <div className="absolute inset-[3px] rounded-[6px] border border-amber-50/40" style={style} />
       {isShiny ? (
         <div
           aria-hidden="true"
-          className="pointer-events-none absolute inset-0 opacity-60"
+          className="pointer-events-none absolute inset-[3px] rounded-[6px] opacity-50"
           style={{
             background:
-              'linear-gradient(105deg, transparent 30%, rgba(255,255,255,0.55) 45%, transparent 60%)',
+              'linear-gradient(112deg, transparent 28%, rgba(255, 255, 255, 0.65) 45%, transparent 62%)',
           }}
         />
       ) : null}
-      <span className="absolute top-1 left-1 rounded bg-black/55 px-1 py-0.5 font-mono text-[9px] font-bold text-white">
-        #{sticker.number}
+
+      <span className="absolute left-1 top-1 rounded bg-black/70 px-1 py-0.5 font-mono text-[9px] font-bold text-amber-100">
+        {String(sticker.number).padStart(3, '0')}
       </span>
-      {sticker.kind === 'player' && sticker.position ? (
-        <span className="absolute top-1 right-1 rounded bg-white/85 px-1 py-0.5 font-mono text-[9px] font-bold text-slate-900">
-          {sticker.position}
-        </span>
-      ) : null}
-      {sticker.kind === 'badge' ? (
-        <span className="absolute top-1 right-1 rounded bg-amber-400 px-1 py-0.5 font-mono text-[9px] font-bold text-amber-950">
-          BADGE
-        </span>
-      ) : null}
-      {/* Silhouette */}
-      <div className="absolute inset-0 flex items-end justify-center">
-        {sticker.kind === 'player' ? (
-          <svg viewBox="0 0 40 50" className="h-3/4 w-3/4 opacity-30" aria-hidden="true">
-            <circle cx="20" cy="12" r="7" fill="#000" />
-            <path d="M5,50 Q5,28 20,26 Q35,28 35,50 Z" fill="#000" />
-          </svg>
-        ) : null}
-        {sticker.kind === 'badge' ? (
-          <svg viewBox="0 0 40 50" className="h-3/4 w-3/4 opacity-50" aria-hidden="true">
-            <path d="M6,8 L34,8 L34,28 Q20,46 6,28 Z" fill="rgba(255,255,255,0.6)" stroke="#000" strokeWidth="1.5" />
-            <text x="20" y="26" textAnchor="middle" fontSize="9" fontWeight="900" fill="#000">{sticker.team}</text>
-          </svg>
-        ) : null}
-        {sticker.kind === 'stadium' ? <StadiumPhoto label={sticker.label} /> : null}
-        {sticker.kind === 'mascot' ? (
-          <span className="pb-2 text-3xl" aria-hidden="true">🦊</span>
-        ) : null}
-        {sticker.kind === 'history' ? (
-          <svg viewBox="0 0 40 50" className="h-3/4 w-3/4 opacity-50" aria-hidden="true">
-            <path d="M14,8 L26,8 L26,18 Q26,30 20,34 Q14,30 14,18 Z" fill="rgba(255,255,255,0.7)" stroke="#000" strokeWidth="1" />
-            <rect x="17" y="34" width="6" height="4" fill="rgba(255,255,255,0.7)" />
-            <rect x="13" y="38" width="14" height="3" fill="rgba(255,255,255,0.7)" />
-          </svg>
-        ) : null}
-      </div>
-      <div className="absolute inset-x-0 bottom-0 bg-black/60 px-1 py-1">
-        <p className="truncate font-semibold text-white" title={sticker.label}>
+
+      <div className="absolute inset-x-2 bottom-2 rounded bg-black/55 px-1.5 py-1">
+        <p className="truncate text-[10px] font-semibold text-white" title={sticker.label}>
           {sticker.label}
         </p>
       </div>
+
+      <div className="absolute inset-0 flex items-center justify-center text-2xl opacity-40" aria-hidden="true">
+        {sticker.kind === 'player' ? 'O' : null}
+        {sticker.kind === 'badge' ? '[]' : null}
+        {sticker.kind === 'stadium' ? '[]' : null}
+        {sticker.kind === 'history' ? '*' : null}
+        {sticker.kind === 'mascot' ? '@' : null}
+      </div>
     </div>
   )
 }
 
-function PageContent({ page, album }) {
-  if (!page) return null
+function AlbumPage({ album, page, pageNumber, side }) {
+  if (!page) {
+    return (
+      <div className="flex min-h-[500px] items-center justify-center rounded-xl border border-amber-900/35 bg-[#ece3cd] p-6 text-center text-sm text-slate-600">
+        Intentionally left blank
+      </div>
+    )
+  }
+
   const team = page.team ? getTeam(page.team) : null
+
   return (
-    <div className="flex h-full flex-col">
-      <header
-        className="flex items-center justify-between gap-2 border-b border-slate-700/60 bg-slate-900/70 px-3 py-2"
-        style={team ? { borderColor: team.primary } : undefined}
-      >
-        <h4 className="truncate text-sm font-bold text-white">{page.title}</h4>
-        {team ? (
-          <span
-            className="rounded px-2 py-0.5 text-[10px] font-bold"
-            style={{ background: team.primary, color: team.secondary }}
-          >
-            {page.team}
-          </span>
-        ) : null}
+    <section
+      className={[
+        'relative min-h-[500px] overflow-hidden rounded-xl border border-amber-900/35 bg-[#f3ecd9] p-3 sm:p-4',
+        side === 'left' ? 'md:rounded-r-none md:pr-5' : 'md:rounded-l-none md:pl-5',
+      ].join(' ')}
+    >
+      <div className="absolute inset-0 opacity-30" aria-hidden="true">
+        <div
+          className="h-full w-full"
+          style={{
+            background:
+              'radial-gradient(circle at 10% 20%, rgba(255,255,255,0.75) 0%, transparent 35%), radial-gradient(circle at 80% 80%, rgba(210,180,140,0.35) 0%, transparent 38%)',
+          }}
+        />
+      </div>
+
+      <header className="relative z-10 mb-3 rounded-lg border border-amber-900/35 bg-[#e8dcc0] px-3 py-2">
+        <div className="flex items-center justify-between gap-2">
+          <h4 className="truncate text-sm font-semibold uppercase tracking-wide text-slate-800">
+            {page.title}
+          </h4>
+          {team ? (
+            <span
+              className="shrink-0 rounded px-2 py-0.5 text-[10px] font-bold"
+              style={{ background: team.primary, color: team.secondary }}
+            >
+              {page.team}
+            </span>
+          ) : null}
+        </div>
       </header>
-      <div className="grid flex-1 grid-cols-2 gap-2 overflow-y-auto p-3 sm:grid-cols-4">
+
+      <div className="relative z-10 grid grid-cols-3 gap-2 sm:grid-cols-4 sm:gap-3">
         {page.stickers.map((sticker) => (
-          <Sticker key={`${album.year}-${sticker.number}`} sticker={sticker} />
+          <StickerSlot key={`${album.year}-${sticker.number}`} sticker={sticker} />
         ))}
       </div>
-    </div>
+
+      <div className="relative z-10 mt-3 flex items-center justify-between border-t border-amber-900/30 pt-2 text-[11px] uppercase tracking-wider text-slate-600">
+        <span>{album.year} edition</span>
+        <span>Page {pageNumber}</span>
+      </div>
+    </section>
   )
 }
 
-function VirtualAlbum({ album, initialPage = 0, onClose }) {
-  const pages = useMemo(() => buildAlbumPages(album), [album])
+function CoverSpread({ album }) {
+  return (
+    <article className="relative overflow-hidden rounded-2xl border border-amber-900/35 bg-[#dfcfab] p-4 shadow-xl sm:p-6">
+      <div className="grid gap-4 md:grid-cols-2 md:gap-0">
+        <div className="rounded-xl border border-amber-900/35 bg-gradient-to-b from-[#0b1328] to-[#0f274a] p-6 text-white md:rounded-r-none md:border-r-0">
+          <p className="text-xs uppercase tracking-[0.24em] text-slate-200">FIFA World Cup</p>
+          <h3 className="mt-1 text-3xl font-black tracking-tight">Album {album.year}</h3>
+          <p className="mt-2 text-sm text-slate-300">Host nation: {album.host}</p>
+          <p className="mt-6 text-sm text-slate-300">Publisher: {album.publisher}</p>
+          <p className="text-sm text-slate-300">Sticker count: {album.stickerCount}</p>
+        </div>
 
-  // Add a virtual cover page at index 0 (real pages start at index 1)
-  const totalSpreads = 1 + Math.ceil(pages.length / 2)
-  // spreadIndex 0 = cover only; 1+ = inside two-page spreads
-  const initialSpread = Math.min(totalSpreads - 1, Math.max(1, Math.floor(initialPage / 2) + 1))
-  const [spread, setSpread] = useState(initialSpread)
-  const dialogRef = useRef(null)
-  const touchStartRef = useRef(null)
+        <div className="rounded-xl border border-amber-900/35 bg-[#f3ecd9] p-6 text-slate-800 md:rounded-l-none md:border-l-0">
+          <h4 className="text-lg font-bold uppercase tracking-wide">Tournament Summary</h4>
+          <dl className="mt-3 grid grid-cols-2 gap-y-2 text-sm">
+            <dt className="text-slate-600">Champion</dt>
+            <dd className="font-semibold">{album.winner}</dd>
+            <dt className="text-slate-600">Runner-up</dt>
+            <dd className="font-semibold">{album.runnerUp || 'n/a'}</dd>
+            <dt className="text-slate-600">Ball</dt>
+            <dd className="font-semibold">{album.ball || 'n/a'}</dd>
+            <dt className="text-slate-600">Mascot</dt>
+            <dd className="font-semibold">{album.mascot || 'n/a'}</dd>
+            <dt className="text-slate-600">Teams</dt>
+            <dd className="font-semibold">{(album.teams || []).length}</dd>
+          </dl>
+          {album.notes ? <p className="mt-4 text-sm leading-relaxed text-slate-700">{album.notes}</p> : null}
+        </div>
+      </div>
+    </article>
+  )
+}
 
-  const prev = useCallback(() => setSpread((s) => Math.max(0, s - 1)), [])
-  const next = useCallback(() => setSpread((s) => Math.min(totalSpreads - 1, s + 1)), [totalSpreads])
+function VirtualAlbum({ album }) {
+  const pages = useMemo(() => buildAlbumPages(album, 12), [album])
 
-  // Keyboard
-  useEffect(() => {
-    function onKey(e) {
-      if (e.key === 'Escape') onClose?.()
-      else if (e.key === 'ArrowLeft') prev()
-      else if (e.key === 'ArrowRight') next()
+  const spreads = useMemo(() => {
+    const out = []
+    for (let i = 0; i < pages.length; i += 2) {
+      out.push({ left: pages[i], right: pages[i + 1] ?? null, startIndex: i + 1 })
     }
-    window.addEventListener('keydown', onKey)
-    return () => window.removeEventListener('keydown', onKey)
-  }, [onClose, prev, next])
-
-  // Focus trap (basic): focus the dialog on mount
-  useEffect(() => {
-    dialogRef.current?.focus()
-  }, [])
-
-  // Lock body scroll while open
-  useEffect(() => {
-    const original = document.body.style.overflow
-    document.body.style.overflow = 'hidden'
-    return () => {
-      document.body.style.overflow = original
-    }
-  }, [])
-
-  function onTouchStart(e) {
-    touchStartRef.current = e.touches[0]?.clientX ?? null
-  }
-  function onTouchEnd(e) {
-    const start = touchStartRef.current
-    if (start == null) return
-    const end = e.changedTouches[0]?.clientX ?? start
-    const delta = end - start
-    if (Math.abs(delta) > 40) {
-      if (delta < 0) next()
-      else prev()
-    }
-    touchStartRef.current = null
-  }
-
-  const leftPage = spread === 0 ? null : pages[(spread - 1) * 2]
-  const rightPage = spread === 0 ? null : pages[(spread - 1) * 2 + 1]
+    return out
+  }, [pages])
 
   return (
-    <div
-      className="fixed inset-0 z-50 flex flex-col bg-slate-950/95 backdrop-blur-sm"
-      role="dialog"
-      aria-modal="true"
-      aria-label={`${album.year} ${album.host} virtual album`}
-      ref={dialogRef}
-      tabIndex={-1}
-      onTouchStart={onTouchStart}
-      onTouchEnd={onTouchEnd}
-    >
-      {/* Top bar */}
-      <header className="flex items-center justify-between gap-3 border-b border-slate-800 bg-slate-900 px-4 py-3">
-        <div className="min-w-0">
-          <p className="text-[10px] font-semibold uppercase tracking-widest text-sky-400">
-            {album.publisher} {album.official ? '· Official' : '· Pre-Panini era'}
+    <section className="space-y-5">
+      <CoverSpread album={album} />
+
+      {spreads.map((spread, index) => (
+        <article
+          key={`${album.year}-spread-${index + 1}`}
+          className="relative rounded-2xl border border-amber-900/35 bg-[#d7c398] p-2 shadow-xl sm:p-3"
+        >
+          <div className="pointer-events-none absolute bottom-2 left-1/2 top-2 hidden w-px -translate-x-1/2 bg-amber-900/30 md:block" />
+
+          <div className="grid gap-2 md:grid-cols-2 md:gap-0">
+            <AlbumPage album={album} page={spread.left} pageNumber={spread.startIndex} side="left" />
+            <AlbumPage album={album} page={spread.right} pageNumber={spread.startIndex + 1} side="right" />
+          </div>
+
+          <p className="mt-2 text-center text-[10px] font-semibold uppercase tracking-[0.22em] text-amber-950/70">
+            Spread {index + 1} of {spreads.length}
           </p>
-          <h3 className="truncate text-lg font-bold text-white">
-            {album.year} FIFA World Cup — {album.host}
-          </h3>
-        </div>
-        <button
-          type="button"
-          onClick={onClose}
-          className="shrink-0 rounded-lg bg-slate-800 px-3 py-1.5 text-sm text-slate-200 transition hover:bg-slate-700 hover:text-white"
-        >
-          ✕ Close
-        </button>
-      </header>
-
-      {/* Spread area */}
-      <div className="relative flex flex-1 items-stretch justify-center overflow-hidden px-2 py-3 sm:px-6">
-        <button
-          type="button"
-          onClick={prev}
-          disabled={spread === 0}
-          aria-label="Previous page"
-          className="absolute left-1 top-1/2 z-10 -translate-y-1/2 rounded-full bg-slate-800/80 px-3 py-3 text-xl text-white transition hover:bg-slate-700 disabled:cursor-not-allowed disabled:opacity-30 sm:left-3"
-        >
-          ‹
-        </button>
-        <div className="grid h-full w-full max-w-6xl grid-cols-1 gap-2 md:grid-cols-2">
-          {/* Left page or cover */}
-          <div className="overflow-hidden rounded-xl border border-slate-700 bg-slate-900 shadow-2xl">
-            {spread === 0 ? (
-              <div className="flex h-full flex-col items-center justify-center gap-4 p-6">
-                <img
-                  src={album.coverImage}
-                  alt={`${album.year} album cover`}
-                  className="max-h-[60vh] w-auto rounded-lg shadow-xl"
-                />
-                <div className="text-center">
-                  <p className="text-xs uppercase tracking-widest text-slate-400">
-                    {album.publisher}
-                  </p>
-                  <p className="mt-1 text-2xl font-bold text-white">{album.year} · {album.host}</p>
-                  <p className="text-sm text-slate-300">🏆 {album.winner}</p>
-                </div>
-              </div>
-            ) : (
-              <PageContent page={leftPage} album={album} />
-            )}
-          </div>
-          {/* Right page or tournament info */}
-          <div className="hidden overflow-hidden rounded-xl border border-slate-700 bg-slate-900 shadow-2xl md:block">
-            {spread === 0 ? (
-              <div className="flex h-full flex-col gap-3 p-6 text-slate-200">
-                <h4 className="text-2xl font-bold text-white">About this album</h4>
-                <dl className="grid grid-cols-2 gap-x-4 gap-y-2 text-sm">
-                  <dt className="text-slate-400">Publisher</dt>
-                  <dd className="font-medium">{album.publisher}</dd>
-                  <dt className="text-slate-400">Host</dt>
-                  <dd className="font-medium">{album.host}</dd>
-                  <dt className="text-slate-400">Champion</dt>
-                  <dd className="font-medium text-sky-300">🏆 {album.winner}</dd>
-                  {album.runnerUp ? (
-                    <>
-                      <dt className="text-slate-400">Runner-up</dt>
-                      <dd className="font-medium">{album.runnerUp}</dd>
-                    </>
-                  ) : null}
-                  {album.ball ? (
-                    <>
-                      <dt className="text-slate-400">Official ball</dt>
-                      <dd className="font-medium">{album.ball}</dd>
-                    </>
-                  ) : null}
-                  {album.mascot ? (
-                    <>
-                      <dt className="text-slate-400">Mascot</dt>
-                      <dd className="font-medium">{album.mascot}</dd>
-                    </>
-                  ) : null}
-                  <dt className="text-slate-400">Stickers</dt>
-                  <dd className="font-medium">{(album.stickerCount ?? 0).toLocaleString()}</dd>
-                  <dt className="text-slate-400">Teams</dt>
-                  <dd className="font-medium">{(album.teams ?? []).length}</dd>
-                </dl>
-                {album.notes ? (
-                  <p className="mt-2 border-t border-slate-800 pt-3 text-sm leading-relaxed text-slate-300">
-                    {album.notes}
-                  </p>
-                ) : null}
-                <p className="mt-auto text-[10px] uppercase tracking-widest text-slate-500">
-                  Use ← → keys or swipe to turn pages
-                </p>
-              </div>
-            ) : (
-              <PageContent page={rightPage} album={album} />
-            )}
-          </div>
-        </div>
-        <button
-          type="button"
-          onClick={next}
-          disabled={spread === totalSpreads - 1}
-          aria-label="Next page"
-          className="absolute right-1 top-1/2 z-10 -translate-y-1/2 rounded-full bg-slate-800/80 px-3 py-3 text-xl text-white transition hover:bg-slate-700 disabled:cursor-not-allowed disabled:opacity-30 sm:right-3"
-        >
-          ›
-        </button>
-      </div>
-
-      {/* Bottom bar */}
-      <footer className="flex flex-wrap items-center justify-between gap-2 border-t border-slate-800 bg-slate-900 px-4 py-2 text-xs text-slate-400">
-        <span>
-          Page {spread === 0 ? 'Cover' : `${(spread - 1) * 2 + 1}–${Math.min(pages.length, (spread - 1) * 2 + 2)}`} of {pages.length}
-        </span>
-        <span className="hidden sm:inline">
-          Sticker artwork is rendered as styled placeholders to respect Panini / FIFA copyright.
-        </span>
-        <span>
-          Spread {spread + 1} / {totalSpreads}
-        </span>
-      </footer>
-    </div>
+        </article>
+      ))}
+    </section>
   )
 }
 
