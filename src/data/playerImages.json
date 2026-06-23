@@ -113,7 +113,10 @@
       "name": "Patrik Schick",
       "author": "Wikipedia contributors",
       "license": "See source page",
-      "caption": "Patrik Schick (Czech Republic)"
+      "caption": "Patrik Schick (Czech Republic)",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/2020-03-10_Fu%C3%9Fball%2C_M%C3%A4nner%2C_UEFA_Champions_League_Achtelfinale%2C_RB_Leipzig_-_Tottenham_Hotspur_1DX_3672_by_Stepro.jpg/330px-2020-03-10_Fu%C3%9Fball%2C_M%C3%A4nner%2C_UEFA_Champions_League_Achtelfinale%2C_RB_Leipzig_-_Tottenham_Hotspur_1DX_3672_by_Stepro.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Patrik_Schick",
+      "file": "2026/CZE/patrik-schick.jpg"
     },
     "2026:CZE:jan-kuchta": {
       "year": 2026,
@@ -275,10 +278,7 @@
       "name": "Jorge Sánchez",
       "author": "Wikipedia contributors",
       "license": "See source page",
-      "caption": "Jorge Sánchez (Mexico)",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Jorge_S%C3%A1nchez.png/330px-Jorge_S%C3%A1nchez.png",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Jorge_S%C3%A1nchez_(footballer%2C_born_1997)",
-      "file": "2026/MEX/jorge-sanchez.png"
+      "caption": "Jorge Sánchez (Mexico)"
     },
     "2026:MEX:cesar-montes": {
       "year": 2026,
@@ -287,10 +287,7 @@
       "name": "César Montes",
       "author": "Wikipedia contributors",
       "license": "See source page",
-      "caption": "César Montes (Mexico)",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/C%C3%A9sar_Montes.png/330px-C%C3%A9sar_Montes.png",
-      "sourceUrl": "https://en.wikipedia.org/wiki/C%C3%A9sar_Montes",
-      "file": "2026/MEX/cesar-montes.png"
+      "caption": "César Montes (Mexico)"
     },
     "2026:MEX:edson-alvarez": {
       "year": 2026,
@@ -371,7 +368,10 @@
       "name": "Carlos Acevedo",
       "author": "Wikipedia contributors",
       "license": "See source page",
-      "caption": "Carlos Acevedo (Mexico)"
+      "caption": "Carlos Acevedo (Mexico)",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Carlos_Acevedo.png/330px-Carlos_Acevedo.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Carlos_Acevedo",
+      "file": "2026/MEX/carlos-acevedo.png"
     },
     "2026:MEX:guillermo-ochoa": {
       "year": 2026,
@@ -380,7 +380,10 @@
       "name": "Guillermo Ochoa",
       "author": "Wikipedia contributors",
       "license": "See source page",
-      "caption": "Guillermo Ochoa (Mexico)"
+      "caption": "Guillermo Ochoa (Mexico)",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Mex-Kor_%281%29_%28cropped%29.jpg/330px-Mex-Kor_%281%29_%28cropped%29.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Guillermo_Ochoa",
+      "file": "2026/MEX/guillermo-ochoa.jpg"
     },
     "2026:MEX:armando-gonzalez": {
       "year": 2026,
@@ -743,7 +746,10 @@
       "name": "Kim Seung-gyu",
       "author": "Wikipedia contributors",
       "license": "See source page",
-      "caption": "Kim Seung-gyu (South Korea)"
+      "caption": "Kim Seung-gyu (South Korea)",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Rus-SK2017_%2822%29.jpg/330px-Rus-SK2017_%2822%29.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Kim_Seung-gyu",
+      "file": "2026/KOR/kim-seung-gyu.jpg"
     },
     "2026:KOR:lee-han-beom": {
       "year": 2026,
@@ -752,7 +758,10 @@
       "name": "Lee Han-beom",
       "author": "Wikipedia contributors",
       "license": "See source page",
-      "caption": "Lee Han-beom (South Korea)"
+      "caption": "Lee Han-beom (South Korea)",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/230422_FC_%EC%84%9C%EC%9A%B8_vs_%EC%88%98%EC%9B%90_%EC%82%BC%EC%84%B1_%EB%B8%94%EB%A3%A8%EC%9C%99%EC%A6%88_%28%EC%9D%B4%ED%95%9C%EB%B2%94%29.jpg/330px-230422_FC_%EC%84%9C%EC%9A%B8_vs_%EC%88%98%EC%9B%90_%EC%82%BC%EC%84%B1_%EB%B8%94%EB%A3%A8%EC%9C%99%EC%A6%88_%28%EC%9D%B4%ED%95%9C%EB%B2%94%29.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Lee_Han-beom",
+      "file": "2026/KOR/lee-han-beom.jpg"
     },
     "2026:KOR:lee-gi-hyuk": {
       "year": 2026,
@@ -971,10 +980,7 @@
       "name": "Eom Ji-sung",
       "author": "Wikipedia contributors",
       "license": "See source page",
-      "caption": "Eom Ji-sung (South Korea)",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/230917_FC_%EC%84%9C%EC%9A%B8_vs_%EA%B4%91%EC%A3%BC_FC_%28%EC%97%84%EC%A7%80%EC%84%B1%29.jpg/330px-230917_FC_%EC%84%9C%EC%9A%B8_vs_%EA%B4%91%EC%A3%BC_FC_%28%EC%97%84%EC%A7%80%EC%84%B1%29.jpg",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Eom_Ji-sung",
-      "file": "2026/KOR/eom-ji-sung.jpg"
+      "caption": "Eom Ji-sung (South Korea)"
     },
     "2026:KOR:lee-dong-gyeong": {
       "year": 2026,
@@ -983,10 +989,7 @@
       "name": "Lee Dong-gyeong",
       "author": "Wikipedia contributors",
       "license": "See source page",
-      "caption": "Lee Dong-gyeong (South Korea)",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/250303_FC_%EC%84%9C%EC%9A%B8_vs_%EA%B9%80%EC%B2%9C_%28%EC%9D%B4%EB%8F%99%EA%B2%BD%29.jpg/330px-250303_FC_%EC%84%9C%EC%9A%B8_vs_%EA%B9%80%EC%B2%9C_%28%EC%9D%B4%EB%8F%99%EA%B2%BD%29.jpg",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Lee_Dong-gyeong",
-      "file": "2026/KOR/lee-dong-gyeong.jpg"
+      "caption": "Lee Dong-gyeong (South Korea)"
     },
     "2026:BIH:nikola-vasilj": {
       "year": 2026,
@@ -1085,7 +1088,10 @@
       "name": "Edin Džeko",
       "author": "Wikipedia contributors",
       "license": "See source page",
-      "caption": "Edin Džeko (Bosnia & Herzegovina)"
+      "caption": "Edin Džeko (Bosnia & Herzegovina)",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/20150331_2026_AUT_BIH_2177_Edin_D%C5%BEeko_%28cropped%29.jpg/330px-20150331_2026_AUT_BIH_2177_Edin_D%C5%BEeko_%28cropped%29.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Edin_D%C5%BEeko",
+      "file": "2026/BIH/edin-dzeko.jpg"
     },
     "2026:BIH:mladen-jurkas": {
       "year": 2026,
@@ -1094,7 +1100,10 @@
       "name": "Mladen Jurkas",
       "author": "Wikipedia contributors",
       "license": "See source page",
-      "caption": "Mladen Jurkas (Bosnia & Herzegovina)"
+      "caption": "Mladen Jurkas (Bosnia & Herzegovina)",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Flag_of_Bosnia_and_Herzegovina.svg/330px-Flag_of_Bosnia_and_Herzegovina.svg.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Bosnia_and_Herzegovina_national_football_team",
+      "file": "2026/BIH/mladen-jurkas.png"
     },
     "2026:BIH:ivan-basic": {
       "year": 2026,
@@ -1382,10 +1391,7 @@
       "name": "Owen Goodman",
       "author": "Wikipedia contributors",
       "license": "See source page",
-      "caption": "Owen Goodman (Canada)",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Owen_Goodman_15022025_%281%29_%28cropped%29.jpg/330px-Owen_Goodman_15022025_%281%29_%28cropped%29.jpg",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Owen_Goodman",
-      "file": "2026/CAN/owen-goodman.jpg"
+      "caption": "Owen Goodman (Canada)"
     },
     "2026:CAN:alphonso-davies": {
       "year": 2026,
@@ -1394,10 +1400,7 @@
       "name": "Alphonso Davies",
       "author": "Wikipedia contributors",
       "license": "See source page",
-      "caption": "Alphonso Davies (Canada)",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Alphonso_Davies_in_2022.jpg/330px-Alphonso_Davies_in_2022.jpg",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Alphonso_Davies",
-      "file": "2026/CAN/alphonso-davies.jpg"
+      "caption": "Alphonso Davies (Canada)"
     },
     "2026:CAN:ali-ahmed": {
       "year": 2026,
@@ -1460,7 +1463,10 @@
       "name": "Nathan Saliba",
       "author": "Wikipedia contributors",
       "license": "See source page",
-      "caption": "Nathan Saliba (Canada)"
+      "caption": "Nathan Saliba (Canada)",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Nathan-Dylan_Saliba_RSC_Anderlecht_2025.jpg/330px-Nathan-Dylan_Saliba_RSC_Anderlecht_2025.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Nathan_Saliba",
+      "file": "2026/CAN/nathan-saliba.jpg"
     },
     "2026:CAN:jayden-nelson": {
       "year": 2026,
@@ -1469,7 +1475,10 @@
       "name": "Jayden Nelson",
       "author": "Wikipedia contributors",
       "license": "See source page",
-      "caption": "Jayden Nelson (Canada)"
+      "caption": "Jayden Nelson (Canada)",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Jayden_Nelson_watching_match.jpeg/330px-Jayden_Nelson_watching_match.jpeg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Jayden_Nelson",
+      "file": "2026/CAN/jayden-nelson.jpg"
     },
     "2026:QAT:mahmud-abunada": {
       "year": 2026,
@@ -2174,10 +2183,7 @@
       "name": "Rayan",
       "author": "Wikipedia contributors",
       "license": "See source page",
-      "caption": "Rayan (Brazil)",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Rayan_2026.png/330px-Rayan_2026.png",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Rayan_(footballer%2C_born_2006)",
-      "file": "2026/BRA/rayan.png"
+      "caption": "Rayan (Brazil)"
     },
     "2026:HAI:johny-placide": {
       "year": 2026,
@@ -2186,10 +2192,7 @@
       "name": "Johny Placide",
       "author": "Wikipedia contributors",
       "license": "See source page",
-      "caption": "Johny Placide (Haiti)",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Johny_Placide_in_Tsarsko_selo.jpg/330px-Johny_Placide_in_Tsarsko_selo.jpg",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Johny_Placide",
-      "file": "2026/HAI/johny-placide.jpg"
+      "caption": "Johny Placide (Haiti)"
     },
     "2026:HAI:carlens-arcus": {
       "year": 2026,
@@ -2513,10 +2516,7 @@
       "name": "Ismael Saibari",
       "author": "Wikipedia contributors",
       "license": "See source page",
-      "caption": "Ismael Saibari (Morocco)",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Ismael_Saibari_Morocco_v_Norway_7_June_2026-162_%28cropped%29.jpg/330px-Ismael_Saibari_Morocco_v_Norway_7_June_2026-162_%28cropped%29.jpg",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Ismael_Saibari",
-      "file": "2026/MAR/ismael-saibari.jpg"
+      "caption": "Ismael Saibari (Morocco)"
     },
     "2026:MAR:munir-mohamedi": {
       "year": 2026,
@@ -2525,10 +2525,7 @@
       "name": "Munir Mohamedi",
       "author": "Wikipedia contributors",
       "license": "See source page",
-      "caption": "Munir Mohamedi (Morocco)",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Munir_El_Kajoui_Morocco_v_Norway_7_June_2026-10_%28cropped%29.jpg/330px-Munir_El_Kajoui_Morocco_v_Norway_7_June_2026-10_%28cropped%29.jpg",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Munir_Mohamedi",
-      "file": "2026/MAR/munir-mohamedi.jpg"
+      "caption": "Munir Mohamedi (Morocco)"
     },
     "2026:MAR:zakaria-el-ouahdi": {
       "year": 2026,
@@ -2618,7 +2615,10 @@
       "name": "Ahmed Reda Tagnaouti",
       "author": "Wikipedia contributors",
       "license": "See source page",
-      "caption": "Ahmed Reda Tagnaouti (Morocco)"
+      "caption": "Ahmed Reda Tagnaouti (Morocco)",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Ahmed_Reda_Tagnaouti_Morocco_v_Norway_7_June_2026-18.jpg/330px-Ahmed_Reda_Tagnaouti_Morocco_v_Norway_7_June_2026-18.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ahmed_Reda_Tagnaouti",
+      "file": "2026/MAR/ahmed-reda-tagnaouti.jpg"
     },
     "2026:MAR:bilal-el-khannouss": {
       "year": 2026,
@@ -2879,10 +2879,7 @@
       "name": "Findlay Curtis",
       "author": "Wikipedia contributors",
       "license": "See source page",
-      "caption": "Findlay Curtis (Scotland)",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Findlay_Curtis_Scotland_v_Bolivia_6_June_2026-56.jpg/330px-Findlay_Curtis_Scotland_v_Bolivia_6_June_2026-56.jpg",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Findlay_Curtis",
-      "file": "2026/SCO/findlay-curtis.jpg"
+      "caption": "Findlay Curtis (Scotland)"
     },
     "2026:SCO:scott-mckenna": {
       "year": 2026,
@@ -2954,7 +2951,10 @@
       "name": "Mathew Leckie",
       "author": "Wikipedia contributors",
       "license": "See source page",
-      "caption": "Mathew Leckie (Australia)"
+      "caption": "Mathew Leckie (Australia)",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Hertha_BSC_vs._West_Ham_United_20190731_%28054%29.jpg/330px-Hertha_BSC_vs._West_Ham_United_20190731_%28054%29.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Mathew_Leckie",
+      "file": "2026/AUS/mathew-leckie.jpg"
     },
     "2026:AUS:connor-metcalfe": {
       "year": 2026,
@@ -2963,7 +2963,10 @@
       "name": "Connor Metcalfe",
       "author": "Wikipedia contributors",
       "license": "See source page",
-      "caption": "Connor Metcalfe (Australia)"
+      "caption": "Connor Metcalfe (Australia)",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b2/4822293_AE7I6590_-_Connor_Metcalfe.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Connor_Metcalfe",
+      "file": "2026/AUS/connor-metcalfe.jpg"
     },
     "2026:AUS:mohamed-toure": {
       "year": 2026,
@@ -3305,10 +3308,7 @@
       "name": "Braian Ojeda",
       "author": "Wikipedia contributors",
       "license": "See source page",
-      "caption": "Braian Ojeda (Paraguay)",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Dynamo_vs_Real_Salt_Lake_%28Mar_2025%29_16_%28cropped%29.jpg/330px-Dynamo_vs_Real_Salt_Lake_%28Mar_2025%29_16_%28cropped%29.jpg",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Braian_Ojeda",
-      "file": "2026/PAR/braian-ojeda.jpg"
+      "caption": "Braian Ojeda (Paraguay)"
     },
     "2026:PAR:gabriel-avalos": {
       "year": 2026,
@@ -3389,7 +3389,10 @@
       "name": "Merih Demiral",
       "author": "Wikipedia contributors",
       "license": "See source page",
-      "caption": "Merih Demiral (Turkey)"
+      "caption": "Merih Demiral (Turkey)",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Merih_Demiral_2026.jpg/330px-Merih_Demiral_2026.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Merih_Demiral",
+      "file": "2026/TUR/merih-demiral.jpg"
     },
     "2026:TUR:caglar-soyuncu": {
       "year": 2026,
@@ -3740,10 +3743,7 @@
       "name": "Alex Freeman",
       "author": "Wikipedia contributors",
       "license": "See source page",
-      "caption": "Alex Freeman (United States)",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Alex_Freeman_USMNT_v_Belgium_Mar_28_2026-59_%28cropped%29.jpg/330px-Alex_Freeman_USMNT_v_Belgium_Mar_28_2026-59_%28cropped%29.jpg",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Alex_Freeman",
-      "file": "2026/USA/alex-freeman.jpg"
+      "caption": "Alex Freeman (United States)"
     },
     "2026:USA:malik-tillman": {
       "year": 2026,
@@ -3752,10 +3752,7 @@
       "name": "Malik Tillman",
       "author": "Wikipedia contributors",
       "license": "See source page",
-      "caption": "Malik Tillman (United States)",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Malik_Tillman_USMNT_v_Belgium_Mar_28_2026-70_%28cropped%29.jpg/330px-Malik_Tillman_USMNT_v_Belgium_Mar_28_2026-70_%28cropped%29.jpg",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Malik_Tillman",
-      "file": "2026/USA/malik-tillman.jpg"
+      "caption": "Malik Tillman (United States)"
     },
     "2026:USA:max-arfsten": {
       "year": 2026,
@@ -3827,7 +3824,10 @@
       "name": "Chris Brady",
       "author": "Wikipedia contributors",
       "license": "See source page",
-      "caption": "Chris Brady (United States)"
+      "caption": "Chris Brady (United States)",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Chris_Brady_Philadelphia_Chicago_10.26.25-026_%28cropped%29.jpg/330px-Chris_Brady_Philadelphia_Chicago_10.26.25-026_%28cropped%29.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Chris_Brady_(soccer)",
+      "file": "2026/USA/chris-brady.jpg"
     },
     "2026:USA:alejandro-zendejas": {
       "year": 2026,
@@ -3836,7 +3836,10 @@
       "name": "Alejandro Zendejas",
       "author": "Wikipedia contributors",
       "license": "See source page",
-      "caption": "Alejandro Zendejas (United States)"
+      "caption": "Alejandro Zendejas (United States)",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Alejandro_Zendejas.png/330px-Alejandro_Zendejas.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Alejandro_Zendejas",
+      "file": "2026/USA/alejandro-zendejas.png"
     },
     "2026:CUW:eloy-room": {
       "year": 2026,
@@ -4178,10 +4181,7 @@
       "name": "Moisés Ramírez",
       "author": "Wikipedia contributors",
       "license": "See source page",
-      "caption": "Moisés Ramírez (Ecuador)",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Moises_Caicedo_2022_%28cropped%29.jpg/330px-Moises_Caicedo_2022_%28cropped%29.jpg",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Mois%C3%A9s_Caicedo",
-      "file": "2026/ECU/moises-ramirez.jpg"
+      "caption": "Moisés Ramírez (Ecuador)"
     },
     "2026:ECU:enner-valencia": {
       "year": 2026,
@@ -4253,7 +4253,10 @@
       "name": "Nilson Angulo",
       "author": "Wikipedia contributors",
       "license": "See source page",
-      "caption": "Nilson Angulo (Ecuador)"
+      "caption": "Nilson Angulo (Ecuador)",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Nilson_Angulo_RSC_Anderlecht_2025.jpg/330px-Nilson_Angulo_RSC_Anderlecht_2025.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Nilson_Angulo",
+      "file": "2026/ECU/nilson-angulo.jpg"
     },
     "2026:ECU:alan-franco": {
       "year": 2026,
@@ -4595,10 +4598,7 @@
       "name": "Seko Fofana",
       "author": "Wikipedia contributors",
       "license": "See source page",
-      "caption": "Seko Fofana (Côte d'Ivoire)",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Seko_Fofana.jpg/330px-Seko_Fofana.jpg",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Seko_Fofana",
-      "file": "2026/CIV/seko-fofana.jpg"
+      "caption": "Seko Fofana (Côte d'Ivoire)"
     },
     "2026:CIV:odilon-kossounou": {
       "year": 2026,
@@ -5048,10 +5048,7 @@
       "name": "Virgil van Dijk",
       "author": "Wikipedia contributors",
       "license": "See source page",
-      "caption": "Virgil van Dijk (Netherlands)",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/20160604_AUT_NED_8876_%28cropped%29.jpg/330px-20160604_AUT_NED_8876_%28cropped%29.jpg",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Virgil_van_Dijk",
-      "file": "2026/NED/virgil-van-dijk.jpg"
+      "caption": "Virgil van Dijk (Netherlands)"
     },
     "2026:NED:nathan-ake": {
       "year": 2026,
@@ -5060,10 +5057,7 @@
       "name": "Nathan Aké",
       "author": "Wikipedia contributors",
       "license": "See source page",
-      "caption": "Nathan Aké (Netherlands)",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Yokohama_F._Marinos_-_Manchester_City_%283-5%29_-_53075276224_%28Nathan_Ake%29.jpg/330px-Yokohama_F._Marinos_-_Manchester_City_%283-5%29_-_53075276224_%28Nathan_Ake%29.jpg",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Nathan_Ak%C3%A9",
-      "file": "2026/NED/nathan-ake.jpg"
+      "caption": "Nathan Aké (Netherlands)"
     },
     "2026:NED:jan-paul-van-hecke": {
       "year": 2026,
@@ -5513,10 +5507,7 @@
       "name": "Montassar Talbi",
       "author": "Wikipedia contributors",
       "license": "See source page",
-      "caption": "Montassar Talbi (Tunisia)",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/en/c/c4/Tunisia_national_football_team_logo.png",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Tunisia_national_football_team",
-      "file": "2026/TUN/montassar-talbi.png"
+      "caption": "Montassar Talbi (Tunisia)"
     },
     "2026:TUN:omar-rekik": {
       "year": 2026,
@@ -5966,10 +5957,7 @@
       "name": "Mohamed El Shenawy",
       "author": "Wikipedia contributors",
       "license": "See source page",
-      "caption": "Mohamed El Shenawy (Egypt)",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Mohamed_El_Shenawy.jpg/330px-Mohamed_El_Shenawy.jpg",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Mohamed_El_Shenawy",
-      "file": "2026/EGY/mohamed-el-shenawy.jpg"
+      "caption": "Mohamed El Shenawy (Egypt)"
     },
     "2026:EGY:yasser-ibrahim": {
       "year": 2026,
@@ -5978,10 +5966,7 @@
       "name": "Yasser Ibrahim",
       "author": "Wikipedia contributors",
       "license": "See source page",
-      "caption": "Yasser Ibrahim (Egypt)",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Yasser_Ibrahim_in_FIFA_Club_World_Cup.jpg/330px-Yasser_Ibrahim_in_FIFA_Club_World_Cup.jpg",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Yasser_Ibrahim",
-      "file": "2026/EGY/yasser-ibrahim.jpg"
+      "caption": "Yasser Ibrahim (Egypt)"
     },
     "2026:EGY:mohamed-hany": {
       "year": 2026,
@@ -6053,7 +6038,10 @@
       "name": "Mohamed Salah",
       "author": "Wikipedia contributors",
       "license": "See source page",
-      "caption": "Mohamed Salah (Egypt)"
+      "caption": "Mohamed Salah (Egypt)",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Mohamed_Salah_2018.jpg/330px-Mohamed_Salah_2018.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Mohamed_Salah",
+      "file": "2026/EGY/mohamed-salah.jpg"
     },
     "2026:EGY:mostafa-ziko": {
       "year": 2026,
@@ -6404,10 +6392,7 @@
       "name": "Ramin Rezaeian",
       "author": "Wikipedia contributors",
       "license": "See source page",
-      "caption": "Ramin Rezaeian (Iran)",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Ramin_Rezaeian_in_Sepahan.jpg/330px-Ramin_Rezaeian_in_Sepahan.jpg",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Ramin_Rezaeian",
-      "file": "2026/IRN/ramin-rezaeian.jpg"
+      "caption": "Ramin Rezaeian (Iran)"
     },
     "2026:IRN:dennis-eckert": {
       "year": 2026,
@@ -6479,7 +6464,10 @@
       "name": "Michael Boxall",
       "author": "Wikipedia contributors",
       "license": "See source page",
-      "caption": "Michael Boxall (New Zealand)"
+      "caption": "Michael Boxall (New Zealand)",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Michael_Boxall_-_MNUFC_-_MLS_-_new_zealand_-_%2852125271279%29.jpg/330px-Michael_Boxall_-_MNUFC_-_MLS_-_new_zealand_-_%2852125271279%29.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Michael_Boxall",
+      "file": "2026/NZL/michael-boxall.jpg"
     },
     "2026:NZL:joe-bell": {
       "year": 2026,
@@ -6767,10 +6755,7 @@
       "name": "Garry Rodrigues",
       "author": "Wikipedia contributors",
       "license": "See source page",
-      "caption": "Garry Rodrigues (Cape Verde)",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Cap-vert_vs_Ethiopi_%2824%29.jpg/330px-Cap-vert_vs_Ethiopi_%2824%29.jpg",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Garry_Rodrigues",
-      "file": "2026/CPV/garry-rodrigues.jpg"
+      "caption": "Garry Rodrigues (Cape Verde)"
     },
     "2026:CPV:marcio-rosa": {
       "year": 2026,
@@ -6851,7 +6836,10 @@
       "name": "Ryan Mendes",
       "author": "Wikipedia contributors",
       "license": "See source page",
-      "caption": "Ryan Mendes (Cape Verde)"
+      "caption": "Ryan Mendes (Cape Verde)",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Ryan_Mendes_%28LOSC_Lille%29.JPG/330px-Ryan_Mendes_%28LOSC_Lille%29.JPG",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ryan_Mendes",
+      "file": "2026/CPV/ryan-mendes.jpg"
     },
     "2026:CPV:nuno-da-costa": {
       "year": 2026,
@@ -7256,7 +7244,10 @@
       "name": "Joan Garcia",
       "author": "Wikipedia contributors",
       "license": "See source page",
-      "caption": "Joan Garcia (Spain)"
+      "caption": "Joan Garcia (Spain)",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/CE_Manresa_Alev%C3%AD_A%2C_amb_el_porter_Joan_Garcia%2C_abril_de_2012_%28cropped%29.jpg/330px-CE_Manresa_Alev%C3%AD_A%2C_amb_el_porter_Joan_Garcia%2C_abril_de_2012_%28cropped%29.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Joan_Garcia",
+      "file": "2026/ESP/joan-garcia.jpg"
     },
     "2026:ESP:aymeric-laporte": {
       "year": 2026,
@@ -7616,10 +7607,7 @@
       "name": "Brice Samba",
       "author": "Wikipedia contributors",
       "license": "See source page",
-      "caption": "Brice Samba (France)",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Brice_Samba_asse_rcl_23_24.jpg/330px-Brice_Samba_asse_rcl_23_24.jpg",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Brice_Samba",
-      "file": "2026/FRA/brice-samba.jpg"
+      "caption": "Brice Samba (France)"
     },
     "2026:FRA:malo-gusto": {
       "year": 2026,
@@ -8150,7 +8138,10 @@
       "name": "Sander Berge",
       "author": "Wikipedia contributors",
       "license": "See source page",
-      "caption": "Sander Berge (Norway)"
+      "caption": "Sander Berge (Norway)",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Norway_Italy_-_June_2025_E_25_%28cropped%29.jpg/330px-Norway_Italy_-_June_2025_E_25_%28cropped%29.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Sander_Berge",
+      "file": "2026/NOR/sander-berge.jpg"
     },
     "2026:NOR:erling-haaland": {
       "year": 2026,
@@ -8159,7 +8150,10 @@
       "name": "Erling Haaland",
       "author": "Wikipedia contributors",
       "license": "See source page",
-      "caption": "Erling Haaland (Norway)"
+      "caption": "Erling Haaland (Norway)",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Erling_Haaland_Morocco_v_Norway_7_June_2026-51.jpg/330px-Erling_Haaland_Morocco_v_Norway_7_June_2026-51.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Erling_Haaland",
+      "file": "2026/NOR/erling-haaland.jpg"
     },
     "2026:NOR:martin-degaard": {
       "year": 2026,
@@ -8519,10 +8513,7 @@
       "name": "Mory Diaw",
       "author": "Wikipedia contributors",
       "license": "See source page",
-      "caption": "Mory Diaw (Senegal)",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Mory_Diaw_2015_%28cropped%29.jpg/330px-Mory_Diaw_2015_%28cropped%29.jpg",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Mory_Diaw",
-      "file": "2026/SEN/mory-diaw.jpg"
+      "caption": "Mory Diaw (Senegal)"
     },
     "2026:SEN:antoine-mendy": {
       "year": 2026,
@@ -8612,7 +8603,10 @@
       "name": "Riyad Mahrez",
       "author": "Wikipedia contributors",
       "license": "See source page",
-      "caption": "Riyad Mahrez (Algeria)"
+      "caption": "Riyad Mahrez (Algeria)",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Mahrez_2021.jpg/330px-Mahrez_2021.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Riyad_Mahrez",
+      "file": "2026/ALG/riyad-mahrez.jpg"
     },
     "2026:ALG:houssem-aouar": {
       "year": 2026,
@@ -9521,7 +9515,10 @@
       "name": "Santiago Arias",
       "author": "Wikipedia contributors",
       "license": "See source page",
-      "caption": "Santiago Arias (Colombia)"
+      "caption": "Santiago Arias (Colombia)",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3d/ATL-Madrid-Lokomotiv001-Arias.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Santiago_Arias",
+      "file": "2026/COL/santiago-arias.jpg"
     },
     "2026:COL:kevin-castano": {
       "year": 2026,
@@ -9872,10 +9869,1498 @@
       "name": "Cédric Bakambu",
       "author": "Wikipedia contributors",
       "license": "See source page",
-      "caption": "Cédric Bakambu (DR Congo)",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/C%C3%A9dric_Bakambu_2016_%28cropped%29.jpg/330px-C%C3%A9dric_Bakambu_2016_%28cropped%29.jpg",
-      "sourceUrl": "https://en.wikipedia.org/wiki/C%C3%A9dric_Bakambu",
-      "file": "2026/COD/cedric-bakambu.jpg"
+      "caption": "Cédric Bakambu (DR Congo)"
+    },
+    "2026:COD:charles-pickel": {
+      "year": 2026,
+      "teamCode": "COD",
+      "team": "DR Congo",
+      "name": "Charles Pickel",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Charles Pickel (DR Congo)"
+    },
+    "2026:COD:fiston-mayele": {
+      "year": 2026,
+      "teamCode": "COD",
+      "team": "DR Congo",
+      "name": "Fiston Mayele",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Fiston Mayele (DR Congo)"
+    },
+    "2026:COD:yoane-wissa": {
+      "year": 2026,
+      "teamCode": "COD",
+      "team": "DR Congo",
+      "name": "Yoane Wissa",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Yoane Wissa (DR Congo)"
+    },
+    "2026:COD:matthieu-epolo": {
+      "year": 2026,
+      "teamCode": "COD",
+      "team": "DR Congo",
+      "name": "Matthieu Epolo",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Matthieu Epolo (DR Congo)"
+    },
+    "2026:COD:chancel-mbemba": {
+      "year": 2026,
+      "teamCode": "COD",
+      "team": "DR Congo",
+      "name": "Chancel Mbemba",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Chancel Mbemba (DR Congo)"
+    },
+    "2026:COD:simon-banza": {
+      "year": 2026,
+      "teamCode": "COD",
+      "team": "DR Congo",
+      "name": "Simon Banza",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Simon Banza (DR Congo)"
+    },
+    "2026:COD:gedeon-kalulu": {
+      "year": 2026,
+      "teamCode": "COD",
+      "team": "DR Congo",
+      "name": "Gédéon Kalulu",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Gédéon Kalulu (DR Congo)"
+    },
+    "2026:COD:edo-kayembe": {
+      "year": 2026,
+      "teamCode": "COD",
+      "team": "DR Congo",
+      "name": "Edo Kayembe",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Edo Kayembe (DR Congo)"
+    },
+    "2026:COD:arthur-masuaku": {
+      "year": 2026,
+      "teamCode": "COD",
+      "team": "DR Congo",
+      "name": "Arthur Masuaku",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Arthur Masuaku (DR Congo)"
+    },
+    "2026:POR:diogo-costa": {
+      "year": 2026,
+      "teamCode": "POR",
+      "team": "Portugal",
+      "name": "Diogo Costa",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Diogo Costa (Portugal)",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Portugal_national_football_team_0866_%28Diogo_Costa%29.jpg/330px-Portugal_national_football_team_0866_%28Diogo_Costa%29.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Diogo_Costa",
+      "file": "2026/POR/diogo-costa.jpg"
+    },
+    "2026:POR:nelson-semedo": {
+      "year": 2026,
+      "teamCode": "POR",
+      "team": "Portugal",
+      "name": "Nélson Semedo",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Nélson Semedo (Portugal)"
+    },
+    "2026:POR:ruben-dias": {
+      "year": 2026,
+      "teamCode": "POR",
+      "team": "Portugal",
+      "name": "Rúben Dias",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Rúben Dias (Portugal)"
+    },
+    "2026:POR:tomas-araujo": {
+      "year": 2026,
+      "teamCode": "POR",
+      "team": "Portugal",
+      "name": "Tomás Araújo",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Tomás Araújo (Portugal)"
+    },
+    "2026:POR:diogo-dalot": {
+      "year": 2026,
+      "teamCode": "POR",
+      "team": "Portugal",
+      "name": "Diogo Dalot",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Diogo Dalot (Portugal)"
+    },
+    "2026:POR:matheus-nunes": {
+      "year": 2026,
+      "teamCode": "POR",
+      "team": "Portugal",
+      "name": "Matheus Nunes",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Matheus Nunes (Portugal)"
+    },
+    "2026:POR:cristiano-ronaldo": {
+      "year": 2026,
+      "teamCode": "POR",
+      "team": "Portugal",
+      "name": "Cristiano Ronaldo",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Cristiano Ronaldo (Portugal)"
+    },
+    "2026:POR:bruno-fernandes": {
+      "year": 2026,
+      "teamCode": "POR",
+      "team": "Portugal",
+      "name": "Bruno Fernandes",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Bruno Fernandes (Portugal)"
+    },
+    "2026:POR:goncalo-ramos": {
+      "year": 2026,
+      "teamCode": "POR",
+      "team": "Portugal",
+      "name": "Gonçalo Ramos",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Gonçalo Ramos (Portugal)"
+    },
+    "2026:POR:bernardo-silva": {
+      "year": 2026,
+      "teamCode": "POR",
+      "team": "Portugal",
+      "name": "Bernardo Silva",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Bernardo Silva (Portugal)"
+    },
+    "2026:POR:joao-felix": {
+      "year": 2026,
+      "teamCode": "POR",
+      "team": "Portugal",
+      "name": "João Félix",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "João Félix (Portugal)"
+    },
+    "2026:POR:jose-sa": {
+      "year": 2026,
+      "teamCode": "POR",
+      "team": "Portugal",
+      "name": "José Sá",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "José Sá (Portugal)"
+    },
+    "2026:POR:renato-veiga": {
+      "year": 2026,
+      "teamCode": "POR",
+      "team": "Portugal",
+      "name": "Renato Veiga",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Renato Veiga (Portugal)"
+    },
+    "2026:POR:goncalo-inacio": {
+      "year": 2026,
+      "teamCode": "POR",
+      "team": "Portugal",
+      "name": "Gonçalo Inácio",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Gonçalo Inácio (Portugal)"
+    },
+    "2026:POR:joao-neves": {
+      "year": 2026,
+      "teamCode": "POR",
+      "team": "Portugal",
+      "name": "João Neves",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "João Neves (Portugal)"
+    },
+    "2026:POR:francisco-trincao": {
+      "year": 2026,
+      "teamCode": "POR",
+      "team": "Portugal",
+      "name": "Francisco Trincão",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Francisco Trincão (Portugal)"
+    },
+    "2026:POR:rafael-leao": {
+      "year": 2026,
+      "teamCode": "POR",
+      "team": "Portugal",
+      "name": "Rafael Leão",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Rafael Leão (Portugal)"
+    },
+    "2026:POR:pedro-neto": {
+      "year": 2026,
+      "teamCode": "POR",
+      "team": "Portugal",
+      "name": "Pedro Neto",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Pedro Neto (Portugal)"
+    },
+    "2026:POR:goncalo-guedes": {
+      "year": 2026,
+      "teamCode": "POR",
+      "team": "Portugal",
+      "name": "Gonçalo Guedes",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Gonçalo Guedes (Portugal)"
+    },
+    "2026:POR:joao-cancelo": {
+      "year": 2026,
+      "teamCode": "POR",
+      "team": "Portugal",
+      "name": "João Cancelo",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "João Cancelo (Portugal)"
+    },
+    "2026:POR:ruben-neves": {
+      "year": 2026,
+      "teamCode": "POR",
+      "team": "Portugal",
+      "name": "Rúben Neves",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Rúben Neves (Portugal)"
+    },
+    "2026:POR:rui-silva": {
+      "year": 2026,
+      "teamCode": "POR",
+      "team": "Portugal",
+      "name": "Rui Silva",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Rui Silva (Portugal)"
+    },
+    "2026:POR:vitinha": {
+      "year": 2026,
+      "teamCode": "POR",
+      "team": "Portugal",
+      "name": "Vitinha",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Vitinha (Portugal)"
+    },
+    "2026:POR:samu-costa": {
+      "year": 2026,
+      "teamCode": "POR",
+      "team": "Portugal",
+      "name": "Samú Costa",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Samú Costa (Portugal)"
+    },
+    "2026:POR:nuno-mendes": {
+      "year": 2026,
+      "teamCode": "POR",
+      "team": "Portugal",
+      "name": "Nuno Mendes",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Nuno Mendes (Portugal)"
+    },
+    "2026:POR:francisco-conceicao": {
+      "year": 2026,
+      "teamCode": "POR",
+      "team": "Portugal",
+      "name": "Francisco Conceição",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Francisco Conceição (Portugal)"
+    },
+    "2026:UZB:utkir-yusupov": {
+      "year": 2026,
+      "teamCode": "UZB",
+      "team": "Uzbekistan",
+      "name": "Utkir Yusupov",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Utkir Yusupov (Uzbekistan)"
+    },
+    "2026:UZB:abdukodir-khusanov": {
+      "year": 2026,
+      "teamCode": "UZB",
+      "team": "Uzbekistan",
+      "name": "Abdukodir Khusanov",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Abdukodir Khusanov (Uzbekistan)"
+    },
+    "2026:UZB:khojiakbar-alijonov": {
+      "year": 2026,
+      "teamCode": "UZB",
+      "team": "Uzbekistan",
+      "name": "Khojiakbar Alijonov",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Khojiakbar Alijonov (Uzbekistan)"
+    },
+    "2026:UZB:farrukh-sayfiev": {
+      "year": 2026,
+      "teamCode": "UZB",
+      "team": "Uzbekistan",
+      "name": "Farrukh Sayfiev",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Farrukh Sayfiev (Uzbekistan)"
+    },
+    "2026:UZB:rustam-ashurmatov": {
+      "year": 2026,
+      "teamCode": "UZB",
+      "team": "Uzbekistan",
+      "name": "Rustam Ashurmatov",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Rustam Ashurmatov (Uzbekistan)"
+    },
+    "2026:UZB:akmal-mozgovoy": {
+      "year": 2026,
+      "teamCode": "UZB",
+      "team": "Uzbekistan",
+      "name": "Akmal Mozgovoy",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Akmal Mozgovoy (Uzbekistan)"
+    },
+    "2026:UZB:otabek-shukurov": {
+      "year": 2026,
+      "teamCode": "UZB",
+      "team": "Uzbekistan",
+      "name": "Otabek Shukurov",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Otabek Shukurov (Uzbekistan)"
+    },
+    "2026:UZB:jamshid-iskanderov": {
+      "year": 2026,
+      "teamCode": "UZB",
+      "team": "Uzbekistan",
+      "name": "Jamshid Iskanderov",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Jamshid Iskanderov (Uzbekistan)"
+    },
+    "2026:UZB:odiljon-hamrobekov": {
+      "year": 2026,
+      "teamCode": "UZB",
+      "team": "Uzbekistan",
+      "name": "Odiljon Hamrobekov",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Odiljon Hamrobekov (Uzbekistan)"
+    },
+    "2026:UZB:ruslanbek-jiyanov": {
+      "year": 2026,
+      "teamCode": "UZB",
+      "team": "Uzbekistan",
+      "name": "Ruslanbek Jiyanov",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Ruslanbek Jiyanov (Uzbekistan)"
+    },
+    "2026:UZB:oston-urunov": {
+      "year": 2026,
+      "teamCode": "UZB",
+      "team": "Uzbekistan",
+      "name": "Oston Urunov",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Oston Urunov (Uzbekistan)"
+    },
+    "2026:UZB:abduvohid-nematov": {
+      "year": 2026,
+      "teamCode": "UZB",
+      "team": "Uzbekistan",
+      "name": "Abduvohid Nematov",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Abduvohid Nematov (Uzbekistan)"
+    },
+    "2026:UZB:sherzod-nasrullaev": {
+      "year": 2026,
+      "teamCode": "UZB",
+      "team": "Uzbekistan",
+      "name": "Sherzod Nasrullaev",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Sherzod Nasrullaev (Uzbekistan)"
+    },
+    "2026:UZB:eldor-shomurodov": {
+      "year": 2026,
+      "teamCode": "UZB",
+      "team": "Uzbekistan",
+      "name": "Eldor Shomurodov",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Eldor Shomurodov (Uzbekistan)"
+    },
+    "2026:UZB:umar-eshmurodov": {
+      "year": 2026,
+      "teamCode": "UZB",
+      "team": "Uzbekistan",
+      "name": "Umar Eshmurodov",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Umar Eshmurodov (Uzbekistan)"
+    },
+    "2026:UZB:botirali-ergashev": {
+      "year": 2026,
+      "teamCode": "UZB",
+      "team": "Uzbekistan",
+      "name": "Botirali Ergashev",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Botirali Ergashev (Uzbekistan)"
+    },
+    "2026:UZB:dostonbek-khamdamov": {
+      "year": 2026,
+      "teamCode": "UZB",
+      "team": "Uzbekistan",
+      "name": "Dostonbek Khamdamov",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Dostonbek Khamdamov (Uzbekistan)"
+    },
+    "2026:UZB:abdulla-abdullaev": {
+      "year": 2026,
+      "teamCode": "UZB",
+      "team": "Uzbekistan",
+      "name": "Abdulla Abdullaev",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Abdulla Abdullaev (Uzbekistan)"
+    },
+    "2026:UZB:azizjon-ganiev": {
+      "year": 2026,
+      "teamCode": "UZB",
+      "team": "Uzbekistan",
+      "name": "Azizjon Ganiev",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Azizjon Ganiev (Uzbekistan)"
+    },
+    "2026:UZB:azizbek-amonov": {
+      "year": 2026,
+      "teamCode": "UZB",
+      "team": "Uzbekistan",
+      "name": "Azizbek Amonov",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Azizbek Amonov (Uzbekistan)"
+    },
+    "2026:UZB:igor-sergeev": {
+      "year": 2026,
+      "teamCode": "UZB",
+      "team": "Uzbekistan",
+      "name": "Igor Sergeev",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Igor Sergeev (Uzbekistan)"
+    },
+    "2026:UZB:abbosbek-fayzullaev": {
+      "year": 2026,
+      "teamCode": "UZB",
+      "team": "Uzbekistan",
+      "name": "Abbosbek Fayzullaev",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Abbosbek Fayzullaev (Uzbekistan)"
+    },
+    "2026:UZB:sherzod-esanov": {
+      "year": 2026,
+      "teamCode": "UZB",
+      "team": "Uzbekistan",
+      "name": "Sherzod Esanov",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Sherzod Esanov (Uzbekistan)"
+    },
+    "2026:UZB:bekhruz-karimov": {
+      "year": 2026,
+      "teamCode": "UZB",
+      "team": "Uzbekistan",
+      "name": "Bekhruz Karimov",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Bekhruz Karimov (Uzbekistan)"
+    },
+    "2026:UZB:avazbek-ulmasaliev": {
+      "year": 2026,
+      "teamCode": "UZB",
+      "team": "Uzbekistan",
+      "name": "Avazbek Ulmasaliev",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Avazbek Ulmasaliev (Uzbekistan)"
+    },
+    "2026:UZB:jakhongir-urozov": {
+      "year": 2026,
+      "teamCode": "UZB",
+      "team": "Uzbekistan",
+      "name": "Jakhongir Urozov",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Jakhongir Urozov (Uzbekistan)"
+    },
+    "2026:CRO:dominik-livakovic": {
+      "year": 2026,
+      "teamCode": "CRO",
+      "team": "Croatia",
+      "name": "Dominik Livaković",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Dominik Livaković (Croatia)",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Dominik_Livakovi%C4%87_2021.jpg/330px-Dominik_Livakovi%C4%87_2021.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Dominik_Livakovi%C4%87",
+      "file": "2026/CRO/dominik-livakovic.jpg"
+    },
+    "2026:CRO:josip-stanisic": {
+      "year": 2026,
+      "teamCode": "CRO",
+      "team": "Croatia",
+      "name": "Josip Stanišić",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Josip Stanišić (Croatia)"
+    },
+    "2026:CRO:marin-pongracic": {
+      "year": 2026,
+      "teamCode": "CRO",
+      "team": "Croatia",
+      "name": "Marin Pongračić",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Marin Pongračić (Croatia)"
+    },
+    "2026:CRO:josko-gvardiol": {
+      "year": 2026,
+      "teamCode": "CRO",
+      "team": "Croatia",
+      "name": "Joško Gvardiol",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Joško Gvardiol (Croatia)"
+    },
+    "2026:CRO:duje-caleta-car": {
+      "year": 2026,
+      "teamCode": "CRO",
+      "team": "Croatia",
+      "name": "Duje Ćaleta-Car",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Duje Ćaleta-Car (Croatia)"
+    },
+    "2026:CRO:josip-sutalo": {
+      "year": 2026,
+      "teamCode": "CRO",
+      "team": "Croatia",
+      "name": "Josip Šutalo",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Josip Šutalo (Croatia)"
+    },
+    "2026:CRO:nikola-moro": {
+      "year": 2026,
+      "teamCode": "CRO",
+      "team": "Croatia",
+      "name": "Nikola Moro",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Nikola Moro (Croatia)"
+    },
+    "2026:CRO:mateo-kovacic": {
+      "year": 2026,
+      "teamCode": "CRO",
+      "team": "Croatia",
+      "name": "Mateo Kovačić",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Mateo Kovačić (Croatia)"
+    },
+    "2026:CRO:andrej-kramaric": {
+      "year": 2026,
+      "teamCode": "CRO",
+      "team": "Croatia",
+      "name": "Andrej Kramarić",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Andrej Kramarić (Croatia)"
+    },
+    "2026:CRO:luka-modric": {
+      "year": 2026,
+      "teamCode": "CRO",
+      "team": "Croatia",
+      "name": "Luka Modrić",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Luka Modrić (Croatia)"
+    },
+    "2026:CRO:ante-budimir": {
+      "year": 2026,
+      "teamCode": "CRO",
+      "team": "Croatia",
+      "name": "Ante Budimir",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Ante Budimir (Croatia)"
+    },
+    "2026:CRO:ivor-pandur": {
+      "year": 2026,
+      "teamCode": "CRO",
+      "team": "Croatia",
+      "name": "Ivor Pandur",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Ivor Pandur (Croatia)"
+    },
+    "2026:CRO:nikola-vlasic": {
+      "year": 2026,
+      "teamCode": "CRO",
+      "team": "Croatia",
+      "name": "Nikola Vlašić",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Nikola Vlašić (Croatia)"
+    },
+    "2026:CRO:ivan-perisic": {
+      "year": 2026,
+      "teamCode": "CRO",
+      "team": "Croatia",
+      "name": "Ivan Perišić",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Ivan Perišić (Croatia)"
+    },
+    "2026:CRO:mario-pasalic": {
+      "year": 2026,
+      "teamCode": "CRO",
+      "team": "Croatia",
+      "name": "Mario Pašalić",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Mario Pašalić (Croatia)"
+    },
+    "2026:CRO:martin-baturina": {
+      "year": 2026,
+      "teamCode": "CRO",
+      "team": "Croatia",
+      "name": "Martin Baturina",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Martin Baturina (Croatia)"
+    },
+    "2026:CRO:petar-sucic": {
+      "year": 2026,
+      "teamCode": "CRO",
+      "team": "Croatia",
+      "name": "Petar Sučić",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Petar Sučić (Croatia)"
+    },
+    "2026:CRO:kristijan-jakic": {
+      "year": 2026,
+      "teamCode": "CRO",
+      "team": "Croatia",
+      "name": "Kristijan Jakić",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Kristijan Jakić (Croatia)"
+    },
+    "2026:CRO:toni-fruk": {
+      "year": 2026,
+      "teamCode": "CRO",
+      "team": "Croatia",
+      "name": "Toni Fruk",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Toni Fruk (Croatia)"
+    },
+    "2026:CRO:igor-matanovic": {
+      "year": 2026,
+      "teamCode": "CRO",
+      "team": "Croatia",
+      "name": "Igor Matanović",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Igor Matanović (Croatia)"
+    },
+    "2026:CRO:luka-sucic": {
+      "year": 2026,
+      "teamCode": "CRO",
+      "team": "Croatia",
+      "name": "Luka Sučić",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Luka Sučić (Croatia)"
+    },
+    "2026:CRO:luka-vuskovic": {
+      "year": 2026,
+      "teamCode": "CRO",
+      "team": "Croatia",
+      "name": "Luka Vušković",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Luka Vušković (Croatia)"
+    },
+    "2026:CRO:dominik-kotarski": {
+      "year": 2026,
+      "teamCode": "CRO",
+      "team": "Croatia",
+      "name": "Dominik Kotarski",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Dominik Kotarski (Croatia)"
+    },
+    "2026:CRO:marco-pasalic": {
+      "year": 2026,
+      "teamCode": "CRO",
+      "team": "Croatia",
+      "name": "Marco Pašalić",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Marco Pašalić (Croatia)"
+    },
+    "2026:CRO:martin-erlic": {
+      "year": 2026,
+      "teamCode": "CRO",
+      "team": "Croatia",
+      "name": "Martin Erlić",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Martin Erlić (Croatia)"
+    },
+    "2026:CRO:petar-musa": {
+      "year": 2026,
+      "teamCode": "CRO",
+      "team": "Croatia",
+      "name": "Petar Musa",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Petar Musa (Croatia)"
+    },
+    "2026:ENG:jordan-pickford": {
+      "year": 2026,
+      "teamCode": "ENG",
+      "team": "England",
+      "name": "Jordan Pickford",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Jordan Pickford (England)"
+    },
+    "2026:ENG:ezri-konsa": {
+      "year": 2026,
+      "teamCode": "ENG",
+      "team": "England",
+      "name": "Ezri Konsa",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Ezri Konsa (England)"
+    },
+    "2026:ENG:nico-o-reilly": {
+      "year": 2026,
+      "teamCode": "ENG",
+      "team": "England",
+      "name": "Nico O'Reilly",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Nico O'Reilly (England)"
+    },
+    "2026:ENG:declan-rice": {
+      "year": 2026,
+      "teamCode": "ENG",
+      "team": "England",
+      "name": "Declan Rice",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Declan Rice (England)"
+    },
+    "2026:ENG:john-stones": {
+      "year": 2026,
+      "teamCode": "ENG",
+      "team": "England",
+      "name": "John Stones",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "John Stones (England)"
+    },
+    "2026:ENG:marc-guehi": {
+      "year": 2026,
+      "teamCode": "ENG",
+      "team": "England",
+      "name": "Marc Guéhi",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Marc Guéhi (England)"
+    },
+    "2026:ENG:bukayo-saka": {
+      "year": 2026,
+      "teamCode": "ENG",
+      "team": "England",
+      "name": "Bukayo Saka",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Bukayo Saka (England)"
+    },
+    "2026:ENG:elliot-anderson": {
+      "year": 2026,
+      "teamCode": "ENG",
+      "team": "England",
+      "name": "Elliot Anderson",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Elliot Anderson (England)"
+    },
+    "2026:ENG:harry-kane": {
+      "year": 2026,
+      "teamCode": "ENG",
+      "team": "England",
+      "name": "Harry Kane",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Harry Kane (England)"
+    },
+    "2026:ENG:jude-bellingham": {
+      "year": 2026,
+      "teamCode": "ENG",
+      "team": "England",
+      "name": "Jude Bellingham",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Jude Bellingham (England)"
+    },
+    "2026:ENG:marcus-rashford": {
+      "year": 2026,
+      "teamCode": "ENG",
+      "team": "England",
+      "name": "Marcus Rashford",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Marcus Rashford (England)"
+    },
+    "2026:ENG:trevoh-chalobah": {
+      "year": 2026,
+      "teamCode": "ENG",
+      "team": "England",
+      "name": "Trevoh Chalobah",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Trevoh Chalobah (England)"
+    },
+    "2026:ENG:dean-henderson": {
+      "year": 2026,
+      "teamCode": "ENG",
+      "team": "England",
+      "name": "Dean Henderson",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Dean Henderson (England)"
+    },
+    "2026:ENG:jordan-henderson": {
+      "year": 2026,
+      "teamCode": "ENG",
+      "team": "England",
+      "name": "Jordan Henderson",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Jordan Henderson (England)"
+    },
+    "2026:ENG:dan-burn": {
+      "year": 2026,
+      "teamCode": "ENG",
+      "team": "England",
+      "name": "Dan Burn",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Dan Burn (England)"
+    },
+    "2026:ENG:kobbie-mainoo": {
+      "year": 2026,
+      "teamCode": "ENG",
+      "team": "England",
+      "name": "Kobbie Mainoo",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Kobbie Mainoo (England)"
+    },
+    "2026:ENG:morgan-rogers": {
+      "year": 2026,
+      "teamCode": "ENG",
+      "team": "England",
+      "name": "Morgan Rogers",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Morgan Rogers (England)"
+    },
+    "2026:ENG:anthony-gordon": {
+      "year": 2026,
+      "teamCode": "ENG",
+      "team": "England",
+      "name": "Anthony Gordon",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Anthony Gordon (England)"
+    },
+    "2026:ENG:ollie-watkins": {
+      "year": 2026,
+      "teamCode": "ENG",
+      "team": "England",
+      "name": "Ollie Watkins",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Ollie Watkins (England)"
+    },
+    "2026:ENG:noni-madueke": {
+      "year": 2026,
+      "teamCode": "ENG",
+      "team": "England",
+      "name": "Noni Madueke",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Noni Madueke (England)"
+    },
+    "2026:ENG:eberechi-eze": {
+      "year": 2026,
+      "teamCode": "ENG",
+      "team": "England",
+      "name": "Eberechi Eze",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Eberechi Eze (England)"
+    },
+    "2026:ENG:ivan-toney": {
+      "year": 2026,
+      "teamCode": "ENG",
+      "team": "England",
+      "name": "Ivan Toney",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Ivan Toney (England)"
+    },
+    "2026:ENG:james-trafford": {
+      "year": 2026,
+      "teamCode": "ENG",
+      "team": "England",
+      "name": "James Trafford",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "James Trafford (England)"
+    },
+    "2026:ENG:reece-james": {
+      "year": 2026,
+      "teamCode": "ENG",
+      "team": "England",
+      "name": "Reece James",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Reece James (England)"
+    },
+    "2026:ENG:djed-spence": {
+      "year": 2026,
+      "teamCode": "ENG",
+      "team": "England",
+      "name": "Djed Spence",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Djed Spence (England)"
+    },
+    "2026:ENG:jarell-quansah": {
+      "year": 2026,
+      "teamCode": "ENG",
+      "team": "England",
+      "name": "Jarell Quansah",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Jarell Quansah (England)"
+    },
+    "2026:GHA:lawrence-ati-zigi": {
+      "year": 2026,
+      "teamCode": "GHA",
+      "team": "Ghana",
+      "name": "Lawrence Ati-Zigi",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Lawrence Ati-Zigi (Ghana)"
+    },
+    "2026:GHA:alidu-seidu": {
+      "year": 2026,
+      "teamCode": "GHA",
+      "team": "Ghana",
+      "name": "Alidu Seidu",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Alidu Seidu (Ghana)"
+    },
+    "2026:GHA:caleb-yirenkyi": {
+      "year": 2026,
+      "teamCode": "GHA",
+      "team": "Ghana",
+      "name": "Caleb Yirenkyi",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Caleb Yirenkyi (Ghana)"
+    },
+    "2026:GHA:jonas-adjetey": {
+      "year": 2026,
+      "teamCode": "GHA",
+      "team": "Ghana",
+      "name": "Jonas Adjetey",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Jonas Adjetey (Ghana)"
+    },
+    "2026:GHA:thomas-partey": {
+      "year": 2026,
+      "teamCode": "GHA",
+      "team": "Ghana",
+      "name": "Thomas Partey",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Thomas Partey (Ghana)"
+    },
+    "2026:GHA:abdul-mumin": {
+      "year": 2026,
+      "teamCode": "GHA",
+      "team": "Ghana",
+      "name": "Abdul Mumin",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Abdul Mumin (Ghana)"
+    },
+    "2026:GHA:abdul-fatawu": {
+      "year": 2026,
+      "teamCode": "GHA",
+      "team": "Ghana",
+      "name": "Abdul Fatawu",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Abdul Fatawu (Ghana)"
+    },
+    "2026:GHA:kwasi-sibo": {
+      "year": 2026,
+      "teamCode": "GHA",
+      "team": "Ghana",
+      "name": "Kwasi Sibo",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Kwasi Sibo (Ghana)"
+    },
+    "2026:GHA:jordan-ayew": {
+      "year": 2026,
+      "teamCode": "GHA",
+      "team": "Ghana",
+      "name": "Jordan Ayew",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Jordan Ayew (Ghana)"
+    },
+    "2026:GHA:brandon-thomas-asante": {
+      "year": 2026,
+      "teamCode": "GHA",
+      "team": "Ghana",
+      "name": "Brandon Thomas-Asante",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Brandon Thomas-Asante (Ghana)"
+    },
+    "2026:GHA:antoine-semenyo": {
+      "year": 2026,
+      "teamCode": "GHA",
+      "team": "Ghana",
+      "name": "Antoine Semenyo",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Antoine Semenyo (Ghana)"
+    },
+    "2026:GHA:joseph-anang": {
+      "year": 2026,
+      "teamCode": "GHA",
+      "team": "Ghana",
+      "name": "Joseph Anang",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Joseph Anang (Ghana)"
+    },
+    "2026:GHA:christopher-bonsu-baah": {
+      "year": 2026,
+      "teamCode": "GHA",
+      "team": "Ghana",
+      "name": "Christopher Bonsu Baah",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Christopher Bonsu Baah (Ghana)"
+    },
+    "2026:GHA:gideon-mensah": {
+      "year": 2026,
+      "teamCode": "GHA",
+      "team": "Ghana",
+      "name": "Gideon Mensah",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Gideon Mensah (Ghana)"
+    },
+    "2026:GHA:elisha-owusu": {
+      "year": 2026,
+      "teamCode": "GHA",
+      "team": "Ghana",
+      "name": "Elisha Owusu",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Elisha Owusu (Ghana)"
+    },
+    "2026:GHA:benjamin-asare": {
+      "year": 2026,
+      "teamCode": "GHA",
+      "team": "Ghana",
+      "name": "Benjamin Asare",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Benjamin Asare (Ghana)"
+    },
+    "2026:GHA:abdul-rahman-baba": {
+      "year": 2026,
+      "teamCode": "GHA",
+      "team": "Ghana",
+      "name": "Abdul Rahman Baba",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Abdul Rahman Baba (Ghana)"
+    },
+    "2026:GHA:jerome-opoku": {
+      "year": 2026,
+      "teamCode": "GHA",
+      "team": "Ghana",
+      "name": "Jerome Opoku",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Jerome Opoku (Ghana)"
+    },
+    "2026:GHA:inaki-williams": {
+      "year": 2026,
+      "teamCode": "GHA",
+      "team": "Ghana",
+      "name": "Iñaki Williams",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Iñaki Williams (Ghana)"
+    },
+    "2026:GHA:augustine-boakye": {
+      "year": 2026,
+      "teamCode": "GHA",
+      "team": "Ghana",
+      "name": "Augustine Boakye",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Augustine Boakye (Ghana)"
+    },
+    "2026:GHA:kojo-peprah-oppong": {
+      "year": 2026,
+      "teamCode": "GHA",
+      "team": "Ghana",
+      "name": "Kojo Peprah Oppong",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Kojo Peprah Oppong (Ghana)"
+    },
+    "2026:GHA:kamaldeen-sulemana": {
+      "year": 2026,
+      "teamCode": "GHA",
+      "team": "Ghana",
+      "name": "Kamaldeen Sulemana",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Kamaldeen Sulemana (Ghana)"
+    },
+    "2026:GHA:derrick-luckassen": {
+      "year": 2026,
+      "teamCode": "GHA",
+      "team": "Ghana",
+      "name": "Derrick Luckassen",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Derrick Luckassen (Ghana)"
+    },
+    "2026:GHA:ernest-nuamah": {
+      "year": 2026,
+      "teamCode": "GHA",
+      "team": "Ghana",
+      "name": "Ernest Nuamah",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Ernest Nuamah (Ghana)"
+    },
+    "2026:GHA:prince-kwabena-adu": {
+      "year": 2026,
+      "teamCode": "GHA",
+      "team": "Ghana",
+      "name": "Prince Kwabena Adu",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Prince Kwabena Adu (Ghana)"
+    },
+    "2026:GHA:marvin-senaya": {
+      "year": 2026,
+      "teamCode": "GHA",
+      "team": "Ghana",
+      "name": "Marvin Senaya",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Marvin Senaya (Ghana)"
+    },
+    "2026:PAN:luis-mejia": {
+      "year": 2026,
+      "teamCode": "PAN",
+      "team": "Panama",
+      "name": "Luis Mejía",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Luis Mejía (Panama)"
+    },
+    "2026:PAN:cesar-blackman": {
+      "year": 2026,
+      "teamCode": "PAN",
+      "team": "Panama",
+      "name": "César Blackman",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "César Blackman (Panama)"
+    },
+    "2026:PAN:jose-cordoba": {
+      "year": 2026,
+      "teamCode": "PAN",
+      "team": "Panama",
+      "name": "José Córdoba",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "José Córdoba (Panama)"
+    },
+    "2026:PAN:fidel-escobar": {
+      "year": 2026,
+      "teamCode": "PAN",
+      "team": "Panama",
+      "name": "Fidel Escobar",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Fidel Escobar (Panama)"
+    },
+    "2026:PAN:edgardo-farina": {
+      "year": 2026,
+      "teamCode": "PAN",
+      "team": "Panama",
+      "name": "Edgardo Fariña",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Edgardo Fariña (Panama)"
+    },
+    "2026:PAN:cristian-martinez": {
+      "year": 2026,
+      "teamCode": "PAN",
+      "team": "Panama",
+      "name": "Cristian Martínez",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Cristian Martínez (Panama)"
+    },
+    "2026:PAN:jose-luis-rodriguez": {
+      "year": 2026,
+      "teamCode": "PAN",
+      "team": "Panama",
+      "name": "José Luis Rodríguez",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "José Luis Rodríguez (Panama)"
+    },
+    "2026:PAN:adalberto-carrasquilla": {
+      "year": 2026,
+      "teamCode": "PAN",
+      "team": "Panama",
+      "name": "Adalberto Carrasquilla",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Adalberto Carrasquilla (Panama)"
+    },
+    "2026:PAN:tomas-rodriguez": {
+      "year": 2026,
+      "teamCode": "PAN",
+      "team": "Panama",
+      "name": "Tomás Rodríguez",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Tomás Rodríguez (Panama)"
+    },
+    "2026:PAN:ismael-diaz": {
+      "year": 2026,
+      "teamCode": "PAN",
+      "team": "Panama",
+      "name": "Ismael Díaz",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Ismael Díaz (Panama)"
+    },
+    "2026:PAN:yoel-barcenas": {
+      "year": 2026,
+      "teamCode": "PAN",
+      "team": "Panama",
+      "name": "Yoel Bárcenas",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Yoel Bárcenas (Panama)"
+    },
+    "2026:PAN:cesar-samudio": {
+      "year": 2026,
+      "teamCode": "PAN",
+      "team": "Panama",
+      "name": "César Samudio",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "César Samudio (Panama)"
+    },
+    "2026:PAN:jiovany-ramos": {
+      "year": 2026,
+      "teamCode": "PAN",
+      "team": "Panama",
+      "name": "Jiovany Ramos",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Jiovany Ramos (Panama)"
+    },
+    "2026:PAN:carlos-harvey": {
+      "year": 2026,
+      "teamCode": "PAN",
+      "team": "Panama",
+      "name": "Carlos Harvey",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Carlos Harvey (Panama)"
+    },
+    "2026:PAN:eric-davis": {
+      "year": 2026,
+      "teamCode": "PAN",
+      "team": "Panama",
+      "name": "Eric Davis",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Eric Davis (Panama)"
+    },
+    "2026:PAN:andres-andrade": {
+      "year": 2026,
+      "teamCode": "PAN",
+      "team": "Panama",
+      "name": "Andrés Andrade",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Andrés Andrade (Panama)"
+    },
+    "2026:PAN:jose-fajardo": {
+      "year": 2026,
+      "teamCode": "PAN",
+      "team": "Panama",
+      "name": "José Fajardo",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "José Fajardo (Panama)"
+    },
+    "2026:PAN:cecilio-waterman": {
+      "year": 2026,
+      "teamCode": "PAN",
+      "team": "Panama",
+      "name": "Cecilio Waterman",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Cecilio Waterman (Panama)"
+    },
+    "2026:PAN:alberto-quintero": {
+      "year": 2026,
+      "teamCode": "PAN",
+      "team": "Panama",
+      "name": "Alberto Quintero",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Alberto Quintero (Panama)"
+    },
+    "2026:PAN:anibal-godoy": {
+      "year": 2026,
+      "teamCode": "PAN",
+      "team": "Panama",
+      "name": "Aníbal Godoy",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Aníbal Godoy (Panama)"
+    },
+    "2026:PAN:cesar-yanis": {
+      "year": 2026,
+      "teamCode": "PAN",
+      "team": "Panama",
+      "name": "César Yanis",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "César Yanis (Panama)"
+    },
+    "2026:PAN:orlando-mosquera": {
+      "year": 2026,
+      "teamCode": "PAN",
+      "team": "Panama",
+      "name": "Orlando Mosquera",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Orlando Mosquera (Panama)"
+    },
+    "2026:PAN:michael-amir-murillo": {
+      "year": 2026,
+      "teamCode": "PAN",
+      "team": "Panama",
+      "name": "Michael Amir Murillo",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Michael Amir Murillo (Panama)"
+    },
+    "2026:PAN:azarias-londono": {
+      "year": 2026,
+      "teamCode": "PAN",
+      "team": "Panama",
+      "name": "Azarias Londoño",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Azarias Londoño (Panama)"
+    },
+    "2026:PAN:roderick-miller": {
+      "year": 2026,
+      "teamCode": "PAN",
+      "team": "Panama",
+      "name": "Roderick Miller",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Roderick Miller (Panama)"
+    },
+    "2026:PAN:jorge-gutierrez": {
+      "year": 2026,
+      "teamCode": "PAN",
+      "team": "Panama",
+      "name": "Jorge Gutiérrez",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Jorge Gutiérrez (Panama)"
     }
   }
 }
