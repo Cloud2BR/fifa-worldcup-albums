@@ -7,7 +7,7 @@ import { buildQuickStats, mergeTimelineData } from '../utils/stats'
 
 function Home() {
   const stats = buildQuickStats(worldCups, albums)
-  const timeline = mergeTimelineData(worldCups, albums).slice(-8).reverse()
+  const timeline = mergeTimelineData(worldCups, albums).slice().reverse()
   const [activeStat, setActiveStat] = useState('tournaments')
 
   const tournamentYears = useMemo(
@@ -145,7 +145,7 @@ function Home() {
       </section>
 
       <section className="space-y-3">
-        <h3 className="text-xl font-semibold">Recent Tournament Timeline</h3>
+        <h3 className="text-xl font-semibold">Winners Tournament Timeline</h3>
         <Timeline items={timeline} />
       </section>
     </div>

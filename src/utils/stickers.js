@@ -58,24 +58,24 @@ export function buildAlbumStickers(album) {
   }
 
   // 1. Intro / cover / trophy / host
-  push({ kind: 'history', label: `${album.year} Official Album Cover`, isShiny: true, team: null })
-  push({ kind: 'history', label: 'FIFA World Cup Trophy', isShiny: true, team: null })
-  push({ kind: 'history', label: 'Host: ' + album.host, team: null })
-  push({ kind: 'history', label: `Champion: ${album.winner}`, isShiny: true, team: album.winner })
-  if (album.runnerUp) push({ kind: 'history', label: `Runner-up: ${album.runnerUp}`, team: album.runnerUp })
-  if (album.ball) push({ kind: 'history', label: `Official Ball: ${album.ball}`, isShiny: true, team: null })
+  push({ kind: 'history', label: `${album.year} Official Album Cover`, isShiny: true, team: null, section: 'intro' })
+  push({ kind: 'history', label: 'FIFA World Cup Trophy', isShiny: true, team: null, section: 'intro' })
+  push({ kind: 'history', label: 'Host: ' + album.host, team: null, section: 'intro' })
+  push({ kind: 'history', label: `Champion: ${album.winner}`, isShiny: true, team: album.winner, section: 'intro' })
+  if (album.runnerUp) push({ kind: 'history', label: `Runner-up: ${album.runnerUp}`, team: album.runnerUp, section: 'intro' })
+  if (album.ball) push({ kind: 'history', label: `Official Ball: ${album.ball}`, isShiny: true, team: null, section: 'intro' })
 
   // 2. Stadiums
   for (const stadium of album.stadiums ?? []) {
-    push({ kind: 'stadium', label: stadium, team: null })
+    push({ kind: 'stadium', label: stadium, team: null, section: 'stadium' })
   }
 
   // 3. Mascot / emblem
   if (album.mascot) {
-    push({ kind: 'mascot', label: `Mascot: ${album.mascot}`, isShiny: true, team: null })
+    push({ kind: 'mascot', label: `Mascot: ${album.mascot}`, isShiny: true, team: null, section: 'intro' })
   }
-  push({ kind: 'history', label: 'Tournament Emblem', isShiny: true, team: null })
-  push({ kind: 'history', label: 'Opening Match Pennant', team: null })
+  push({ kind: 'history', label: 'Tournament Emblem', isShiny: true, team: null, section: 'intro' })
+  push({ kind: 'history', label: 'Opening Match Pennant', team: null, section: 'intro' })
 
   // 4. Teams — distribute remaining stickers across team blocks
   const teams = album.teams ?? []
@@ -95,7 +95,7 @@ export function buildAlbumStickers(album) {
     const team = getTeam(code)
     const isWinnerTeam = code === winnerCode
     const teamSquad = Array.isArray(yearSquads[code]) ? yearSquads[code] : []
-    push({ kind: 'badge', label: `${team.name} — Team Badge`, isShiny: true, team: code })
+    push({ kind: 'badge', label: `${team.name} — Team Badge`, isShiny: true, team: code, section: 'team' })
     for (let i = 0; i < playerSlotsPerTeam; i += 1) {
       const realTeamPlayer = teamSquad[i] || null
       const realWinnerPlayer = isWinnerTeam ? winnerSquad[i] : null
@@ -111,6 +111,7 @@ export function buildAlbumStickers(album) {
         shirtNumber: preferredPlayer?.shirtNumber ?? shirtNumber,
         team: code,
         isShiny: false,
+        section: 'team',
       })
     }
   }
@@ -131,7 +132,7 @@ export function buildAlbumStickers(album) {
   let legendIdx = 0
   while (stickers.length < (album.stickerCount ?? stickers.length)) {
     const label = legends[legendIdx % legends.length]
-    push({ kind: 'history', label, isShiny: legendIdx < 4, team: null })
+    push({ kind: 'history', label, isShiny: legendIdx < 4, team: null, section: 'closing' })
     legendIdx += 1
     if (legendIdx > 200) break // safety
   }
@@ -155,17 +156,26 @@ export function buildAlbumPages(album, stickersPerPage = 8) {
   const pages = []
 
   // Special opening pages
-  const intro = stickers.filter((s) => ['history', 'mascot'].includes(s.kind) && (s.label || '').match(/(Cover|Trophy|Host|Champion|Runner|Ball|Mascot|Emblem|Pennant)/i))
-  const stadiums = stickers.filter((s) => s.kind === 'stadium')
-  const teamStickers = stickers.filter((s) => s.kind === 'badge' || s.kind === 'player')
-  const closing = stickers.filter((s) => s.kind === 'history' && !intro.includes(s))
+  const intro = stickers.filter((s) => s.section === 'intro')
+  const stadiums = stickers.filter((s) => s.section === 'stadium')
+  const teamStickers = stickers.filter((s) => s.section === 'team')
+  const closing = stickers.filter((s) => s.section === 'closing')
+
+  // Ensure first page is visually complete: fill remaining intro slots with early stadium stickers.
+  let stadiumStart = 0
+  let introPageStickers = [...intro]
+  if (introPageStickers.length < stickersPerPage && stadiums.length > 0) {
+    const needed = stickersPerPage - introPageStickers.length
+    introPageStickers = introPageStickers.concat(stadiums.slice(0, needed))
+    stadiumStart = Math.min(needed, stadiums.length)
+  }
 
   // Intro page
-  if (intro.length) {
-    pages.push({ title: `${album.year} ${album.host} — Tournament`, kind: 'intro', stickers: intro })
+  if (introPageStickers.length) {
+    pages.push({ title: `${album.year} ${album.host} — Tournament`, kind: 'intro', stickers: introPageStickers })
   }
   // Stadiums page(s)
-  for (let i = 0; i < stadiums.length; i += stickersPerPage) {
+  for (let i = stadiumStart; i < stadiums.length; i += stickersPerPage) {
     pages.push({
       title: 'Stadiums',
       kind: 'stadium',

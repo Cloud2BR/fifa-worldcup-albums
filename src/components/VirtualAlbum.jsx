@@ -13,6 +13,95 @@ const PLAYER_TITLE_OVERRIDES = {
   'Rai': 'Raí',
 }
 
+const WIKIMEDIA_CACHE = new Map()
+
+async function resolveWikimediaImage(query) {
+  const key = String(query || '').trim()
+  if (!key) return null
+  if (WIKIMEDIA_CACHE.has(key)) return WIKIMEDIA_CACHE.get(key)
+
+  try {
+    const url =
+      'https://commons.wikimedia.org/w/api.php?action=query&generator=search' +
+      `&gsrsearch=${encodeURIComponent(key)}` +
+      '&gsrlimit=1&prop=pageimages|info&pithumbsize=700&piprop=thumbnail|name' +
+      '&inprop=url&format=json&origin=*'
+    const response = await fetch(url)
+    if (!response.ok) throw new Error('Wikimedia request failed')
+    const data = await response.json()
+    const pages = data?.query?.pages ? Object.values(data.query.pages) : []
+    const page = pages[0]
+    const image = page?.thumbnail?.source || null
+    WIKIMEDIA_CACHE.set(key, image)
+    return image
+  } catch {
+    WIKIMEDIA_CACHE.set(key, null)
+    return null
+  }
+}
+
+function WikimediaImageCard({ title, query, fallbackLabel }) {
+  const [imageUrl, setImageUrl] = useState(null)
+  const [loaded, setLoaded] = useState(false)
+
+  useEffect(() => {
+    let active = true
+    setLoaded(false)
+
+    resolveWikimediaImage(query).then((url) => {
+      if (active) {
+        setImageUrl(url)
+        setLoaded(true)
+      }
+    })
+
+    return () => {
+      active = false
+    }
+  }, [query])
+
+  return (
+    <div className="overflow-hidden rounded-lg border border-amber-900/35 bg-[#efe6d0]">
+      <div className="border-b border-amber-900/25 bg-[#e8dcc0] px-2 py-1">
+        <p className="text-[10px] font-bold uppercase tracking-wider text-slate-700">{title}</p>
+      </div>
+      <div className="relative h-32 w-full bg-[#d9ccb1]">
+        {loaded && imageUrl ? (
+          <img src={imageUrl} alt={title} loading="lazy" className="h-full w-full object-cover" />
+        ) : (
+          <div className="flex h-full items-center justify-center text-xs font-semibold text-slate-600">
+            {fallbackLabel}
+          </div>
+        )}
+      </div>
+    </div>
+  )
+}
+
+function SongPlayer({ album }) {
+  const query = `${album.year} FIFA World Cup official song`
+  const embedSrc = `https://www.youtube.com/embed?listType=search&list=${encodeURIComponent(query)}`
+
+  return (
+    <div className="rounded-lg border border-amber-900/35 bg-[#efe6d0] p-2">
+      <p className="mb-2 text-[10px] font-bold uppercase tracking-wider text-slate-700">
+        Official Song (YouTube)
+      </p>
+      <div className="overflow-hidden rounded-md border border-amber-900/30">
+        <iframe
+          title={`${album.year} official song`}
+          src={embedSrc}
+          className="h-44 w-full"
+          loading="lazy"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerPolicy="strict-origin-when-cross-origin"
+          allowFullScreen
+        />
+      </div>
+    </div>
+  )
+}
+
 function cleanPlayerName(name) {
   return String(name ?? '').replace(/\s+©$/, '').trim()
 }
@@ -46,6 +135,26 @@ async function resolvePlayerImage(name) {
     }
   }
 
+  // Fallback: search Wikimedia Commons historical media when Wikipedia summary has no thumbnail.
+  for (const candidate of candidates) {
+    try {
+      const commonsUrl =
+        `https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch=${encodeURIComponent(candidate + ' football')}` +
+        `&gsrlimit=1&prop=pageimages&piprop=thumbnail&pithumbsize=500&format=json&origin=*`
+      const response = await fetch(commonsUrl)
+      if (!response.ok) continue
+      const data = await response.json()
+      const pages = data?.query?.pages ? Object.values(data.query.pages) : []
+      const image = pages[0]?.thumbnail?.source || null
+      if (image) {
+        PLAYER_IMAGE_CACHE.set(clean, image)
+        return image
+      }
+    } catch {
+      // Ignore and keep fallback behavior.
+    }
+  }
+
   PLAYER_IMAGE_CACHE.set(clean, null)
   return null
 }
@@ -64,6 +173,7 @@ function StadiumSticker({ label }) {
         loading="lazy"
         onError={() => setFailed(true)}
         className="absolute inset-0 h-full w-full object-cover"
+        style={{ objectPosition: '50% 50%' }}
       />
     )
   }
@@ -104,6 +214,7 @@ function PlayerStickerImage({ name }) {
       alt={name}
       loading="lazy"
       className="absolute inset-0 h-full w-full object-cover"
+      style={{ objectPosition: '50% 22%' }}
     />
   )
 }
@@ -159,13 +270,13 @@ function StickerSlot({ sticker }) {
         </div>
       ) : null}
 
-      {/* Player silhouette */}
+      {/* Player reference */}
       {isPlayer ? (
         <div className="absolute inset-[3px] overflow-hidden rounded-[6px]" aria-hidden="true">
           {hasRealPlayerName ? <PlayerStickerImage name={sticker.label} /> : null}
 
           <div className="absolute inset-0 flex items-end justify-center">
-            <svg viewBox="0 0 40 56" className="h-3/4 w-1/2 opacity-25">
+            <svg viewBox="0 0 40 56" className={hasRealPlayerName ? 'h-3/4 w-1/2 opacity-10' : 'h-3/4 w-1/2 opacity-25'}>
               <circle cx="20" cy="11" r="8" fill="currentColor" />
               <path d="M4,56 Q2,34 10,30 L20,28 L30,30 Q38,34 36,56 Z" fill="currentColor" />
               <path d="M10,30 L6,46 M30,30 L34,46" stroke="currentColor" strokeWidth="4" strokeLinecap="round" />
@@ -264,6 +375,9 @@ function AlbumPage({ album, page, pageNumber, side }) {
 }
 
 function CoverSpread({ album }) {
+  const logoQuery = `${album.year} FIFA World Cup emblem logo`
+  const ballQuery = `${album.ball || `${album.year} FIFA World Cup ball`} adidas`
+
   return (
     <article className="relative overflow-hidden rounded-2xl border border-amber-900/35 bg-[#dfcfab] p-4 shadow-xl sm:p-6">
       <div className="grid gap-4 md:grid-cols-2 md:gap-0">
@@ -289,6 +403,23 @@ function CoverSpread({ album }) {
             <dt className="text-slate-600">Teams</dt>
             <dd className="font-semibold">{(album.teams || []).length}</dd>
           </dl>
+          <div className="mt-4 grid gap-3 sm:grid-cols-2">
+            <WikimediaImageCard
+              title="Tournament Logo"
+              query={logoQuery}
+              fallbackLabel="No logo image found"
+            />
+            <WikimediaImageCard
+              title="Official Ball"
+              query={ballQuery}
+              fallbackLabel={album.ball || 'Ball image not available'}
+            />
+          </div>
+
+          <div className="mt-4">
+            <SongPlayer album={album} />
+          </div>
+
           {album.notes ? <p className="mt-4 text-sm leading-relaxed text-slate-700">{album.notes}</p> : null}
         </div>
       </div>
@@ -316,22 +447,43 @@ function VirtualAlbum({ album }) {
   const maxIndex = Math.max(0, spreads.length - 1)
   const activeSpread = spreads[spreadIndex] ?? null
 
+  const getSpreadJumpLabel = (spread) => {
+    if (!spread) return 'Jump'
+    if (spread.left?.team) return getTeam(spread.left.team).name
+    if (spread.right?.team) return getTeam(spread.right.team).name
+    if (spread.left?.kind === 'stadium' || spread.right?.kind === 'stadium') return 'Stadiums'
+    return spread.left?.title || spread.right?.title || 'Section'
+  }
+
   const spreadOptions = useMemo(
     () => spreads.map((spread, idx) => ({
       idx,
-      label: `${spread.startIndex}-${spread.startIndex + 1} · ${spread.left?.title || 'Page'}${spread.right ? ` / ${spread.right.title}` : ''}`,
+      label: `${getSpreadJumpLabel(spread)} · ${spread.startIndex}-${spread.startIndex + 1}`,
     })),
     [spreads],
   )
 
-  const markerIndexes = useMemo(() => {
-    if (maxIndex <= 0) return [0]
-    const step = Math.max(1, Math.ceil((maxIndex + 1) / 8))
-    const marks = []
-    for (let i = 0; i <= maxIndex; i += step) marks.push(i)
-    if (marks[marks.length - 1] !== maxIndex) marks.push(maxIndex)
-    return marks
-  }, [maxIndex])
+  const markerIndexes = useMemo(
+    () => spreads.map((_, idx) => idx),
+    [spreads],
+  )
+
+  const stadiumReferences = useMemo(
+    () =>
+      (album.stadiums ?? [])
+        .map((label) => {
+          const entry = STADIUM_MAP[label]
+          if (!entry) return null
+          return {
+            label,
+            author: entry.author || 'Unknown',
+            license: entry.license || 'Unknown',
+            url: entry.thumbUrl || null,
+          }
+        })
+        .filter(Boolean),
+    [album],
+  )
 
   const goPrev = () => {
     setFlipDirection('prev')
@@ -399,10 +551,11 @@ function VirtualAlbum({ album }) {
           aria-label="Album spread navigator"
         />
 
-        <div className="mt-2 flex items-center justify-between gap-2">
+        <div className="mt-2 overflow-x-auto pb-1">
+          <div className="flex min-w-max items-center gap-2">
           {markerIndexes.map((idx) => {
             const spread = spreads[idx]
-            const label = `${spread?.startIndex ?? 1}-${(spread?.startIndex ?? 1) + 1}`
+            const label = getSpreadJumpLabel(spread)
             return (
               <button
                 key={idx}
@@ -412,15 +565,16 @@ function VirtualAlbum({ album }) {
                   setSpreadIndex(idx)
                 }}
                 className={[
-                  'rounded px-1.5 py-0.5 text-[10px] font-semibold transition',
+                  'rounded px-2 py-1 text-[10px] font-semibold whitespace-nowrap transition',
                   spreadIndex === idx ? 'bg-amber-500 text-slate-900' : 'bg-slate-800 text-slate-300 hover:bg-slate-700',
                 ].join(' ')}
-                title={spread?.left?.title || 'Jump'}
+                title={`${label} · pages ${spread?.startIndex ?? 1}-${(spread?.startIndex ?? 1) + 1}`}
               >
                 {label}
               </button>
             )
           })}
+          </div>
         </div>
 
       </section>
@@ -438,7 +592,7 @@ function VirtualAlbum({ album }) {
             onClick={goPrev}
             disabled={spreadIndex === 0}
             aria-label="Previous spread"
-            className="absolute left-2 top-1/2 z-20 -translate-y-1/2 rounded-full border border-amber-900/40 bg-[#f3ecd9]/95 px-2 py-1 text-lg font-bold text-slate-700 shadow disabled:cursor-not-allowed disabled:opacity-40"
+            className="absolute -left-3 top-1/2 z-20 -translate-y-1/2 rounded-full border border-amber-900/40 bg-[#f3ecd9]/95 px-2 py-1 text-lg font-bold text-slate-700 shadow disabled:cursor-not-allowed disabled:opacity-40"
           >
             ←
           </button>
@@ -448,7 +602,7 @@ function VirtualAlbum({ album }) {
             onClick={goNext}
             disabled={spreadIndex === maxIndex}
             aria-label="Next spread"
-            className="absolute right-2 top-1/2 z-20 -translate-y-1/2 rounded-full border border-amber-900/40 bg-[#f3ecd9]/95 px-2 py-1 text-lg font-bold text-slate-700 shadow disabled:cursor-not-allowed disabled:opacity-40"
+            className="absolute -right-3 top-1/2 z-20 -translate-y-1/2 rounded-full border border-amber-900/40 bg-[#f3ecd9]/95 px-2 py-1 text-lg font-bold text-slate-700 shadow disabled:cursor-not-allowed disabled:opacity-40"
           >
             →
           </button>
@@ -465,6 +619,46 @@ function VirtualAlbum({ album }) {
           </p>
         </article>
       ) : null}
+
+      <section className="rounded-xl border border-slate-800 bg-slate-900/70 p-4 text-xs text-slate-300">
+        <h4 className="text-sm font-semibold text-slate-100">Image & Media References</h4>
+
+        <p className="mt-2 text-slate-400">
+          Player photos and emblem/ball visuals are resolved from public Wikipedia and Wikimedia Commons sources when available.
+        </p>
+        <p className="mt-1 text-slate-400">
+          Squad names by tournament/team are sourced from the World Cup dataset by jfjelstul/worldcup.
+        </p>
+        <p className="mt-1 text-slate-400">
+          Official song playback is embedded from YouTube search results for each tournament year.
+        </p>
+
+        {stadiumReferences.length > 0 ? (
+          <div className="mt-3 rounded-lg border border-slate-700 bg-slate-950/50 p-3">
+            <p className="mb-2 text-[11px] font-semibold uppercase tracking-wider text-slate-300">
+              Stadium image credits
+            </p>
+            <ul className="space-y-1">
+              {stadiumReferences.map((ref) => (
+                <li key={ref.label}>
+                  <span className="font-semibold text-slate-200">{ref.label}</span>
+                  <span className="text-slate-400"> — © {ref.author} ({ref.license})</span>
+                  {ref.url ? (
+                    <a
+                      href={ref.url}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="ml-2 text-sky-300 hover:text-sky-200"
+                    >
+                      source
+                    </a>
+                  ) : null}
+                </li>
+              ))}
+            </ul>
+          </div>
+        ) : null}
+      </section>
     </section>
   )
 }
