@@ -3,23 +3,27 @@
   "images": {
     "Estadio Centenario": {
       "file": "estadio-centenario.jpg",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/EstadiocentenarioMontevideo.jpg/400px-EstadiocentenarioMontevideo.jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Estadio_Centenario_2021.jpg/330px-Estadio_Centenario_2021.jpg",
       "author": "Jimmy Baikovicius",
       "license": "CC-BY-SA-2.0",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Estadio_Centenario.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Estadio_Centenario",
       "caption": "Estadio Centenario, Montevideo — host of the 1930 Final."
     },
     "Estadio Pocitos": {
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/River_Plate_Estadio_Belvedere.jpg/400px-River_Plate_Estadio_Belvedere.jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Estadio_Pocitos_1930.jpg/330px-Estadio_Pocitos_1930.jpg",
       "author": "Wikimedia Commons",
       "license": "CC-BY-SA-3.0",
-      "caption": "Estadio Pocitos, Montevideo — 1930 World Cup venue."
+      "caption": "Estadio Pocitos, Montevideo — 1930 World Cup venue.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Estadio_Pocitos",
+      "file": "estadio-pocitos.jpg"
     },
     "Estadio Parque Central": {
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Estadio_Parque_Central_2022.jpg/400px-Estadio_Parque_Central_2022.jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/GPC_por_dentro_2021.jpg/330px-GPC_por_dentro_2021.jpg",
       "author": "Wikimedia Commons",
       "license": "CC-BY-SA-4.0",
-      "caption": "Estadio Parque Central, Montevideo — 1930 World Cup venue."
+      "caption": "Estadio Parque Central, Montevideo — 1930 World Cup venue.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Estadio_Gran_Parque_Central",
+      "file": "estadio-parque-central.jpg"
     },
     "Wankdorf (Bern)": {
       "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Stade_Olympique_de_Berne.jpg/400px-Stade_Olympique_de_Berne.jpg",
@@ -34,10 +38,12 @@
       "caption": "Råsunda Stadium, Solna — host of the 1958 Final."
     },
     "Estadio Nacional (Santiago)": {
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Estadio_Nacional_de_Chile.jpg/400px-Estadio_Nacional_de_Chile.jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Inicio_del_partido_Chile_-_Uruguay%2C_Copa_Am%C3%A9rica_Chile_2015.jpg/330px-Inicio_del_partido_Chile_-_Uruguay%2C_Copa_Am%C3%A9rica_Chile_2015.jpg",
       "author": "Wikimedia Commons",
       "license": "CC-BY-SA-3.0",
-      "caption": "Estadio Nacional, Santiago — host of the 1962 Final."
+      "caption": "Estadio Nacional, Santiago — host of the 1962 Final.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Estadio_Nacional_Julio_Mart%C3%ADnez_Pr%C3%A1danos",
+      "file": "estadio-nacional-santiago.jpg"
     },
     "Olympiastadion (Munich)": {
       "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Olympiastadion_Muenchen_Spielfeld.jpg/400px-Olympiastadion_Muenchen_Spielfeld.jpg",
@@ -123,7 +129,6 @@
       "license": "CC-BY-SA-4.0",
       "caption": "Al Bayt Stadium, Al Khor — 2022 World Cup venue."
     },
-
     "Luzhniki Stadium": {
       "file": "luzhniki.jpg",
       "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Luzhniki_Stadium_%28LCA%29.jpg/400px-Luzhniki_Stadium_%28LCA%29.jpg",
@@ -150,6 +155,78 @@
       "author": "Liondartois",
       "license": "CC-BY-SA-4.0",
       "caption": "Stade de France, Saint-Denis — host of the 1998 Final."
+    },
+    "Stadio Nazionale PNF (Rome)": {
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Stadio Nazionale PNF (Rome) - FIFA World Cup venue.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Stadio_Nazionale_PNF",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Stadio_Pnf.jpg/330px-Stadio_Pnf.jpg",
+      "file": "stadio-nazionale-pnf-rome.jpg"
+    },
+    "Malmö Stadion": {
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Malmö Stadion - FIFA World Cup venue.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Stadion%2C_Malm%C3%B6",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Sweden_malm%C3%B6_eleda_stadion_nya_stadion.jpg/330px-Sweden_malm%C3%B6_eleda_stadion_nya_stadion.jpg",
+      "file": "malmo-stadion.jpg"
+    },
+    "Sausalito (Viña del Mar)": {
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Sausalito (Viña del Mar) - FIFA World Cup venue.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Sausalito_Stadium",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Everton_-_Cobreloa%2C_23-08-2015_-_Estadio_Sausalito.JPG/330px-Everton_-_Cobreloa%2C_23-08-2015_-_Estadio_Sausalito.JPG",
+      "file": "sausalito-vina-del-mar.jpg"
+    },
+    "Carlos Dittborn (Arica)": {
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Carlos Dittborn (Arica) - FIFA World Cup venue.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Carlos_Dittborn_Stadium",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Estadio_Carlos_Dittborn_de_Arica.jpg/330px-Estadio_Carlos_Dittborn_de_Arica.jpg",
+      "file": "carlos-dittborn-arica.jpg"
+    },
+    "Wembley Stadium": {
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Wembley Stadium - FIFA World Cup venue.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Wembley_Stadium",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/London_Wembley.jpg/330px-London_Wembley.jpg",
+      "file": "wembley-stadium.jpg"
+    },
+    "Goodison Park": {
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Goodison Park - FIFA World Cup venue.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Goodison_Park",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/2023_07_31_arne_mueseler_00023-Verbessert-RR_%2853105680992%29.jpg/330px-2023_07_31_arne_mueseler_00023-Verbessert-RR_%2853105680992%29.jpg",
+      "file": "goodison-park.jpg"
+    },
+    "Old Trafford": {
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Old Trafford - FIFA World Cup venue.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Old_Trafford",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/2023_07_31_arne_mueseler_00060-Verbessert-RR_%2853106651455%29.jpg/330px-2023_07_31_arne_mueseler_00060-Verbessert-RR_%2853106651455%29.jpg",
+      "file": "old-trafford.jpg"
+    },
+    "Hillsborough": {
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Hillsborough - FIFA World Cup venue.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Hillsborough_Stadium",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Sheffield_wednesday_hillsborough_stadium.jpg/330px-Sheffield_wednesday_hillsborough_stadium.jpg",
+      "file": "hillsborough.jpg"
+    },
+    "Villa Park": {
+      "author": "Wikipedia contributors",
+      "license": "See source page",
+      "caption": "Villa Park - FIFA World Cup venue.",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Villa_Park",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Birmingham_aston_villa_park_stadium.jpg/330px-Birmingham_aston_villa_park_stadium.jpg",
+      "file": "villa-park.jpg"
     }
   }
 }
