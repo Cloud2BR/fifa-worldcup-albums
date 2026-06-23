@@ -1,16 +1,83 @@
-# React + Vite
+# FIFA World Cup History Albums
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React + Vite web application that presents FIFA World Cup tournament results and a visual gallery of official sticker albums.
 
-Currently, two official plugins are available:
+## Screenshots
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+> Add screenshots after first deployment:
+- Home page
+- World Cups analytics page
+- Albums gallery modal
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Historical World Cup results table across all tournaments.
+- Interactive charts for titles, goals, and tournament trends.
+- Scrollable timeline combining tournament results and album visuals.
+- Album gallery with modal/lightbox-style details.
+- Responsive interface for desktop and mobile.
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend:** React + Vite
+- **Styling:** TailwindCSS
+- **Data:** Local JSON files (`src/data/worldcups.json`, `src/data/albums.json`)
+- **Visualization:** Chart.js via `react-chartjs-2`
+- **Gallery:** Custom React modal gallery
+
+## Project Structure
+
+- `public/` static assets (album covers, logos)
+- `src/components/` reusable UI components
+- `src/pages/` route pages (Home, World Cups, Albums)
+- `src/data/` JSON datasets
+- `src/utils/` helper/stat functions
+- `src/App.jsx` app shell and routes
+
+## Data Schema
+
+### `worldcups.json`
+- `year` (number)
+- `host` (string)
+- `winner` (string)
+- `runnerUp` (string)
+- `finalScore` (string)
+- `goals` (number)
+- `teams` (number)
+- `matches` (number)
+- `topScorer` (string)
+
+### `albums.json`
+- `year` (number)
+- `publisher` (string)
+- `coverImage` (string, path inside `public/images/albums`)
+- `stickerCount` (number)
+- `notes` (optional string)
+
+## Local Setup
+
+```bash
+npm install
+npm run dev
+npm run build
+```
+
+## GitHub Pages (Main Branch) Deployment
+
+This project is configured for GitHub Pages hosted from the **main branch** using `/docs` as the publishing folder.
+
+1. Run `npm run build` (outputs static site to `/docs`).
+2. Commit the generated `/docs` folder to `main`.
+3. In repository settings, set GitHub Pages source to:
+   - **Branch:** `main`
+   - **Folder:** `/docs`
+
+Configured Vite base path: `/fifa-worldcup-albums/`.
+
+## License
+
+This repository is dual-licensed:
+
+- Open-source license: **AGPL-3.0** (`LICENSE`)
+- Commercial proprietary license: see `LICENSE-COMMERCIAL.md`
+- Licensing summary: `NOTICE`

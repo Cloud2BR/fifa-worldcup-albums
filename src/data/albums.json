@@ -1,0 +1,16 @@
+[
+  {"year":1970,"publisher":"Panini","coverImage":"./images/albums/1970.svg","stickerCount":271},
+  {"year":1974,"publisher":"Panini","coverImage":"./images/albums/1974.svg","stickerCount":366},
+  {"year":1978,"publisher":"Panini","coverImage":"./images/albums/1978.svg","stickerCount":427},
+  {"year":1982,"publisher":"Panini","coverImage":"./images/albums/1982.svg","stickerCount":427},
+  {"year":1986,"publisher":"Panini","coverImage":"./images/albums/1986.svg","stickerCount":427},
+  {"year":1990,"publisher":"Panini","coverImage":"./images/albums/1990.svg","stickerCount":448},
+  {"year":1994,"publisher":"Panini","coverImage":"./images/albums/1994.svg","stickerCount":561},
+  {"year":1998,"publisher":"Panini","coverImage":"./images/albums/1998.svg","stickerCount":561},
+  {"year":2002,"publisher":"Panini","coverImage":"./images/albums/2002.svg","stickerCount":576},
+  {"year":2006,"publisher":"Panini","coverImage":"./images/albums/2006.svg","stickerCount":596},
+  {"year":2010,"publisher":"Panini","coverImage":"./images/albums/2010.svg","stickerCount":638},
+  {"year":2014,"publisher":"Panini","coverImage":"./images/albums/2014.svg","stickerCount":640},
+  {"year":2018,"publisher":"Panini","coverImage":"./images/albums/2018.svg","stickerCount":682},
+  {"year":2022,"publisher":"Panini","coverImage":"./images/albums/2022.svg","stickerCount":670}
+]
