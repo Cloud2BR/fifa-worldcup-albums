@@ -4,6 +4,7 @@ import stadiumImagesData from '../data/stadiumImages.json'
 import teamImagesData from '../data/teamImages.json'
 import playerImagesData from '../data/playerImages.json'
 import entityImagesData from '../data/entityImages.json'
+import worldCupsData from '../data/worldcups.json'
 
 const BASE_URL = import.meta.env.BASE_URL || '/'
 
@@ -11,6 +12,7 @@ const STADIUM_MAP = stadiumImagesData.images || {}
 const TEAM_IMAGE_MAP = teamImagesData.images || {}
 const PLAYER_IMAGE_MAP = playerImagesData.images || {}
 const ENTITY_IMAGE_MAP = entityImagesData.images || {}
+const WORLD_CUP_MAP = Object.fromEntries(worldCupsData.map((cup) => [cup.year, cup]))
 
 function slugifyAssetName(input) {
   return String(input || '')
@@ -546,6 +548,7 @@ function AlbumPage({ album, page, pageNumber, side }) {
 }
 
 function CoverSpread({ album }) {
+  const cup = WORLD_CUP_MAP[album.year] || null
   const coverSrc = album.coverImage ? album.coverImage.replace(/^\.\//, BASE_URL) : null
   const logoSrc = `${BASE_URL}images/logos/fifa-logo.svg`
   const ballEntry = ENTITY_IMAGE_MAP[`${album.year}:ball`] || null
@@ -561,6 +564,10 @@ function CoverSpread({ album }) {
   const emblemFallback = emblemEntry?.thumbUrl || logoSrc
   const trophySrc = trophyEntry?.file ? `${BASE_URL}images/entities/${trophyEntry.file}` : null
   const trophyFallback = trophyEntry?.thumbUrl || null
+  const stadiumCount = (album.stadiums || []).length
+  const teamCount = (album.teams || []).length
+  const awardItems = [album.winner, album.runnerUp, cup?.topScorer].filter(Boolean)
+  const awardsTracked = awardItems.length
 
   return (
     <article className="relative overflow-hidden rounded-2xl border border-amber-900/35 bg-[#dfcfab] p-4 shadow-xl sm:p-6">
@@ -578,6 +585,27 @@ function CoverSpread({ album }) {
                 className="h-36 w-full object-contain object-center"
               />
             </div>
+          ) : null}
+
+          <div className="mt-4 grid grid-cols-3 gap-2 text-center">
+            <div className="rounded border border-white/20 bg-white/10 px-2 py-2">
+              <p className="text-[10px] uppercase tracking-wide text-slate-300">Stadiums</p>
+              <p className="text-sm font-bold text-white">{stadiumCount}</p>
+            </div>
+            <div className="rounded border border-white/20 bg-white/10 px-2 py-2">
+              <p className="text-[10px] uppercase tracking-wide text-slate-300">Teams</p>
+              <p className="text-sm font-bold text-white">{teamCount}</p>
+            </div>
+            <div className="rounded border border-white/20 bg-white/10 px-2 py-2">
+              <p className="text-[10px] uppercase tracking-wide text-slate-300">Awards</p>
+              <p className="text-sm font-bold text-white">{awardsTracked}</p>
+            </div>
+          </div>
+
+          {cup?.topScorer ? (
+            <p className="mt-2 text-xs text-slate-300">
+              Top scorer: <span className="font-semibold text-white">{cup.topScorer}</span>
+            </p>
           ) : null}
 
           <p className="mt-6 text-sm text-slate-300">Publisher: {album.publisher}</p>
