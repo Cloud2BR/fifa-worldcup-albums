@@ -80,7 +80,27 @@ async function getWikipediaSummary(title) {
   return fetchJson(summaryUrl)
 }
 
-async function resolveImage(queries) {
+function isResolutionRelevant(entityType, title, sourceUrl) {
+  const text = `${title || ''} ${sourceUrl || ''}`.toLowerCase()
+
+  if (/yeezy|sneaker|shoe|footwear/.test(text)) return false
+
+  if (entityType === 'ball') {
+    return /world cup|match ball|official match balls|association_football|adidas/.test(text)
+  }
+
+  if (entityType === 'mascot') {
+    return /world cup|mascot/.test(text)
+  }
+
+  if (entityType === 'emblem') {
+    return /world cup|fifa/.test(text)
+  }
+
+  return true
+}
+
+async function resolveImage(queries, entityType = 'generic') {
   for (const query of queries) {
     try {
       const title = await findWikipediaTitle(query)
@@ -88,9 +108,13 @@ async function resolveImage(queries) {
       const summary = await getWikipediaSummary(title)
       const thumbUrl = summary?.thumbnail?.source || null
       if (!thumbUrl) continue
+
+      const sourceUrl = summary?.content_urls?.desktop?.page || null
+      if (!isResolutionRelevant(entityType, title, sourceUrl)) continue
+
       return {
         thumbUrl,
-        sourceUrl: summary?.content_urls?.desktop?.page || null,
+        sourceUrl,
         author: 'Wikipedia contributors',
         license: 'See source page',
       }
@@ -126,7 +150,7 @@ function makeEntryKey(year, type) {
   return `${year}:${type}`
 }
 
-async function upsertEntity(images, { key, label, queries, outSubdir, outStem }) {
+async function upsertEntity(images, { key, label, queries, outSubdir, outStem, entityType = 'generic' }) {
   if (!images[key]) {
     images[key] = {
       key,
@@ -141,7 +165,7 @@ async function upsertEntity(images, { key, label, queries, outSubdir, outStem })
   let thumbUrl = entry.thumbUrl || null
 
   if (!thumbUrl) {
-    const resolved = await resolveImage(queries)
+    const resolved = await resolveImage(queries, entityType)
     if (!resolved?.thumbUrl) {
       return { status: 'failed' }
     }
@@ -190,6 +214,7 @@ async function main() {
       queries: ['FIFA World Cup Trophy'],
       outSubdir: 'global',
       outStem: 'fifa-world-cup-trophy',
+      entityType: 'trophy',
     })
     if (result.status === 'downloaded') downloaded += 1
     if (result.status === 'skipped') skipped += 1
@@ -211,6 +236,7 @@ async function main() {
         ],
         outSubdir: year,
         outStem: 'ball',
+        entityType: 'ball',
       })
       if (result.status === 'downloaded') downloaded += 1
       if (result.status === 'skipped') skipped += 1
@@ -230,6 +256,7 @@ async function main() {
         ],
         outSubdir: year,
         outStem: 'mascot',
+        entityType: 'mascot',
       })
       if (result.status === 'downloaded') downloaded += 1
       if (result.status === 'skipped') skipped += 1
@@ -249,6 +276,7 @@ async function main() {
         ],
         outSubdir: year,
         outStem: 'emblem',
+        entityType: 'emblem',
       })
       if (result.status === 'downloaded') downloaded += 1
       if (result.status === 'skipped') skipped += 1
