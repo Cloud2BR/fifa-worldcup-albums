@@ -14363,87 +14363,103 @@
       "teamCode": "FRA",
       "team": "France",
       "name": "Célestin Delmer",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
       "caption": "Célestin Delmer (France)",
-      "file": "1930/FRA/celestin-delmer.svg"
+      "file": "1930/FRA/celestin-delmer.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Chile_v_Francia%2C_Los_Sports%2C_1930-08-01_%28386%29_02.jpg/330px-Chile_v_Francia%2C_Los_Sports%2C_1930-08-01_%28386%29_02.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/C%C3%A9lestin_Delmer"
     },
     "1930:FRA:edmond-delfour": {
       "year": 1930,
       "teamCode": "FRA",
       "team": "France",
       "name": "Edmond Delfour",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikimedia Commons contributors",
+      "license": "See source page",
       "caption": "Edmond Delfour (France)",
-      "file": "1930/FRA/edmond-delfour.svg"
+      "file": "1930/FRA/edmond-delfour.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/3/37/Edmond_Delfour_en_mai_1936.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Edmond%20Delfour%20en%20mai%201936.jpg"
     },
     "1930:FRA:emile-veinante": {
       "year": 1930,
       "teamCode": "FRA",
       "team": "France",
       "name": "Émile Veinante",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
       "caption": "Émile Veinante (France)",
-      "file": "1930/FRA/emile-veinante.svg"
+      "file": "1930/FRA/emile-veinante.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/%C3%89mile_Veinante_en_octobre_1937.jpg/330px-%C3%89mile_Veinante_en_octobre_1937.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/%C3%89mile_Veinante"
     },
     "1930:FRA:ernest-liberati": {
       "year": 1930,
       "teamCode": "FRA",
       "team": "France",
       "name": "Ernest Libérati",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
       "caption": "Ernest Libérati (France)",
-      "file": "1930/FRA/ernest-liberati.svg"
+      "file": "1930/FRA/ernest-liberati.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Ernest_Lib%C3%A9rati_1930_Colombes.jpg/330px-Ernest_Lib%C3%A9rati_1930_Colombes.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ernest_Lib%C3%A9rati"
     },
     "1930:FRA:etienne-mattler": {
       "year": 1930,
       "teamCode": "FRA",
       "team": "France",
       "name": "Étienne Mattler",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
       "caption": "Étienne Mattler (France)",
-      "file": "1930/FRA/etienne-mattler.svg"
+      "file": "1930/FRA/etienne-mattler.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/%C3%89tienne_Mattler_en_octobre_1937.jpg/330px-%C3%89tienne_Mattler_en_octobre_1937.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/%C3%89tienne_Mattler"
     },
     "1930:FRA:jean-laurent": {
       "year": 1930,
       "teamCode": "FRA",
       "team": "France",
       "name": "Jean Laurent",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
       "caption": "Jean Laurent (France)",
-      "file": "1930/FRA/jean-laurent.svg"
+      "file": "1930/FRA/jean-laurent.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Jean_Laurent_1935.jpg/330px-Jean_Laurent_1935.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Jean_Laurent_(footballer)"
     },
     "1930:FRA:lucien-laurent": {
       "year": 1930,
       "teamCode": "FRA",
       "team": "France",
       "name": "Lucien Laurent",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
       "caption": "Lucien Laurent (France)",
-      "file": "1930/FRA/lucien-laurent.svg"
+      "file": "1930/FRA/lucien-laurent.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Lucien_Laurent.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Lucien_Laurent"
     },
     "1930:FRA:marcel-capelle": {
       "year": 1930,
       "teamCode": "FRA",
       "team": "France",
       "name": "Marcel Capelle",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikimedia Commons contributors",
+      "license": "See source page",
       "caption": "Marcel Capelle (France)",
-      "file": "1930/FRA/marcel-capelle.svg"
+      "file": "1930/FRA/marcel-capelle.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Equipe_de_France_de_football_mars_1931.jpg/960px-Equipe_de_France_de_football_mars_1931.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Equipe%20de%20France%20de%20football%20mars%201931.jpg"
     },
     "1930:FRA:marcel-langiller": {
       "year": 1930,
       "teamCode": "FRA",
       "team": "France",
       "name": "Marcel Langiller",
-      "author": "Wikidata/Wikimedia Commons contributors",
+      "author": "Wikimedia Commons contributors",
       "license": "See source page",
       "caption": "Marcel Langiller (France)",
       "file": "1930/FRA/marcel-langiller.svg",
@@ -14455,82 +14471,96 @@
       "teamCode": "FRA",
       "team": "France",
       "name": "Marcel Pinel",
-      "author": "Wikidata/Wikimedia Commons contributors",
+      "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Marcel Pinel (France)",
       "file": "1930/FRA/marcel-pinel.svg",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/L%27%C3%A9quipe_de_France_de_football_%C3%A0_la_Coupe_du_monde_1930_%28face_%C3%A0_l%27Argentine%29.jpg/960px-L%27%C3%A9quipe_de_France_de_football_%C3%A0_la_Coupe_du_monde_1930_%28face_%C3%A0_l%27Argentine%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:L'%C3%A9quipe%20de%20France%20de%20football%20%C3%A0%20la%20Coupe%20du%20monde%201930%20(face%20%C3%A0%20l'Argentine).jpg"
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Red_Star_FC_logo.svg/330px-Red_Star_FC_logo.svg.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Red_Star_FC"
     },
     "1930:FRA:numa-andoire": {
       "year": 1930,
       "teamCode": "FRA",
       "team": "France",
       "name": "Numa Andoire",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
       "caption": "Numa Andoire (France)",
-      "file": "1930/FRA/numa-andoire.svg"
+      "file": "1930/FRA/numa-andoire.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Numa_Andoire_1931.jpg/330px-Numa_Andoire_1931.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Numa_Andoire"
     },
     "1930:MEX:alfredo-viejo-sanchez": {
       "year": 1930,
       "teamCode": "MEX",
       "team": "Mexico",
       "name": "Alfredo Viejo Sánchez",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikimedia Commons contributors",
+      "license": "See source page",
       "caption": "Alfredo Viejo Sánchez (Mexico)",
-      "file": "1930/MEX/alfredo-viejo-sanchez.svg"
+      "file": "1930/MEX/alfredo-viejo-sanchez.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/M%C3%A9xico_viejo%3B_noticias_hist%C3%B3ricas%2C_tradiciones%2C_leyendas_y_costumbres_%28IA_mexicoviejonotic00gonz%29.pdf/page1-500px-M%C3%A9xico_viejo%3B_noticias_hist%C3%B3ricas%2C_tradiciones%2C_leyendas_y_costumbres_%28IA_mexicoviejonotic00gonz%29.pdf.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:M%C3%A9xico%20viejo%3B%20noticias%20hist%C3%B3ricas%2C%20tradiciones%2C%20leyendas%20y%20costumbres%20(IA%20mexicoviejonotic00gonz).pdf"
     },
     "1930:MEX:dionisio-mejia": {
       "year": 1930,
       "teamCode": "MEX",
       "team": "Mexico",
       "name": "Dionisio Mejía",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikimedia Commons contributors",
+      "license": "See source page",
       "caption": "Dionisio Mejía (Mexico)",
-      "file": "1930/MEX/dionisio-mejia.svg"
+      "file": "1930/MEX/dionisio-mejia.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Commercial_directory_of_Honduras%2C_1911_%28IA_commercialdirect00fletrich%29.pdf/page1-500px-Commercial_directory_of_Honduras%2C_1911_%28IA_commercialdirect00fletrich%29.pdf.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Commercial%20directory%20of%20Honduras%2C%201911%20(IA%20commercialdirect00fletrich).pdf"
     },
     "1930:MEX:efrain-amezcua": {
       "year": 1930,
       "teamCode": "MEX",
       "team": "Mexico",
       "name": "Efraín Amézcua",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikimedia Commons contributors",
+      "license": "See source page",
       "caption": "Efraín Amézcua (Mexico)",
-      "file": "1930/MEX/efrain-amezcua.svg"
+      "file": "1930/MEX/efrain-amezcua.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/RL32669_%28IA_RL32669-crs%29.pdf/page1-960px-RL32669_%28IA_RL32669-crs%29.pdf.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:RL32669%20(IA%20RL32669-crs).pdf"
     },
     "1930:MEX:felipe-olivares": {
       "year": 1930,
       "teamCode": "MEX",
       "team": "Mexico",
       "name": "Felipe Olivares",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
       "caption": "Felipe Olivares (Mexico)",
-      "file": "1930/MEX/felipe-olivares.svg"
+      "file": "1930/MEX/felipe-olivares.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/en/8/8b/Club_de_Deportes_La_Serena_team_logo.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Deportes_La_Serena"
     },
     "1930:MEX:felipe-rosas": {
       "year": 1930,
       "teamCode": "MEX",
       "team": "Mexico",
       "name": "Felipe Rosas",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikimedia Commons contributors",
+      "license": "See source page",
       "caption": "Felipe Rosas (Mexico)",
-      "file": "1930/MEX/felipe-rosas.svg"
+      "file": "1930/MEX/felipe-rosas.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Andr%C3%A9s_Roa_at_Summer_Olympics_2016.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Andr%C3%A9s%20Roa%20at%20Summer%20Olympics%202016.jpg"
     },
     "1930:MEX:francisco-garza-gutierrez": {
       "year": 1930,
       "teamCode": "MEX",
       "team": "Mexico",
       "name": "Francisco Garza Gutiérrez",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikimedia Commons contributors",
+      "license": "See source page",
       "caption": "Francisco Garza Gutiérrez (Mexico)",
-      "file": "1930/MEX/francisco-garza-gutierrez.svg"
+      "file": "1930/MEX/francisco-garza-gutierrez.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/The_Enterprise_1924-09-25_%28IA_cssf_001475%29.pdf/page1-960px-The_Enterprise_1924-09-25_%28IA_cssf_001475%29.pdf.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The%20Enterprise%201924-09-25%20(IA%20cssf%20001475).pdf"
     },
     "1930:MEX:hilario-lopez": {
       "year": 1930,
@@ -14557,60 +14587,72 @@
       "teamCode": "MEX",
       "team": "Mexico",
       "name": "Jesús Castro",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikimedia Commons contributors",
+      "license": "See source page",
       "caption": "Jesús Castro (Mexico)",
-      "file": "1930/MEX/jesus-castro.svg"
+      "file": "1930/MEX/jesus-castro.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/d/db/MLS_FC_Dallas_at_Real_Salt_Lake_%2851428986289%29_%28cropped%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:MLS%20FC%20Dallas%20at%20Real%20Salt%20Lake%20(51428986289)%20(cropped).jpg"
     },
     "1930:MEX:jose-ruiz": {
       "year": 1930,
       "teamCode": "MEX",
       "team": "Mexico",
       "name": "José Ruíz",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
       "caption": "José Ruíz (Mexico)",
-      "file": "1930/MEX/jose-ruiz.svg"
+      "file": "1930/MEX/jose-ruiz.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Jose_Mar%C3%ADa_Ruiz-Mateos.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Jos%C3%A9_Mar%C3%ADa_Ruiz-Mateos"
     },
     "1930:MEX:juan-carreno": {
       "year": 1930,
       "teamCode": "MEX",
       "team": "Mexico",
       "name": "Juan Carreño",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikimedia Commons contributors",
+      "license": "See source page",
       "caption": "Juan Carreño (Mexico)",
-      "file": "1930/MEX/juan-carreno.svg"
+      "file": "1930/MEX/juan-carreno.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/%22Inmaculada%22%2C_Juan_Carre%C3%B1o_de_Miranda.jpg/960px-%22Inmaculada%22%2C_Juan_Carre%C3%B1o_de_Miranda.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:%22Inmaculada%22%2C%20Juan%20Carre%C3%B1o%20de%20Miranda.jpg"
     },
     "1930:MEX:luis-perez": {
       "year": 1930,
       "teamCode": "MEX",
       "team": "Mexico",
       "name": "Luis Pérez",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
       "caption": "Luis Pérez (Mexico)",
-      "file": "1930/MEX/luis-perez.svg"
+      "file": "1930/MEX/luis-perez.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Luis_Perez_%28cropped%29.jpg/330px-Luis_Perez_%28cropped%29.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Luis_Perez_(American_football)"
     },
     "1930:MEX:manuel-rosas": {
       "year": 1930,
       "teamCode": "MEX",
       "team": "Mexico",
       "name": "Manuel Rosas",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
       "caption": "Manuel Rosas (Mexico)",
-      "file": "1930/MEX/manuel-rosas.svg"
+      "file": "1930/MEX/manuel-rosas.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Juan_Manuel_de_Rosas.jpg/330px-Juan_Manuel_de_Rosas.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Juan_Manuel_de_Rosas"
     },
     "1930:MEX:oscar-bonfiglio": {
       "year": 1930,
       "teamCode": "MEX",
       "team": "Mexico",
       "name": "Oscar Bonfiglio",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikimedia Commons contributors",
+      "license": "See source page",
       "caption": "Oscar Bonfiglio (Mexico)",
-      "file": "1930/MEX/oscar-bonfiglio.svg"
+      "file": "1930/MEX/oscar-bonfiglio.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Engineer_update_-_USACE-p16021coll8-2060.pdf/page1-960px-Engineer_update_-_USACE-p16021coll8-2060.pdf.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Engineer%20update%20-%20USACE-p16021coll8-2060.pdf"
     },
     "1930:MEX:rafael-garza-gutierrez": {
       "year": 1930,
@@ -14987,12 +15029,10 @@
       "teamCode": "PER",
       "team": "Peru",
       "name": "José María Lavalle",
-      "author": "Wikidata/Wikimedia Commons contributors",
-      "license": "See source page",
+      "author": "Generated placeholder",
+      "license": "Internal placeholder",
       "caption": "José María Lavalle (Peru)",
-      "file": "1930/PER/jose-maria-lavalle.svg",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/3/34/Peru_football_team_1927.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Peru%20football%20team%201927.jpg"
+      "file": "1930/PER/jose-maria-lavalle.svg"
     },
     "1930:PER:juan-alfonso-valle": {
       "year": 1930,
@@ -15529,24 +15569,20 @@
       "teamCode": "BOL",
       "team": "Bolivia",
       "name": "Rafael Méndez",
-      "author": "Wikidata/Wikimedia Commons contributors",
-      "license": "See source page",
+      "author": "Generated placeholder",
+      "license": "Internal placeholder",
       "caption": "Rafael Méndez (Bolivia)",
-      "file": "1930/BOL/rafael-mendez.svg",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/7/74/Bolivia_1930.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bolivia%201930.jpg"
+      "file": "1930/BOL/rafael-mendez.svg"
     },
     "1930:BOL:renato-sainz": {
       "year": 1930,
       "teamCode": "BOL",
       "team": "Bolivia",
       "name": "Renato Sáinz",
-      "author": "Wikidata/Wikimedia Commons contributors",
-      "license": "See source page",
+      "author": "Generated placeholder",
+      "license": "Internal placeholder",
       "caption": "Renato Sáinz (Bolivia)",
-      "file": "1930/BOL/renato-sainz.svg",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/6/60/Renato_Sainz%2C_Los_Sports%2C_1926-10-15_%28188%29.jpg",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Renato%20Sainz%2C%20Los%20Sports%2C%201926-10-15%20(188).jpg"
+      "file": "1930/BOL/renato-sainz.svg"
     },
     "1930:BOL:rene-fernandez": {
       "year": 1930,
