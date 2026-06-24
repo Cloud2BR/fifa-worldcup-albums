@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T13:17:47.158Z",
+  "generatedAt": "2026-06-24T13:25:18.127Z",
   "summary": {
     "years": 23,
     "teams": 92,
@@ -276,8 +276,12 @@
             "secondary": "#FFFFFF",
             "accent": "#D7141A"
           },
-          "image": null,
-          "imageMeta": null
+          "image": "/images/teams/TCH.png",
+          "imageMeta": {
+            "author": "Wikipedia contributors",
+            "license": "See source page",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Czechoslovakia_national_football_team"
+          }
         },
         {
           "code": "GER",
@@ -369,8 +373,12 @@
             "secondary": "#FFCD00",
             "accent": "#000000"
           },
-          "image": null,
-          "imageMeta": null
+          "image": "/images/teams/SWE.png",
+          "imageMeta": {
+            "author": "Wikipedia contributors",
+            "license": "See source page",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Sweden_men's_national_football_team"
+          }
         },
         {
           "code": "ARG",
@@ -589,8 +597,12 @@
             "secondary": "#FFFFFF",
             "accent": "#D7141A"
           },
-          "image": null,
-          "imageMeta": null
+          "image": "/images/teams/TCH.png",
+          "imageMeta": {
+            "author": "Wikipedia contributors",
+            "license": "See source page",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Czechoslovakia_national_football_team"
+          }
         },
         {
           "code": "BRA",
@@ -730,8 +742,12 @@
             "secondary": "#FFCD00",
             "accent": "#000000"
           },
-          "image": null,
-          "imageMeta": null
+          "image": "/images/teams/SWE.png",
+          "imageMeta": {
+            "author": "Wikipedia contributors",
+            "license": "See source page",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Sweden_men's_national_football_team"
+          }
         }
       ],
       "stadiums": [
@@ -838,8 +854,12 @@
             "secondary": "#FFCD00",
             "accent": "#000000"
           },
-          "image": null,
-          "imageMeta": null
+          "image": "/images/teams/SWE.png",
+          "imageMeta": {
+            "author": "Wikipedia contributors",
+            "license": "See source page",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Sweden_men's_national_football_team"
+          }
         },
         {
           "code": "ESP",
@@ -1154,8 +1174,12 @@
             "secondary": "#FFFFFF",
             "accent": "#D7141A"
           },
-          "image": null,
-          "imageMeta": null
+          "image": "/images/teams/TCH.png",
+          "imageMeta": {
+            "author": "Wikipedia contributors",
+            "license": "See source page",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Czechoslovakia_national_football_team"
+          }
         },
         {
           "code": "TUR",
@@ -1344,8 +1368,12 @@
             "secondary": "#FFCD00",
             "accent": "#000000"
           },
-          "image": null,
-          "imageMeta": null
+          "image": "/images/teams/SWE.png",
+          "imageMeta": {
+            "author": "Wikipedia contributors",
+            "license": "See source page",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Sweden_men's_national_football_team"
+          }
         },
         {
           "code": "FRA",
@@ -1425,8 +1453,12 @@
             "secondary": "#FFFFFF",
             "accent": "#D7141A"
           },
-          "image": null,
-          "imageMeta": null
+          "image": "/images/teams/TCH.png",
+          "imageMeta": {
+            "author": "Wikipedia contributors",
+            "license": "See source page",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Czechoslovakia_national_football_team"
+          }
         },
         {
           "code": "HUN",
@@ -1615,8 +1647,12 @@
             "secondary": "#FFFFFF",
             "accent": "#D7141A"
           },
-          "image": null,
-          "imageMeta": null
+          "image": "/images/teams/TCH.png",
+          "imageMeta": {
+            "author": "Wikipedia contributors",
+            "license": "See source page",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Czechoslovakia_national_football_team"
+          }
         },
         {
           "code": "CHI",
@@ -2312,8 +2348,12 @@
             "secondary": "#FFFFFF",
             "accent": "#D7141A"
           },
-          "image": null,
-          "imageMeta": null
+          "image": "/images/teams/TCH.png",
+          "imageMeta": {
+            "author": "Wikipedia contributors",
+            "license": "See source page",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Czechoslovakia_national_football_team"
+          }
         },
         {
           "code": "ROU",
@@ -2334,8 +2374,12 @@
             "secondary": "#FFCD00",
             "accent": "#000000"
           },
-          "image": null,
-          "imageMeta": null
+          "image": "/images/teams/SWE.png",
+          "imageMeta": {
+            "author": "Wikipedia contributors",
+            "license": "See source page",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Sweden_men's_national_football_team"
+          }
         },
         {
           "code": "ISR",
@@ -2509,8 +2553,12 @@
             "secondary": "#FFCD00",
             "accent": "#000000"
           },
-          "image": null,
-          "imageMeta": null
+          "image": "/images/teams/SWE.png",
+          "imageMeta": {
+            "author": "Wikipedia contributors",
+            "license": "See source page",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Sweden_men's_national_football_team"
+          }
         },
         {
           "code": "GDR",
@@ -2520,8 +2568,12 @@
             "secondary": "#DD0000",
             "accent": "#FFCC00"
           },
-          "image": null,
-          "imageMeta": null
+          "image": "/images/teams/GDR.png",
+          "imageMeta": {
+            "author": "Wikipedia contributors",
+            "license": "See source page",
+            "sourceUrl": "https://en.wikipedia.org/wiki/East_Germany_national_football_team"
+          }
         },
         {
           "code": "YUG",
@@ -2904,8 +2956,12 @@
             "secondary": "#FFCD00",
             "accent": "#000000"
           },
-          "image": null,
-          "imageMeta": null
+          "image": "/images/teams/SWE.png",
+          "imageMeta": {
+            "author": "Wikipedia contributors",
+            "license": "See source page",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Sweden_men's_national_football_team"
+          }
         },
         {
           "code": "SCO",
@@ -3258,8 +3314,12 @@
             "secondary": "#FFFFFF",
             "accent": "#D7141A"
           },
-          "image": null,
-          "imageMeta": null
+          "image": "/images/teams/TCH.png",
+          "imageMeta": {
+            "author": "Wikipedia contributors",
+            "license": "See source page",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Czechoslovakia_national_football_team"
+          }
         },
         {
           "code": "HON",
@@ -3884,8 +3944,12 @@
             "secondary": "#FFFFFF",
             "accent": "#D7141A"
           },
-          "image": null,
-          "imageMeta": null
+          "image": "/images/teams/TCH.png",
+          "imageMeta": {
+            "author": "Wikipedia contributors",
+            "license": "See source page",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Czechoslovakia_national_football_team"
+          }
         },
         {
           "code": "CMR",
@@ -4059,8 +4123,12 @@
             "secondary": "#FFCD00",
             "accent": "#000000"
           },
-          "image": null,
-          "imageMeta": null
+          "image": "/images/teams/SWE.png",
+          "imageMeta": {
+            "author": "Wikipedia contributors",
+            "license": "See source page",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Sweden_men's_national_football_team"
+          }
         },
         {
           "code": "AUT",
@@ -4242,8 +4310,12 @@
             "secondary": "#FFCD00",
             "accent": "#000000"
           },
-          "image": null,
-          "imageMeta": null
+          "image": "/images/teams/SWE.png",
+          "imageMeta": {
+            "author": "Wikipedia contributors",
+            "license": "See source page",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Sweden_men's_national_football_team"
+          }
         },
         {
           "code": "BUL",
@@ -4972,8 +5044,12 @@
             "secondary": "#FFFFFF",
             "accent": "#000000"
           },
-          "image": null,
-          "imageMeta": null
+          "image": "/images/teams/KSA.png",
+          "imageMeta": {
+            "author": "Wikipedia contributors",
+            "license": "See source page",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Saudi_Arabia_national_football_team"
+          }
         },
         {
           "code": "JAM",
@@ -5297,8 +5373,12 @@
             "secondary": "#FFCD00",
             "accent": "#000000"
           },
-          "image": null,
-          "imageMeta": null
+          "image": "/images/teams/SWE.png",
+          "imageMeta": {
+            "author": "Wikipedia contributors",
+            "license": "See source page",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Sweden_men's_national_football_team"
+          }
         },
         {
           "code": "DEN",
@@ -5512,8 +5592,12 @@
             "secondary": "#FFFFFF",
             "accent": "#000000"
           },
-          "image": null,
-          "imageMeta": null
+          "image": "/images/teams/KSA.png",
+          "imageMeta": {
+            "author": "Wikipedia contributors",
+            "license": "See source page",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Saudi_Arabia_national_football_team"
+          }
         },
         {
           "code": "FRA",
@@ -5863,8 +5947,12 @@
             "secondary": "#FFCD00",
             "accent": "#000000"
           },
-          "image": null,
-          "imageMeta": null
+          "image": "/images/teams/SWE.png",
+          "imageMeta": {
+            "author": "Wikipedia contributors",
+            "license": "See source page",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Sweden_men's_national_football_team"
+          }
         },
         {
           "code": "KOR",
@@ -6012,8 +6100,12 @@
             "secondary": "#FFFFFF",
             "accent": "#D21034"
           },
-          "image": null,
-          "imageMeta": null
+          "image": "/images/teams/TOG.jpg",
+          "imageMeta": {
+            "author": "Wikipedia contributors",
+            "license": "See source page",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Togo_national_football_team"
+          }
         },
         {
           "code": "CRC",
@@ -7221,8 +7313,12 @@
             "secondary": "#FFCD00",
             "accent": "#000000"
           },
-          "image": null,
-          "imageMeta": null
+          "image": "/images/teams/SWE.png",
+          "imageMeta": {
+            "author": "Wikipedia contributors",
+            "license": "See source page",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Sweden_men's_national_football_team"
+          }
         },
         {
           "code": "RUS",
@@ -7518,8 +7614,12 @@
             "secondary": "#FFFFFF",
             "accent": "#000000"
           },
-          "image": null,
-          "imageMeta": null
+          "image": "/images/teams/KSA.png",
+          "imageMeta": {
+            "author": "Wikipedia contributors",
+            "license": "See source page",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Saudi_Arabia_national_football_team"
+          }
         },
         {
           "code": "IRN",
@@ -7954,8 +8054,12 @@
             "secondary": "#FFFFFF",
             "accent": "#000000"
           },
-          "image": null,
-          "imageMeta": null
+          "image": "/images/teams/KSA.png",
+          "imageMeta": {
+            "author": "Wikipedia contributors",
+            "license": "See source page",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Saudi_Arabia_national_football_team"
+          }
         },
         {
           "code": "IRN",
@@ -8431,8 +8535,12 @@
             "secondary": "#FFCD00",
             "accent": "#000000"
           },
-          "image": null,
-          "imageMeta": null
+          "image": "/images/teams/SWE.png",
+          "imageMeta": {
+            "author": "Wikipedia contributors",
+            "license": "See source page",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Sweden_men's_national_football_team"
+          }
         },
         {
           "code": "TUN",
@@ -8520,8 +8628,12 @@
             "secondary": "#FFFFFF",
             "accent": "#000000"
           },
-          "image": null,
-          "imageMeta": null
+          "image": "/images/teams/KSA.png",
+          "imageMeta": {
+            "author": "Wikipedia contributors",
+            "license": "See source page",
+            "sourceUrl": "https://en.wikipedia.org/wiki/Saudi_Arabia_national_football_team"
+          }
         },
         {
           "code": "ESP",
@@ -14168,8 +14280,12 @@
         "secondary": "#FFFFFF",
         "accent": "#D7141A"
       },
-      "image": null,
-      "imageMeta": null,
+      "image": "/images/teams/TCH.png",
+      "imageMeta": {
+        "author": "Wikipedia contributors",
+        "license": "See source page",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Czechoslovakia_national_football_team"
+      },
       "years": [
         1934,
         1938,
@@ -16575,8 +16691,12 @@
         "secondary": "#FFCD00",
         "accent": "#000000"
       },
-      "image": null,
-      "imageMeta": null,
+      "image": "/images/teams/SWE.png",
+      "imageMeta": {
+        "author": "Wikipedia contributors",
+        "license": "See source page",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Sweden_men's_national_football_team"
+      },
       "years": [
         1934,
         1938,
@@ -20793,8 +20913,12 @@
         "secondary": "#DD0000",
         "accent": "#FFCC00"
       },
-      "image": null,
-      "imageMeta": null,
+      "image": "/images/teams/GDR.png",
+      "imageMeta": {
+        "author": "Wikipedia contributors",
+        "license": "See source page",
+        "sourceUrl": "https://en.wikipedia.org/wiki/East_Germany_national_football_team"
+      },
       "years": [
         1974
       ],
@@ -24681,8 +24805,12 @@
         "secondary": "#FFFFFF",
         "accent": "#000000"
       },
-      "image": null,
-      "imageMeta": null,
+      "image": "/images/teams/KSA.png",
+      "imageMeta": {
+        "author": "Wikipedia contributors",
+        "license": "See source page",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Saudi_Arabia_national_football_team"
+      },
       "years": [
         1998,
         2002,
@@ -26398,8 +26526,12 @@
         "secondary": "#FFFFFF",
         "accent": "#D21034"
       },
-      "image": null,
-      "imageMeta": null,
+      "image": "/images/teams/TOG.jpg",
+      "imageMeta": {
+        "author": "Wikipedia contributors",
+        "license": "See source page",
+        "sourceUrl": "https://en.wikipedia.org/wiki/Togo_national_football_team"
+      },
       "years": [
         2006
       ],

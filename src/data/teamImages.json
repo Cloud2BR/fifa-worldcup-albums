@@ -185,7 +185,10 @@
       "team": "Algeria",
       "author": "Wikipedia contributors",
       "license": "See source page",
-      "caption": "Algeria team image"
+      "caption": "Algeria team image",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/en/2/2d/Algerian_NT_%28logo%29.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Algeria_national_football_team",
+      "file": "DZA.png"
     },
     "ECU": {
       "team": "Ecuador",
@@ -236,7 +239,10 @@
       "team": "East Germany",
       "author": "Wikipedia contributors",
       "license": "See source page",
-      "caption": "East Germany team image"
+      "caption": "East Germany team image",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/3/30/East_Germany_national_football_team_logo.svg/330px-East_Germany_national_football_team_logo.svg.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/East_Germany_national_football_team",
+      "file": "GDR.png"
     },
     "GER": {
       "team": "Germany",
@@ -386,7 +392,10 @@
       "team": "Saudi Arabia",
       "author": "Wikipedia contributors",
       "license": "See source page",
-      "caption": "Saudi Arabia team image"
+      "caption": "Saudi Arabia team image",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/e/ee/Saudi_Arabia_national_football_team_logo.svg/330px-Saudi_Arabia_national_football_team_logo.svg.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Saudi_Arabia_national_football_team",
+      "file": "KSA.png"
     },
     "KUW": {
       "team": "Kuwait",
@@ -542,19 +551,28 @@
       "team": "Sweden",
       "author": "Wikipedia contributors",
       "license": "See source page",
-      "caption": "Sweden team image"
+      "caption": "Sweden team image",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/3/3f/Sweden_national_football_team_badge.svg/330px-Sweden_national_football_team_badge.svg.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Sweden_men's_national_football_team",
+      "file": "SWE.png"
     },
     "TCH": {
       "team": "Czechoslovakia",
       "author": "Wikipedia contributors",
       "license": "See source page",
-      "caption": "Czechoslovakia team image"
+      "caption": "Czechoslovakia team image",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/a/aa/Czechoslovakian_FA_Logo.svg/330px-Czechoslovakian_FA_Logo.svg.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Czechoslovakia_national_football_team",
+      "file": "TCH.png"
     },
     "TOG": {
       "team": "Togo",
       "author": "Wikipedia contributors",
       "license": "See source page",
-      "caption": "Togo team image"
+      "caption": "Togo team image",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Togo-nationalmannschaft.jpg/960px-Togo-nationalmannschaft.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Togo_national_football_team",
+      "file": "TOG.jpg"
     },
     "TUN": {
       "team": "Tunisia",
