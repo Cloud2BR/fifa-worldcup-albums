@@ -401,7 +401,10 @@ function MatchResultsByStage({ matches, groupData }) {
   return (
     <details className="rounded-xl border border-slate-800 bg-slate-900/50" open={false}>
       <summary className="flex cursor-pointer list-none items-center justify-between gap-3 px-4 py-3">
-        <span className="text-[10px] font-bold uppercase tracking-widest text-slate-300">All Match Results By Stage</span>
+        <div className="space-y-0.5">
+          <span className="block text-[10px] font-bold uppercase tracking-widest text-slate-300">All Match Results By Stage</span>
+          <span className="block text-[10px] text-slate-500">Click here to expand or collapse this section</span>
+        </div>
         <span className="text-[10px] text-slate-500">{totalMatches} total</span>
       </summary>
 
