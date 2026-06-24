@@ -22,20 +22,112 @@ function slugifyAssetName(input) {
 }
 
 const SONG_BY_YEAR = {
-  2022: { title: 'Hayya Hayya (Better Together)', artist: 'Trinidad Cardona, Davido & Aisha' },
-  2018: { title: 'Live It Up', artist: 'Nicky Jam feat. Will Smith & Era Istrefi' },
-  2014: { title: 'We Are One (Ole Ola)', artist: 'Pitbull feat. Jennifer Lopez & Claudia Leitte' },
-  2010: { title: 'Waka Waka (This Time for Africa)', artist: 'Shakira feat. Freshlyground' },
-  2006: { title: 'The Time of Our Lives', artist: 'Il Divo & Toni Braxton' },
-  2002: { title: 'Boom', artist: 'Anastacia' },
-  1998: { title: 'La Copa de la Vida', artist: 'Ricky Martin' },
-  1994: { title: 'Gloryland', artist: 'Daryl Hall & Sounds of Blackness' },
-  1990: { title: "Un'estate italiana", artist: 'Gianna Nannini & Edoardo Bennato' },
-}
-
-function getSongYouTubeSearchUrl(year, title, artist) {
-  const query = encodeURIComponent(`${year} FIFA World Cup official song ${title} ${artist || ''}`.trim())
-  return `https://www.youtube.com/results?search_query=${query}`
+  2022: {
+    tracks: [
+      {
+        title: 'Hayya Hayya (Better Together)',
+        artist: 'Trinidad Cardona, Davido & Aisha',
+        videoUrl: 'https://www.youtube.com/watch?v=vyDjFVZgJoo',
+      },
+      {
+        title: 'Arhbo',
+        artist: 'Ozuna & GIMS',
+        videoUrl: 'https://www.youtube.com/watch?v=0E00Zuayv9Q',
+      },
+      {
+        title: 'Light The Sky',
+        artist: 'Nora Fatehi, Balqees, Rahma Riad & Manal',
+        videoUrl: 'https://www.youtube.com/watch?v=vfW5eHq3fN4',
+      },
+    ],
+  },
+  2018: {
+    tracks: [
+      {
+        title: 'Live It Up',
+        artist: 'Nicky Jam feat. Will Smith & Era Istrefi',
+        videoUrl: 'https://www.youtube.com/watch?v=_I_D_8Z4sJE',
+      },
+      {
+        title: 'Colors',
+        artist: 'Jason Derulo',
+        videoUrl: 'https://www.youtube.com/watch?v=pILCn6VO_RU',
+      },
+    ],
+  },
+  2014: {
+    tracks: [
+      {
+        title: 'We Are One (Ole Ola)',
+        artist: 'Pitbull feat. Jennifer Lopez & Claudia Leitte',
+        videoUrl: 'https://www.youtube.com/watch?v=TGtWWb9emYI',
+      },
+      {
+        title: 'Dar Um Jeito (We Will Find a Way)',
+        artist: 'Carlos Santana feat. Wyclef Jean, Avicii & Alexandre Pires',
+        videoUrl: 'https://www.youtube.com/watch?v=Yt3D4vM6H6E',
+      },
+    ],
+  },
+  2010: {
+    tracks: [
+      {
+        title: 'Waka Waka (This Time for Africa)',
+        artist: 'Shakira feat. Freshlyground',
+        videoUrl: 'https://www.youtube.com/watch?v=pRpeEdMmmQ0',
+      },
+      {
+        title: 'Sign of a Victory',
+        artist: 'R. Kelly feat. Soweto Spiritual Singers',
+        videoUrl: 'https://www.youtube.com/watch?v=4mYd2fA5m8Y',
+      },
+    ],
+  },
+  2006: {
+    tracks: [
+      {
+        title: 'The Time of Our Lives',
+        artist: 'Il Divo & Toni Braxton',
+        videoUrl: 'https://www.youtube.com/watch?v=0Ot0A6E6f2Q',
+      },
+    ],
+  },
+  2002: {
+    tracks: [
+      {
+        title: 'Boom',
+        artist: 'Anastacia',
+        videoUrl: 'https://www.youtube.com/watch?v=l1zaQmS4QhQ',
+      },
+    ],
+  },
+  1998: {
+    tracks: [
+      {
+        title: 'La Copa de la Vida',
+        artist: 'Ricky Martin',
+        videoUrl: 'https://www.youtube.com/watch?v=8BkYKwHLXiU',
+      },
+    ],
+  },
+  1994: {
+    tracks: [
+      {
+        title: 'Gloryland',
+        artist: 'Daryl Hall & Sounds of Blackness',
+        videoUrl: 'https://www.youtube.com/watch?v=7P8xGkQ4E6w',
+      },
+    ],
+  },
+  1990: {
+    tracks: [
+      {
+        title: "Un'estate italiana",
+        artist: 'Gianna Nannini & Edoardo Bennato',
+        videoUrl: 'https://www.youtube.com/watch?v=8nDoQ2QH6rI',
+      },
+    ],
+  },
 }
 
 function LocalPreviewCard({ title, src, srcFallback, fallbackLabel, imageClassName = 'object-cover' }) {
@@ -82,24 +174,34 @@ function LocalPreviewCard({ title, src, srcFallback, fallbackLabel, imageClassNa
 }
 
 function SongPlayer({ album }) {
-  const meta = SONG_BY_YEAR[album.year] || { title: `Official song/anthem ${album.year}`, artist: '' }
-  const youtubeUrl = getSongYouTubeSearchUrl(album.year, meta.title, meta.artist)
+  const meta = SONG_BY_YEAR[album.year] || { tracks: [] }
+  const tracks = meta.tracks || []
 
   return (
     <div className="rounded-lg border border-amber-900/35 bg-[#efe6d0] p-2">
       <p className="mb-2 text-[10px] font-bold uppercase tracking-wider text-slate-700">Official Song</p>
       <div className="rounded-md border border-amber-900/30 bg-[#d9ccb1] p-3">
-        <p className="text-sm font-semibold text-slate-700">{meta.title}</p>
-        {meta.artist ? <p className="mt-1 text-xs text-slate-600">Artist: {meta.artist}</p> : null}
-        <p className="mt-2 text-xs text-slate-600">Listen on official platforms via YouTube search results (no downloaded or rehosted audio).</p>
-        <a
-          href={youtubeUrl}
-          target="_blank"
-          rel="noreferrer"
-          className="mt-3 inline-flex items-center rounded border border-amber-900/40 bg-amber-100 px-3 py-1.5 text-xs font-semibold text-amber-900 hover:bg-amber-200"
-        >
-          Open on YouTube
-        </a>
+        {tracks.length > 0 ? (
+          <div className="space-y-3">
+            <p className="text-xs text-slate-600">Tournament-specific official song video links.</p>
+            {tracks.map((track) => (
+              <div key={`${album.year}-${track.title}`} className="rounded border border-amber-900/30 bg-amber-50/40 p-2">
+                <p className="text-sm font-semibold text-slate-700">{track.title}</p>
+                <p className="mt-0.5 text-xs text-slate-600">Artist: {track.artist}</p>
+                <a
+                  href={track.videoUrl}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="mt-2 inline-flex items-center rounded border border-amber-900/40 bg-amber-100 px-3 py-1.5 text-xs font-semibold text-amber-900 hover:bg-amber-200"
+                >
+                  Watch Official Video
+                </a>
+              </div>
+            ))}
+          </div>
+        ) : (
+          <p className="text-xs text-slate-600">No official tournament song reference mapped for {album.year} yet.</p>
+        )}
       </div>
     </div>
   )

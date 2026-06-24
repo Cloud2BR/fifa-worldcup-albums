@@ -27,12 +27,16 @@ async function exists(filePath) {
 
 const byYear = {}
 let totalAll = 0
-let withFileAll = 0
+let withRealLocalFileAll = 0
+let withRemoteReferenceAll = 0
+let placeholderOnlyAll = 0
 let missingAll = 0
 
 for (const [year, teamMap] of Object.entries(squads)) {
   let total = 0
-  let withFile = 0
+  let withRealLocalFile = 0
+  let withRemoteReference = 0
+  let placeholderOnly = 0
   let missing = 0
 
   for (const [teamCode, players] of Object.entries(teamMap || {})) {
@@ -40,16 +44,25 @@ for (const [year, teamMap] of Object.entries(squads)) {
       total += 1
       const key = `${year}:${teamCode}:${slugifyName(player?.name)}`
       const entry = images[key]
-      const hasFile = entry?.file ? await exists(path.join(playersRoot, entry.file)) : false
-      if (hasFile) withFile += 1
-      else missing += 1
+      const hasRealLocalFile = entry?.file
+        ? (String(entry.file).toLowerCase().endsWith('.svg') ? false : await exists(path.join(playersRoot, entry.file)))
+        : false
+      const hasRemoteReference = Boolean(entry?.thumbUrl)
+
+      if (hasRealLocalFile) withRealLocalFile += 1
+      if (hasRemoteReference) withRemoteReference += 1
+      if (!hasRealLocalFile && !hasRemoteReference) placeholderOnly += 1
+
+      if (!entry) missing += 1
     }
   }
 
-  byYear[year] = { total, withFile, missing }
+  byYear[year] = { total, withRealLocalFile, withRemoteReference, placeholderOnly, missing }
   totalAll += total
-  withFileAll += withFile
+  withRealLocalFileAll += withRealLocalFile
+  withRemoteReferenceAll += withRemoteReference
+  placeholderOnlyAll += placeholderOnly
   missingAll += missing
 }
 
-console.log(JSON.stringify({ totalAll, withFileAll, missingAll, byYear }, null, 2))
+console.log(JSON.stringify({ totalAll, withRealLocalFileAll, withRemoteReferenceAll, placeholderOnlyAll, missingAll, byYear }, null, 2))
