@@ -12,6 +12,8 @@ const PHASE_LABELS = {
   '3rd': '3rd Place Play-off',
 }
 
+const MATCH_LIST_PHASE_ORDER = ['R32', 'R16', 'QF', 'SF', '3rd', 'Final']
+
 // Context notes for tournaments that used a non-standard format
 const FORMAT_NOTES = {
   1930: 'The 1930 World Cup had no quarterfinals — group winners advanced directly to the semi-finals.',
@@ -26,6 +28,13 @@ function formatDate(iso) {
   if (!iso) return null
   const d = new Date(iso)
   return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })
+}
+
+function sortMatchesByDate(a, b) {
+  const aTs = a.date ? Date.parse(a.date) : Number.MAX_SAFE_INTEGER
+  const bTs = b.date ? Date.parse(b.date) : Number.MAX_SAFE_INTEGER
+  if (aTs !== bTs) return aTs - bTs
+  return `${a.home}-${a.away}`.localeCompare(`${b.home}-${b.away}`)
 }
 
 function WinTypeBadge({ match }) {
@@ -296,6 +305,87 @@ function GroupStageSection({ groupData }) {
   )
 }
 
+function MatchResultsByStage({ matches, hasGroupData }) {
+  const byPhase = useMemo(() => {
+    const grouped = new Map()
+    for (const m of matches) {
+      const phase = m.phase || 'Other'
+      if (!grouped.has(phase)) grouped.set(phase, [])
+      grouped.get(phase).push(m)
+    }
+
+    for (const [, list] of grouped) {
+      list.sort(sortMatchesByDate)
+    }
+
+    const known = MATCH_LIST_PHASE_ORDER.filter((p) => grouped.has(p))
+    const unknown = [...grouped.keys()].filter((p) => !MATCH_LIST_PHASE_ORDER.includes(p)).sort()
+    return [...known, ...unknown].map((phase) => ({ phase, matches: grouped.get(phase) }))
+  }, [matches])
+
+  if (byPhase.length === 0 && !hasGroupData) return null
+
+  return (
+    <section className="space-y-3 rounded-xl border border-slate-800 bg-slate-900/50 p-4">
+      <h4 className="text-[10px] font-bold uppercase tracking-widest text-slate-400">All Match Results By Stage</h4>
+
+      {hasGroupData && (
+        <p className="text-xs text-slate-400">
+          Group-stage standings are shown above. Match-by-match group fixtures are not available in this dataset for every tournament year.
+        </p>
+      )}
+
+      {byPhase.length > 0 ? (
+        <div className="space-y-4">
+          {byPhase.map(({ phase, matches: phaseMatches }) => (
+            <div key={phase} className="rounded-lg border border-slate-800 bg-slate-950/40 p-3">
+              <div className="mb-2 flex items-center justify-between gap-2">
+                <h5 className="text-xs font-bold uppercase tracking-wide text-sky-300">
+                  {PHASE_LABELS[phase] ?? phase}
+                </h5>
+                <span className="text-[10px] text-slate-500">
+                  {phaseMatches.length} {phaseMatches.length === 1 ? 'match' : 'matches'}
+                </span>
+              </div>
+
+              <div className="overflow-x-auto">
+                <table className="min-w-full text-xs">
+                  <thead>
+                    <tr className="border-b border-slate-800 text-left text-[10px] uppercase tracking-wide text-slate-500">
+                      <th className="px-2 py-1">Date</th>
+                      <th className="px-2 py-1">Home</th>
+                      <th className="px-2 py-1">Score</th>
+                      <th className="px-2 py-1">Away</th>
+                      <th className="px-2 py-1">Win Type</th>
+                      <th className="px-2 py-1">Winner</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {phaseMatches.map((m, idx) => {
+                      const winType = m.penalties ? `Pens ${m.penalties}` : m.extraTime ? 'AET' : 'Regular'
+                      const undecided = m.score === 'TBD' || m.winner === 'TBD'
+                      return (
+                        <tr key={`${phase}-${idx}`} className="border-b border-slate-800/60 last:border-b-0">
+                          <td className="px-2 py-1 text-slate-400">{formatDate(m.date) ?? 'TBD'}</td>
+                          <td className="px-2 py-1 text-slate-200">{m.home}</td>
+                          <td className="px-2 py-1 font-mono text-slate-100">{m.score ?? 'TBD'}</td>
+                          <td className="px-2 py-1 text-slate-200">{m.away}</td>
+                          <td className="px-2 py-1 text-slate-400">{undecided ? 'TBD' : winType}</td>
+                          <td className="px-2 py-1 text-slate-300">{m.winner ?? 'TBD'}</td>
+                        </tr>
+                      )
+                    })}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          ))}
+        </div>
+      ) : null}
+    </section>
+  )
+}
+
 function BracketDiagram({ matches, champion, groupData }) {
   const { byPhase, thirdMatch, year } = useMemo(() => {
     const byPhase = Object.fromEntries(BRACKET_PHASES.map((p) => [p, []]))
@@ -367,6 +457,8 @@ function BracketDiagram({ matches, champion, groupData }) {
           )}
         </>
       )}
+
+      <MatchResultsByStage matches={matches} hasGroupData={Boolean(groupData)} />
     </div>
   )
 }
