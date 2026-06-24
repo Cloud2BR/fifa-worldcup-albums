@@ -325,64 +325,71 @@ function MatchResultsByStage({ matches, hasGroupData }) {
 
   if (byPhase.length === 0 && !hasGroupData) return null
 
+  const totalMatches = byPhase.reduce((acc, item) => acc + item.matches.length, 0)
+
   return (
-    <section className="space-y-3 rounded-xl border border-slate-800 bg-slate-900/50 p-4">
-      <h4 className="text-[10px] font-bold uppercase tracking-widest text-slate-400">All Match Results By Stage</h4>
+    <details className="rounded-xl border border-slate-800 bg-slate-900/50" open={false}>
+      <summary className="flex cursor-pointer list-none items-center justify-between gap-3 px-4 py-3">
+        <span className="text-[10px] font-bold uppercase tracking-widest text-slate-300">All Match Results By Stage</span>
+        <span className="text-[10px] text-slate-500">{totalMatches} total</span>
+      </summary>
 
-      {hasGroupData && (
-        <p className="text-xs text-slate-400">
-          Group-stage standings are shown above. Match-by-match group fixtures are not available in this dataset for every tournament year.
-        </p>
-      )}
+      <div className="space-y-3 border-t border-slate-800 px-4 py-3">
+        {hasGroupData && (
+          <p className="text-xs text-slate-400">
+            Group-stage standings are shown above. Match-by-match group fixtures are not available in this dataset for every tournament year.
+          </p>
+        )}
 
-      {byPhase.length > 0 ? (
-        <div className="space-y-4">
-          {byPhase.map(({ phase, matches: phaseMatches }) => (
-            <div key={phase} className="rounded-lg border border-slate-800 bg-slate-950/40 p-3">
-              <div className="mb-2 flex items-center justify-between gap-2">
-                <h5 className="text-xs font-bold uppercase tracking-wide text-sky-300">
-                  {PHASE_LABELS[phase] ?? phase}
-                </h5>
-                <span className="text-[10px] text-slate-500">
-                  {phaseMatches.length} {phaseMatches.length === 1 ? 'match' : 'matches'}
-                </span>
+        {byPhase.length > 0 ? (
+          <div className="space-y-4">
+            {byPhase.map(({ phase, matches: phaseMatches }) => (
+              <div key={phase} className="rounded-lg border border-slate-800 bg-slate-950/40 p-3">
+                <div className="mb-2 flex items-center justify-between gap-2">
+                  <h5 className="text-xs font-bold uppercase tracking-wide text-sky-300">
+                    {PHASE_LABELS[phase] ?? phase}
+                  </h5>
+                  <span className="text-[10px] text-slate-500">
+                    {phaseMatches.length} {phaseMatches.length === 1 ? 'match' : 'matches'}
+                  </span>
+                </div>
+
+                <div className="overflow-x-auto">
+                  <table className="min-w-full text-xs">
+                    <thead>
+                      <tr className="border-b border-slate-800 text-left text-[10px] uppercase tracking-wide text-slate-500">
+                        <th className="px-2 py-1">Date</th>
+                        <th className="px-2 py-1">Home</th>
+                        <th className="px-2 py-1">Score</th>
+                        <th className="px-2 py-1">Away</th>
+                        <th className="px-2 py-1">Win Type</th>
+                        <th className="px-2 py-1">Winner</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {phaseMatches.map((m, idx) => {
+                        const winType = m.penalties ? `Pens ${m.penalties}` : m.extraTime ? 'AET' : 'Regular'
+                        const undecided = m.score === 'TBD' || m.winner === 'TBD'
+                        return (
+                          <tr key={`${phase}-${idx}`} className="border-b border-slate-800/60 last:border-b-0">
+                            <td className="px-2 py-1 text-slate-400">{formatDate(m.date) ?? 'TBD'}</td>
+                            <td className="px-2 py-1 text-slate-200">{m.home}</td>
+                            <td className="px-2 py-1 font-mono text-slate-100">{m.score ?? 'TBD'}</td>
+                            <td className="px-2 py-1 text-slate-200">{m.away}</td>
+                            <td className="px-2 py-1 text-slate-400">{undecided ? 'TBD' : winType}</td>
+                            <td className="px-2 py-1 text-slate-300">{m.winner ?? 'TBD'}</td>
+                          </tr>
+                        )
+                      })}
+                    </tbody>
+                  </table>
+                </div>
               </div>
-
-              <div className="overflow-x-auto">
-                <table className="min-w-full text-xs">
-                  <thead>
-                    <tr className="border-b border-slate-800 text-left text-[10px] uppercase tracking-wide text-slate-500">
-                      <th className="px-2 py-1">Date</th>
-                      <th className="px-2 py-1">Home</th>
-                      <th className="px-2 py-1">Score</th>
-                      <th className="px-2 py-1">Away</th>
-                      <th className="px-2 py-1">Win Type</th>
-                      <th className="px-2 py-1">Winner</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    {phaseMatches.map((m, idx) => {
-                      const winType = m.penalties ? `Pens ${m.penalties}` : m.extraTime ? 'AET' : 'Regular'
-                      const undecided = m.score === 'TBD' || m.winner === 'TBD'
-                      return (
-                        <tr key={`${phase}-${idx}`} className="border-b border-slate-800/60 last:border-b-0">
-                          <td className="px-2 py-1 text-slate-400">{formatDate(m.date) ?? 'TBD'}</td>
-                          <td className="px-2 py-1 text-slate-200">{m.home}</td>
-                          <td className="px-2 py-1 font-mono text-slate-100">{m.score ?? 'TBD'}</td>
-                          <td className="px-2 py-1 text-slate-200">{m.away}</td>
-                          <td className="px-2 py-1 text-slate-400">{undecided ? 'TBD' : winType}</td>
-                          <td className="px-2 py-1 text-slate-300">{m.winner ?? 'TBD'}</td>
-                        </tr>
-                      )
-                    })}
-                  </tbody>
-                </table>
-              </div>
-            </div>
-          ))}
-        </div>
-      ) : null}
-    </section>
+            ))}
+          </div>
+        ) : null}
+      </div>
+    </details>
   )
 }
 
@@ -425,6 +432,8 @@ function BracketDiagram({ matches, champion, groupData }) {
             </div>
           )}
 
+          <MatchResultsByStage matches={matches} hasGroupData={Boolean(groupData)} />
+
           {/* Knockout Bracket header */}
           <h4 className="text-[10px] font-bold uppercase tracking-widest text-slate-400">Knockout Bracket</h4>
 
@@ -457,8 +466,6 @@ function BracketDiagram({ matches, champion, groupData }) {
           )}
         </>
       )}
-
-      <MatchResultsByStage matches={matches} hasGroupData={Boolean(groupData)} />
     </div>
   )
 }
