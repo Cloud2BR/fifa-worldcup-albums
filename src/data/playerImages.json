@@ -12871,10 +12871,12 @@
       "teamCode": "URU",
       "team": "Uruguay",
       "name": "Álvaro Gestido",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
       "caption": "Álvaro Gestido (Uruguay)",
-      "file": "1930/URU/alvaro-gestido.svg"
+      "file": "1930/URU/alvaro-gestido.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/%C3%81lvaro_Gestido_%281928%29.jpg/330px-%C3%81lvaro_Gestido_%281928%29.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/%C3%81lvaro_Gestido"
     },
     "1930:URU:angel-melogno": {
       "year": 1930,
@@ -12891,610 +12893,732 @@
       "teamCode": "URU",
       "team": "Uruguay",
       "name": "Carlos Riolfo",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
       "caption": "Carlos Riolfo (Uruguay)",
-      "file": "1930/URU/carlos-riolfo.svg"
+      "file": "1930/URU/carlos-riolfo.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/en/0/00/SD_Aucas_logo.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/S.D._Aucas"
     },
     "1930:URU:conduelo-piriz": {
       "year": 1930,
       "teamCode": "URU",
       "team": "Uruguay",
       "name": "Conduelo Píriz",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikimedia Commons contributors",
+      "license": "See source page",
       "caption": "Conduelo Píriz (Uruguay)",
-      "file": "1930/URU/conduelo-piriz.svg"
+      "file": "1930/URU/conduelo-piriz.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Uruguay_1929.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Uruguay%201929.JPG"
     },
     "1930:URU:domingo-tejera": {
       "year": 1930,
       "teamCode": "URU",
       "team": "Uruguay",
       "name": "Domingo Tejera",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikidata/Wikimedia Commons contributors",
+      "license": "See source page",
       "caption": "Domingo Tejera (Uruguay)",
-      "file": "1930/URU/domingo-tejera.svg"
+      "file": "1930/URU/domingo-tejera.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/3/39/Domingo_Tejera_de_Quesada.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Domingo%20Tejera%20de%20Quesada.jpg"
     },
     "1930:URU:emilio-recoba": {
       "year": 1930,
       "teamCode": "URU",
       "team": "Uruguay",
       "name": "Emilio Recoba",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
       "caption": "Emilio Recoba (Uruguay)",
-      "file": "1930/URU/emilio-recoba.svg"
+      "file": "1930/URU/emilio-recoba.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Ronaldo_Lu%C3%ADs_Naz%C3%A1rio_de_Lima_2019_%283x4_cropped%29.jpg/330px-Ronaldo_Lu%C3%ADs_Naz%C3%A1rio_de_Lima_2019_%283x4_cropped%29.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ronaldo_(Brazilian_footballer)"
     },
     "1930:URU:enrique-ballesteros": {
       "year": 1930,
       "teamCode": "URU",
       "team": "Uruguay",
       "name": "Enrique Ballesteros",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikimedia Commons contributors",
+      "license": "See source page",
       "caption": "Enrique Ballesteros (Uruguay)",
-      "file": "1930/URU/enrique-ballesteros.svg"
+      "file": "1930/URU/enrique-ballesteros.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Enrique_Ballestrero%2C_Los_Sports%2C_1930-12-12_%28405%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Enrique%20Ballestrero%2C%20Los%20Sports%2C%201930-12-12%20(405).jpg"
     },
     "1930:URU:ernesto-mascheroni": {
       "year": 1930,
       "teamCode": "URU",
       "team": "Uruguay",
       "name": "Ernesto Mascheroni",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikimedia Commons contributors",
+      "license": "See source page",
       "caption": "Ernesto Mascheroni (Uruguay)",
-      "file": "1930/URU/ernesto-mascheroni.svg"
+      "file": "1930/URU/ernesto-mascheroni.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Uruguay_en_el_Mundial_1930%2C_Los_Sports%2C_1930-08-08_%28387%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Uruguay%20en%20el%20Mundial%201930%2C%20Los%20Sports%2C%201930-08-08%20(387).jpg"
     },
     "1930:URU:hector-castro": {
       "year": 1930,
       "teamCode": "URU",
       "team": "Uruguay",
       "name": "Héctor Castro",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
       "caption": "Héctor Castro (Uruguay)",
-      "file": "1930/URU/hector-castro.svg"
+      "file": "1930/URU/hector-castro.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/H%C3%A9ctor_Castro_%281928%29.jpg/330px-H%C3%A9ctor_Castro_%281928%29.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/H%C3%A9ctor_Castro"
     },
     "1930:URU:hector-scarone": {
       "year": 1930,
       "teamCode": "URU",
       "team": "Uruguay",
       "name": "Héctor Scarone",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
       "caption": "Héctor Scarone (Uruguay)",
-      "file": "1930/URU/hector-scarone.svg"
+      "file": "1930/URU/hector-scarone.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Hector_scarone_nacional.jpg/330px-Hector_scarone_nacional.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/H%C3%A9ctor_Scarone"
     },
     "1930:URU:jose-leandro-andrade": {
       "year": 1930,
       "teamCode": "URU",
       "team": "Uruguay",
       "name": "José Leandro Andrade",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
       "caption": "José Leandro Andrade (Uruguay)",
-      "file": "1930/URU/jose-leandro-andrade.svg"
+      "file": "1930/URU/jose-leandro-andrade.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Andrade_urug.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Jos%C3%A9_Leandro_Andrade"
     },
     "1930:URU:jose-nasazzi": {
       "year": 1930,
       "teamCode": "URU",
       "team": "Uruguay",
       "name": "José Nasazzi",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
       "caption": "José Nasazzi (Uruguay)",
-      "file": "1930/URU/jose-nasazzi.svg"
+      "file": "1930/URU/jose-nasazzi.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/1/16/Jose_nasazzi_urug.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Jos%C3%A9_Nasazzi"
     },
     "1930:URU:juan-carlos-calvo": {
       "year": 1930,
       "teamCode": "URU",
       "team": "Uruguay",
       "name": "Juan Carlos Calvo",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikimedia Commons contributors",
+      "license": "See source page",
       "caption": "Juan Carlos Calvo (Uruguay)",
-      "file": "1930/URU/juan-carlos-calvo.svg"
+      "file": "1930/URU/juan-carlos-calvo.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Bulletin_of_the_Pan_American_Union_1914-07-_Vol_39_Iss_1_%28IA_sim_bulletin-of-the-pan-american-union_1914-07_39_1%29.pdf/page1-500px-Bulletin_of_the_Pan_American_Union_1914-07-_Vol_39_Iss_1_%28IA_sim_bulletin-of-the-pan-american-union_1914-07_39_1%29.pdf.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bulletin%20of%20the%20Pan%20American%20Union%201914-07-%20Vol%2039%20Iss%201%20(IA%20sim%20bulletin-of-the-pan-american-union%201914-07%2039%201).pdf"
     },
     "1930:URU:lorenzo-fernandez": {
       "year": 1930,
       "teamCode": "URU",
       "team": "Uruguay",
       "name": "Lorenzo Fernández",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
       "caption": "Lorenzo Fernández (Uruguay)",
-      "file": "1930/URU/lorenzo-fernandez.svg"
+      "file": "1930/URU/lorenzo-fernandez.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Nicol%C3%A1s_Fern%C3%A1ndez_NYCFC_vs_DC_United_on_Aug_30_2025-038_%28cropped%29.jpg/330px-Nicol%C3%A1s_Fern%C3%A1ndez_NYCFC_vs_DC_United_on_Aug_30_2025-038_%28cropped%29.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Nicol%C3%A1s_Fern%C3%A1ndez_(footballer%2C_born_2000)"
     },
     "1930:URU:miguel-capuccini": {
       "year": 1930,
       "teamCode": "URU",
       "team": "Uruguay",
       "name": "Miguel Capuccini",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
       "caption": "Miguel Capuccini (Uruguay)",
-      "file": "1930/URU/miguel-capuccini.svg"
+      "file": "1930/URU/miguel-capuccini.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Escudo_del_Club_Atl%C3%A9tico_Pe%C3%B1arol.svg/330px-Escudo_del_Club_Atl%C3%A9tico_Pe%C3%B1arol.svg.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Pe%C3%B1arol"
     },
     "1930:URU:pablo-dorado": {
       "year": 1930,
       "teamCode": "URU",
       "team": "Uruguay",
       "name": "Pablo Dorado",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikimedia Commons contributors",
+      "license": "See source page",
       "caption": "Pablo Dorado (Uruguay)",
-      "file": "1930/URU/pablo-dorado.svg"
+      "file": "1930/URU/pablo-dorado.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/3/31/Pablo_Dorado_%28cropped%29.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pablo%20Dorado%20(cropped).JPG"
     },
     "1930:URU:pedro-cea": {
       "year": 1930,
       "teamCode": "URU",
       "team": "Uruguay",
       "name": "Pedro Cea",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
       "caption": "Pedro Cea (Uruguay)",
-      "file": "1930/URU/pedro-cea.svg"
+      "file": "1930/URU/pedro-cea.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Pedro_Cea_%281928%29.jpg/330px-Pedro_Cea_%281928%29.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Pedro_Cea"
     },
     "1930:URU:pedro-petrone": {
       "year": 1930,
       "teamCode": "URU",
       "team": "Uruguay",
       "name": "Pedro Petrone",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
       "caption": "Pedro Petrone (Uruguay)",
-      "file": "1930/URU/pedro-petrone.svg"
+      "file": "1930/URU/pedro-petrone.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Pedro_Petrone_%281928%29.jpg/330px-Pedro_Petrone_%281928%29.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Pedro_Petrone"
     },
     "1930:URU:peregrino-anselmo": {
       "year": 1930,
       "teamCode": "URU",
       "team": "Uruguay",
       "name": "Peregrino Anselmo",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
       "caption": "Peregrino Anselmo (Uruguay)",
-      "file": "1930/URU/peregrino-anselmo.svg"
+      "file": "1930/URU/peregrino-anselmo.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/Juan_Anselmo.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Peregrino_Anselmo"
     },
     "1930:URU:santos-iriarte": {
       "year": 1930,
       "teamCode": "URU",
       "team": "Uruguay",
       "name": "Santos Iriarte",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
       "caption": "Santos Iriarte (Uruguay)",
-      "file": "1930/URU/santos-iriarte.svg"
+      "file": "1930/URU/santos-iriarte.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/3/37/Santos_Iriarte_%28cropped%29.JPG",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Santos_Iriarte"
     },
     "1930:URU:santos-urdinaran": {
       "year": 1930,
       "teamCode": "URU",
       "team": "Uruguay",
       "name": "Santos Urdinarán",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikimedia Commons contributors",
+      "license": "See source page",
       "caption": "Santos Urdinarán (Uruguay)",
-      "file": "1930/URU/santos-urdinaran.svg"
+      "file": "1930/URU/santos-urdinaran.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Santos_Urdinar%C3%A1n_%281928%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Santos%20Urdinar%C3%A1n%20(1928).jpg"
     },
     "1930:URU:zoilo-saldombide": {
       "year": 1930,
       "teamCode": "URU",
       "team": "Uruguay",
       "name": "Zoilo Saldombide",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
       "caption": "Zoilo Saldombide (Uruguay)",
-      "file": "1930/URU/zoilo-saldombide.svg"
+      "file": "1930/URU/zoilo-saldombide.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Nacional_en_la_gira_por_Am%C3%A9rica_del_Norte_de_1927.jpg/330px-Nacional_en_la_gira_por_Am%C3%A9rica_del_Norte_de_1927.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Club_Nacional_de_Football_1927_tour_of_North_America"
     },
     "1930:ARG:adolfo-zumelzu": {
       "year": 1930,
       "teamCode": "ARG",
       "team": "Argentina",
       "name": "Adolfo Zumelzú",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
       "caption": "Adolfo Zumelzú (Argentina)",
-      "file": "1930/ARG/adolfo-zumelzu.svg"
+      "file": "1930/ARG/adolfo-zumelzu.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Zumelzu_1929.jpg/330px-Zumelzu_1929.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Adolfo_Zumelz%C3%BA"
     },
     "1930:ARG:alberto-chividini": {
       "year": 1930,
       "teamCode": "ARG",
       "team": "Argentina",
       "name": "Alberto Chividini",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
       "caption": "Alberto Chividini (Argentina)",
-      "file": "1930/ARG/alberto-chividini.svg"
+      "file": "1930/ARG/alberto-chividini.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Rivarola_y_Chividini_%28Selecci%C3%B3n_argentina%29_-_El_Gr%C3%A1fico_541.jpg/330px-Rivarola_y_Chividini_%28Selecci%C3%B3n_argentina%29_-_El_Gr%C3%A1fico_541.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Alberto_Chividini"
     },
     "1930:ARG:alejandro-scopelli": {
       "year": 1930,
       "teamCode": "ARG",
       "team": "Argentina",
       "name": "Alejandro Scopelli",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikimedia Commons contributors",
+      "license": "See source page",
       "caption": "Alejandro Scopelli (Argentina)",
-      "file": "1930/ARG/alejandro-scopelli.svg"
+      "file": "1930/ARG/alejandro-scopelli.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Alejandro_scopelli_retrato_1931.jpg/960px-Alejandro_scopelli_retrato_1931.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alejandro%20scopelli%20retrato%201931.jpg"
     },
     "1930:ARG:angel-bossio": {
       "year": 1930,
       "teamCode": "ARG",
       "team": "Argentina",
       "name": "Ángel Bossio",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
       "caption": "Ángel Bossio (Argentina)",
-      "file": "1930/ARG/angel-bossio.svg"
+      "file": "1930/ARG/angel-bossio.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/AngelBossio-2.jpg/330px-AngelBossio-2.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/%C3%81ngel_Bossio"
     },
     "1930:ARG:arico-suarez": {
       "year": 1930,
       "teamCode": "ARG",
       "team": "Argentina",
       "name": "Arico Suárez",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
       "caption": "Arico Suárez (Argentina)",
-      "file": "1930/ARG/arico-suarez.svg"
+      "file": "1930/ARG/arico-suarez.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/9/90/Arico_Su%C3%A1rez.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Arico_Su%C3%A1rez"
     },
     "1930:ARG:attilio-demaria": {
       "year": 1930,
       "teamCode": "ARG",
       "team": "Argentina",
       "name": "Attilio Demaría",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikimedia Commons contributors",
+      "license": "See source page",
       "caption": "Attilio Demaría (Argentina)",
-      "file": "1930/ARG/attilio-demaria.svg"
+      "file": "1930/ARG/attilio-demaria.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Argentina_1930.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Argentina%201930.jpg"
     },
     "1930:ARG:carlos-peucelle": {
       "year": 1930,
       "teamCode": "ARG",
       "team": "Argentina",
       "name": "Carlos Peucelle",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
       "caption": "Carlos Peucelle (Argentina)",
-      "file": "1930/ARG/carlos-peucelle.svg"
+      "file": "1930/ARG/carlos-peucelle.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Peucelle_1929.jpg/330px-Peucelle_1929.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Carlos_Peucelle"
     },
     "1930:ARG:carlos-spadaro": {
       "year": 1930,
       "teamCode": "ARG",
       "team": "Argentina",
       "name": "Carlos Spadaro",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
       "caption": "Carlos Spadaro (Argentina)",
-      "file": "1930/ARG/carlos-spadaro.svg"
+      "file": "1930/ARG/carlos-spadaro.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Carlos_spadaro_retrato.jpg/330px-Carlos_spadaro_retrato.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Carlos_Spadaro"
     },
     "1930:ARG:edmundo-piaggio": {
       "year": 1930,
       "teamCode": "ARG",
       "team": "Argentina",
       "name": "Edmundo Piaggio",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikimedia Commons contributors",
+      "license": "See source page",
       "caption": "Edmundo Piaggio (Argentina)",
-      "file": "1930/ARG/edmundo-piaggio.svg"
+      "file": "1930/ARG/edmundo-piaggio.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Delovo_%28Gimnasia_LP%29_y_Piaggio_%28Boca%29_-_El_Gr%C3%A1fico_739.jpg/960px-Delovo_%28Gimnasia_LP%29_y_Piaggio_%28Boca%29_-_El_Gr%C3%A1fico_739.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Delovo%20(Gimnasia%20LP)%20y%20Piaggio%20(Boca)%20-%20El%20Gr%C3%A1fico%20739.jpg"
     },
     "1930:ARG:fernando-paternoster": {
       "year": 1930,
       "teamCode": "ARG",
       "team": "Argentina",
       "name": "Fernando Paternoster",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
       "caption": "Fernando Paternoster (Argentina)",
-      "file": "1930/ARG/fernando-paternoster.svg"
+      "file": "1930/ARG/fernando-paternoster.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Fernando_paternoster.jpg/330px-Fernando_paternoster.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Fernando_Paternoster"
     },
     "1930:ARG:francisco-varallo": {
       "year": 1930,
       "teamCode": "ARG",
       "team": "Argentina",
       "name": "Francisco Varallo",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
       "caption": "Francisco Varallo (Argentina)",
-      "file": "1930/ARG/francisco-varallo.svg"
+      "file": "1930/ARG/francisco-varallo.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Varallo_boca_portrait.jpg/330px-Varallo_boca_portrait.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Francisco_Varallo"
     },
     "1930:ARG:guillermo-stabile": {
       "year": 1930,
       "teamCode": "ARG",
       "team": "Argentina",
       "name": "Guillermo Stábile",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
       "caption": "Guillermo Stábile (Argentina)",
-      "file": "1930/ARG/guillermo-stabile.svg"
+      "file": "1930/ARG/guillermo-stabile.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Guillermo_stabile_hincado.jpg/330px-Guillermo_stabile_hincado.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Guillermo_St%C3%A1bile"
     },
     "1930:ARG:jose-della-torre": {
       "year": 1930,
       "teamCode": "ARG",
       "team": "Argentina",
       "name": "José Della Torre",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
       "caption": "José Della Torre (Argentina)",
-      "file": "1930/ARG/jose-della-torre.svg"
+      "file": "1930/ARG/jose-della-torre.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Jose_Della_Torre_1936.JPG",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Jos%C3%A9_Della_Torre"
     },
     "1930:ARG:juan-botasso": {
       "year": 1930,
       "teamCode": "ARG",
       "team": "Argentina",
       "name": "Juan Botasso",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
       "caption": "Juan Botasso (Argentina)",
-      "file": "1930/ARG/juan-botasso.svg"
+      "file": "1930/ARG/juan-botasso.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/5/58/Juan_Botasso.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Juan_Botasso"
     },
     "1930:ARG:juan-evaristo": {
       "year": 1930,
       "teamCode": "ARG",
       "team": "Argentina",
       "name": "Juan Evaristo",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
       "caption": "Juan Evaristo (Argentina)",
-      "file": "1930/ARG/juan-evaristo.svg"
+      "file": "1930/ARG/juan-evaristo.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Evaristo_%281960%29.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Evaristo_(footballer)"
     },
     "1930:ARG:luis-monti": {
       "year": 1930,
       "teamCode": "ARG",
       "team": "Argentina",
       "name": "Luis Monti",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
       "caption": "Luis Monti (Argentina)",
-      "file": "1930/ARG/luis-monti.svg"
+      "file": "1930/ARG/luis-monti.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Luis_Monti_1934.jpg/330px-Luis_Monti_1934.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Luis_Monti"
     },
     "1930:ARG:manuel-ferreira": {
       "year": 1930,
       "teamCode": "ARG",
       "team": "Argentina",
       "name": "Manuel Ferreira",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
       "caption": "Manuel Ferreira (Argentina)",
-      "file": "1930/ARG/manuel-ferreira.svg"
+      "file": "1930/ARG/manuel-ferreira.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/0/02/Manuel-ferreira.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Manuel_Ferreira_(footballer)"
     },
     "1930:ARG:mario-evaristo": {
       "year": 1930,
       "teamCode": "ARG",
       "team": "Argentina",
       "name": "Mario Evaristo",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
       "caption": "Mario Evaristo (Argentina)",
-      "file": "1930/ARG/mario-evaristo.svg"
+      "file": "1930/ARG/mario-evaristo.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/en/c/c2/MarioEvaristo.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Mario_Evaristo"
     },
     "1930:ARG:natalio-perinetti": {
       "year": 1930,
       "teamCode": "ARG",
       "team": "Argentina",
       "name": "Natalio Perinetti",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikimedia Commons contributors",
+      "license": "See source page",
       "caption": "Natalio Perinetti (Argentina)",
-      "file": "1930/ARG/natalio-perinetti.svg"
+      "file": "1930/ARG/natalio-perinetti.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Natalio_Perinetti.jpg/960px-Natalio_Perinetti.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Natalio%20Perinetti.jpg"
     },
     "1930:ARG:ramon-muttis": {
       "year": 1930,
       "teamCode": "ARG",
       "team": "Argentina",
       "name": "Ramón Muttis",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
       "caption": "Ramón Muttis (Argentina)",
-      "file": "1930/ARG/ramon-muttis.svg"
+      "file": "1930/ARG/ramon-muttis.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/9/94/Ramon_muttis.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ram%C3%B3n_Muttis"
     },
     "1930:ARG:roberto-cherro": {
       "year": 1930,
       "teamCode": "ARG",
       "team": "Argentina",
       "name": "Roberto Cherro",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
       "caption": "Roberto Cherro (Argentina)",
-      "file": "1930/ARG/roberto-cherro.svg"
+      "file": "1930/ARG/roberto-cherro.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Roberto_cherro_elgrafico_1933.jpg/330px-Roberto_cherro_elgrafico_1933.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Roberto_Cherro"
     },
     "1930:ARG:rodolfo-orlandini": {
       "year": 1930,
       "teamCode": "ARG",
       "team": "Argentina",
       "name": "Rodolfo Orlandini",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
       "caption": "Rodolfo Orlandini (Argentina)",
-      "file": "1930/ARG/rodolfo-orlandini.svg"
+      "file": "1930/ARG/rodolfo-orlandini.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/en/e/e0/Rodolfo_Orlandini.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Rodolfo_Orlandini"
     },
     "1930:USA:alexander-wood": {
       "year": 1930,
       "teamCode": "USA",
       "team": "United States",
       "name": "Alexander Wood",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikimedia Commons contributors",
+      "license": "See source page",
       "caption": "Alexander Wood (United States)",
-      "file": "1930/USA/alexander-wood.svg"
+      "file": "1930/USA/alexander-wood.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Alexander_Wood_US_Soccer_Team_1930.png",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alexander%20Wood%20US%20Soccer%20Team%201930.png"
     },
     "1930:USA:andy-auld": {
       "year": 1930,
       "teamCode": "USA",
       "team": "United States",
       "name": "Andy Auld",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
       "caption": "Andy Auld (United States)",
-      "file": "1930/USA/andy-auld.svg"
+      "file": "1930/USA/andy-auld.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/en/2/27/Andrew_Auld.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Andy_Auld"
     },
     "1930:USA:arnie-oliver": {
       "year": 1930,
       "teamCode": "USA",
       "team": "United States",
       "name": "Arnie Oliver",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
       "caption": "Arnie Oliver (United States)",
-      "file": "1930/USA/arnie-oliver.svg"
+      "file": "1930/USA/arnie-oliver.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/en/c/cb/Arnold_Oliver.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Arnie_Oliver"
     },
     "1930:USA:bart-mcghee": {
       "year": 1930,
       "teamCode": "USA",
       "team": "United States",
       "name": "Bart McGhee",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
       "caption": "Bart McGhee (United States)",
-      "file": "1930/USA/bart-mcghee.svg"
+      "file": "1930/USA/bart-mcghee.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/en/5/59/Bart_McGhee.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Bart_McGhee"
     },
     "1930:USA:bert-patenaude": {
       "year": 1930,
       "teamCode": "USA",
       "team": "United States",
       "name": "Bert Patenaude",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
       "caption": "Bert Patenaude (United States)",
-      "file": "1930/USA/bert-patenaude.svg"
+      "file": "1930/USA/bert-patenaude.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Bert_Patenaude.jpg/330px-Bert_Patenaude.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Bert_Patenaude"
     },
     "1930:USA:billy-gonsalves": {
       "year": 1930,
       "teamCode": "USA",
       "team": "United States",
       "name": "Billy Gonsalves",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikimedia Commons contributors",
+      "license": "See source page",
       "caption": "Billy Gonsalves (United States)",
-      "file": "1930/USA/billy-gonsalves.svg"
+      "file": "1930/USA/billy-gonsalves.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Billy_gonsalves_in_1930.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Billy%20gonsalves%20in%201930.jpg"
     },
     "1930:USA:frank-vaughn": {
       "year": 1930,
       "teamCode": "USA",
       "team": "United States",
       "name": "Frank Vaughn",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
       "caption": "Frank Vaughn (United States)",
-      "file": "1930/USA/frank-vaughn.svg"
+      "file": "1930/USA/frank-vaughn.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Deuce_Vaughn.png/330px-Deuce_Vaughn.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Deuce_Vaughn"
     },
     "1930:USA:george-moorhouse": {
       "year": 1930,
       "teamCode": "USA",
       "team": "United States",
       "name": "George Moorhouse",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
       "caption": "George Moorhouse (United States)",
-      "file": "1930/USA/george-moorhouse.svg"
+      "file": "1930/USA/george-moorhouse.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/George_Moorhouse_USA.jpg/330px-George_Moorhouse_USA.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/George_Moorhouse"
     },
     "1930:USA:james-gentle": {
       "year": 1930,
       "teamCode": "USA",
       "team": "United States",
       "name": "James Gentle",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
       "caption": "James Gentle (United States)",
-      "file": "1930/USA/james-gentle.svg"
+      "file": "1930/USA/james-gentle.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/en/b/bd/James_Gentle.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/James_Gentle"
     },
     "1930:USA:jim-brown": {
       "year": 1930,
       "teamCode": "USA",
       "team": "United States",
       "name": "Jim Brown",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
       "caption": "Jim Brown (United States)",
-      "file": "1930/USA/jim-brown.svg"
+      "file": "1930/USA/jim-brown.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Jim_Brown_%281961%29_%28cropped%29.jpg/330px-Jim_Brown_%281961%29_%28cropped%29.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Jim_Brown"
     },
     "1930:USA:jimmy-douglas": {
       "year": 1930,
       "teamCode": "USA",
       "team": "United States",
       "name": "Jimmy Douglas",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
       "caption": "Jimmy Douglas (United States)",
-      "file": "1930/USA/jimmy-douglas.svg"
+      "file": "1930/USA/jimmy-douglas.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/4/46/Jimmy_douglas_us_goalkeeper.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Jimmy_Douglas_(American_soccer)"
     },
     "1930:USA:jimmy-gallagher": {
       "year": 1930,
       "teamCode": "USA",
       "team": "United States",
       "name": "Jimmy Gallagher",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
       "caption": "Jimmy Gallagher (United States)",
-      "file": "1930/USA/jimmy-gallagher.svg"
+      "file": "1930/USA/jimmy-gallagher.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Jimmy_Gallagher_US_Soccer_Team_1930.png/330px-Jimmy_Gallagher_US_Soccer_Team_1930.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Jimmy_Gallagher"
     },
     "1930:USA:mike-bookie": {
       "year": 1930,
       "teamCode": "USA",
       "team": "United States",
       "name": "Mike Bookie",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
       "caption": "Mike Bookie (United States)",
-      "file": "1930/USA/mike-bookie.svg"
+      "file": "1930/USA/mike-bookie.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b6/Mike_Bookie.jpg/330px-Mike_Bookie.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Mike_Bookie"
     },
     "1930:USA:philip-slone": {
       "year": 1930,
       "teamCode": "USA",
       "team": "United States",
       "name": "Philip Slone",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikimedia Commons contributors",
+      "license": "See source page",
       "caption": "Philip Slone (United States)",
-      "file": "1930/USA/philip-slone.svg"
+      "file": "1930/USA/philip-slone.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Tabular_view_of_the_orders_%26_families_of_fishes_%28IA_tabularviewoford00goss%29.pdf/page1-960px-Tabular_view_of_the_orders_%26_families_of_fishes_%28IA_tabularviewoford00goss%29.pdf.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tabular%20view%20of%20the%20orders%20%26%20families%20of%20fishes%20(IA%20tabularviewoford00goss).pdf"
     },
     "1930:USA:raphael-tracey": {
       "year": 1930,
       "teamCode": "USA",
       "team": "United States",
       "name": "Raphael Tracey",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
       "caption": "Raphael Tracey (United States)",
-      "file": "1930/USA/raphael-tracey.svg"
+      "file": "1930/USA/raphael-tracey.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/en/1/1e/Raphael_Tracey.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Raphael_Tracey"
     },
     "1930:USA:tom-florie": {
       "year": 1930,
       "teamCode": "USA",
       "team": "United States",
       "name": "Tom Florie",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
       "caption": "Tom Florie (United States)",
-      "file": "1930/USA/tom-florie.svg"
+      "file": "1930/USA/tom-florie.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b5/Thomas_Florie.jpg/330px-Thomas_Florie.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Tom_Florie"
     },
     "1930:YUG:aleksandar-tirnanic": {
       "year": 1930,
       "teamCode": "YUG",
       "team": "Yugoslavia",
       "name": "Aleksandar Tirnanić",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
       "caption": "Aleksandar Tirnanić (Yugoslavia)",
-      "file": "1930/YUG/aleksandar-tirnanic.svg"
+      "file": "1930/YUG/aleksandar-tirnanic.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/6/69/Aleksandar_Tirnani%C4%87.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Aleksandar_Tirnani%C4%87"
     },
     "1930:YUG:blagoje-marjanovic": {
       "year": 1930,
       "teamCode": "YUG",
       "team": "Yugoslavia",
       "name": "Blagoje Marjanović",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
       "caption": "Blagoje Marjanović (Yugoslavia)",
-      "file": "1930/YUG/blagoje-marjanovic.svg"
+      "file": "1930/YUG/blagoje-marjanovic.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/en/f/f7/Mo%C5%A1a_Marjanovi%C4%87.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Blagoje_Marjanovi%C4%87"
     },
     "1930:YUG:bozidar-markovic": {
       "year": 1930,
       "teamCode": "YUG",
       "team": "Yugoslavia",
       "name": "Bozidar Marković",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikimedia Commons contributors",
+      "license": "See source page",
       "caption": "Bozidar Marković (Yugoslavia)",
-      "file": "1930/YUG/bozidar-markovic.svg"
+      "file": "1930/YUG/bozidar-markovic.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/2/20/Bo%C5%BEidar_Markovi%C4%87_crop.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bo%C5%BEidar%20Markovi%C4%87%20crop.jpg"
     },
     "1930:YUG:branislav-hrnjicek": {
       "year": 1930,
@@ -13511,110 +13635,132 @@
       "teamCode": "YUG",
       "team": "Yugoslavia",
       "name": "Branislav Sekulić",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
       "caption": "Branislav Sekulić (Yugoslavia)",
-      "file": "1930/YUG/branislav-sekulic.svg"
+      "file": "1930/YUG/branislav-sekulic.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Yugoslavia_nationalteam_1930.jpg/330px-Yugoslavia_nationalteam_1930.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Branislav_Sekuli%C4%87"
     },
     "1930:YUG:or-e-vujadinovic": {
       "year": 1930,
       "teamCode": "YUG",
       "team": "Yugoslavia",
       "name": "Đorđe Vujadinović",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
       "caption": "Đorđe Vujadinović (Yugoslavia)",
-      "file": "1930/YUG/or-e-vujadinovic.svg"
+      "file": "1930/YUG/or-e-vujadinovic.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Yugoslavia_nationalteam_1930.jpg/330px-Yugoslavia_nationalteam_1930.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/%C4%90or%C4%91e_Vujadinovi%C4%87"
     },
     "1930:YUG:dragomir-tosic": {
       "year": 1930,
       "teamCode": "YUG",
       "team": "Yugoslavia",
       "name": "Dragomir Tošić",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikimedia Commons contributors",
+      "license": "See source page",
       "caption": "Dragomir Tošić (Yugoslavia)",
-      "file": "1930/YUG/dragomir-tosic.svg"
+      "file": "1930/YUG/dragomir-tosic.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Dragan_Mar%C5%A1i%C4%87anin.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dragan%20Mar%C5%A1i%C4%87anin.jpg"
     },
     "1930:YUG:dragoslav-mihajlovic": {
       "year": 1930,
       "teamCode": "YUG",
       "team": "Yugoslavia",
       "name": "Dragoslav Mihajlović",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
       "caption": "Dragoslav Mihajlović (Yugoslavia)",
-      "file": "1930/YUG/dragoslav-mihajlovic.svg"
+      "file": "1930/YUG/dragoslav-mihajlovic.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Jaksic_Mihajlovic_Theophilo_%28Dragoslav%29.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Dragoslav_Mihajlovi%C4%87"
     },
     "1930:YUG:dragutin-najdanovic": {
       "year": 1930,
       "teamCode": "YUG",
       "team": "Yugoslavia",
       "name": "Dragutin Najdanović",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikimedia Commons contributors",
+      "license": "See source page",
       "caption": "Dragutin Najdanović (Yugoslavia)",
-      "file": "1930/YUG/dragutin-najdanovic.svg"
+      "file": "1930/YUG/dragutin-najdanovic.svg",
+      "thumbUrl": "https://commons.wikimedia.org/w/resources/assets/file-type-icons/fileicon-ogg.png",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:LL-Q36236%20(mal)-BhagyaMohan-%E0%B4%B0%E0%B4%9C%E0%B4%A8%E0%B5%80%E0%B4%AA%E0%B4%A4%E0%B4%BF.wav"
     },
     "1930:YUG:ivan-bek": {
       "year": 1930,
       "teamCode": "YUG",
       "team": "Yugoslavia",
       "name": "Ivan Bek",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikimedia Commons contributors",
+      "license": "See source page",
       "caption": "Ivan Bek (Yugoslavia)",
-      "file": "1930/YUG/ivan-bek.svg"
+      "file": "1930/YUG/ivan-bek.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Ivan_Bek_%281928%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ivan%20Bek%20(1928).jpg"
     },
     "1930:YUG:ljubisa-stefanovic": {
       "year": 1930,
       "teamCode": "YUG",
       "team": "Yugoslavia",
       "name": "Ljubiša Stefanović",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
       "caption": "Ljubiša Stefanović (Yugoslavia)",
-      "file": "1930/YUG/ljubisa-stefanovic.svg"
+      "file": "1930/YUG/ljubisa-stefanovic.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Football_Association_of_Yugoslavia_logo_%281991-1992%29.svg/330px-Football_Association_of_Yugoslavia_logo_%281991-1992%29.svg.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Yugoslavia_national_football_team"
     },
     "1930:YUG:milan-stojanovic": {
       "year": 1930,
       "teamCode": "YUG",
       "team": "Yugoslavia",
       "name": "Milan Stojanović",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikimedia Commons contributors",
+      "license": "See source page",
       "caption": "Milan Stojanović (Yugoslavia)",
-      "file": "1930/YUG/milan-stojanovic.svg"
+      "file": "1930/YUG/milan-stojanovic.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Andrija_Stojanovi%C4%87_-_Milo%C5%A1_Milanovi%C4%87_-_Milan_Pa%C5%A1ajli%C4%87_20250813.jpg/960px-Andrija_Stojanovi%C4%87_-_Milo%C5%A1_Milanovi%C4%87_-_Milan_Pa%C5%A1ajli%C4%87_20250813.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Andrija%20Stojanovi%C4%87%20-%20Milo%C5%A1%20Milanovi%C4%87%20-%20Milan%20Pa%C5%A1ajli%C4%87%2020250813.jpg"
     },
     "1930:YUG:milorad-arsenijevic": {
       "year": 1930,
       "teamCode": "YUG",
       "team": "Yugoslavia",
       "name": "Milorad Arsenijević",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
       "caption": "Milorad Arsenijević (Yugoslavia)",
-      "file": "1930/YUG/milorad-arsenijevic.svg"
+      "file": "1930/YUG/milorad-arsenijevic.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Milorad_Arsenijevi%C4%87_%281928%29.jpg/330px-Milorad_Arsenijevi%C4%87_%281928%29.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Milorad_Arsenijevi%C4%87"
     },
     "1930:YUG:milovan-jaksic": {
       "year": 1930,
       "teamCode": "YUG",
       "team": "Yugoslavia",
       "name": "Milovan Jakšić",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
       "caption": "Milovan Jakšić (Yugoslavia)",
-      "file": "1930/YUG/milovan-jaksic.svg"
+      "file": "1930/YUG/milovan-jaksic.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/3/39/Jaksic_Mihajlovic_Theophilo_%28Milovan%29.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Milovan_Jak%C5%A1i%C4%87"
     },
     "1930:YUG:milutin-ivkovic": {
       "year": 1930,
       "teamCode": "YUG",
       "team": "Yugoslavia",
       "name": "Milutin Ivković",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
       "caption": "Milutin Ivković (Yugoslavia)",
-      "file": "1930/YUG/milutin-ivkovic.svg"
+      "file": "1930/YUG/milutin-ivkovic.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Milutin_Ivkovi%C4%87_%281928%29.jpg/330px-Milutin_Ivkovi%C4%87_%281928%29.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Milutin_Ivkovi%C4%87"
     },
     "1930:YUG:momcilo-okic": {
       "year": 1930,
@@ -13681,10 +13827,12 @@
       "teamCode": "BRA",
       "team": "Brazil",
       "name": "Carvalho Leite",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikidata/Wikimedia Commons contributors",
+      "license": "See source page",
       "caption": "Carvalho Leite (Brazil)",
-      "file": "1930/BRA/carvalho-leite.svg"
+      "file": "1930/BRA/carvalho-leite.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/3/39/Carvalho_Leite.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Carvalho%20Leite.jpg"
     },
     "1930:BRA:doca": {
       "year": 1930,
@@ -13971,10 +14119,12 @@
       "teamCode": "CHI",
       "team": "Chile",
       "name": "Guillermo Riveros",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikidata/Wikimedia Commons contributors",
+      "license": "See source page",
       "caption": "Guillermo Riveros (Chile)",
-      "file": "1930/CHI/guillermo-riveros.svg"
+      "file": "1930/CHI/guillermo-riveros.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/2/21/Guillermo_Riveros%2C_Estadio%2C_1943-06-18_%2846%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Guillermo%20Riveros%2C%20Estadio%2C%201943-06-18%20(46).jpg"
     },
     "1930:CHI:guillermo-saavedra": {
       "year": 1930,
@@ -13991,20 +14141,24 @@
       "teamCode": "CHI",
       "team": "Chile",
       "name": "Guillermo Subiabre",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikidata/Wikimedia Commons contributors",
+      "license": "See source page",
       "caption": "Guillermo Subiabre (Chile)",
-      "file": "1930/CHI/guillermo-subiabre.svg"
+      "file": "1930/CHI/guillermo-subiabre.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Guillermo_Subiabre%2C_Los_Sports%2C_1928-06-01_%28273%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Guillermo%20Subiabre%2C%20Los%20Sports%2C%201928-06-01%20(273).jpg"
     },
     "1930:CHI:horacio-munoz": {
       "year": 1930,
       "teamCode": "CHI",
       "team": "Chile",
       "name": "Horacio Muñoz",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikidata/Wikimedia Commons contributors",
+      "license": "See source page",
       "caption": "Horacio Muñoz (Chile)",
-      "file": "1930/CHI/horacio-munoz.svg"
+      "file": "1930/CHI/horacio-munoz.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Horacio_Mu%C3%B1oz%2C_Los_Sports%2C_1925-05-29_%28116%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Horacio%20Mu%C3%B1oz%2C%20Los%20Sports%2C%201925-05-29%20(116).jpg"
     },
     "1930:CHI:humberto-elgueta": {
       "year": 1930,
@@ -14031,30 +14185,36 @@
       "teamCode": "CHI",
       "team": "Chile",
       "name": "Roberto Cortés",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikidata/Wikimedia Commons contributors",
+      "license": "See source page",
       "caption": "Roberto Cortés (Chile)",
-      "file": "1930/CHI/roberto-cortes.svg"
+      "file": "1930/CHI/roberto-cortes.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Viejito_Cort%C3%A9s_-_1934.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Viejito%20Cort%C3%A9s%20-%201934.jpg"
     },
     "1930:CHI:tomas-ojeda": {
       "year": 1930,
       "teamCode": "CHI",
       "team": "Chile",
       "name": "Tomás Ojeda",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikidata/Wikimedia Commons contributors",
+      "license": "See source page",
       "caption": "Tomás Ojeda (Chile)",
-      "file": "1930/CHI/tomas-ojeda.svg"
+      "file": "1930/CHI/tomas-ojeda.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/3/37/Tom%C3%A1s_Ojeda%2C_Los_Sports%2C_1930-06-20_%28378%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tom%C3%A1s%20Ojeda%2C%20Los%20Sports%2C%201930-06-20%20(378).jpg"
     },
     "1930:CHI:ulises-poirier": {
       "year": 1930,
       "teamCode": "CHI",
       "team": "Chile",
       "name": "Ulises Poirier",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikidata/Wikimedia Commons contributors",
+      "license": "See source page",
       "caption": "Ulises Poirier (Chile)",
-      "file": "1930/CHI/ulises-poirier.svg"
+      "file": "1930/CHI/ulises-poirier.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Ulises_Poirier%2C_Estadio%2C_1948-05-22_%28262%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ulises%20Poirier%2C%20Estadio%2C%201948-05-22%20(262).jpg"
     },
     "1930:CHI:victor-morales": {
       "year": 1930,
@@ -14091,20 +14251,24 @@
       "teamCode": "FRA",
       "team": "France",
       "name": "André Maschinot",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikidata/Wikimedia Commons contributors",
+      "license": "See source page",
       "caption": "André Maschinot (France)",
-      "file": "1930/FRA/andre-maschinot.svg"
+      "file": "1930/FRA/andre-maschinot.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/6/63/Andr%C3%A9_Maschinot.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Andr%C3%A9%20Maschinot.jpg"
     },
     "1930:FRA:andre-tassin": {
       "year": 1930,
       "teamCode": "FRA",
       "team": "France",
       "name": "André Tassin",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikidata/Wikimedia Commons contributors",
+      "license": "See source page",
       "caption": "André Tassin (France)",
-      "file": "1930/FRA/andre-tassin.svg"
+      "file": "1930/FRA/andre-tassin.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Andr%C3%A9_Tassin_1930.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Andr%C3%A9%20Tassin%201930.jpg"
     },
     "1930:FRA:augustin-chantrel": {
       "year": 1930,
@@ -14771,10 +14935,12 @@
       "teamCode": "PER",
       "team": "Peru",
       "name": "Julio Lores",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikidata/Wikimedia Commons contributors",
+      "license": "See source page",
       "caption": "Julio Lores (Peru)",
-      "file": "1930/PER/julio-lores.svg"
+      "file": "1930/PER/julio-lores.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Rumania_v_Per%C3%BA%2C_Los_Sports%2C_1930-07-25_%28385%29_02.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rumania%20v%20Per%C3%BA%2C%20Los%20Sports%2C%201930-07-25%20(385)%2002.jpg"
     },
     "1930:PER:julio-quintana": {
       "year": 1930,
@@ -14851,10 +15017,12 @@
       "teamCode": "ROU",
       "team": "Romania",
       "name": "Adalbert Steiner",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikidata/Wikimedia Commons contributors",
+      "license": "See source page",
       "caption": "Adalbert Steiner (Romania)",
-      "file": "1930/ROU/adalbert-steiner.svg"
+      "file": "1930/ROU/adalbert-steiner.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Adalbert_Steiner_1966_%28cropped%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Adalbert%20Steiner%201966%20(cropped).jpg"
     },
     "1930:ROU:alfred-eisenbeisser": {
       "year": 1930,
@@ -15151,10 +15319,12 @@
       "teamCode": "BOL",
       "team": "Bolivia",
       "name": "Casiano Chavarría",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikidata/Wikimedia Commons contributors",
+      "license": "See source page",
       "caption": "Casiano Chavarría (Bolivia)",
-      "file": "1930/BOL/casiano-chavarria.svg"
+      "file": "1930/BOL/casiano-chavarria.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/6/61/Casiano_Chavarr%C3%ADa%2C_Los_Sports%2C_1926-10-15_%28188%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Casiano%20Chavarr%C3%ADa%2C%20Los%20Sports%2C%201926-10-15%20(188).jpg"
     },
     "1930:BOL:constantino-noya": {
       "year": 1930,
@@ -15271,10 +15441,12 @@
       "teamCode": "BOL",
       "team": "Bolivia",
       "name": "Miguel Murillo",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikidata/Wikimedia Commons contributors",
+      "license": "See source page",
       "caption": "Miguel Murillo (Bolivia)",
-      "file": "1930/BOL/miguel-murillo.svg"
+      "file": "1930/BOL/miguel-murillo.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Miguel_Murillo.JPG/960px-Miguel_Murillo.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Miguel%20Murillo.JPG"
     },
     "1930:BOL:rafael-mendez": {
       "year": 1930,
@@ -15301,10 +15473,12 @@
       "teamCode": "BOL",
       "team": "Bolivia",
       "name": "René Fernández",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikidata/Wikimedia Commons contributors",
+      "license": "See source page",
       "caption": "René Fernández (Bolivia)",
-      "file": "1930/BOL/rene-fernandez.svg"
+      "file": "1930/BOL/rene-fernandez.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/7/74/Bolivia_1930.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bolivia%201930.jpg"
     },
     "1930:BOL:segundo-durandal": {
       "year": 1930,

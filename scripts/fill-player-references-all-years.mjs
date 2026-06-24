@@ -5,6 +5,8 @@ const repoRoot = process.cwd()
 const squadsFile = path.join(repoRoot, 'src', 'data', 'tournamentSquads.json')
 const teamsFile = path.join(repoRoot, 'src', 'data', 'teams.json')
 const outputFile = path.join(repoRoot, 'src', 'data', 'playerImages.json')
+const REQUEST_TIMEOUT_MS = Number.parseInt(process.env.PLAYER_REF_TIMEOUT_MS || '1800', 10)
+const REQUEST_ATTEMPTS = Number.parseInt(process.env.PLAYER_REF_ATTEMPTS || '1', 10)
 
 function slugify(input) {
   return String(input || '')
@@ -45,7 +47,7 @@ async function fetchJson(url, attempts = 1) {
 
   for (let i = 0; i < attempts; i += 1) {
     const controller = new AbortController()
-    const timeoutId = setTimeout(() => controller.abort(), 3500)
+    const timeoutId = setTimeout(() => controller.abort(), REQUEST_TIMEOUT_MS)
 
     try {
       const response = await fetch(url, {
@@ -92,13 +94,13 @@ async function findWikipediaTitle(query) {
   const apiUrl =
     'https://en.wikipedia.org/w/api.php?action=query&list=search&srlimit=1&format=json&origin=*' +
     `&srsearch=${encodeURIComponent(query)}`
-  const data = await fetchJson(apiUrl)
+  const data = await fetchJson(apiUrl, REQUEST_ATTEMPTS)
   return data?.query?.search?.[0]?.title || null
 }
 
 async function getWikipediaSummary(title) {
   const summaryUrl = `https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(title)}`
-  return fetchJson(summaryUrl)
+  return fetchJson(summaryUrl, REQUEST_ATTEMPTS)
 }
 
 async function findCommonsImage(query) {
@@ -106,7 +108,7 @@ async function findCommonsImage(query) {
     'https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrnamespace=6&gsrlimit=1&prop=imageinfo&iiprop=url&iiurlwidth=700&format=json&origin=*' +
     `&gsrsearch=${encodeURIComponent(query)}`
 
-  const data = await fetchJson(apiUrl)
+  const data = await fetchJson(apiUrl, REQUEST_ATTEMPTS)
   const pages = data?.query?.pages ? Object.values(data.query.pages) : []
   const page = pages[0]
   if (!page) return null
@@ -128,7 +130,7 @@ async function findWikidataImage(query) {
   const searchUrl =
     'https://www.wikidata.org/w/api.php?action=wbsearchentities&language=en&format=json&limit=3&origin=*' +
     `&search=${encodeURIComponent(query)}`
-  const searchData = await fetchJson(searchUrl)
+  const searchData = await fetchJson(searchUrl, REQUEST_ATTEMPTS)
   const candidates = searchData?.search || []
 
   for (const candidate of candidates) {
@@ -138,7 +140,7 @@ async function findWikidataImage(query) {
     const entityUrl =
       'https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&props=claims&origin=*' +
       `&ids=${encodeURIComponent(id)}`
-    const entityData = await fetchJson(entityUrl)
+    const entityData = await fetchJson(entityUrl, REQUEST_ATTEMPTS)
     const entity = entityData?.entities?.[id]
     const p18 = entity?.claims?.P18?.[0]?.mainsnak?.datavalue?.value
     if (!p18) continue
@@ -159,26 +161,58 @@ async function findWikidataImage(query) {
 }
 
 async function resolvePlayerImage(playerName, teamName) {
+  const useWikidataOnly = process.env.PLAYER_REF_WIKIDATA_ONLY === '1'
+  const fastMode = process.env.PLAYER_REF_FAST_MODE === '1'
+  const useCommonsFallback = process.env.PLAYER_REF_USE_COMMONS !== '0'
   const queries = [
     `${playerName} footballer`,
     `${playerName} ${teamName} footballer`,
   ]
 
-  for (const query of queries) {
-    try {
-      const title = await findWikipediaTitle(query)
-      if (!title) continue
-      const summary = await getWikipediaSummary(title)
-      const thumbUrl = summary?.thumbnail?.source || null
-      if (!thumbUrl) continue
-      return {
-        thumbUrl,
-        sourceUrl: summary?.content_urls?.desktop?.page || null,
-        author: 'Wikipedia contributors',
-        license: 'See source page',
+  if (!useWikidataOnly) {
+    for (const query of queries) {
+      try {
+        const title = await findWikipediaTitle(query)
+        if (!title) continue
+        const summary = await getWikipediaSummary(title)
+        const thumbUrl = summary?.thumbnail?.source || null
+        if (!thumbUrl) continue
+        return {
+          thumbUrl,
+          sourceUrl: summary?.content_urls?.desktop?.page || null,
+          author: 'Wikipedia contributors',
+          license: 'See source page',
+        }
+      } catch {
+        await wait(150)
       }
+    }
+  }
+
+  const fallbackQueriesAll = [
+    `${playerName}`,
+    `${playerName} footballer`,
+    `${playerName} ${teamName}`,
+  ]
+  const fallbackQueries = fastMode ? fallbackQueriesAll.slice(0, 1) : fallbackQueriesAll
+
+  for (const query of fallbackQueries) {
+    try {
+      const fromWikidata = await findWikidataImage(query)
+      if (fromWikidata?.thumbUrl) return fromWikidata
     } catch {
-      await wait(150)
+      await wait(80)
+    }
+  }
+
+  if (useCommonsFallback) {
+    for (const query of fallbackQueries) {
+      try {
+        const fromCommons = await findCommonsImage(query)
+        if (fromCommons?.thumbUrl) return fromCommons
+      } catch {
+        await wait(80)
+      }
     }
   }
 
@@ -281,6 +315,9 @@ async function main() {
           processed += 1
           byYear[year].skipped += 1
           byYear[year].processed += 1
+          if (processed % 100 === 0) {
+            console.log(`Progress: processed=${processed}, resolved=${resolved}, failed=${failed}, skipped=${skipped}`)
+          }
           continue
         }
 
