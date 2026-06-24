@@ -17,7 +17,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Official Ball 1930: T-Model / Tiento",
-      "sourceUrl": "https://en.wikipedia.org/wiki/Ball_(association_football)",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/1930_World_Cup_Final_ball_Argentina.jpg/500px-1930_World_Cup_Final_ball_Argentina.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:1930_World_Cup_Final_ball_Argentina.jpg",
       "file": "1930/ball.jpg"
     },
     "1930:emblem": {
@@ -36,7 +37,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Official Ball 1934: Federale 102",
-      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_FIFA_World_Cup_official_match_balls",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Federale_102.jpg/500px-Federale_102.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Federale_102.jpg",
       "file": "1934/ball.jpg"
     },
     "1934:emblem": {
@@ -55,8 +57,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Official Ball 1938: Allen",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Giant_balls.jpg/960px-Giant_balls.jpg",
-      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_FIFA_World_Cup_official_match_balls",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/1/11/Allen-1938.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Allen-1938.jpg",
       "file": "1938/ball.jpg"
     },
     "1938:emblem": {
@@ -75,7 +77,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Official Ball 1950: Superball Duplo T",
-      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_FIFA_World_Cup_official_match_balls",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/9/93/Duplo_T-1950.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Duplo_T-1950.jpg",
       "file": "1950/ball.jpg"
     },
     "1950:emblem": {
@@ -94,6 +97,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Official Ball 1954: Swiss World Champion",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Swiss_World_Champion-1954.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Swiss_World_Champion-1954.jpg",
       "file": "1954/ball.jpg"
     },
     "1954:emblem": {
@@ -112,6 +117,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Official Ball 1958: Top Star",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/1/10/Balon_mundial_1958.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Balon_mundial_1958.jpg",
       "file": "1958/ball.jpg"
     },
     "1958:emblem": {
@@ -130,6 +137,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Official Ball 1962: Crack",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Crack-1962.jpg/500px-Crack-1962.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Crack-1962.jpg",
       "file": "1962/ball.jpg"
     },
     "1962:emblem": {
@@ -148,6 +157,8 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Official Ball 1966: Slazenger Challenge 4-Star",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/World_Cup_Ball_1966.jpg/500px-World_Cup_Ball_1966.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:World_Cup_Ball_1966.jpg",
       "file": "1966/ball.jpg"
     },
     "1966:mascot": {
@@ -559,11 +570,12 @@
     },
     "2026:ball": {
       "key": "2026:ball",
-      "label": "Official Ball 2026: TBD",
+      "label": "Official Ball 2026: Adidas Trionda",
       "author": "Wikipedia contributors",
       "license": "See source page",
-      "caption": "Official Ball 2026: TBD",
+      "caption": "Official Ball 2026: Adidas Trionda",
       "thumbUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/1/17/2026_FIFA_World_Cup_emblem.svg/330px-2026_FIFA_World_Cup_emblem.svg.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/List_of_FIFA_World_Cup_official_match_balls",
       "file": "2026/ball.svg"
     },
     "2026:mascot": {

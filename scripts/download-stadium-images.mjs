@@ -7,7 +7,6 @@ const repoRoot = path.resolve(__dirname, '..')
 const dataFile = path.join(repoRoot, 'src', 'data', 'stadiumImages.json')
 const albumsFile = path.join(repoRoot, 'src', 'data', 'albums.json')
 const outputDir = path.join(repoRoot, 'public', 'images', 'stadiums')
-const yearsOutputDir = path.join(repoRoot, 'public', 'images', 'years')
 
 function slugifyAssetName(input) {
   return String(input || '')
@@ -50,13 +49,6 @@ async function fileExists(filePath) {
   } catch {
     return false
   }
-}
-
-async function copyIfExists(fromPath, toPath) {
-  if (!(await fileExists(fromPath))) return false
-  await ensureDir(path.dirname(toPath))
-  await fs.copyFile(fromPath, toPath)
-  return true
 }
 
 async function fetchJson(url) {
@@ -151,7 +143,6 @@ async function resolveFallbackImageMeta(label, existingEntry) {
 
 async function main() {
   await ensureDir(outputDir)
-  await ensureDir(yearsOutputDir)
 
   const json = await readJson(dataFile)
   const albums = await readJson(albumsFile)
@@ -198,19 +189,19 @@ async function main() {
     }
 
     const ext = detectExtension(thumbUrl)
-    const fileName = entry.file || `${slugifyAssetName(label)}${ext}`
+    const slug = slugifyAssetName(label)
+    const fileName = `${slug}${ext}`
     const outPath = path.join(outputDir, fileName)
 
-    if (!entry.file) {
-      entry.file = fileName
-    }
+    // Update entry file to the photo extension
+    entry.file = fileName
 
-    try {
-      await fs.access(outPath)
+    // Skip if a real photo already exists (not an SVG placeholder)
+    const existingSvg = path.join(outputDir, `${slug}.svg`)
+    const hasRealPhoto = await fileExists(outPath) && !outPath.endsWith('.svg')
+    if (hasRealPhoto) {
       skipped += 1
       continue
-    } catch {
-      // File does not exist yet.
     }
 
     try {
@@ -225,40 +216,14 @@ async function main() {
     }
   }
 
-  let yearCopies = 0
-  let yearMissing = 0
-  for (const album of albums) {
-    const yearDir = path.join(yearsOutputDir, String(album.year))
-    const stadiumYearDir = path.join(yearDir, 'stadiums')
-    await ensureDir(stadiumYearDir)
-
-    const coverSource = album.coverImage
-      ? path.join(repoRoot, 'public', album.coverImage.replace(/^\.\//, ''))
-      : null
-    const coverTarget = coverSource
-      ? path.join(yearDir, `cover${path.extname(coverSource) || '.svg'}`)
-      : null
-    if (coverSource && coverTarget) {
-      const copied = await copyIfExists(coverSource, coverTarget)
-      if (copied) yearCopies += 1
-    }
-
-    for (const label of album.stadiums || []) {
-      const entry = images[label]
-      if (!entry) {
-        yearMissing += 1
-        continue
-      }
-
-      const fileName = entry.file || `${slugifyAssetName(label)}.jpg`
-      const source = path.join(outputDir, fileName)
-      const target = path.join(stadiumYearDir, fileName)
-      const copied = await copyIfExists(source, target)
-      if (copied) {
-        yearCopies += 1
-      } else {
-        yearMissing += 1
-      }
+  // Remove SVG placeholders that were replaced by real photos
+  for (const [label, entry] of Object.entries(images)) {
+    const slug = slugifyAssetName(label)
+    const svgPath = path.join(outputDir, `${slug}.svg`)
+    const photoPath = path.join(outputDir, entry.file || '')
+    if (entry.file && !entry.file.endsWith('.svg') && await fileExists(svgPath) && await fileExists(photoPath)) {
+      await fs.unlink(svgPath)
+      console.log(`Removed SVG placeholder: ${slug}.svg`)
     }
   }
 
@@ -267,7 +232,6 @@ async function main() {
   console.log('')
   console.log(`Done. downloaded=${downloaded}, skipped=${skipped}, failed=${failed}, resolved=${resolved}`)
   console.log(`Status: missingEntry=${stillMissingEntry}, missingFile=${stillMissingFile}`)
-  console.log(`YearFolders: copied=${yearCopies}, missing=${yearMissing}`)
 }
 
 main().catch((error) => {

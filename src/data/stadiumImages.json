@@ -150,24 +150,24 @@
       "author": "Wikimedia Commons",
       "license": "CC-BY-SA-4.0",
       "caption": "Luzhniki Stadium, Moscow — host of the 2018 Final.",
-      "file": "luzhniki-stadium-moscow.svg"
+      "file": "luzhniki-stadium-moscow.jpg"
     },
     "Al Bayt Stadium": {
       "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Al_Bayt_Stadium.jpg/400px-Al_Bayt_Stadium.jpg",
       "author": "Wikimedia Commons",
       "license": "CC-BY-SA-4.0",
       "caption": "Al Bayt Stadium, Al Khor — 2022 World Cup venue.",
-      "file": "al-bayt-stadium.svg"
+      "file": "al-bayt-stadium.jpg"
     },
     "Luzhniki Stadium": {
-      "file": "luzhniki-stadium-moscow.svg",
+      "file": "luzhniki-stadium.jpg",
       "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Luzhniki_Stadium_%28LCA%29.jpg/400px-Luzhniki_Stadium_%28LCA%29.jpg",
       "author": "Soccer.ru",
       "license": "CC-BY-SA-3.0",
       "caption": "Luzhniki Stadium, Moscow — host of the 2018 Final."
     },
     "Lusail Iconic Stadium": {
-      "file": "lusail-iconic-stadium.svg",
+      "file": "lusail-iconic-stadium.jpg",
       "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Al_Bayt_Stadium.jpg/400px-Al_Bayt_Stadium.jpg",
       "author": "Hamad I Mohammed",
       "license": "CC-BY-SA-4.0",
@@ -319,19 +319,25 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "St. Jakob (Basel) - FIFA World Cup venue.",
-      "file": "st-jakob-basel.svg"
+      "file": "st-jakob-basel.jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/StJakobParkB.JPG/3840px-StJakobParkB.JPG",
+      "sourceUrl": "https://en.wikipedia.org/wiki/St._Jakob-Park"
     },
     "Hardturm (Zürich)": {
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Hardturm (Zürich) - FIFA World Cup venue.",
-      "file": "hardturm-zurich.svg"
+      "file": "hardturm-zurich.jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Letzigrund_2024_2.jpg/3840px-Letzigrund_2024_2.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Letzigrund"
     },
     "Ullevi (Gothenburg)": {
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Ullevi (Gothenburg) - FIFA World Cup venue.",
-      "file": "ullevi-gothenburg.svg"
+      "file": "ullevi-gothenburg.jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/8/86/Nya_Ullevi_2013-07-06_001.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ullevi"
     },
     "Estadio Azteca": {
       "author": "Wikipedia contributors",
@@ -373,37 +379,49 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Estadio José Amalfitani - FIFA World Cup venue.",
-      "file": "estadio-jose-amalfitani.svg"
+      "file": "estadio-jose-amalfitani.jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Estadio_Jos%C3%A9_Amalfitani_2024.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Jos%C3%A9_Amalfitani_Stadium"
     },
     "Estadio Chateau Carreras (Córdoba)": {
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Estadio Chateau Carreras (Córdoba) - FIFA World Cup venue.",
-      "file": "estadio-chateau-carreras-cordoba.svg"
+      "file": "estadio-chateau-carreras-cordoba.jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Argentina_-_Colombia_2022_%28134%29.jpg/3840px-Argentina_-_Colombia_2022_%28134%29.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Estadio_Mario_Alberto_Kempes"
     },
     "Estadio Ciudad de Mendoza": {
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Estadio Ciudad de Mendoza - FIFA World Cup venue.",
-      "file": "estadio-ciudad-de-mendoza.svg"
+      "file": "estadio-ciudad-de-mendoza.jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Argentina_vs._Uruguay_-_Mendoza_2016.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Estadio_Malvinas_Argentinas"
     },
     "Sánchez Pizjuán (Sevilla)": {
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Sánchez Pizjuán (Sevilla) - FIFA World Cup venue.",
-      "file": "sanchez-pizjuan-sevilla.svg"
+      "file": "sanchez-pizjuan-sevilla.jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/2022-10-25_1_Estadio_Ram%C3%B3n_S%C3%A1nchez_Pizju%C3%A1n_%28Sevilla_FC%29.jpg/3840px-2022-10-25_1_Estadio_Ram%C3%B3n_S%C3%A1nchez_Pizju%C3%A1n_%28Sevilla_FC%29.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ram%C3%B3n_S%C3%A1nchez-Pizju%C3%A1n_Stadium"
     },
     "Estadio Vicente Calderón": {
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Estadio Vicente Calderón - FIFA World Cup venue.",
-      "file": "estadio-vicente-calderon.svg"
+      "file": "estadio-vicente-calderon.jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Aprobado_el_nuevo_%C3%A1mbito_Mahou-Calder%C3%B3n_%2801%29.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Vicente_Calder%C3%B3n_Stadium"
     },
     "Estadio Universitario": {
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Estadio Universitario - FIFA World Cup venue.",
-      "file": "estadio-universitario.svg"
+      "file": "estadio-universitario.jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Estadio_Ol%C3%ADmpico_Universitario_-_2026_-_04.jpg/3840px-Estadio_Ol%C3%ADmpico_Universitario_-_2026_-_04.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Estadio_Ol%C3%ADmpico_Universitario"
     },
     "Stadio Olimpico (Rome)": {
       "author": "Wikipedia contributors",
@@ -449,43 +467,57 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Cotton Bowl (Dallas) - FIFA World Cup venue.",
-      "file": "cotton-bowl-dallas.svg"
+      "file": "cotton-bowl-dallas.jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/View_from_Top_o%27_Texas_Tower_September_2019_10_%28Cotton_Bowl%29.jpg/3840px-View_from_Top_o%27_Texas_Tower_September_2019_10_%28Cotton_Bowl%29.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Cotton_Bowl_(stadium)"
     },
     "Parc des Princes (Paris)": {
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Parc des Princes (Paris) - FIFA World Cup venue.",
-      "file": "parc-des-princes-paris.svg"
+      "file": "parc-des-princes-paris.jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/en/f/fd/Paris_Le_Parc_des_Princes.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Parc_des_Princes"
     },
     "Stade Gerland (Lyon)": {
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Stade Gerland (Lyon) - FIFA World Cup venue.",
-      "file": "stade-gerland-lyon.svg"
+      "file": "stade-gerland-lyon.jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Matmut_stadium_de_gerland.jpg/3840px-Matmut_stadium_de_gerland.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Stade_de_Gerland"
     },
     "Seoul World Cup Stadium": {
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Seoul World Cup Stadium - FIFA World Cup venue.",
-      "file": "seoul-world-cup-stadium.svg"
+      "file": "seoul-world-cup-stadium.jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b8/AFC_Champions_League_Final_1st_leg.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Seoul_World_Cup_Stadium"
     },
     "Saitama Stadium 2002": {
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Saitama Stadium 2002 - FIFA World Cup venue.",
-      "file": "saitama-stadium-2002.svg"
+      "file": "saitama-stadium-2002.jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Saitama_Stadium_200113b13.jpg/3840px-Saitama_Stadium_200113b13.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Saitama_Stadium_2002"
     },
     "Sapporo Dome": {
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Sapporo Dome - FIFA World Cup venue.",
-      "file": "sapporo-dome.svg"
+      "file": "sapporo-dome.jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Sapporo_Dome_001.jpeg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Sapporo_Dome"
     },
     "Olympiastadion (Berlin)": {
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Olympiastadion (Berlin) - FIFA World Cup venue.",
-      "file": "olympiastadion-berlin.svg"
+      "file": "olympiastadion-berlin.png",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/6/64/Olympia_Stadion_Berlin_Logo.svg/500px-Olympia_Stadion_Berlin_Logo.svg.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Olympiastadion_(Berlin)"
     },
     "Veltins-Arena (Gelsenkirchen)": {
       "author": "Wikipedia contributors",
@@ -497,151 +529,201 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Cape Town Stadium - FIFA World Cup venue.",
-      "file": "cape-town-stadium.svg"
+      "file": "cape-town-stadium.jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d5/South_Africa_-_Cape_Town_Drieankerbaai_from_Lion%27s_head.jpg/3840px-South_Africa_-_Cape_Town_Drieankerbaai_from_Lion%27s_head.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Cape_Town_Stadium"
     },
     "Ellis Park (Johannesburg)": {
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Ellis Park (Johannesburg) - FIFA World Cup venue.",
-      "file": "ellis-park-johannesburg.svg"
+      "file": "ellis-park-johannesburg.jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Ellis_Park_Stadium.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ellis_Park_Stadium"
     },
     "Arena Castelão (Fortaleza)": {
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Arena Castelão (Fortaleza) - FIFA World Cup venue.",
-      "file": "arena-castelao-fortaleza.svg"
+      "file": "arena-castelao-fortaleza.jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Fortaleza_Arena_on_March_2014..jpg/3840px-Fortaleza_Arena_on_March_2014..jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Castel%C3%A3o_(Fortaleza)"
     },
     "Mineirão (Belo Horizonte)": {
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Mineirão (Belo Horizonte) - FIFA World Cup venue.",
-      "file": "mineirao-belo-horizonte.svg"
+      "file": "mineirao-belo-horizonte.jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Mineir%C3%A3o_%28Top_View%29.jpg/3840px-Mineir%C3%A3o_%28Top_View%29.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Mineir%C3%A3o"
     },
     "Saint Petersburg Stadium": {
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Saint Petersburg Stadium - FIFA World Cup venue.",
-      "file": "saint-petersburg-stadium.svg"
+      "file": "saint-petersburg-stadium.jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/5/53/Spb_06-2017_img40_Krestovsky_Stadium_%28cropped%29.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Krestovsky_Stadium"
     },
     "Fisht Stadium (Sochi)": {
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Fisht Stadium (Sochi) - FIFA World Cup venue.",
-      "file": "fisht-stadium-sochi.svg"
+      "file": "fisht-stadium-sochi.jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Sochi_adler_aerial_view_2018_23.jpg/3840px-Sochi_adler_aerial_view_2018_23.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Fisht_Olympic_Stadium"
     },
     "Kazan Arena": {
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Kazan Arena - FIFA World Cup venue.",
-      "file": "kazan-arena.svg"
+      "file": "kazan-arena.jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Kazan_Arena_%28Kazan%2C_RUS%29.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ak_Bars_Arena"
     },
     "Stadium 974": {
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Stadium 974 - FIFA World Cup venue.",
-      "file": "stadium-974.svg"
+      "file": "stadium-974.jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/en/a/a8/Stadium_974_exterior.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Stadium_974"
     },
     "Education City Stadium": {
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Education City Stadium - FIFA World Cup venue.",
-      "file": "education-city-stadium.svg"
+      "file": "education-city-stadium.jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/en/5/5c/Education_City_Stadium.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Education_City_Stadium"
     },
     "Ahmad bin Ali Stadium": {
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Ahmad bin Ali Stadium - FIFA World Cup venue.",
-      "file": "ahmad-bin-ali-stadium.svg"
+      "file": "ahmad-bin-ali-stadium.jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/Ahmed-bin-Ali-Stadium.jpg/3840px-Ahmed-bin-Ali-Stadium.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ahmad_bin_Ali_Stadium"
     },
     "Estadio BBVA (Monterrey)": {
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Estadio BBVA (Monterrey) - FIFA World Cup venue.",
-      "file": "estadio-bbva-monterrey.svg"
+      "file": "estadio-bbva-monterrey.jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/5/57/Mexico_Guadalupe_Monterrey_Estadio_BBVA_Bancomer_fifa_world_cup_2026_6.JPG",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Estadio_BBVA"
     },
     "Estadio Akron (Guadalajara)": {
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Estadio Akron (Guadalajara) - FIFA World Cup venue.",
-      "file": "estadio-akron-guadalajara.svg"
+      "file": "estadio-akron-guadalajara.jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Estadio_Akron_02-07-2022_cabecera_sur_lado_derecho_%283%29.jpg/3840px-Estadio_Akron_02-07-2022_cabecera_sur_lado_derecho_%283%29.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Estadio_Akron"
     },
     "BMO Field (Toronto)": {
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "BMO Field (Toronto) - FIFA World Cup venue.",
-      "file": "bmo-field-toronto.svg"
+      "file": "bmo-field-toronto.jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Toronto_BMO_Field_in_2024.jpg/3840px-Toronto_BMO_Field_in_2024.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/BMO_Field"
     },
     "BC Place (Vancouver)": {
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "BC Place (Vancouver) - FIFA World Cup venue.",
-      "file": "bc-place-vancouver.svg"
+      "file": "bc-place-vancouver.jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/BC_Place_2015_Women%27s_FIFA_World_Cup.jpg/3840px-BC_Place_2015_Women%27s_FIFA_World_Cup.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/BC_Place"
     },
     "MetLife Stadium (New York/New Jersey)": {
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "MetLife Stadium (New York/New Jersey) - FIFA World Cup venue.",
-      "file": "metlife-stadium-new-york-new-jersey.svg"
+      "file": "metlife-stadium-new-york-new-jersey.jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Metlife_stadium_%28Aerial_view%29.jpg/330px-Metlife_stadium_%28Aerial_view%29.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/MetLife_Stadium"
     },
     "SoFi Stadium (Los Angeles)": {
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "SoFi Stadium (Los Angeles) - FIFA World Cup venue.",
-      "file": "sofi-stadium-los-angeles.svg"
+      "file": "sofi-stadium-los-angeles.jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/SoFi_Stadium_2023.jpg/330px-SoFi_Stadium_2023.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/SoFi_Stadium"
     },
     "AT&T Stadium (Dallas)": {
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "AT&T Stadium (Dallas) - FIFA World Cup venue.",
-      "file": "at-t-stadium-dallas.svg"
+      "file": "at-t-stadium-dallas.jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Arlington_June_2020_4_%28AT%26T_Stadium%29.jpg/330px-Arlington_June_2020_4_%28AT%26T_Stadium%29.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/AT%26T_Stadium"
     },
     "NRG Stadium (Houston)": {
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "NRG Stadium (Houston) - FIFA World Cup venue.",
-      "file": "nrg-stadium-houston.svg"
+      "file": "nrg-stadium-houston.jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Nrg_stadium.jpg/330px-Nrg_stadium.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/NRG_Stadium"
     },
     "Mercedes-Benz Stadium (Atlanta)": {
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Mercedes-Benz Stadium (Atlanta) - FIFA World Cup venue.",
-      "file": "mercedes-benz-stadium-atlanta.svg"
+      "file": "mercedes-benz-stadium-atlanta.jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Mercedes_Benz_Stadium_time_lapse_capture_2017-08-13.jpg/330px-Mercedes_Benz_Stadium_time_lapse_capture_2017-08-13.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Mercedes-Benz_Stadium"
     },
     "Hard Rock Stadium (Miami)": {
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Hard Rock Stadium (Miami) - FIFA World Cup venue.",
-      "file": "hard-rock-stadium-miami.svg"
+      "file": "hard-rock-stadium-miami.jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Hard_Rock_Stadium_for_Super_Bowl_LIV_%2849606710103%29.jpg/330px-Hard_Rock_Stadium_for_Super_Bowl_LIV_%2849606710103%29.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Hard_Rock_Stadium"
     },
     "Lincoln Financial Field (Philadelphia)": {
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Lincoln Financial Field (Philadelphia) - FIFA World Cup venue.",
-      "file": "lincoln-financial-field-philadelphia.svg"
+      "file": "lincoln-financial-field-philadelphia.jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Lincoln_Financial_Field_%28Aerial_view%29.jpg/330px-Lincoln_Financial_Field_%28Aerial_view%29.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Lincoln_Financial_Field"
     },
     "Lumen Field (Seattle)": {
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Lumen Field (Seattle) - FIFA World Cup venue.",
-      "file": "lumen-field-seattle.svg"
+      "file": "lumen-field-seattle.jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/2026_FIFA_World_Cup_-_Belgium_v._Egypt_in_Seattle_-_04.jpg/3840px-2026_FIFA_World_Cup_-_Belgium_v._Egypt_in_Seattle_-_04.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Lumen_Field"
     },
     "Levi's Stadium (San Francisco Bay Area)": {
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Levi's Stadium (San Francisco Bay Area) - FIFA World Cup venue.",
-      "file": "levi-s-stadium-san-francisco-bay-area.svg"
+      "file": "levi-s-stadium-san-francisco-bay-area.jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Levi%27s_Stadium_in_February_2016_prior_to_Super_Bowl_50_%2824398261729%29.jpg/3840px-Levi%27s_Stadium_in_February_2016_prior_to_Super_Bowl_50_%2824398261729%29.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Levi's_Stadium"
     },
     "Gillette Stadium (Boston)": {
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Gillette Stadium (Boston) - FIFA World Cup venue.",
-      "file": "gillette-stadium-boston.svg"
+      "file": "gillette-stadium-boston.jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/d/db/Gillette_Stadium_%28Top_View%29.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Gillette_Stadium"
     },
     "Arrowhead Stadium (Kansas City)": {
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "Arrowhead Stadium (Kansas City) - FIFA World Cup venue.",
-      "file": "arrowhead-stadium-kansas-city.svg"
+      "file": "arrowhead-stadium-kansas-city.jpg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Aerial_view_of_Arrowhead_Stadium_08-31-2013.jpg/3840px-Aerial_view_of_Arrowhead_Stadium_08-31-2013.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Arrowhead_Stadium"
     }
   }
 }
