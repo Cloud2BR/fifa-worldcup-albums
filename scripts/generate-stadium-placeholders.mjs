@@ -3,7 +3,7 @@ import path from 'node:path'
 
 const repoRoot = process.cwd()
 const albumsPath = path.join(repoRoot, 'src', 'data', 'albums.json')
-const outDir = path.join(repoRoot, 'public', 'images', 'stadiums')
+const outDir = path.join(repoRoot, 'docs', 'images', 'stadiums')
 
 function slugify(text) {
   return String(text || '')
@@ -66,7 +66,7 @@ async function main() {
     written += 1
   }
 
-  console.log(`Generated ${written} stadium placeholder SVG files in public/images/stadiums.`)
+  console.log(`Generated ${written} stadium placeholder SVG files in docs/images/stadiums.`)
 }
 
 main().catch((error) => {

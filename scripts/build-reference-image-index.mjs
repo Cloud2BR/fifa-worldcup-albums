@@ -33,5 +33,5 @@ const index = {
   },
 }
 
-await fs.writeFile('public/images/references/index.json', `${JSON.stringify(index, null, 2)}\n`, 'utf8')
-console.log('Generated public/images/references/index.json')
+await fs.writeFile('docs/images/references/index.json', `${JSON.stringify(index, null, 2)}\n`, 'utf8')
+console.log('Generated docs/images/references/index.json')

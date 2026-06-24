@@ -8,7 +8,7 @@ const repoRoot = path.resolve(__dirname, '..')
 const squadsFile = path.join(repoRoot, 'src', 'data', 'tournamentSquads.json')
 const teamsFile = path.join(repoRoot, 'src', 'data', 'teams.json')
 const outputFile = path.join(repoRoot, 'src', 'data', 'playerImages.json')
-const outputDir = path.join(repoRoot, 'public', 'images', 'players')
+const outputDir = path.join(repoRoot, 'docs', 'images', 'players')
 
 function slugify(input) {
   return String(input || '')

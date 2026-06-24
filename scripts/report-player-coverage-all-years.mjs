@@ -3,7 +3,7 @@ import path from 'node:path'
 
 const squads = JSON.parse(await fs.readFile('src/data/tournamentSquads.json', 'utf8'))
 const images = (JSON.parse(await fs.readFile('src/data/playerImages.json', 'utf8')).images) || {}
-const playersRoot = path.join(process.cwd(), 'public', 'images', 'players')
+const playersRoot = path.join(process.cwd(), 'docs', 'images', 'players')
 
 function slugifyName(name) {
   return String(name || '')

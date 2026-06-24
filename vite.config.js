@@ -4,7 +4,10 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   base: '/fifa-worldcup-albums/',
+  publicDir: 'docs',
   build: {
+    outDir: 'docs',
+    copyPublicDir: false,
     emptyOutDir: false,
     assetsDir: 'assets',
     rollupOptions: {

@@ -548,14 +548,6 @@ function AlbumPage({ album, page, pageNumber, side }) {
 function CoverSpread({ album }) {
   const coverSrc = album.coverImage ? album.coverImage.replace(/^\.\//, BASE_URL) : null
   const logoSrc = `${BASE_URL}images/logos/fifa-logo.svg`
-  const firstStadium = (album.stadiums || [])[0]
-  const firstStadiumEntry = firstStadium ? STADIUM_MAP[firstStadium] : null
-  const firstStadiumFile = firstStadium
-    ? (firstStadiumEntry?.file || `${slugifyAssetName(firstStadium)}.jpg`)
-    : null
-  const firstStadiumSrc = firstStadiumFile ? `${BASE_URL}images/stadiums/${firstStadiumFile}` : null
-  const firstStadiumFallbackSrc = firstStadiumEntry?.thumbUrl || null
-  const [coverStadiumSrc, setCoverStadiumSrc] = useState(firstStadiumSrc || firstStadiumFallbackSrc || null)
   const ballEntry = ENTITY_IMAGE_MAP[`${album.year}:ball`] || null
   const mascotEntry = ENTITY_IMAGE_MAP[`${album.year}:mascot`] || null
   const emblemEntry = ENTITY_IMAGE_MAP[`${album.year}:emblem`] || null
@@ -569,10 +561,6 @@ function CoverSpread({ album }) {
   const emblemFallback = emblemEntry?.thumbUrl || logoSrc
   const trophySrc = trophyEntry?.file ? `${BASE_URL}images/entities/${trophyEntry.file}` : null
   const trophyFallback = trophyEntry?.thumbUrl || null
-
-  useEffect(() => {
-    setCoverStadiumSrc(firstStadiumSrc || firstStadiumFallbackSrc || null)
-  }, [firstStadiumSrc, firstStadiumFallbackSrc])
 
   return (
     <article className="relative overflow-hidden rounded-2xl border border-amber-900/35 bg-[#dfcfab] p-4 shadow-xl sm:p-6">
@@ -591,53 +579,6 @@ function CoverSpread({ album }) {
               />
             </div>
           ) : null}
-
-          <div className="mt-4 grid grid-cols-3 gap-2 text-center">
-            <div className="rounded-md border border-white/15 bg-white/10 p-2">
-              <p className="text-[10px] uppercase tracking-wider text-slate-300">Cover</p>
-              <p className="mt-1 text-sm font-semibold text-white">1</p>
-            </div>
-            <div className="rounded-md border border-white/15 bg-white/10 p-2">
-              <p className="text-[10px] uppercase tracking-wider text-slate-300">Logo</p>
-              <p className="mt-1 text-sm font-semibold text-white">1</p>
-            </div>
-            <div className="rounded-md border border-white/15 bg-white/10 p-2">
-              <p className="text-[10px] uppercase tracking-wider text-slate-300">Stadiums</p>
-              <p className="mt-1 text-sm font-semibold text-white">{(album.stadiums || []).length}</p>
-            </div>
-          </div>
-
-          <div className="mt-4 grid grid-cols-3 gap-2">
-            <div className="overflow-hidden rounded-md border border-white/20 bg-white/10 p-1">
-              {coverSrc ? (
-                <img src={coverSrc} alt="Cover asset" className="h-14 w-full object-contain object-center" />
-              ) : (
-                <div className="flex h-14 items-center justify-center text-[10px] text-slate-300">No cover</div>
-              )}
-            </div>
-            <div className="overflow-hidden rounded-md border border-white/20 bg-white/10 p-1">
-              <img src={logoSrc} alt="Logo asset" className="h-14 w-full object-contain object-center" />
-            </div>
-            <div className="overflow-hidden rounded-md border border-white/20 bg-white/10 p-1">
-              {coverStadiumSrc ? (
-                <img
-                  src={coverStadiumSrc}
-                  alt={firstStadium || 'Stadium asset'}
-                  loading="lazy"
-                  className="h-14 w-full object-cover object-center"
-                  onError={(event) => {
-                    if (coverStadiumSrc !== firstStadiumFallbackSrc && firstStadiumFallbackSrc) {
-                      setCoverStadiumSrc(firstStadiumFallbackSrc)
-                    } else {
-                      event.currentTarget.style.display = 'none'
-                    }
-                  }}
-                />
-              ) : (
-                <div className="flex h-14 items-center justify-center text-[10px] text-slate-300">No stadium</div>
-              )}
-            </div>
-          </div>
 
           <p className="mt-6 text-sm text-slate-300">Publisher: {album.publisher}</p>
           <p className="text-sm text-slate-300">Sticker count: {album.stickerCount}</p>

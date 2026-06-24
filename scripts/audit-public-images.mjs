@@ -5,7 +5,7 @@ function readJson(filePath) {
   return JSON.parse(fs.readFileSync(filePath, 'utf8'))
 }
 
-const root = 'public/images'
+const root = 'docs/images'
 const teams = readJson('src/data/teams.json')
 const playerImages = readJson('src/data/playerImages.json').images || {}
 const entityImages = readJson('src/data/entityImages.json').images || {}

@@ -21,7 +21,7 @@ async function pruneEmptyDirs(dirPath) {
 }
 
 const targets = [
-  path.join('public', 'images', 'players', '2026'),
+  path.join('docs', 'images', 'players', '2026'),
 ]
 
 let totalRemoved = 0

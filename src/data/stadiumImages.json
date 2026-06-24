@@ -1,5 +1,5 @@
 {
-  "_comment": "Curated mapping from stadium name (as it appears in albums.json `stadiums[]`) to a free-license image entry. The `file` is a path under `public/` (resolved as `./images/stadiums/<slug>.jpg` at runtime). All listed images must be public-domain, CC0, CC-BY, or CC-BY-SA from Wikimedia Commons; attribution is rendered as a caption beside the photo and listed in CREDITS.md. Until the binary file is actually committed under `public/images/stadiums/`, the VirtualAlbum component falls back to its built-in SVG stadium silhouette. Maintainers can extend this file freely without touching component code.",
+  "_comment": "Curated mapping from stadium name (as it appears in albums.json `stadiums[]`) to a free-license image entry. The `file` is a path under `docs/` (resolved as `./images/stadiums/<slug>.jpg` at runtime). All listed images must be public-domain, CC0, CC-BY, or CC-BY-SA from Wikimedia Commons; attribution is rendered as a caption beside the photo and listed in CREDITS.md. Until the binary file is actually committed under `docs/images/stadiums/`, the VirtualAlbum component falls back to its built-in SVG stadium silhouette. Maintainers can extend this file freely without touching component code.",
   "images": {
     "Estadio Centenario": {
       "file": "estadio-centenario.jpg",

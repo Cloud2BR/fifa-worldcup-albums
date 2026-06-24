@@ -5,7 +5,7 @@ const repoRoot = process.cwd()
 const squadsFile = path.join(repoRoot, 'src', 'data', 'tournamentSquads.json')
 const teamsFile = path.join(repoRoot, 'src', 'data', 'teams.json')
 const playerImagesFile = path.join(repoRoot, 'src', 'data', 'playerImages.json')
-const playersRoot = path.join(repoRoot, 'public', 'images', 'players')
+const playersRoot = path.join(repoRoot, 'docs', 'images', 'players')
 
 function slugify(input) {
   return String(input || '')

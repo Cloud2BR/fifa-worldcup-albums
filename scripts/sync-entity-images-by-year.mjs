@@ -4,7 +4,7 @@ import path from 'node:path'
 const repoRoot = process.cwd()
 const albumsFile = path.join(repoRoot, 'src', 'data', 'albums.json')
 const entityMapFile = path.join(repoRoot, 'src', 'data', 'entityImages.json')
-const entitiesRoot = path.join(repoRoot, 'public', 'images', 'entities')
+const entitiesRoot = path.join(repoRoot, 'docs', 'images', 'entities')
 const reportFile = path.join(repoRoot, 'src', 'data', 'yearEntityCoverage.json')
 
 async function exists(filePath) {

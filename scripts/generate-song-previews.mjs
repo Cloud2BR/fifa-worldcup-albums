@@ -1,7 +1,7 @@
 import fs from 'node:fs/promises'
 import path from 'node:path'
 
-const outDir = path.join(process.cwd(), 'public', 'audio', 'songs')
+const outDir = path.join(process.cwd(), 'docs', 'audio', 'songs')
 const years = [1990, 1994, 1998, 2002, 2006, 2010, 2014, 2018, 2022]
 
 function clamp16(value) {

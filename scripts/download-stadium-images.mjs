@@ -6,7 +6,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const repoRoot = path.resolve(__dirname, '..')
 const dataFile = path.join(repoRoot, 'src', 'data', 'stadiumImages.json')
 const albumsFile = path.join(repoRoot, 'src', 'data', 'albums.json')
-const outputDir = path.join(repoRoot, 'public', 'images', 'stadiums')
+const outputDir = path.join(repoRoot, 'docs', 'images', 'stadiums')
 
 function slugifyAssetName(input) {
   return String(input || '')

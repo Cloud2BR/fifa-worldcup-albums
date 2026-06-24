@@ -7,7 +7,7 @@ const repoRoot = path.resolve(__dirname, '..')
 
 const albumsFile = path.join(repoRoot, 'src', 'data', 'albums.json')
 const outputFile = path.join(repoRoot, 'src', 'data', 'entityImages.json')
-const outputDir = path.join(repoRoot, 'public', 'images', 'entities')
+const outputDir = path.join(repoRoot, 'docs', 'images', 'entities')
 
 function slugify(input) {
   return String(input || '')

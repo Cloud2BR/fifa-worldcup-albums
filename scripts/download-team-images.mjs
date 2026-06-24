@@ -6,7 +6,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const repoRoot = path.resolve(__dirname, '..')
 const teamsFile = path.join(repoRoot, 'src', 'data', 'teams.json')
 const outputFile = path.join(repoRoot, 'src', 'data', 'teamImages.json')
-const outputDir = path.join(repoRoot, 'public', 'images', 'teams')
+const outputDir = path.join(repoRoot, 'docs', 'images', 'teams')
 
 const TEAM_QUERY_ALIASES = {
   DZA: ['Algeria national football team', 'Algeria national team football'],
