@@ -822,7 +822,7 @@
   },
   "2026": {
     "format": "12 Groups (top 2 + 8 best 3rd-place → Round of 32)",
-    "note": "Tournament in progress. Standings updated from FIFA group tables (snapshot date: 2026-06-23).",
+    "note": "Tournament in progress. Standings updated from FIFA group tables (snapshot date: 2026-06-24).",
     "rounds": [{ "label": "Group Stage", "adv": 2, "advNote": "+ 8 best 3rd-place teams (R32 format)", "groups": [
       { "name": "Group A", "teams": [
         { "t": "Mexico",         "p": 2, "w": 2, "d": 0, "l": 0, "gf": 3, "ga": 0, "pts": 6 },

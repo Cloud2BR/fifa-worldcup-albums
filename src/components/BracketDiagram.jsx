@@ -1,9 +1,10 @@
 import { useMemo } from 'react'
 
 // Ordered phases for the main bracket flow (3rd place handled separately)
-const BRACKET_PHASES = ['R16', 'QF', 'SF', 'Final']
+const BRACKET_PHASES = ['R32', 'R16', 'QF', 'SF', 'Final']
 
 const PHASE_LABELS = {
+  R32: 'Round of 32',
   R16: 'Round of 16',
   QF: 'Quarterfinals',
   SF: 'Semifinals',
@@ -18,6 +19,7 @@ const FORMAT_NOTES = {
   1974: 'The 1974 World Cup replaced quarterfinals with a second group stage. The bracket shows the 3rd-place playoff and Final only.',
   1978: 'The 1978 World Cup replaced quarterfinals with a second group stage. The bracket shows the 3rd-place playoff and Final only.',
   1982: 'The 1982 World Cup had a second group stage and no quarterfinals or round of 16. The bracket shows semi-finals onward.',
+  2026: 'The 2026 World Cup uses a 48-team format with a Round of 32 after the group stage. The bracket below updates as knockout fixtures and results are confirmed.',
 }
 
 function formatDate(iso) {
