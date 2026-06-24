@@ -28,8 +28,8 @@
       "license": "See source page",
       "caption": "1930 FIFA World Cup Emblem",
       "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Uruguay_1930_World_Cup.jpg/330px-Uruguay_1930_World_Cup.jpg",
-      "sourceUrl": "https://en.wikipedia.org/wiki/1930_FIFA_World_Cup",
-      "file": "1930/emblem.png"
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Uruguay_1930_World_Cup.jpg",
+      "file": "1930/emblem.jpg"
     },
     "1934:ball": {
       "key": "1934:ball",
@@ -48,8 +48,8 @@
       "license": "See source page",
       "caption": "1934 FIFA World Cup Emblem",
       "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/1934_fifa_worldcup_poster.jpg/330px-1934_fifa_worldcup_poster.jpg",
-      "sourceUrl": "https://en.wikipedia.org/wiki/1934_FIFA_World_Cup",
-      "file": "1934/emblem.png"
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:1934_fifa_worldcup_poster.jpg",
+      "file": "1934/emblem.jpg"
     },
     "1938:ball": {
       "key": "1938:ball",
@@ -68,8 +68,8 @@
       "license": "See source page",
       "caption": "1938 FIFA World Cup Emblem",
       "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/1938_fifa_worldcup_poster.jpg/330px-1938_fifa_worldcup_poster.jpg",
-      "sourceUrl": "https://en.wikipedia.org/wiki/1938_FIFA_World_Cup",
-      "file": "1938/emblem.png"
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:1938_fifa_worldcup_poster.jpg",
+      "file": "1938/emblem.jpg"
     },
     "1950:ball": {
       "key": "1950:ball",
@@ -88,8 +88,7 @@
       "license": "See source page",
       "caption": "1950 FIFA World Cup Emblem",
       "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Poster_-_World_Cup_1950.jpg/330px-Poster_-_World_Cup_1950.jpg",
-      "sourceUrl": "https://en.wikipedia.org/wiki/1950_FIFA_World_Cup",
-      "file": "1950/emblem.svg"
+      "sourceUrl": "https://en.wikipedia.org/wiki/1950_FIFA_World_Cup"
     },
     "1954:ball": {
       "key": "1954:ball",
@@ -108,8 +107,7 @@
       "license": "See source page",
       "caption": "1954 FIFA World Cup Emblem",
       "thumbUrl": "https://upload.wikimedia.org/wikipedia/en/1/1e/1954_FIFA_World_Cup.jpg",
-      "sourceUrl": "https://en.wikipedia.org/wiki/1954_FIFA_World_Cup",
-      "file": "1954/emblem.svg"
+      "sourceUrl": "https://en.wikipedia.org/wiki/1954_FIFA_World_Cup"
     },
     "1958:ball": {
       "key": "1958:ball",
@@ -128,8 +126,7 @@
       "license": "See source page",
       "caption": "1958 FIFA World Cup Emblem",
       "thumbUrl": "https://upload.wikimedia.org/wikipedia/en/e/e5/1958_FIFA_World_Cup.jpg",
-      "sourceUrl": "https://en.wikipedia.org/wiki/1958_FIFA_World_Cup",
-      "file": "1958/emblem.svg"
+      "sourceUrl": "https://en.wikipedia.org/wiki/1958_FIFA_World_Cup"
     },
     "1962:ball": {
       "key": "1962:ball",
@@ -148,8 +145,7 @@
       "license": "See source page",
       "caption": "1962 FIFA World Cup Emblem",
       "thumbUrl": "https://upload.wikimedia.org/wikipedia/en/3/38/1962_FIFA_World_Cup.jpg",
-      "sourceUrl": "https://en.wikipedia.org/wiki/1962_FIFA_World_Cup",
-      "file": "1962/emblem.svg"
+      "sourceUrl": "https://en.wikipedia.org/wiki/1962_FIFA_World_Cup"
     },
     "1966:ball": {
       "key": "1966:ball",
@@ -178,8 +174,7 @@
       "license": "See source page",
       "caption": "1966 FIFA World Cup Emblem",
       "thumbUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e9/1966_FIFA_World_Cup.png/330px-1966_FIFA_World_Cup.png",
-      "sourceUrl": "https://en.wikipedia.org/wiki/1966_FIFA_World_Cup",
-      "file": "1966/emblem.svg"
+      "sourceUrl": "https://en.wikipedia.org/wiki/1966_FIFA_World_Cup"
     },
     "1970:ball": {
       "key": "1970:ball",
@@ -206,8 +201,7 @@
       "license": "See source page",
       "caption": "1970 FIFA World Cup Emblem",
       "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/1970_FIFA_World_Cup.svg/330px-1970_FIFA_World_Cup.svg.png",
-      "sourceUrl": "https://en.wikipedia.org/wiki/1970_FIFA_World_Cup",
-      "file": "1970/emblem.svg"
+      "sourceUrl": "https://en.wikipedia.org/wiki/1970_FIFA_World_Cup"
     },
     "1974:ball": {
       "key": "1974:ball",
@@ -235,8 +229,7 @@
       "license": "See source page",
       "caption": "1974 FIFA World Cup Emblem",
       "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/FIFA_World_Cup_1974_-_emblem.svg/330px-FIFA_World_Cup_1974_-_emblem.svg.png",
-      "sourceUrl": "https://en.wikipedia.org/wiki/1974_FIFA_World_Cup",
-      "file": "1974/emblem.svg"
+      "sourceUrl": "https://en.wikipedia.org/wiki/1974_FIFA_World_Cup"
     },
     "1978:ball": {
       "key": "1978:ball",
@@ -262,8 +255,7 @@
       "license": "See source page",
       "caption": "1978 FIFA World Cup Emblem",
       "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Logo_Mundial_78.svg/330px-Logo_Mundial_78.svg.png",
-      "sourceUrl": "https://en.wikipedia.org/wiki/1978_FIFA_World_Cup",
-      "file": "1978/emblem.svg"
+      "sourceUrl": "https://en.wikipedia.org/wiki/1978_FIFA_World_Cup"
     },
     "1982:ball": {
       "key": "1982:ball",
@@ -289,8 +281,7 @@
       "license": "See source page",
       "caption": "1982 FIFA World Cup Emblem",
       "thumbUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/3/32/1982_FIFA_World_Cup.svg/330px-1982_FIFA_World_Cup.svg.png",
-      "sourceUrl": "https://en.wikipedia.org/wiki/1982_FIFA_World_Cup",
-      "file": "1982/emblem.svg"
+      "sourceUrl": "https://en.wikipedia.org/wiki/1982_FIFA_World_Cup"
     },
     "1986:ball": {
       "key": "1986:ball",
@@ -316,8 +307,7 @@
       "license": "See source page",
       "caption": "1986 FIFA World Cup Emblem",
       "thumbUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/7/77/1986_FIFA_World_Cup.svg/330px-1986_FIFA_World_Cup.svg.png",
-      "sourceUrl": "https://en.wikipedia.org/wiki/1986_FIFA_World_Cup",
-      "file": "1986/emblem.svg"
+      "sourceUrl": "https://en.wikipedia.org/wiki/1986_FIFA_World_Cup"
     },
     "1990:ball": {
       "key": "1990:ball",
@@ -345,8 +335,7 @@
       "license": "See source page",
       "caption": "1990 FIFA World Cup Emblem",
       "thumbUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a9/1990_FIFA_World_Cup.svg/330px-1990_FIFA_World_Cup.svg.png",
-      "sourceUrl": "https://en.wikipedia.org/wiki/1990_FIFA_World_Cup",
-      "file": "1990/emblem.svg"
+      "sourceUrl": "https://en.wikipedia.org/wiki/1990_FIFA_World_Cup"
     },
     "1994:ball": {
       "key": "1994:ball",
@@ -373,8 +362,7 @@
       "license": "See source page",
       "caption": "1994 FIFA World Cup Emblem",
       "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/1994_FIFA_World_Cup.svg/330px-1994_FIFA_World_Cup.svg.png",
-      "sourceUrl": "https://en.wikipedia.org/wiki/1994_FIFA_World_Cup",
-      "file": "1994/emblem.svg"
+      "sourceUrl": "https://en.wikipedia.org/wiki/1994_FIFA_World_Cup"
     },
     "1998:ball": {
       "key": "1998:ball",
@@ -401,8 +389,7 @@
       "license": "See source page",
       "caption": "1998 FIFA World Cup Emblem",
       "thumbUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/1998_FIFA_World_Cup.svg/330px-1998_FIFA_World_Cup.svg.png",
-      "sourceUrl": "https://en.wikipedia.org/wiki/1998_FIFA_World_Cup",
-      "file": "1998/emblem.svg"
+      "sourceUrl": "https://en.wikipedia.org/wiki/1998_FIFA_World_Cup"
     },
     "2002:ball": {
       "key": "2002:ball",
@@ -428,8 +415,7 @@
       "license": "See source page",
       "caption": "2002 FIFA World Cup Emblem",
       "thumbUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/4/47/2002_FIFA_World_Cup_logo.svg/330px-2002_FIFA_World_Cup_logo.svg.png",
-      "sourceUrl": "https://en.wikipedia.org/wiki/2002_FIFA_World_Cup",
-      "file": "2002/emblem.svg"
+      "sourceUrl": "https://en.wikipedia.org/wiki/2002_FIFA_World_Cup"
     },
     "2006:ball": {
       "key": "2006:ball",
@@ -456,8 +442,7 @@
       "license": "See source page",
       "caption": "2006 FIFA World Cup Emblem",
       "thumbUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6b/2006_FIFA_World_Cup.svg/330px-2006_FIFA_World_Cup.svg.png",
-      "sourceUrl": "https://en.wikipedia.org/wiki/2006_FIFA_World_Cup",
-      "file": "2006/emblem.svg"
+      "sourceUrl": "https://en.wikipedia.org/wiki/2006_FIFA_World_Cup"
     },
     "2010:ball": {
       "key": "2010:ball",
@@ -484,8 +469,7 @@
       "license": "See source page",
       "caption": "2010 FIFA World Cup Emblem",
       "thumbUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/0/0d/2010_FIFA_World_Cup.svg/330px-2010_FIFA_World_Cup.svg.png",
-      "sourceUrl": "https://en.wikipedia.org/wiki/2010_FIFA_World_Cup",
-      "file": "2010/emblem.svg"
+      "sourceUrl": "https://en.wikipedia.org/wiki/2010_FIFA_World_Cup"
     },
     "2014:ball": {
       "key": "2014:ball",
@@ -542,8 +526,7 @@
       "license": "See source page",
       "caption": "2018 FIFA World Cup Emblem",
       "thumbUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/6/67/2018_FIFA_World_Cup.svg/330px-2018_FIFA_World_Cup.svg.png",
-      "sourceUrl": "https://en.wikipedia.org/wiki/2018_FIFA_World_Cup",
-      "file": "2018/emblem.svg"
+      "sourceUrl": "https://en.wikipedia.org/wiki/2018_FIFA_World_Cup"
     },
     "2022:ball": {
       "key": "2022:ball",
@@ -570,8 +553,7 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "2022 FIFA World Cup Emblem",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e3/2022_FIFA_World_Cup.svg/330px-2022_FIFA_World_Cup.svg.png",
-      "file": "2022/emblem.svg"
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e3/2022_FIFA_World_Cup.svg/330px-2022_FIFA_World_Cup.svg.png"
     },
     "2026:ball": {
       "key": "2026:ball",
@@ -598,8 +580,7 @@
       "author": "Wikipedia contributors",
       "license": "See source page",
       "caption": "2026 FIFA World Cup Emblem",
-      "thumbUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/1/17/2026_FIFA_World_Cup_emblem.svg/330px-2026_FIFA_World_Cup_emblem.svg.png",
-      "file": "2026/emblem.svg"
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/1/17/2026_FIFA_World_Cup_emblem.svg/330px-2026_FIFA_World_Cup_emblem.svg.png"
     }
   }
 }
