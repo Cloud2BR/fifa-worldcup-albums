@@ -305,76 +305,6 @@ function GroupStageSection({ groupData }) {
   )
 }
 
-function GroupPhaseResultsByRound({ round }) {
-  const hasStats = round.groups.some((group) =>
-    group.teams.some((team) => typeof team === 'object' && typeof team.p === 'number')
-  )
-
-  return (
-    <div className="rounded-lg border border-slate-800 bg-slate-950/40 p-3">
-      <div className="mb-2 flex items-center justify-between gap-2">
-        <h5 className="text-xs font-bold uppercase tracking-wide text-sky-300">
-          Group Phase: {round.label}
-        </h5>
-        <span className="text-[10px] text-slate-500">
-          {round.groups.length} {round.groups.length === 1 ? 'group' : 'groups'}
-        </span>
-      </div>
-
-      <div className="space-y-3">
-        {round.groups.map((group) => (
-          <div key={`${round.label}-${group.name}`} className="rounded-md border border-slate-800/80 bg-slate-900/50 p-2">
-            <h6 className="mb-2 text-[10px] font-bold uppercase tracking-widest text-slate-400">{group.name}</h6>
-            <div className="overflow-x-auto">
-              <table className="min-w-full text-xs">
-                <thead>
-                  <tr className="border-b border-slate-800 text-left text-[10px] uppercase tracking-wide text-slate-500">
-                    <th className="px-2 py-1">#</th>
-                    <th className="px-2 py-1">Team</th>
-                    {hasStats ? (
-                      <>
-                        <th className="px-2 py-1">P</th>
-                        <th className="px-2 py-1">W</th>
-                        <th className="px-2 py-1">D</th>
-                        <th className="px-2 py-1">L</th>
-                        <th className="px-2 py-1">GF</th>
-                        <th className="px-2 py-1">GA</th>
-                      </>
-                    ) : null}
-                    <th className="px-2 py-1">Pts</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {group.teams.map((team, idx) => {
-                    const t = typeof team === 'string' ? { t: team } : team
-                    return (
-                      <tr key={`${group.name}-${t.t}-${idx}`} className="border-b border-slate-800/60 last:border-b-0">
-                        <td className="px-2 py-1 text-slate-500">{idx + 1}</td>
-                        <td className="px-2 py-1 text-slate-200">{t.t}</td>
-                        {hasStats ? (
-                          <>
-                            <td className="px-2 py-1 text-slate-400">{t.p ?? '-'}</td>
-                            <td className="px-2 py-1 text-slate-400">{t.w ?? '-'}</td>
-                            <td className="px-2 py-1 text-slate-400">{t.d ?? '-'}</td>
-                            <td className="px-2 py-1 text-slate-400">{t.l ?? '-'}</td>
-                            <td className="px-2 py-1 text-slate-400">{t.gf ?? '-'}</td>
-                            <td className="px-2 py-1 text-slate-400">{t.ga ?? '-'}</td>
-                          </>
-                        ) : null}
-                        <td className="px-2 py-1 text-slate-300">{t.pts ?? '—'}</td>
-                      </tr>
-                    )
-                  })}
-                </tbody>
-              </table>
-            </div>
-          </div>
-        ))}
-      </div>
-    </div>
-  )
-}
-
 function MatchResultsByStage({ matches, groupData }) {
   const byPhase = useMemo(() => {
     const grouped = new Map()
@@ -393,6 +323,15 @@ function MatchResultsByStage({ matches, groupData }) {
     return [...known, ...unknown].map((phase) => ({ phase, matches: grouped.get(phase) }))
   }, [matches])
 
+  const groupPhaseMatches = useMemo(() => {
+    const isGroupPhase = (phase) => {
+      const p = String(phase ?? '').toLowerCase().trim()
+      return p === 'group' || p === 'groups' || p === 'gs' || p === 'group stage'
+    }
+
+    return matches.filter((m) => isGroupPhase(m.phase)).sort(sortMatchesByDate)
+  }, [matches])
+
   const hasGroupData = Boolean(groupData)
   if (byPhase.length === 0 && !hasGroupData) return null
 
@@ -409,15 +348,43 @@ function MatchResultsByStage({ matches, groupData }) {
       </summary>
 
       <div className="space-y-3 border-t border-slate-800 px-4 py-3">
-        {hasGroupData && groupData?.rounds?.length > 0 ? (
-          <div className="space-y-4">
-            {groupData.rounds.map((round) => (
-              <GroupPhaseResultsByRound key={round.label} round={round} />
-            ))}
+        {groupPhaseMatches.length > 0 ? (
+          <div className="rounded-lg border border-slate-800 bg-slate-950/40 p-3">
+            <div className="mb-2 flex items-center justify-between gap-2">
+              <h5 className="text-xs font-bold uppercase tracking-wide text-sky-300">Group Stage Matches</h5>
+              <span className="text-[10px] text-slate-500">
+                {groupPhaseMatches.length} {groupPhaseMatches.length === 1 ? 'match' : 'matches'}
+              </span>
+            </div>
+
+            <div className="overflow-x-auto">
+              <table className="min-w-full text-xs">
+                <thead>
+                  <tr className="border-b border-slate-800 text-left text-[10px] uppercase tracking-wide text-slate-500">
+                    <th className="px-2 py-1">Date</th>
+                    <th className="px-2 py-1">Home</th>
+                    <th className="px-2 py-1">Score</th>
+                    <th className="px-2 py-1">Away</th>
+                    <th className="px-2 py-1">Winner</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {groupPhaseMatches.map((m, idx) => (
+                    <tr key={`group-${idx}`} className="border-b border-slate-800/60 last:border-b-0">
+                      <td className="px-2 py-1 text-slate-400">{formatDate(m.date) ?? 'TBD'}</td>
+                      <td className="px-2 py-1 text-slate-200">{m.home}</td>
+                      <td className="px-2 py-1 font-mono text-slate-100">{m.score ?? 'TBD'}</td>
+                      <td className="px-2 py-1 text-slate-200">{m.away}</td>
+                      <td className="px-2 py-1 text-slate-300">{m.winner ?? 'TBD'}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
           </div>
         ) : hasGroupData ? (
           <p className="text-xs text-slate-400">
-            Group-stage standings are shown above. Match-by-match group fixtures are not available in this dataset for every tournament year.
+            Group-stage match-by-match scores are not available yet for this tournament in the current dataset.
           </p>
         ) : null}
 

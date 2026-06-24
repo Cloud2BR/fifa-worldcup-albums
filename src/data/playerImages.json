@@ -16713,20 +16713,24 @@
       "teamCode": "AUT",
       "team": "Austria",
       "name": "Karl Zischek",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikimedia Commons contributors",
+      "license": "See source page",
       "caption": "Karl Zischek (Austria)",
-      "file": "1934/AUT/karl-zischek.svg"
+      "file": "1934/AUT/karl-zischek.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/The_early_correspondence_of_Hans_von_B%C3%BClow_%28IA_cu31924022365914%29.pdf/page1-500px-The_early_correspondence_of_Hans_von_B%C3%BClow_%28IA_cu31924022365914%29.pdf.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The%20early%20correspondence%20of%20Hans%20von%20B%C3%BClow%20(IA%20cu31924022365914).pdf"
     },
     "1934:AUT:leopold-hofmann": {
       "year": 1934,
       "teamCode": "AUT",
       "team": "Austria",
       "name": "Leopold Hofmann",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
       "caption": "Leopold Hofmann (Austria)",
-      "file": "1934/AUT/leopold-hofmann.svg"
+      "file": "1934/AUT/leopold-hofmann.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/SK_Rapid_Wien_Logo.svg/330px-SK_Rapid_Wien_Logo.svg.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/SK_Rapid_Wien"
     },
     "1934:AUT:matthias-kaburek": {
       "year": 1934,
@@ -16743,20 +16747,24 @@
       "teamCode": "AUT",
       "team": "Austria",
       "name": "Matthias Sindelar",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
       "caption": "Matthias Sindelar (Austria)",
-      "file": "1934/AUT/matthias-sindelar.svg"
+      "file": "1934/AUT/matthias-sindelar.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Sindelar-aut.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Matthias_Sindelar"
     },
     "1934:AUT:peter-platzer": {
       "year": 1934,
       "teamCode": "AUT",
       "team": "Austria",
       "name": "Peter Platzer",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikimedia Commons contributors",
+      "license": "See source page",
       "caption": "Peter Platzer (Austria)",
-      "file": "1934/AUT/peter-platzer.svg"
+      "file": "1934/AUT/peter-platzer.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9d/ArduSat3.png",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:ArduSat3.png"
     },
     "1934:AUT:rudolf-raftl": {
       "year": 1934,
@@ -16793,80 +16801,96 @@
       "teamCode": "HUN",
       "team": "Hungary",
       "name": "Antal Szabó",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
       "caption": "Antal Szabó (Hungary)",
-      "file": "1934/HUN/antal-szabo.svg"
+      "file": "1934/HUN/antal-szabo.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c9/SzaboAntal.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Antal_Szab%C3%B3"
     },
     "1934:HUN:antal-szalay": {
       "year": 1934,
       "teamCode": "HUN",
       "team": "Hungary",
       "name": "Antal Szalay",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
       "caption": "Antal Szalay (Hungary)",
-      "file": "1934/HUN/antal-szalay.svg"
+      "file": "1934/HUN/antal-szalay.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Hungary_national_football_team%2C_1934.jpg/330px-Hungary_national_football_team%2C_1934.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Antal_Szalay"
     },
     "1934:HUN:gabor-szabo": {
       "year": 1934,
       "teamCode": "HUN",
       "team": "Hungary",
       "name": "Gábor Szabó",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikimedia Commons contributors",
+      "license": "See source page",
       "caption": "Gábor Szabó (Hungary)",
-      "file": "1934/HUN/gabor-szabo.svg"
+      "file": "1934/HUN/gabor-szabo.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/Szab%C3%B3_Ott%C3%B3.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Szab%C3%B3%20Ott%C3%B3.jpg"
     },
     "1934:HUN:geza-toldi": {
       "year": 1934,
       "teamCode": "HUN",
       "team": "Hungary",
       "name": "Géza Toldi",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
       "caption": "Géza Toldi (Hungary)",
-      "file": "1934/HUN/geza-toldi.svg"
+      "file": "1934/HUN/geza-toldi.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Toldi_Geza_1928.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/G%C3%A9za_Toldi"
     },
     "1934:HUN:gyorgy-sarosi": {
       "year": 1934,
       "teamCode": "HUN",
       "team": "Hungary",
       "name": "György Sárosi",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
       "caption": "György Sárosi (Hungary)",
-      "file": "1934/HUN/gyorgy-sarosi.svg"
+      "file": "1934/HUN/gyorgy-sarosi.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/5/56/Sarosi_Gyorgy.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Gy%C3%B6rgy_S%C3%A1rosi"
     },
     "1934:HUN:gyorgy-szucs": {
       "year": 1934,
       "teamCode": "HUN",
       "team": "Hungary",
       "name": "György Szűcs",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
       "caption": "György Szűcs (Hungary)",
-      "file": "1934/HUN/gyorgy-szucs.svg"
+      "file": "1934/HUN/gyorgy-szucs.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Ferencvarosi_TC.svg/330px-Ferencvarosi_TC.svg.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Ferencv%C3%A1rosi_TC"
     },
     "1934:HUN:gyula-futo": {
       "year": 1934,
       "teamCode": "HUN",
       "team": "Hungary",
       "name": "Gyula Futó",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikimedia Commons contributors",
+      "license": "See source page",
       "caption": "Gyula Futó (Hungary)",
-      "file": "1934/HUN/gyula-futo.svg"
+      "file": "1934/HUN/gyula-futo.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/MotherChild-Statue-Futo-utca-54.JPG/960px-MotherChild-Statue-Futo-utca-54.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:MotherChild-Statue-Futo-utca-54.JPG"
     },
     "1934:HUN:gyula-lazar": {
       "year": 1934,
       "teamCode": "HUN",
       "team": "Hungary",
       "name": "Gyula Lázár",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
       "caption": "Gyula Lázár (Hungary)",
-      "file": "1934/HUN/gyula-lazar.svg"
+      "file": "1934/HUN/gyula-lazar.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Lazar_Gyula.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Gyula_L%C3%A1z%C3%A1r"
     },
     "1934:HUN:gyula-polgar": {
       "year": 1934,
@@ -16883,50 +16907,60 @@
       "teamCode": "HUN",
       "team": "Hungary",
       "name": "Imre Markos",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikimedia Commons contributors",
+      "license": "See source page",
       "caption": "Imre Markos (Hungary)",
-      "file": "1934/HUN/imre-markos.svg"
+      "file": "1934/HUN/imre-markos.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Imre_M%C3%BCrk%2C_Marko_Lehes_ja_Timo_Paberit._Ansambel_Razor_%281996%29.jpg/960px-Imre_M%C3%BCrk%2C_Marko_Lehes_ja_Timo_Paberit._Ansambel_Razor_%281996%29.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Imre%20M%C3%BCrk%2C%20Marko%20Lehes%20ja%20Timo%20Paberit.%20Ansambel%20Razor%20(1996).jpg"
     },
     "1934:HUN:istvan-avar": {
       "year": 1934,
       "teamCode": "HUN",
       "team": "Hungary",
       "name": "István Avar",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
       "caption": "István Avar (Hungary)",
-      "file": "1934/HUN/istvan-avar.svg"
+      "file": "1934/HUN/istvan-avar.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9c/AvarIstvan.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Istv%C3%A1n_Avar"
     },
     "1934:HUN:istvan-palotas": {
       "year": 1934,
       "teamCode": "HUN",
       "team": "Hungary",
       "name": "István Palotás",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
       "caption": "István Palotás (Hungary)",
-      "file": "1934/HUN/istvan-palotas.svg"
+      "file": "1934/HUN/istvan-palotas.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Coat_of_arms_of_Hungary.svg/330px-Coat_of_arms_of_Hungary.svg.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/Hungary_national_football_team"
     },
     "1934:HUN:istvan-tamassy": {
       "year": 1934,
       "teamCode": "HUN",
       "team": "Hungary",
       "name": "István Tamássy",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikimedia Commons contributors",
+      "license": "See source page",
       "caption": "István Tamássy (Hungary)",
-      "file": "1934/HUN/istvan-tamassy.svg"
+      "file": "1934/HUN/istvan-tamassy.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/2/23/Hungary_national_football_team%2C_1934.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hungary%20national%20football%20team%2C%201934.jpg"
     },
     "1934:HUN:janos-dudas": {
       "year": 1934,
       "teamCode": "HUN",
       "team": "Hungary",
       "name": "János Dudás",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
       "caption": "János Dudás (Hungary)",
-      "file": "1934/HUN/janos-dudas.svg"
+      "file": "1934/HUN/janos-dudas.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f5/J%C3%A1nos_Dud%C3%A1s_%28cropped%29.png",
+      "sourceUrl": "https://en.wikipedia.org/wiki/J%C3%A1nos_Dud%C3%A1s"
     },
     "1934:HUN:jeno-vincze": {
       "year": 1934,
@@ -16943,20 +16977,24 @@
       "teamCode": "HUN",
       "team": "Hungary",
       "name": "József Háda",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikipedia contributors",
+      "license": "See source page",
       "caption": "József Háda (Hungary)",
-      "file": "1934/HUN/jozsef-hada.svg"
+      "file": "1934/HUN/jozsef-hada.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/H%C3%A1da_J%C3%B3zsef_portr%C3%A9ja_%28K%C3%A9pes_Sport%2C_1940%29.jpg/330px-H%C3%A1da_J%C3%B3zsef_portr%C3%A9ja_%28K%C3%A9pes_Sport%2C_1940%29.jpg",
+      "sourceUrl": "https://en.wikipedia.org/wiki/J%C3%B3zsef_H%C3%A1da"
     },
     "1934:HUN:jozsef-vago": {
       "year": 1934,
       "teamCode": "HUN",
       "team": "Hungary",
       "name": "József Vágó",
-      "author": "Generated placeholder",
-      "license": "Internal placeholder",
+      "author": "Wikimedia Commons contributors",
+      "license": "See source page",
       "caption": "József Vágó (Hungary)",
-      "file": "1934/HUN/jozsef-vago.svg"
+      "file": "1934/HUN/jozsef-vago.svg",
+      "thumbUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3c/V%C3%A1g%C3%B3_J%C3%B3zsef.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:V%C3%A1g%C3%B3%20J%C3%B3zsef.jpg"
     },
     "1934:HUN:laszlo-sternberg": {
       "year": 1934,
