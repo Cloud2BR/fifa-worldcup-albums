@@ -14,7 +14,7 @@ exposes the author and license through the `title` attribute (browser
 tooltip). The same information is recorded permanently here so the
 attribution survives independently of the UI.
 
-## Stadiums (`public/images/stadiums/`)
+## Stadiums (`docs/images/stadiums/`)
 
 Entries below mirror `src/data/stadiumImages.json`. Until the binary
 file is committed at the indicated path, the app falls back to a styled
@@ -33,7 +33,7 @@ SVG silhouette automatically — no code change required.
 | `stade-de-france.jpg` | Stade de France, Saint-Denis | Liondartois | CC-BY-SA-4.0 | <https://commons.wikimedia.org/wiki/File:Stade_de_France_2017.jpg> |
 
 > **Note:** Before committing any binary file under
-> `public/images/stadiums/`, verify the licence on Wikimedia Commons,
+> `docs/images/stadiums/`, verify the licence on Wikimedia Commons,
 > confirm the file is genuinely covered by the licence claimed here, and
 > keep the URL stable (Commons file pages are stable; thumbnail URLs are
 > not). When CC-BY / CC-BY-SA is used, the author credit above must
@@ -45,6 +45,6 @@ SVG silhouette automatically — no code change required.
 2. Add an entry to `src/data/stadiumImages.json` keyed by the stadium
    name as it appears in `src/data/albums.json` (`stadiums[]`).
 3. Add a row to this file with the same metadata.
-4. Drop the file into `public/images/stadiums/<file>`.
+4. Drop the file into `docs/images/stadiums/<file>`.
 
 No component changes are required — the lookup is data-driven.

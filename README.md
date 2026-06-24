@@ -42,7 +42,7 @@ sticker number. Click a result to jump straight to its page in the album.
 
 ## Project Structure
 
-- `public/` static assets (album covers, logos)
+- `docs/` static assets (album covers, logos)
 - `src/components/` reusable UI components
 - `src/pages/` route pages (Home, World Cups, Albums)
 - `src/data/` JSON datasets
@@ -92,7 +92,7 @@ required.
 Optional curated mapping from stadium name (as it appears in  
 `albums.json` `stadiums[]`) to a free-license image entry:
 
-- `file` (string) — filename under `public/images/stadiums/`
+- `file` (string) — filename under `docs/images/stadiums/`
 - `author` (string)
 - `license` (string) — must be PD / CC0 / CC-BY / CC-BY-SA
 - `sourceUrl` (string) — link to the Wikimedia Commons file page
@@ -107,7 +107,7 @@ also be listed in `[CREDITS.md](./CREDITS.md)`.
 - `year` (number)
 - `publisher` (string) — historical publisher; not always Panini for pre-1970 albums
 - `official` (boolean) — `true` for the official Panini line (1970+), `false` for the pre-Panini era
-- `coverImage` (string, path inside `public/images/albums`)
+- `coverImage` (string, path inside `docs/images/albums`)
 - `stickerCount` (number) — total sticker slots; the generator produces exactly this many
 - `host` (string)
 - `winner` (string)
@@ -150,7 +150,7 @@ and the players. **No copyrighted sticker images are bundled in this**
 number, team colours, position, shiny/foil flag) that mirror the structure of  
 a real album so collectors can later drop in their own scans.
 
-Stadium photographs may be optionally bundled under `public/images/stadiums/`  
+Stadium photographs may be optionally bundled under `docs/images/stadiums/`  
 provided they are released under a permissive free-culture license  
 (public-domain, CC0, CC-BY, or CC-BY-SA). Every bundled image must be  
 listed in `[CREDITS.md](./CREDITS.md)` with its author, license, and  
@@ -175,7 +175,7 @@ npm run media:index
 npm run media:sync
 ```
 
-- `media:stadiums`: downloads stadium photos and builds `public/images/years/<year>/...`
+- `media:stadiums`: downloads stadium photos and builds `docs/images/years/<year>/...`
 - `media:teams`: downloads team crest/flag images where available
 - `media:index`: regenerates grouped media metadata in `src/data/mediaIndex.json`
 - `media:sync`: runs all three in order

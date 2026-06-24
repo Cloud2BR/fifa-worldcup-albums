@@ -1,4 +1,4 @@
-# public/images
+# docs/images
 
 This directory stores all image assets served directly by the app.
 
