@@ -9,7 +9,7 @@ Last updated: 2026-06-23
 
 ---
 
-A React + Vite web application that presents FIFA World Cup tournament results and a visual gallery of official sticker albums.
+A React + Vite [web application](https://cloud2br.github.io/fifa-worldcup-albums/#/worldcups) that presents FIFA World Cup tournament results and a visual gallery of official sticker albums.
 
 ## Features
 
